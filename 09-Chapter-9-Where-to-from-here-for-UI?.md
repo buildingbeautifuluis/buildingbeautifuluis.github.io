@@ -179,13 +179,15 @@ IMG: Tesla iPad 'dashboard'.
 Further Reading
 ---------------
 
-There are some useful Adobe XD tutorials that I could link to here. What else?
+There are many great publications, offline and online, that will help further underpin your understanding of designing user interfaces for a desktop context. I’ve included a few below to start you on your journey.
 
-+ Item 1
++ Recommendation 1
 
-+ Item 2
++ Recommendation 2
 
-+ Item 3
++ Recommendation 3
+
+/* There are some useful Adobe XD tutorials that I could link to here. What else? Some books would be useful. */
 
 
 

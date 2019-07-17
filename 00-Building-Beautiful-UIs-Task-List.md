@@ -12,14 +12,15 @@ The UI Glossary is structured with all the terms we need to define, but I havenâ
 Housekeeping
 ------------
 
-+ [ ] Move to New Repo
-+ [ ] Close old repo and point to here in a README.md.
++ [X] Move to New Repo
++ [X] Close old repo and point to here in a README file.
 + [ ] Add Summaries from Google Docs
 + [ ] Sort Chapter ToCs and Cross-Reference to Body
 + [X] Remove Bonus Material Reference
 + [ ] Add Book and URL ideas.
 + [X] Check opening note.
 + [X] Check closing copyright information.
+
 
 
 Overview
@@ -38,6 +39,8 @@ Chapter 1: Designing Interfaces
 + [X] Draft Chapter Content (Text)
 + [X] Final Chapter Content (Text)
 + [ ] Illustrations
++ [X] Closing Thoughts
++ [X] Further Reading
 + [ ] XD Swipe Files /* Perhaps not needed? */
 
 
@@ -49,67 +52,79 @@ Chapter 2: The Building Blocks of Interfaces
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [X] Further Reading
 + [ ] XD Swipe Files
 
 
 
 Chapter 3: Information Architecture
---------------------------------------------
+-----------------------------------
 
 + [X] Scratch (Text)
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [X] Further Reading
 + [ ] XD Swipe Files
 
 
 
 Chapter 4: Getting From A â†’ B
---------------------------------------------
+-----------------------------
 
 + [X] Scratch (Text)
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [X] Further Reading /* Replace the third book? */
 + [ ] XD Swipe Files
 
 
 
 Chapter 5: Designing Mobile Interfaces
---------------------------------------------
+--------------------------------------
 
 + [ ] Scratch (Text)
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [X] Further Reading
 + [ ] XD Swipe Files
 
 
 
 Chapter 6: Designing Desktop Interfaces
---------------------------------------------
+---------------------------------------
 
 + [X] Scratch (Text)
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [ ] Further Reading /* Andy Clarke. Needs two recommendations. */
 + [ ] XD Swipe Files
 
 
 
 Chapter 7: Animating Interfaces
---------------------------------------------
+-------------------------------
 
 + [X] Scratch (Text)
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [ ] Further Reading /* Val Head. Needs two recommendations. */
 + [ ] XD Swipe Files
 
 
 
 Chapter 8: Project X-Rays
---------------------------------------------
+-------------------------
 
 + [ ] Scratch (Text)
 + [ ] Draft Chapter Content (Text)
@@ -142,6 +157,8 @@ Chapter 9: Where to from here for UI?
 + [ ] Draft Chapter Content (Text)
 + [ ] Final Chapter Content (Text)
 + [ ] Illustrations
++ [ ] Closing Thoughts
++ [ ] Further Reading /* Needs three recommendations. */
 + [ ] XD Swipe Files
 
 
@@ -180,7 +197,8 @@ Acknowledgements
 + [X] Scratch (Text)
 + [X] Draft Chapter Content (Text)
 + [X] Final Chapter Content (Text)
-+ [ ] Add Becky, and others from Adobe, on completion.
++ [ ] Add others from Adobe, on completion.
+
 
 
 Promotional Images, etc.

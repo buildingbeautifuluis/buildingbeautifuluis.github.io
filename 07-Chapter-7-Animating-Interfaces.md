@@ -139,6 +139,8 @@ The above is useful…
 Further Reading
 ---------------
 
+There are many great publications, offline and online, that will help further underpin your understanding of designing user interfaces for a desktop context. I’ve included a few below to start you on your journey.
+
 + Val Head's resources, for sure, should be included here. Also point people towards her newsletter.
 
 + Val's book, perhaps? Or roll that in to the preceding recommendation.

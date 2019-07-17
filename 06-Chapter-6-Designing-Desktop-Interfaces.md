@@ -154,11 +154,11 @@ Further Reading
 
 There are many great publications, offline and online, that will help further underpin your understanding of designing user interfaces for a desktop context. I’ve included a few below to start you on your journey.
 
-+ Item 1
-
 + Andy Clarke's [Art Direction for the Web](https://shop.smashingmagazine.com/products/art-direction-for-the-web) is a lovely book. The books is published in both ebook and hardback book formats… I'd recommend going the extra mile and ordering the hardback. It's beautifully designed and – as a book (in addition to the excellent content) – is a lovely object.
 
-+ Item 3
++ Recommendation 2
+
++ Recommendation 3
 
 
 
