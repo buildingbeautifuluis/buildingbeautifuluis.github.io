@@ -1,11 +1,19 @@
 Building Beautiful UIs Task List
 ================================
 
-This task list provides an overview of the progress I’ve made so far, so we can begin building towards a deadline of late May.
+This task list provides an overview of the progress I’ve made so far, so we can begin building towards a realistic deadline.
 
-If the content’s finished by late May we need to discuss how we’re building it. I think you mentioned a website, do you know who is building it? If so, it might be an idea for me to touch base with them so we can ensure file formats, etc., are all fine.
+If the content’s finished by August we need to discuss how we’re building it (or packaging it up, e.g. in an ebook). Amanda had mentioned a website, do you know who is building this? If so, it might be an idea for me to touch base with them so we can ensure file formats, etc., are all fine.
 
 The UI Glossary is structured with all the terms we need to define, but I haven’t started it yet. I’ll do it last, that way we can add new terms we may have missed as I find them while writing.
+
+
+
+Housekeeping
+------------
+
++ [ ] Move to New Repo
+
 
 
 Overview
@@ -24,7 +32,7 @@ Chapter 1: Designing Interfaces
 + [X] Draft Chapter Content (Text)
 + [X] Final Chapter Content (Text)
 + [ ] Illustrations
-<!-- + [ ] XD Swipe Files -->
++ [ ] XD Swipe Files /* Perhaps not needed? */
 
 
 
