@@ -15,7 +15,7 @@ We’re hoping to publish ‘Building Beautiful UIs’ in late 2019. Watch this 
 
 **A small, but important point: This is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
-**If you have suggestions, please do [drop me a line](mailto:christopher@mrmurphy.com?subject=‘Building Beautiful UIs’ Feedback), I’d love to hear your thoughts.**
+**If you have suggestions, please do [drop me a line](mailto:christopher@mrmurphy.com), I’d love to hear your thoughts.**
 
 
 
