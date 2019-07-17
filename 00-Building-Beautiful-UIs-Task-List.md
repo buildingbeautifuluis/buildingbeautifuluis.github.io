@@ -13,7 +13,13 @@ Housekeeping
 ------------
 
 + [ ] Move to New Repo
-
++ [ ] Close old repo and point to here in a README.md.
++ [ ] Add Summaries from Google Docs
++ [ ] Sort Chapter ToCs and Cross-Reference to Body
++ [X] Remove Bonus Material Reference
++ [ ] Add Book and URL ideas.
++ [X] Check opening note.
++ [X] Check closing copyright information.
 
 
 Overview
@@ -186,15 +192,3 @@ Promotional Images, etc.
     + [ ] Dribbble
     + [X] Slack
 + [ ] Sneezer List
-
-
-
-Housekeeping
-------------
-
-+ [ ] Add Summaries from Google Docs
-+ [ ] Sort Chapter ToCs and Cross-Reference to Body
-+ [X] Remove Bonus Material
-+ [ ] Add book / URL ideas.
-+ [X] Check opening note.
-+ [X] Check closing copyright information.

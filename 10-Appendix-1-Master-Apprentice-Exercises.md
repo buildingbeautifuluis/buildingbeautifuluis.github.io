@@ -1,7 +1,7 @@
 Master-Apprentice Exercises
 ===========================
 
-<!-- 989 Words -->
+<!-- 987 Words -->
 
 **As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -17,9 +17,16 @@ I’ve included some ‘Master-Apprentice’ exercises where I’ve analysed a v
 
 I use this Master-Apprentice approach in my teaching at Belfast School of Art, and the students who undertake the exercises invariably end up learning much faster and producing more refined work as a consequence. I hope you find the examples useful.
 
-Looking at these interfaces and how they are structured will teach you about user interface design and information architecture in different contexts: from the relative space of a desktop context to the tighter confines of a wrist context.
+Looking at these interfaces and how they are structured will teach you about user interface design and information architecture in different contexts: from the relative space of a desktop to the tighter confines of a wrist.
 
 I’ve undertaken a few exercises that I’ve included to demonstrate how I learn about user interface design by analysing, deconstructing and reconstructing others’ work.
+
+Where possible I’ve sought the permission of those whose work I’ve deconstructed and I’m thankful that the majority of the designers I’ve contacted have been happy to share my analysis of their work.
+
+If your work is included here and you’d like me to remove it, please do [drop me a line](mailto:christopher@mrmurphy.com?subject=[‘Building Beautiful UIs’ Feedback]), and I will – of course – replace the example with a different one. Rest assured, I did contact everyone.
+
+
+**/* What’s missing here are the final, Keynote files that I’ve built. I can show you these (Becky). My intention is to recreate them using XD so that everything I share is built using XD. I’ll do this last, while we’re working on converting my text files into an ebook or website. */**
 
 
 
@@ -29,7 +36,7 @@ Desktop
 The desktop examples I’ve included are browser-focused, but the principles apply equally to desktop software.
 
 
-<img src="images/master-apprentice/gov-uk.png" width="650">
+<img src=”images/master-apprentice/gov-uk.png” width=”650”>
 
 ### GOV.UK
 
@@ -41,7 +48,7 @@ The UK government’s award-winning [GOV.UK](https://www.gov.uk) website is an e
 ---
 
 
-<img src="images/master-apprentice/if-the-moon.png" width="650">
+<img src=”images/master-apprentice/if-the-moon.png” width=”650”>
 
 ### If the Moon Were Only 1 Pixel
 
@@ -59,7 +66,7 @@ Mobile (Smartphone, Tablet)
 The mobile examples I’ve included are for iOS (because I have an iPhone), but – broadly – the principles of information architecture and user interface design map over to other mobile platforms.
 
 
-<img src="images/master-apprentice/fantastical.png" width="650">
+<img src=”images/master-apprentice/fantastical.png” width=”650”>
 
 ### Fantastical
 
@@ -71,7 +78,7 @@ Fantastical 2 for iOS by [Flexibits](https://flexibits.com) is a lovely example 
 ---
 
 
-<img src="images/master-apprentice/things.png" width="650">
+<img src=”images/master-apprentice/things.png” width=”650”>
 
 ### Things 3
 
@@ -89,7 +96,7 @@ Wrist
 The wrist examples I’ve included are for Apple’s watchOS (because I have an Apple Watch). If possible – and of course affording every single device is an issue! – it helps to own the devices you’re designing for so you can truly understand them by using them regularly. 
 
 
-<img src="images/master-apprentice/activity.png" width="650">
+<img src=”images/master-apprentice/activity.png” width=”650”>
 
 ### Activity
 
@@ -101,7 +108,7 @@ At its heart the Activity app for the [Apple Watch](https://www.apple.com/uk/wat
 ---
 
 
-<img src="images/master-apprentice/bear.png" width="650">
+<img src=”images/master-apprentice/bear.png” width=”650”>
 
 ### Bear
 
@@ -134,6 +141,6 @@ As a design strategist he has worked with companies, large and small, to help dr
 
 I hope you find this resource useful. I’m also currently working on a book for the fine folks at [Smashing Magazine](https://www.smashingmagazine.com) – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.
 
-You might like to [follow me](https://www.twitter.com/fehler) on Twitter for updates on this book, that book and other projects I’m working on.
+You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
 
 **Copyright · Adobe XD + Mr Murphy Ltd.**

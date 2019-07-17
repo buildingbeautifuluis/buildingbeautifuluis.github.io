@@ -100,9 +100,10 @@ As a design strategist he has worked with companies, large and small, to help dr
 ---
 
 
+
 I hope you find this resource useful. I’m also currently working on a book for the fine folks at [Smashing Magazine](https://www.smashingmagazine.com) – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.
 
-You might like to [follow me](https://www.twitter.com/fehler) on Twitter for updates on this book, that book and other projects I’m working on.
+You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
 
 **Copyright · Adobe XD + Mr Murphy Ltd.**
 

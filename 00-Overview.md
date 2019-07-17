@@ -1,7 +1,7 @@
 Building Beautiful UIs
 ======================
 
-<!-- 1,454 Words -->
+<!-- 1,599 Words -->
 
 I’m super excited to finally share an initial draft of ‘Building Beautiful UIs’. I’ve been working on this ‘course in a book’ for a few months now and it’s slowly, but surely coming together.
 
@@ -11,16 +11,18 @@ Essentially this is a classroom in downloadable format designed to get you up-an
 
 I’ve road-tested everything on my second year Interaction Design students at Belfast School of Art, so everything is well and truly fit for purpose. (I’d like to thank my second year students – a talented cohort – for all of their feedback and help.)
 
-We’re hoping to publish ‘Building Beautiful UIs’ in June or July, 2019. Watch this space for details or [follow me](https://www.twitter.com/fehler) on Twitter to be notified of updates.
+We’re hoping to publish ‘Building Beautiful UIs’ in late 2019. Watch this space for details or [follow me on Twitter](https://www.twitter.com/fehler) to be notified of updates.
 
 **A small, but important point: This is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+
+**If you have suggestions, please do [drop me a line](mailto:christopher@mrmurphy.com?subject=[‘Building Beautiful UIs’ Feedback]), I’d love to hear your thoughts.**
 
 
 
 Overview
 --------
 
-This isn’t just a book, it’s a course in book that is accompanied by a wealth of digital extras. We’ve included: 30+ XD files; 5 printable cheat sheets; and a series of templates you can use freely. You can see the Chapter 2 XD artboards here:
+This isn’t just a book, it’s a course in book that is accompanied by a wealth of digital extras. I’ve included: 30+ XD files; a series of printable cheat sheets; and a set of templates you can use freely. You can see the Chapter 2 XD artboards here:
 
 + [http://bit.ly/bbuispreview](http://bit.ly/bbuispreview)
 
@@ -74,7 +76,7 @@ Future courses will cover a range of subjects broadly focused around user experi
 + Digital Product Design
 + Typography: Macro- and Micro-
 
-You can [follow me](https://www.twitter.com/fehler) on Twitter to be notified when new courses are announced.
+You can [follow me on Twitter](https://www.twitter.com/fehler) to be notified when new courses are announced.
 
 
 
@@ -85,6 +87,8 @@ As noted above, I’ve provided a wealth of files for you to refer to. Everythin
 
 If you find the content useful, please spread the word. My goal is to help as many people as possible and if you know of someone who’s an aspiring UI designer, please share the link to this GitHub repo. The more learning, the merrier.
 
+Down the line, when Adobe publish everything, I’ll update this page with a link to the finished course. Until then, I’m developing everything here.
+
 
 
 Download Adobe XD… Free
@@ -92,7 +96,7 @@ Download Adobe XD… Free
 
 Adobe XD is made for designers by designers. It’s the fastest way to design, prototype and share any user experience, from websites and mobile apps to voice interactions and more. Even better, it’s free.
 
-To explore the book’s accompanying digital files, [download a copy of XD](https://xd.adobe.com). (Did I mention it’s free?)
+To explore the book’s accompanying digital files, [download a copy of XD](https://xd.adobe.com). (Did I mention: It’s free?)
 
 
 
@@ -114,7 +118,11 @@ Open Sans can also be activated via [Adobe Fonts](https://fonts.adobe.com/fonts/
 Get Started
 -----------
 
-Get started with [Chapter 1: Designing Interfaces][01], which provides some important history about UIs and includes an exploration of Apple’s Human Interface Guidelines and Google’s Material Design resources.
+Unless you’re well and truly up to speed on the history of interaction design, I’d suggest getting started with [Chapter 1: Designing Interfaces][01]. It provides some important history about User Interface (UI) design and includes an exploration of Apple’s Human Interface Guidelines and Google’s Material Design resources.
+
+In addition to some core history, the first chapter also introduces important concepts for UI design, like the use of metaphor within communication and also the importance of understanding our users’ mental models of the world, particularly in a screen-based context.
+
+If all of the above is old hat to you, feel free to dive into [Chapter 2: The Building Blocks of Interfaces][01], where I get hands on with the fundamental objects from which interface elements are built.
 
 
 
@@ -141,7 +149,7 @@ As a design strategist he has worked with companies, large and small, to help dr
 
 I hope you find this resource useful. I’m also currently working on a book for the fine folks at [Smashing Magazine](https://www.smashingmagazine.com) – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.
 
-You might like to [follow me](https://www.twitter.com/fehler) on Twitter for updates on this book, that book and other projects I’m working on.
+You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
 
 **Copyright · Adobe XD + Mr Murphy Ltd.**
 
