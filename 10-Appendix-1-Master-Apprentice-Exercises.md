@@ -23,7 +23,7 @@ I’ve undertaken a few exercises that I’ve included to demonstrate how I lear
 
 Where possible I’ve sought the permission of those whose work I’ve deconstructed and I’m thankful that the majority of the designers I’ve contacted have been happy to share my analysis of their work.
 
-If your work is included here and you’d like me to remove it, please do [drop me a line](mailto:christopher@mrmurphy.com?subject=[‘Building Beautiful UIs’ Feedback]), and I will – of course – replace the example with a different one. Rest assured, I did contact everyone.
+If your work is included here and you’d like me to remove it, please do [drop me a line](mailto:christopher@mrmurphy.com), and I will – of course – replace the example with a different one. Rest assured, I did contact everyone.
 
 
 **/* What’s missing here are the final, Keynote files that I’ve built. I can show you these (Becky). My intention is to recreate them using XD so that everything I share is built using XD. I’ll do this last, while we’re working on converting my text files into an ebook or website. */**
