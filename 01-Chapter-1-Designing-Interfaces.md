@@ -1,7 +1,9 @@
 Chapter 1: Designing Interfaces
 ===============================
 
-<!-- 4,160 Words -->
+<!-- 4,186 Words -->
+
+**This chapter is at the editing stage, so it’s readable. I’ll be adding images shortly, hopefully this weekend, but the content should be (I hope!) sound.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
