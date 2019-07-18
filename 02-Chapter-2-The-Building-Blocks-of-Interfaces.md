@@ -3,22 +3,32 @@ Chapter 2: The Building Blocks of Interfaces
 
 <!-- 2,564 Words -->
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**I'm currently working on this chapter (18 July). I hope to have it in a readable form by the end of the day.**
+
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
 <!--
 
-Note to self: Should each chapter spell out user interface in full before subsequently using UI? I think each chapter should kick off with user interface in full, that way folks who have skipped Chapter 1, or who have dived right into a later chapter, get the term spelled out in full before the acronym.
-
-
 I’ve used a naming convention in Chapters 2–4 (and later) that’s as follows:
 
-Objects → Elements → Components → Pages → Flows
+	Objects → Elements → Components → Pages → Flows
 
-The ‘Components’ in the new XD are what I call ‘Elements’. Gah! I’m going to go back over everything and change to:
+XD now uses the term ‘Components’ in place of symbols. (Why?!) So, I either need to:
 
-Objects → Components → Modules → Pages → Flows
+1. Stick by my guns and use the terminology I think is right (this is a more tool agnostic approach and, I think, the right choice); or
 
-Modules, or Units? (I prefer Modules.)
+2. Change ‘Components’ to another word. Perhaps modules?
+
+	Objects → Elements → Modules → Pages → Flows
+
+Other words:
+
++ Groupings
++ Units
++ Clusters
++ …
+
+Run this past Kyle for a second opinion.
 
 -->
 
@@ -27,11 +37,11 @@ Modules, or Units? (I prefer Modules.)
 Table of Contents
 -----------------
 
-+ [Section 1: Interfaces Are Like LEGO](https://github.com/fehler/building-beautiful-uis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego)
-+ [Section 2: Objects → Elements → Components → Pages → Flows](https://github.com/fehler/building-beautiful-uis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-2-objects--elements--components--pages--flows)
-+ [Section 3: A Library of Elements](https://github.com/fehler/building-beautiful-uis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-3-a-library-of-elements)
-+ [Section 4: The Wonderful World of Icons](https://github.com/fehler/building-beautiful-uis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-4-the-wonderful-world-of-icons)
-+ [Section 5: Design Systems](https://github.com/fehler/building-beautiful-uis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-5-design-systems)
++ [Section 1: Interfaces Are Like LEGO](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego)
++ [Section 2: Objects → Elements → Components → Pages → Flows](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-2-objects--elements--components--pages--flows)
++ [Section 3: A Library of Elements](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-3-a-library-of-elements)
++ [Section 4: The Wonderful World of Icons](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-4-the-wonderful-world-of-icons)
++ [Section 5: Design Systems](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-5-design-systems)
 
 
 
@@ -47,7 +57,7 @@ I’ve created a series of supporting files – PDF scratch files and Adobe XD a
 Overview
 --------
 
-Over the following three, connected chapters **I’ll progressively introduce the fundamentals of user interface design** step by step. These three chapters are essentially the heart of the book – I’d strongly encourage you to read all of them – **they will introduce you to the principles you need to master to become a fully-fledged user interface designer**.
+Over the following three connected chapters **I’ll progressively introduce the fundamentals of user interface design** step by step. These three chapters are essentially the heart of the book – I’d strongly encourage you to read all of them – **they will introduce you to the principles you need to master to become a fully-fledged user interface designer**.
 
 In this chapter, ‘The Building Blocks of Interfaces’, I’ll introduce the idea of **a core set of elements with which we can build interfaces**. These include: buttons, toggles, tags and other essential elements. I’ll show how these elements are constructed and explain **how they form the basis of a consistent, yet flexible, design system**.
 
@@ -71,7 +81,7 @@ When you’re starting on your journey as a user interface (UI) designer **it ca
 
 Take any interface, however, and you’ll see that **even the most complicated of interfaces is built up of simpler elements and components**. By starting with these elements and components you can quickly develop an understanding of how UIs are constructed.
 
-Working with my students at Belfast School of Art, I encourage them to **take existing interfaces and break them down into their constituent parts**. By using a [‘Master-Apprentice‘](https://github.com/fehler/building-beautiful-uis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) approach – analysing others’ interfaces and rebuilding them – **you not only learn about how interfaces are constructed, but you also begin to understand the principles that lie behind good interfaces**.
+Working with my students at Belfast School of Art, I encourage them to **take existing interfaces and break them down into their constituent parts**. By using a [‘Master-Apprentice‘](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) approach – analysing others’ interfaces and rebuilding them – **you not only learn about how interfaces are constructed, but you also begin to understand the principles that lie behind good interfaces**.
 
 
 ### The Master-Apprentice Model
@@ -200,7 +210,7 @@ There are many, many more elements in user interface design. Ever-helpful, usabi
 > 
 > Whether they are aware of it or not, users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.
 
-The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. As I explored in Chapter 1, users have [mental models](https://github.com/fehler/building-beautiful-uis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models) of how things work. Sticking to these mental models as closely as you can will result in a user interface that’s clearer and more easily understood.
+The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. As I explored in Chapter 1, users have [mental models](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models) of how things work. Sticking to these mental models as closely as you can will result in a user interface that’s clearer and more easily understood.
 
 
 #### Buttons
