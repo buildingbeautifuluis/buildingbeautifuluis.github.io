@@ -76,7 +76,7 @@ With the overview of Chapters 2-4 mapped out, let’s get down to business and e
 Section 1: Interfaces Are Like LEGO
 -----------------------------------
 
-![LEGO](images/ch2/lego.png)
+![LEGO](images/ch2/lego.jpg)
 
 **CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire. [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com/photos/TL5Vy1IM-uA0).]**
 
