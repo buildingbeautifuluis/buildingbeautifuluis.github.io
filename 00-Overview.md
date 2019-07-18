@@ -122,7 +122,7 @@ Unless you’re well and truly up to speed on the history of interaction design,
 
 In addition to some core history, the first chapter also introduces important concepts for UI design, like the use of metaphor within communication and also the importance of understanding our users’ mental models of the world, particularly in a screen-based context.
 
-If all of the above is old hat to you, feel free to dive into [Chapter 2: The Building Blocks of Interfaces][01], where I get hands on with the fundamental objects from which interface elements are built.
+If all of the above is old hat to you, feel free to dive into [Chapter 2: The Building Blocks of Interfaces][02], where I get hands on with the fundamental objects from which interface elements are built.
 
 
 
@@ -157,24 +157,24 @@ You might like to [follow me on Twitter](https://www.twitter.com/fehler) for upd
 
 <!-- Links -->
 
-[01]: https://github.com/fehler/building-beautiful-uis/blob/master/01-Chapter-1-Designing-Interfaces.md "Chapter 1: Designing Interfaces"
+[01]: https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md "Chapter 1: Designing Interfaces"
 
-[02]: https://github.com/fehler/building-beautiful-uis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md "Chapter 2: The Building Blocks of Interfaces"
+[02]: https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md "Chapter 2: The Building Blocks of Interfaces"
 
-[03]: https://github.com/fehler/building-beautiful-uis/blob/master/03-Chapter-3-Information-Architecture.md "Chapter 3: Information Architecture"
+[03]: https://github.com/buildingbeautifuluis/bbuis/blob/master/03-Chapter-3-Information-Architecture.md "Chapter 3: Information Architecture"
 
-[04]: https://github.com/fehler/building-beautiful-uis/blob/master/04-Chapter-4-Getting-From-A-to-B.md "Chapter 4: Getting From A → B"
+[04]: https://github.com/buildingbeautifuluis/bbuis/blob/master/04-Chapter-4-Getting-From-A-to-B.md "Chapter 4: Getting From A → B"
 
-[05]: https://github.com/fehler/building-beautiful-uis/blob/master/05-Chapter-5-Designing-Mobile-Interfaces.md "Chapter 5: Designing Mobile Interfaces"
+[05]: https://github.com/buildingbeautifuluis/bbuis/blob/master/05-Chapter-5-Designing-Mobile-Interfaces.md "Chapter 5: Designing Mobile Interfaces"
 
-[06]: https://github.com/fehler/building-beautiful-uis/blob/master/06-Chapter-6-Designing-Desktop-Interfaces.md "Chapter 6: Designing Desktop Interfaces"
+[06]: https://github.com/buildingbeautifuluis/bbuis/blob/master/06-Chapter-6-Designing-Desktop-Interfaces.md "Chapter 6: Designing Desktop Interfaces"
 
-[07]: https://github.com/fehler/building-beautiful-uis/blob/master/07-Chapter-7-Animating-Interfaces.md "Chapter 7: Animating Interfaces"
+[07]: https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md "Chapter 7: Animating Interfaces"
 
-[08]: https://github.com/fehler/building-beautiful-uis/blob/master/08-Chapter-8-Project-X-Rays.md "Chapter 8: Project X-Rays"
+[08]: https://github.com/buildingbeautifuluis/bbuis/blob/master/08-Chapter-8-Project-X-Rays.md "Chapter 8: Project X-Rays"
 
-[09]: https://github.com/fehler/building-beautiful-uis/blob/master/09-Chapter-9-Where-to-from-here-for-UI%3F.md "Chapter 9: Where to from here for UI?"
+[09]: https://github.com/buildingbeautifuluis/bbuis/blob/master/09-Chapter-9-Where-to-from-here-for-UI%3F.md "Chapter 9: Where to from here for UI?"
 
-[A1]: https://github.com/fehler/building-beautiful-uis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md "Appendix 1: Master-Apprentice Exercises"
+[A1]: https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md "Appendix 1: Master-Apprentice Exercises"
 
-[A2]: https://github.com/fehler/building-beautiful-uis/blob/master/11-Appendix-2-XD-Swipe-Files.md "Appendix 2: XD Swipe Files"
+[A2]: https://github.com/buildingbeautifuluis/bbuis/blob/master/11-Appendix-2-XD-Swipe-Files.md "Appendix 2: XD Swipe Files"
