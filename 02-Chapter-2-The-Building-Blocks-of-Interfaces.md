@@ -1,23 +1,21 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 2,564 Words -->
+<!-- 4,587 Words -->
 
-**I'm currently working on this chapter (18 July). I hope to have it in a readable form by the end of the day. Sections 1-2 are done, but need images.**
+**I’m currently working on this chapter (18 July). I hope to have it in a readable form by the end of the day. Sections 1-2 are done, but need images. I’m working on Sections 3-4 as we speak.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
 <!--
 
-The whole book may need to have references to ‘components’ removed. In the May, 2019 update to XD, Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. GAH!
+The whole book may need to have references to ‘components’ removed. In the May, 2019 update to XD, Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. Nightmare!
 
-It might lead to confusion if I refer to ‘components’ here, so I think I’m going to rename these groupings of elements to ‘modules’. In short this is a nightmare and I’m glad we picked it up now before the book was finished.
+It might lead to confusion if I refer to ‘components’ here, so I've toyed with the idea of renaming these groupings of elements to ‘modules’. In short this is a nightmare and I’m glad we picked it up now before the book was finished.
 
-I’ve used a naming convention in Chapters 2–4 (and later) that’s as follows:
+BUT…
 
-	Objects → Elements → Components → Pages → Flows
-
-XD now uses the term ‘Components’ in place of symbols. (Why?!) So, I either need to:
+In Google's Material Design, they also use the word 'components' the same way I do. So, now I'm really convinced I should leave the word as is. So, I either need to:
 
 1. Stick by my guns and use the terminology I think is right (this is a more tool agnostic approach and, I think, the right choice); or
 
@@ -96,7 +94,7 @@ In the 17th century, apprentices’s education was undertaken for a minimum of 2
 
 The good news is that – in our connected world underpinned by the web – **you can embark upon a ‘virtual apprenticeship’ at relatively little cost**. All you need is time and a willingness to work hard and learn. [Dribbble](https://dribbble.com/search?q=UI) is a good place to start. **Search for UI, choose something you like and rebuild it.**
 
-One small, but important point to note: What I’m not talking about is **copying your finished user interface** by raiding Dribbble like a Viking. **I’m talking about learning to use drawing tools – like XD – by deconstructing and rebuilding others’ work.**
+One small, but important point to note: What I’m **not** suggesting is **copying your finished user interface** by raiding Dribbble like a Viking. **I’m suggesting learning to use drawing tools – like XD – by deconstructing and rebuilding others’ work.**
 
 
 ![Dan Gold Master-Apprentice](images/ch2/dan-gold-master-apprentice.png)
@@ -161,7 +159,7 @@ This approach – Objects → Elements → Components → Pages → Flows – is
 
 Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although – to be clear, in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)
 
-Given the rise of different specialisms that we’re seeing emerging in the world of user experience design, I believe there’s a need for a different naming convention, one that's specifically focused on visual designers creating user interfaces.
+Given the rise of different specialisms that we’re seeing emerging in the world of user experience design, I believe there’s a need for a different naming convention, one that’s specifically focused on visual designers creating user interfaces.
 
 Looking at the illustration at the beginning of this section, I prefer the labels: **objects, elements, components, pages and flows**. I find these labels easier to grasp and they should, I feel, need no explanation.
 
@@ -180,7 +178,9 @@ This idea – **of building complexity from the object up** – lies at the hear
 
 Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can the combine and build into complex interfaces.
 
-One, significant, benefit of this approach of **building from the element up** is that **we're effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
+One, significant, benefit of this approach of **building from the element up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
+
+<!-- This section now seems a little short and I wonder if I should add a little more showing the deconstructions of elements. A two part image: left side: objects; right side: element. Maybe it's OK as is? -->
 
 
 
@@ -189,15 +189,18 @@ Section 3: A Library of Elements
 
 ![Placeholder Image](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: In the above example, we see a range of different elements: buttons (in various states); stars, perhaps for a rating system; scroll buttons; and search boxes. Each of these elements is – as we've seen – quite simply constructed.**
+**CAPTION: In the above example, we see a range of different elements: buttons (in various states); stars, perhaps for a rating system; scroll buttons; and search boxes. Each of these elements is – as we’ve seen – quite simply constructed.**
+
+<!-- In the following section, I think we should use modal images so it doesn’t get too image heavy and break up the flow. -->
 
 
-Now that we understand how 
+Now that we understand how elements are constructed, it’s time to dive in and explore some of the elements you might need for your user interface designs. Where possible, if an element exists – as a design pattern – it’s best to use this.
 
+As I noted in the preceding chapter, users have a mental model of how interfaces work, so **try – as much as possible – to work within existing conventions**. By doing so, your users will at least have a head start when using your interface.
 
-### A List of Common Elements
+<!-- This could be tightened up in the second, post-edit round. It’s a touch repetitive. -->
 
-This isn’t an exhaustive list, but it does provide an overview of some typical elements you’ll need to consider.
+The following isn’t an exhaustive list, but it does provide an overview of some typical elements you’ll need to consider.
 
 There are many, many more elements in user interface design. Ever-helpful, usability.gov have put together lots of useful information at [User Interface Elements](https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html). As they put it:
 
@@ -208,29 +211,57 @@ There are many, many more elements in user interface design. Ever-helpful, usabi
 The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. As I explored in Chapter 1, users have [mental models](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models) of how things work. Sticking to these mental models as closely as you can will result in a user interface that’s clearer and more easily understood.
 
 
+![Some Typical UI Button Types](images/ch2/buttons-temp.png)
+
+**CAPTION: In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).**
+
 #### Buttons
 
-Buttons indicate an action on click or touch and are typically labelled with text, an icon or both.
+Buttons indicate an action – on click or touch – that users can take, and are typically labelled with text, an icon or both. You’ll use them throughout your interface in places like: dialogs, forms and toolbars.
 
+Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive demo that lets you preview button components and their different variations.
+
+When designing a button, try and ensure it’s clearly communicated within your interface. This is particularly important if your button is for a ‘call to action’. As the above illustration shows, you can adjust the emphasis of a button by varying its design.
+
+
+![Placeholder](images/inline-placeholder-image.png)
+
+**CAPTION: Caption here.**
 
 #### Toggles
 
 Toggles allow users to change settings between two states, for example: on and off. Ensuring the on and off states are visually distinct improves toggles usability.
 
 
-#### Tags
+![Placeholder](images/inline-placeholder-image.png)
 
-Useful in lots of contexts, for example in profile components or on content-driven pages.
-
+**CAPTION: Caption here.**
 
 #### Progress Bars
 
 Progress bars communicate what stage a user is as at as they progress through a series of tasks. They can also be used to indicate other types of information, for example the progress of a download.
 
+Progress bars can be dynamic (moving, for example showing the progress of a download) or static (fixed, for example showing where a user is in a sequence of tasks).
+
+Progress bars are useful for communicating time and alleviating your users’ concerns by showing them that **something is happening**. There is also an opportunity – should your design warrant it – to design progress bars designed to delight users while they wait.
+
+
+![Placeholder](images/inline-placeholder-image.png)
+
+**CAPTION: Caption here.**
+
+#### Tags
+
+Tags are useful in lots of different contexts, for example in profile components or on content-driven pages. When designing tags, try and ensure that you distinguish them from buttons. It’s likely that the content of your tags will indicate this, but ensure that they don’t look like buttons.
+
+
+![Placeholder](images/inline-placeholder-image.png)
+
+**CAPTION: Caption here.**
 
 #### Tool Tips
 
-Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed.
+Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed. Tool tips are often opened **on top of the screen the use is currently on** saving a round trip back and forth between pages.
 
 
 
@@ -239,27 +270,46 @@ Section 4: The Wonderful World of Icons
 
 ![Vic Bell Gloo Icons](images/ch2/icons.png)
 
-**CAPTION: Vic Bell’s [Gloo](https://www.behance.net/gallery/59585629/Gloo) icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from a very detailed and precise icon set created for the project.**
+**CAPTION: Vic Bell’s Gloo icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from [a very detailed and precise icon set created for the project](https://www.behance.net/gallery/59585629/Gloo).**
 
 
 Icons aren’t really the same as elements, rather **you might use them within elements or in addition to elements** to create a user interface that communicates clearly. **Icons are an incredibly powerful part of the UI designer’s toolkit** and are an important part of user interface design.
 
 Icons, or pictograms, **convey information through the use of representational symbols** and are useful where **cross-cultural communication** is important.
 
-You’ve doubtless encountered icons, certainly you will have in an airport when you’re perhaps lost – in a strange land, where you perhaps don’t speak the local language – and are looking for something.
+**You’ve doubtless encountered icons, certainly you will have in an airport when you’re perhaps lost** – in a strange land, where you perhaps don’t speak the local language – and are looking for something. **Icons help you** to: find a toilet (should you need to spend a penny!); find a taxi rank (if you’re in a hurry); or find the departures gates (when you’re invariably running late).
 
-The use of pictograms was pioneered at the 1964, 1968 and 1972 Olympic Games in the form of pictographic ‘wayfinding systems’ to help visitors find their way. Just as these iconic systems helped people ‘find their way’ in strange environment, so too, we can use icons to help users find their way around an interface. 
+The use of icons in this context, and their ability to supercede language, are **a testament to their power as non-verbal forms of communication**. It’s this ability to transcend language – working across different languages, or accompanying different languages – that makes them so useful in interface design.
 
-One of the best known sets of icons are Otl Aicher’s icons for the 1972 Munich Olympic Games. The wonderful [otl aicher pictograms](https://www.piktogramm.de/en/) delves deep into their history and the site features an excellent overview of [pictograms past and present](https://www.piktogramm.de/en/#c53) that’s well worth reading. As the site puts it:
+We live in an increasingly global world and the websites and applications we build often have a global audience. As such, adding icons to your UI toolbox is a great way to ensure your interfaces speak to the widest possible audience.
+
+Drawing icons is a specialist skill (although like any skill, it can be learned). There are many talented icon designers and I’ll be interviewing a particularly gifted one – Vic Bell – in [Chapter 8: Project X-Rays](https://github.com/buildingbeautifuluis/bbuis/blob/master/08-Chapter-8-Project-X-Rays.md).
+
+If your budget won’t stretch to cover a specialist icon designer [The Noun Project](https://thenounproject.com) is an excellent resource that is bound to have an icon to suit every eventuality. Founded in 2010, The Noun Project, “celebrates the world’s visual language,” and offers over two million curated icons created by a global community.
+
+That said – as the illustrations in this section clearly demonstrate – commissioning a bespoke icon set by a specialist designer can add a great deal of personality and life to your user interface design and is worth considering.
+
+
+### From Cave Paintings to the Present Day
+
+Icons have been used since the dawn of man as **a way of communicating without language**. The term icon derives from the Greek εἰκόνα (‘eikona’), meaning ‘image’, which is itself derived from from ‘eikénai’, which translates as ‘to be similar’ or ‘to appear’.
+
+The use of pictograms, or icons, was pioneered at the 1964, 1968 and 1972 Olympic Games in the form of **pictographic ‘wayfinding systems’ to help visitors ‘find their way’**.
+
+Just as these iconic systems helped people to find their way in a strange environment, so too, **we can use icons to help users find their way around an interface**.
+
+One of the best known sets of icons are Otl Aicher’s icons for the 1972 Munich Olympic Games. The wonderful [otl aicher pictograms](https://www.piktogramm.de/en/) – a website celebrating Aicher’s groundbreaking work – delves into their history and the site features an excellent overview of [pictograms past and present](https://www.piktogramm.de/en/#c53) that’s well worth reading. As the site notes:
 
 > Pictograms were the precursors of writing historically speaking. Back in prehistory, Stone Age dwellers used pictorial symbols to record their experiences for posterity on cave walls.
 
-This ‘pictorial language’ can still be read today: We might not be able to understand a Stone Age hunter-gatherer, but we can certainly look at a cave painting and unravel the story behind it.
+This ‘pictorial language’ can still be read today: We might not be able to understand a Stone Age hunter-gatherer (if, that is, we were to encounter one), but we can certainly look at a cave painting and unravel the story behind it.
+
+It is this universality that makes icons so powerful. Using them we can design user interfaces that act as a ‘universal language’ for wayfinding within interfaces.
 
 
-### Wayfinding
+### A ‘Universal Language’ for Wayfinding
 
-As I explored in Chapter 1, with the rise of the personal computers and their subsequent move away from command-line interfaces towards graphical interfaces, **the use of icons emerged as a form of ‘universal language’ to allow users to find their way around operating systems**.
+As I explored in Chapter 1, with the rise of personal computers and their subsequent move away from command-line interfaces towards graphical interfaces, **the use of icons emerged as a form of universal language to allow users to find their way around what were then unfamiliar operating systems**.
 
 One of the best known examples of this were Susan Kare’s original icons for the Macintosh. Kare’s icons – designed using only black and white (due to the constraints of early screens) – have a timeless quality to them and it’s no surprise to see them housed [in the collection of New York’s Museum of Modern Art](https://www.moma.org/artists/38483).
 
@@ -267,28 +317,13 @@ One of the best known examples of this were Susan Kare’s original icons for th
 
 **CAPTION: Susan Kare’s original icons for the Macintosh were instrumental in the rise of GUIs and icon-driven interfaces.**
 
-By embracing metaphors – built around everyday objects – Kare was able to provide a helping hand to users new to GUIs.
+<!-- Remove Kare’s icons, show them in Chapter 1 (?), and replace this illustration with Vic’s icons for Uber. -->
 
-<!--
+By embracing metaphors – built around everyday objects – Kare was able to provide a helping hand to users new to GUIs enabling them to understand how the interface worked: **a piece of paper** represented a document, which you could store in **a folder** and, when you no longer needed it, you could move it to **a trashcan**.
 
-Don’t repeat myself. I have text above that talks about wayfinding, but there might be a section on its own as it’s important.
+Look at any interface and you’ll see icons in action. Returning to Vic Bell’s work, [her iconography for Uber](https://www.behance.net/gallery/53544233/Uber-Iconography) is a lovely suite of icons – designed at different resolutions – to allow the company to ensure its communication is consistent. 
 
--->
-
-
-### Icons and Resolutions
-
-This is where I show Vic’s icons… (for Uber?) and explain that there’s a continuum of sizes and levels of detail.
-
-On a smaller screen, where space is a premium, it often helps to use more distilled icons, however, where there’s more space you can increase the resolution…
-
-
-
-
-
-
-
-MORE HERE ON ICONS
+On a smaller screen, where space is a premium, Bell has designed a distilled set of simpler icons. However, on a larger screen, where there’s more space she’s [embraced colour and added detail](https://dribbble.com/shots/3124553-Uber-Iconography). In this way, iconography can act as both a form of communication and a means of underlining a brand. A win win.
 
 
 

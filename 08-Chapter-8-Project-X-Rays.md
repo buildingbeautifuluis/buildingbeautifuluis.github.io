@@ -42,10 +42,13 @@ Section 1: Vic Bell (Iconography)
 
 Interview with Vic Bell goes here.
 
-Things to mention…
+Things to mention:
 
 Vic's work for world-class clients, including Uber, etc..
 
+Look at the interview before sending the questions through:
+
+https://idevie.com/design/geniuses-we-love-vic-bell-illustrator-and-icon-designer
 
 
 Section 2: Howard Pinsky (User Interface Design)
