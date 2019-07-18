@@ -11,6 +11,14 @@ There is a **tonne of content** for this chapter in my Simplenote scratch file. 
 
 I've used the words 'element-level' and 'component-level' here and I'll need to change them give XD's May release.
 
+**The following should be in the overview.**
+
+Animation – especially when applied to interfaces – has rapidly become a core skill that designers need to develop. Why animation now?
+
+Because the tools we use shape what we can build. Just a few years ago computers lacked the processing power to handle complex animations. Now computers are so powerful, animation has become expected.
+
+Similarly, as connection speeds have improved, so too has the ability to deliver rich, animated experiences.
+
 */
 
 

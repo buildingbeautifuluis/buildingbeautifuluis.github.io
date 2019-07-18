@@ -9,6 +9,10 @@ Chapter 2: The Building Blocks of Interfaces
 
 <!--
 
+The whole book may need to have references to ‘components’ removed. In the May, 2019 update to XD, Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. GAH!
+
+It might lead to confusion if I refer to ‘components’ here, so I think I’m going to rename these groupings of elements to ‘modules’. In short this is a nightmare and I’m glad we picked it up now before the book was finished.
+
 I’ve used a naming convention in Chapters 2–4 (and later) that’s as follows:
 
 	Objects → Elements → Components → Pages → Flows
@@ -50,7 +54,7 @@ Summary
 
 In this chapter **I’ll introduce the fundamental building blocks that interfaces are made from**: Objects, Elements, Components, Pages and Flows. **I’ll break apart a series of interface elements** – which I’ll also provide as swipe files for reference – **and I’ll analyse how everything we use in an interface is constructed from simple building blocks**.
 
-I’ve created a series of supporting files – PDF scratch files and Adobe XD artboards – to accompany this chapter (and many of the other chapters). **These supporting files walk through the process for more visual learners and can be used alongside the book.**
+I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany this chapter (and many of the other chapters). **These supporting files walk through the process for more visual learners and can be used alongside the book.**
 
 
 
@@ -65,7 +69,7 @@ In Chapter 3, ‘Information Architecture’, **I’ll explore how we can combin
 
 In Chapter 4, ‘Getting From A → B’, **I’ll tie everything together by introducing the idea of ‘journey mapping’ and ‘user flows’**. By focusing on how pages are connected together I’ll explore the last piece of the user interface jigsaw: **considering how users move through an interface**, getting from A → B.
 
-With the Chapter 2-4 context mapped out, let’s get down to business and explore the fundamental building blocks of user interfaces: elements.
+With the overview of Chapters 2-4 mapped out, let’s get down to business and explore the fundamental building blocks of user interfaces, exploring how elements are created.
 
 
 
@@ -81,7 +85,7 @@ When you’re starting on your journey as a user interface (UI) designer **it ca
 
 Take any interface, however, and you’ll see that **even the most complicated of interfaces is built up of simpler elements and components**. By starting with these elements and components you can quickly develop an understanding of how UIs are constructed.
 
-Working with my students at Belfast School of Art, I encourage them to **take existing interfaces and break them down into their constituent parts**. By using a [‘Master-Apprentice‘](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) approach – analysing others’ interfaces and rebuilding them – **you not only learn about how interfaces are constructed, but you also begin to understand the principles that lie behind good interfaces**.
+Working with my students at Belfast School of Art, I encourage them to **take existing interfaces and break them down into their constituent parts**. By using a [‘Master-Apprentice‘](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) approach – analysing others’ interfaces and rebuilding them – **you not only learn about how interfaces are constructed, but you also begin to understand the principles that lie behind good interface design**.
 
 
 ### The Master-Apprentice Model
@@ -100,21 +104,11 @@ The good news is that – in our connected world underpinned by the web – **yo
 
 To help you on your learning journey **I’ve provided a series of ‘Master-Apprentice’ examples** in addition to the example above, so you can see how these exercises work.
 
-I’ve provided examples of desktop, mobile (smartphone, tablet) and wrist UIs so **you can begin to develop an understanding across a range of contexts**. I created these myself so that I could develop my skills. I might be fast approaching 50 years old, but I’m still learning!
+I’ve provided examples of desktop, mobile (smartphone, tablet) and wrist UIs so **you can begin to develop an understanding of different interfaces across a range of contexts**. I created these myself so that I could develop my skills. I might be fast approaching 50 years old, but I’m still learning!
 
-<!--
+It's worth stressing that I'm not the only seasoned designer who adopts this approach. Chris Coyier – the co-founder of CodePen and the mind behind the wonderful CSS Tricks – also embraces the Master-Apprentice approach.
 
-Somewhere, stress that this isn’t just something beginners do. Professionals do this, too, including lots of well known folks. Here’s something by Chris Coyier:
-
-https://culturedcode.com/status/
-
-https://codepen.io/chriscoyier/full/KLWgVy
-
-In the interview with Howard P, touch on this in one of the questions.
-
--->
-
-
+Coyier's [rebuild](https://codepen.io/chriscoyier/full/KLWgVy) of Cultured Code's [Things Status Board](https://culturedcode.com/status/) is a lovely example and ably demonstrates that **even designers with years of experience are still focused on developing their own learning**.
 
 
 ### LEGO FTW!
@@ -131,9 +125,9 @@ Break apart any page – whether it’s desktop-, mobile- or wrist-based – and
 **CAPTION: Break apart any page and you’ll see it’s create from elements and components. Mastering how to draw these building blocks is what will establish a firm foundation on which to build.**
 
 
-The temptation when you’re starting out is to dive in at the deep end and try to build something all-encompassing and complicated. This isn’t an approach I’d recommend. **Taking on too big a challenge can quickly lead to frustration because you’ve undertaken a task that’s far too complicated.**
+The temptation when you’re starting out is to dive in at the deep end and try to build something all-encompassing and complicated. This isn’t an approach I’d recommend. **Taking on too big a challenge can quickly lead to frustration because you’ve undertaken a task that’s far too challenging and complex.**
 
-A far better approach – one that LEGO also uses – is to **start with something simple and progressively add complexity**. Practice makes perfect and as Mr Miyagi – from the film [The Karate Kid](https://www.youtube.com/watch?v=fULNUr0rvEc) – says: “Wax on! Wax off!” If you haven’t seen The Karate Kid: firstly, you should (the original, not the terrible remake); secondly, Mr Miyagi’s sage advice is simple: practice, practice, practice.
+A far better approach – one that LEGO also uses – is to **start with something simple and progressively add complexity as your skills develop**. Practice makes perfect and as Mr Miyagi – from the film [The Karate Kid](https://www.youtube.com/watch?v=fULNUr0rvEc) – says: “Wax on. Wax off.” If you haven’t seen The Karate Kid: firstly, you should (the original, not the remake); secondly, Mr Miyagi’s sage advice is simple: practice, practice, practice.
 
 In short: **Master the fundamentals and the rest falls into place.**
 
@@ -149,7 +143,7 @@ Section 2: Objects → Elements → Components → Pages → Flows
 **CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface elements, which can then be combined to create components that are then organised on pages. Link these pages together and we have the flows that underpin everything we build.**
 
 
-Everything we create is built from smaller parts. At the simplest level, user interfaces are comprised of the following:
+**Everything we create is built from smaller parts.** At the simplest level, user interfaces are comprised of the following:
 
 + Objects
 + Elements
@@ -157,28 +151,32 @@ Everything we create is built from smaller parts. At the simplest level, user in
 + Pages
 + Flows
 
-In this chapter, **I’ll be focusing on elements, demonstrating how they can be built from simple objects**.
+In this chapter, **I’ll be focusing on elements, demonstrating how they can be built from simple objects: points (circles), lines, planes and typography**.
 
-In the next chapter, I’ll show how these **elements can be combined to create components and pages**, which form the backbone of user interfaces. In the following chapter, I’ll explore how we tie these separate pages together in flows.
+In the next chapter, I’ll show how these **elements can be combined to create components and pages**, which form the backbone of our user interfaces. In the following chapter, I’ll explore how **we can tie these separate pages together into flows that allow a user to navigate through an interface**.
 
 This approach – Objects → Elements → Components → Pages → Flows – is similar to Brad Frost’s [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/) methodology. I never studied chemistry, so I find Frost’s naming convention – which features ‘atoms’ and ‘molecules’ from the world of chemistry, and ‘organisms’ from the world of biology – a little confusing.
 
-<!-- Image: Brad Frost’s Atomic Design? Or is this too confusing given my methodology. -->
-
-Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although – to be clear, in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)  Given the specialism we’re seeing emerging, I believe there’s a need for a different naming convention.
+Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although – to be clear, in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)  Given the rise of specialisms that we’re seeing emerging in the world of user experience design, I believe there’s a need for a different naming convention.
 
 Looking at the illustration at the beginning of this section, I prefer the labels: objects, elements, components, pages and flows. I find these labels easier to grasp and they should, I feel, need no explanation.
 
 
-### Objects → Elements 
+### Objects → Elements
 
-This section is the heart of everything, it’s about how elements – the fundamental units from which we build interfaces – are created.
+**Every element that we create for a screen is built from smaller elements.** By learning to mentally break apart the elements we encounter when we use user interfaces we begin to understand how they are constructed.
 
-The emphasis on this chapter is that everything we encounter in a user interface – an element, a component or a page – is comprised of other, simpler elements.
+Analysing how existing elements are constructed we see that everything we encounter in a user interface – an element, a component or a page – is comprised of other, simpler elements.
+
+![Placeholder Image](images/constructing-elements.png)
+
+**CAPTION: In the above example, the button element is comprised of samller – simpler – objects: a plane of colour; some typography; a circle and two lines.**
+
+This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **elements – the fundamental units from which we build interfaces – are created from relatively simple objects**.
 
 Understanding how the basic building blocks of interfaces work – as a simple, element level – helps us to develop a language of elements that we can build into complex interfaces.
 
-<!-- This section feels short, but I’m struggling to think about what else I can add to it. Revisit this with a clear head. -->
+One, significant, benefit of this approach of building from the element up is that **we can construct a design system to ensure our interfaces are consistent (and easier to build)**. I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
 
 
 
@@ -189,9 +187,7 @@ Section 3: A Library of Elements
 
 **CAPTION: Caption here.**
 
-**This section – and the whole book – needs to have references to ‘components’ removed. In the May, 2019 update Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. GAH!**
 
-**It will lead to confusion if I refer to ‘components’ here, so I think I’m going to rename these groupings of elements to ‘modules’. (Although modules are also used when referencing APIs, so that might need a rethink, too.) In short this is a nightmare and I’m glad we picked it up now before the book was finished.**
 
 This section is the heart of everything, it’s about how elements – the fundamental units from which we build interfaces – are created.
 

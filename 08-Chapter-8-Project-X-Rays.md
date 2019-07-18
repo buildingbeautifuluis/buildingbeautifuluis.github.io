@@ -58,7 +58,11 @@ Section 2: Howard Pinsky (User Interface Design)
 
 Interview with Howard Pinsky goes here.
 
-Things to mention…
+Things to mention:
+
+In Chapter 2 I explore what I call the Master-Apprentice model of learning… Pinksy is doing this, too. I should highlight this. Something that I should also mention is Pinsky's generosity in crediting the designers whose work he rebuilt as an integral part of the process.
+
+Acknowledging the work of other – we are all building on the shoulders of giants – is an important part of our industry and it's to Pinsky's credit that he acknowledges those from who he's learned.
 
 Howard's work on creating tutorials. Also his focus on helping other, in particular through the Adobe XD Slack and Discord groups. Equally, mention his work on Dribbble and how he's undertaking his own Master-Apprentice exercises, analysing, deconstructing and reconstructing others’ work
 
@@ -74,9 +78,11 @@ Section 3: Val Head (Animating Interfaces)
 
 Interview with Val Head goes here.
 
-Things to mention…
+Things to mention:
 
 Val's workshops, also her newsletter.
+
+Val has moved into animation and really made it her own. What prompted this move into a specialist niche? (Although we could argue animation – especially when applied to interfaces – is anything but niche. Indeed, it's becoming a core skill that designers need to develop.
 
 
 
