@@ -164,19 +164,19 @@ Looking at the illustration at the beginning of this section, I prefer the label
 
 ### Objects → Elements
 
-**Every element that we create for a screen is built from smaller elements.** By learning to mentally break apart the elements we encounter when we use user interfaces we begin to understand how they are constructed.
+**Every element that we create for a screen is built from smaller objects.** By learning to mentally break apart the elements we encounter when we use user interfaces – into their constituent objects – we begin to understand how they are constructed.
 
-Analysing how existing elements are constructed we see that everything we encounter in a user interface – an element, a component or a page – is comprised of other, simpler elements.
+Analysing how existing elements are constructed we see that **everything we see in a user interface – an element, a component or a page – is comprised of other, simpler objects**.
 
 ![Placeholder Image](images/ch2/constructing-elements.png)
 
-**CAPTION: In the above example, the button element is comprised of samller – simpler – objects: a plane of colour; some typography; a circle and two lines.**
+**CAPTION: In the above example, the button element is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines.**
 
 This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **elements – the fundamental units from which we build interfaces – are created from relatively simple objects**.
 
-Understanding how the basic building blocks of interfaces work – as a simple, element level – helps us to develop a language of elements that we can build into complex interfaces.
+Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can build into complex interfaces.
 
-One, significant, benefit of this approach of building from the element up is that **we can construct a design system to ensure our interfaces are consistent (and easier to build)**. I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
+One, significant, benefit of this approach of **building from the element up** is that **we can construct a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
 
 
 
