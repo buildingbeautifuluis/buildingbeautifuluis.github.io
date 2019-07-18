@@ -78,10 +78,10 @@ Section 1: Interfaces Are Like LEGO
 
 ![LEGO](images/ch2/lego.jpg)
 
-**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire. [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com/photos/TL5Vy1IM-uA0).]**
+**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire.** [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com/photos/TL5Vy1IM-uA0).]
 
 
-When you’re starting on your journey as a user interface (UI) designer **it can be intimidating trying to work out how different interfaces are built**.
+When you’re starting on your journey as a user interface designer **it can be intimidating trying to work out how different interfaces are built**.
 
 Take any interface, however, and you’ll see that **even the most complicated of interfaces is built up of simpler elements and components**. By starting with these elements and components you can quickly develop an understanding of how UIs are constructed.
 
@@ -237,14 +237,33 @@ Providing user feedback is essential and tool tips are a helpful way to do this,
 Section 4: The Wonderful World of Icons
 ---------------------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Vic Bell Gloo Icons](images/ch2/icons.png)
 
-**CAPTION: Caption here.**
+**CAPTION: Vic Bell’s [Gloo](https://www.behance.net/gallery/59585629/Gloo) icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from a very detailed and precise icon set created for the project.**
 
 
-This section is all about iconography…
+Icons aren’t really the same as elements, rather **you might use them within elements or in addition to elements** to create a user interface that communicates clearly. **Icons are an incredibly powerful part of the UI designer’s toolkit** and are an important part of user interface design.
 
-Icons aren’t really the same as elements, rather you might use them within elements or in addition to elements to create a user interface that communicates clearly.
+Icons, or pictograms, **convey information through the use of representational symbols** and are useful where **cross-cultural communication** is important.
+
+You’ve doubtless encountered icons, certainly you will have in an airport when you’re perhaps lost – in a strange land, where you perhaps don’t speak the local language – and are looking for something.
+
+The use of pictograms was pioneered at the 1964, 1968 and 1972 Olympic Games in the form of pictographic ‘wayfinding systems’ to help visitors find their way. Just as these iconic systems helped people ‘find their way’ in strange environment, so too, we can use icons to help users find their way around an interface. 
+
+One of the best known sets of icons are Otl Aicher’s icons for the 1972 Munich Olympic Games. The wonderful [otl aicher pictograms](https://www.piktogramm.de/en/) delves deep into their history and the site features an excellent overview of [pictograms past and present](https://www.piktogramm.de/en/#c53) that’s well worth reading. As the site puts it:
+
+> Pictograms were the precursors of writing historically speaking. Back in prehistory, Stone Age dwellers used pictorial symbols to record their experiences for posterity on cave walls.
+
+This ‘pictorial language’ can still be read today: We might not be able to understand a Stone Age hunter-gatherer, but we can certainly look at a cave painting and unravel the story behind it.
+
+
+### Wayfinding
+
+
+
+
+
+
 
 MORE HERE ON ICONS
 
