@@ -3,7 +3,7 @@ Chapter 2: The Building Blocks of Interfaces
 
 <!-- 2,564 Words -->
 
-**I'm currently working on this chapter (18 July). I hope to have it in a readable form by the end of the day.**
+**I'm currently working on this chapter (18 July). I hope to have it in a readable form by the end of the day. Sections 1-2 are done, but need images.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -76,9 +76,9 @@ With the overview of Chapters 2-4 mapped out, let’s get down to business and e
 Section 1: Interfaces Are Like LEGO
 -----------------------------------
 
-![LEGO](images/ch2/lego-placeholder.png)
+![LEGO](images/ch2/lego.png)
 
-**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire.**
+**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire. [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com/photos/TL5Vy1IM-uA0).]**
 
 
 When you’re starting on your journey as a user interface (UI) designer **it can be intimidating trying to work out how different interfaces are built**.
@@ -96,19 +96,21 @@ In the 17th century, apprentices’s education was undertaken for a minimum of 2
 
 The good news is that – in our connected world underpinned by the web – **you can embark upon a ‘virtual apprenticeship’ at relatively little cost**. All you need is time and a willingness to work hard and learn. [Dribbble](https://dribbble.com/search?q=UI) is a good place to start. **Search for UI, choose something you like and rebuild it.**
 
+One small, but important point to note: What I’m not talking about is **copying your finished user interface** by raiding Dribbble like a Viking. **I’m talking about learning to use drawing tools – like XD – by deconstructing and rebuilding others’ work.**
+
 
 ![Dan Gold Master-Apprentice](images/ch2/dan-gold-master-apprentice.png)
 
-**CAPTION: Dan Gold, a second year student on my Interaction Design programme at Belfast School of Art, created the above Master-Apprentice exercise. On the left is the original, by Nadia Ivanova, on the right is Dan’s exercise.**
+**CAPTION: Dan Gold, a second year student on my Interaction Design programme at Belfast School of Art, created the above Master-Apprentice exercise. On the left is the original, by [Nadia Ivanova](https://dribbble.com/nadiat_t), on the right is Gold’s exercise.**
 
 
 To help you on your learning journey **I’ve provided a series of ‘Master-Apprentice’ examples** in addition to the example above, so you can see how these exercises work.
 
 I’ve provided examples of desktop, mobile (smartphone, tablet) and wrist UIs so **you can begin to develop an understanding of different interfaces across a range of contexts**. I created these myself so that I could develop my skills. I might be fast approaching 50 years old, but I’m still learning!
 
-It's worth stressing that I'm not the only seasoned designer who adopts this approach. Chris Coyier – the co-founder of CodePen and the mind behind the wonderful CSS Tricks – also embraces the Master-Apprentice approach.
+It’s worth stressing that I’m not the only seasoned designer who adopts this approach. Chris Coyier – the co-founder of CodePen and the wunderkind behind the wonderful CSS Tricks – also embraces the Master-Apprentice approach (although he perhaps doesn’t consciously call it that).
 
-Coyier's [rebuild](https://codepen.io/chriscoyier/full/KLWgVy) of Cultured Code's [Things Status Board](https://culturedcode.com/status/) is a lovely example and ably demonstrates that **even designers with years of experience are still focused on developing their own learning**.
+Coyier’s [rebuild](https://codepen.io/chriscoyier/full/KLWgVy) of Cultured Code’s [Things Status Board](https://culturedcode.com/status/) is a lovely example and ably demonstrates that **even designers with years of experience are still focused on developing their own learning**.
 
 
 ### LEGO FTW!
@@ -127,7 +129,7 @@ Break apart any page – whether it’s desktop-, mobile- or wrist-based – and
 
 The temptation when you’re starting out is to dive in at the deep end and try to build something all-encompassing and complicated. This isn’t an approach I’d recommend. **Taking on too big a challenge can quickly lead to frustration because you’ve undertaken a task that’s far too challenging and complex.**
 
-A far better approach – one that LEGO also uses – is to **start with something simple and progressively add complexity as your skills develop**. Practice makes perfect and as Mr Miyagi – from the film [The Karate Kid](https://www.youtube.com/watch?v=fULNUr0rvEc) – says: “Wax on. Wax off.” If you haven’t seen The Karate Kid: firstly, you should (the original, not the remake); secondly, Mr Miyagi’s sage advice is simple: practice, practice, practice.
+A far better approach – one that LEGO also uses – is to **start with something simple and progressively add complexity as your skills develop**. Practice makes perfect and as Mr Miyagi – from the film [The Karate Kid](https://www.youtube.com/watch?v=fULNUr0rvEc) – emphasises: “Wax on. Wax off.” If you haven’t seen The Karate Kid: firstly, you should (the original, not the remake); secondly, Mr Miyagi’s sage advice is simple, but effective: practice, practice, practice.
 
 In short: **Master the fundamentals and the rest falls into place.**
 
@@ -140,7 +142,7 @@ Section 2: Objects → Elements → Components → Pages → Flows
 
 ![Objects → Elements → Components → Pages → Flows](images/ch2/objects-elements.png)
 
-**CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface elements, which can then be combined to create components that are then organised on pages. Link these pages together and we have the flows that underpin everything we build.**
+**CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface elements, which can then be combined to create components that are then organised on pages. Link these pages together and we have the flows that underpin our user interface.**
 
 
 **Everything we create is built from smaller parts.** At the simplest level, user interfaces are comprised of the following:
@@ -155,16 +157,18 @@ In this chapter, **I’ll be focusing on elements, demonstrating how they can be
 
 In the next chapter, I’ll show how these **elements can be combined to create components and pages**, which form the backbone of our user interfaces. In the following chapter, I’ll explore how **we can tie these separate pages together into flows that allow a user to navigate through an interface**.
 
-This approach – Objects → Elements → Components → Pages → Flows – is similar to Brad Frost’s [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/) methodology. I never studied chemistry, so I find Frost’s naming convention – which features ‘atoms’ and ‘molecules’ from the world of chemistry, and ‘organisms’ from the world of biology – a little confusing.
+This approach – Objects → Elements → Components → Pages → Flows – is similar to Brad Frost’s [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/) methodology. I never studied chemistry, so I find Frost’s naming convention – which features ‘atoms’ and ‘molecules’ from the world of chemistry and ‘organisms’ from the world of biology – a little confusing.
 
-Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although – to be clear, in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)  Given the rise of specialisms that we’re seeing emerging in the world of user experience design, I believe there’s a need for a different naming convention.
+Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although – to be clear, in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)
 
-Looking at the illustration at the beginning of this section, I prefer the labels: objects, elements, components, pages and flows. I find these labels easier to grasp and they should, I feel, need no explanation.
+Given the rise of different specialisms that we’re seeing emerging in the world of user experience design, I believe there’s a need for a different naming convention, one that's specifically focused on visual designers creating user interfaces.
+
+Looking at the illustration at the beginning of this section, I prefer the labels: **objects, elements, components, pages and flows**. I find these labels easier to grasp and they should, I feel, need no explanation.
 
 
 ### Objects → Elements
 
-**Every element that we create for a screen is built from smaller objects.** By learning to mentally break apart the elements we encounter when we use user interfaces – into their constituent objects – we begin to understand how they are constructed.
+**Every element that we create for a screen is built from smaller objects.** By learning to mentally break apart the elements we encounter – into their constituent objects – we begin to understand how they are constructed.
 
 Analysing how existing elements are constructed we see that **everything we see in a user interface – an element, a component or a page – is comprised of other, simpler objects**.
 
@@ -174,26 +178,21 @@ Analysing how existing elements are constructed we see that **everything we see 
 
 This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **elements – the fundamental units from which we build interfaces – are created from relatively simple objects**.
 
-Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can build into complex interfaces.
+Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can the combine and build into complex interfaces.
 
-One, significant, benefit of this approach of **building from the element up** is that **we can construct a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
+One, significant, benefit of this approach of **building from the element up** is that **we're effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
 
 
 
 Section 3: A Library of Elements
 --------------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: Caption here.**
+**CAPTION: In the above example, we see a range of different elements: buttons (in various states); stars, perhaps for a rating system; scroll buttons; and search boxes. Each of these elements is – as we've seen – quite simply constructed.**
 
 
-
-This section is the heart of everything, it’s about how elements – the fundamental units from which we build interfaces – are created.
-
-The emphasis on this chapter is that everything we encounter in a user interface – an element, a component or a page – is comprised of other, simpler elements.
-
-Understanding how the basic building blocks of interfaces work – as a simple, element level – helps us to develop a language of elements that we can build into complex interfaces.
+Now that we understand how 
 
 
 ### A List of Common Elements
