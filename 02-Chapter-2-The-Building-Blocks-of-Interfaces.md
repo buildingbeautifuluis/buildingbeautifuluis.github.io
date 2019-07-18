@@ -168,7 +168,7 @@ Looking at the illustration at the beginning of this section, I prefer the label
 
 Analysing how existing elements are constructed we see that everything we encounter in a user interface – an element, a component or a page – is comprised of other, simpler elements.
 
-![Placeholder Image](images/constructing-elements.png)
+![Placeholder Image](images/ch2/constructing-elements.png)
 
 **CAPTION: In the above example, the button element is comprised of samller – simpler – objects: a plane of colour; some typography; a circle and two lines.**
 
