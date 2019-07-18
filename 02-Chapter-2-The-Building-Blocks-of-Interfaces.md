@@ -259,6 +259,29 @@ This ‘pictorial language’ can still be read today: We might not be able to u
 
 ### Wayfinding
 
+As I explored in Chapter 1, with the rise of the personal computers and their subsequent move away from command-line interfaces towards graphical interfaces, **the use of icons emerged as a form of ‘universal language’ to allow users to find their way around operating systems**.
+
+One of the best known examples of this were Susan Kare’s original icons for the Macintosh. Kare’s icons – designed using only black and white (due to the constraints of early screens) – have a timeless quality to them and it’s no surprise to see them housed [in the collection of New York’s Museum of Modern Art](https://www.moma.org/artists/38483).
+
+![Susan Kare’s Original Macintosh Icons](images/ch2/original-macintosh-icons.png)
+
+**CAPTION: Susan Kare’s original icons for the Macintosh were instrumental in the rise of GUIs and icon-driven interfaces.**
+
+By embracing metaphors – built around everyday objects – Kare was able to provide a helping hand to users new to GUIs.
+
+<!--
+
+Don’t repeat myself. I have text above that talks about wayfinding, but there might be a section on its own as it’s important.
+
+-->
+
+
+### Icons and Resolutions
+
+This is where I show Vic’s icons… (for Uber?) and explain that there’s a continuum of sizes and levels of detail.
+
+On a smaller screen, where space is a premium, it often helps to use more distilled icons, however, where there’s more space you can increase the resolution…
+
 
 
 
@@ -296,7 +319,7 @@ There are many great publications, offline and online, that will help further un
 
 + Christian Leborg’s [Visual Grammar](https://amzn.to/31EaRoa) helps to explain the fundamental principles of visual grammar, the core graphic building blocks from which we build elements. It’s an excellent book that focuses on the foundations – point, line and plane – from which all interfaces are built.
 
-+ Matej Latin’s [Better Web Typography](https://betterwebtype.com) is a fantastic ‘course in a book’ that offers a wealth of typographic advice for web designers and web developers. Latin’s book is equally applicable beyond the web (in mobile and other contexts) and he offers [a free, seven-part email course](https://betterwebtype.com/web-typography-course/) that’s well worth signing up for.
++ Manuela Langella’s [Designing For User Interfaces: Icons As Visual Elements For Screen Design](https://www.smashingmagazine.com/2018/02/user-interfaces-icons-visual-elements-screen-design/) – sponsored by Adobe and published by the fine folks at Smashing Magazine – complements this chapter perfectly. Langella provides a thoroughly in-depth view of the role that icons can play as a part of user interfaces.
 
 + Lastly, I’d strongly recommend [Universal Principles of Design](https://amzn.to/2Fdftbn). It covers ‘125 Ways to Enhance Usability, Influence Perception, Increase Appeal, Make Better Design Decisions, and Teach through Design’ and I’ve used it as a backbone for my teaching since it was published.
 

@@ -156,7 +156,7 @@ There are many great publications, offline and online, that will help further un
 
 + Andy Clarke's [Art Direction for the Web](https://shop.smashingmagazine.com/products/art-direction-for-the-web) is a lovely book. The books is published in both ebook and hardback book formats… I'd recommend going the extra mile and ordering the hardback. It's beautifully designed and – as a book (in addition to the excellent content) – is a lovely object.
 
-+ Recommendation 2
++ Matej Latin’s [Better Web Typography](https://betterwebtype.com) is a fantastic ‘course in a book’ that offers a wealth of typographic advice for web designers and web developers. Latin’s book is equally applicable beyond the web (in mobile and other contexts) and he offers [a free, seven-part email course](https://betterwebtype.com/web-typography-course/) that’s well worth signing up for.
 
 + Recommendation 3
 
