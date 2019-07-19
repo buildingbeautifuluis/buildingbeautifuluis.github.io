@@ -100,9 +100,9 @@ This intense period in computing history saw the emergence of the field of Human
 Section 1: The ‘UI’ in ‘GUI’
 ----------------------------
 
-![Placeholder Image](images/ch1/cli-macos-ios.png)
+![Placeholder Image](images/ch1/command-line-interface.png)
 
-**CAPTION: This image will show over half a century of user interface design in one image. On the left, the terminal; in the middle System 7; on the right iOS. (This image is a shitshow, sorry, and it needs to be reworked so that it has more finesse.)**
+**CAPTION: Before graphical user interfaces (GUIs) were imagined in the 70s and 80s, users would interact with a computer via a command-line interface.)**
 
 
 Before I dive into the depths of user interfaces (UIs), I think it’s important to get some definitions out of the way. The term ‘UI’ we know and love today has its origins in the 70s term ‘GUI’, an abbreviation of **graphical user interface**.
@@ -200,7 +200,7 @@ Section 3: Desktops and Metaphors
 
 ![Placeholder Image](images/ch1/metaphor-shopping-cart.png)
 
-**CAPTION: CAPTION: By embracing a shopping cart metaphor, different UIs adhere to a common language. Users understand – thanks to regular use – what a shopping cart stands for and this metaphor eases their use of the UI (a win!).**
+**CAPTION: By embracing a shopping cart metaphor, different user interfaces adhere to a common language. Users understand – thanks to regular use – what a shopping cart stands for and this metaphor eases their use of the UI (a win!).**
 
 
 If you’ve ever bought anything from Amazon, you’ll have encountered metaphors. When you add something to your basket at Amazon, there is in fact no ‘basket’. The basket is just a metaphor – drawn from the real world – to help you understand where you store your items.
