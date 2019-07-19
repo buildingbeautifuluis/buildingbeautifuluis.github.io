@@ -7,15 +7,13 @@ Chapter 3: Information Architecture
 
 <!--
 
-I’ve used a naming convention in Chapters 2–4 (and later) that’s as follows:
+Structurally Chapter 2's sections are consistent:
 
-Objects → Elements → Components → Pages → Flows
++ Introduction:		2.1.0
++ Part 1:			2.1.1
++ Part 2:			2.1.2
 
-The ‘Components’ in the new XD are what I call ‘Elements’. Gah! I’m going to go back over everything and change to:
-
-Objects → Components → Modules → Pages → Flows
-
-Modules, or Units? (I prefer Modules.)
+I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the 'A Library of Elements' section in Chapter 2, which won't fit.)
 
 -->
 

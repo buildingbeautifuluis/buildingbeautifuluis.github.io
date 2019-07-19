@@ -1,13 +1,15 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 5,301 Words -->
+<!-- 5,711 Words -->
 
-**I’m currently working on this chapter (19 July). I hope to have it in a readable form by the end of the day. Sections 1-2 and 3-4 are more or less done, but need some images. I’m working on Section 3 as we speak.**
+**I’m currently working on this chapter (19 July). I hope to have it in a readable form by the end of the night. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
 <!--
+
+Run this past Kyle for a second opinion.
 
 The whole book may need to have references to ‘components’ removed. In the May, 2019 update to XD, Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. Nightmare!
 
@@ -17,9 +19,9 @@ BUT…
 
 GOV.UK uses components:
 
-https://design-system.service.gov.uk
+	https://design-system.service.gov.uk
 
-In Google’s Material Design, they also use the word ‘components’ the same way I do. So, now I’m really convinced I should leave the word as is. So, I either need to:
+Google also use the word ‘components’ the same way I do in their Material Design guidelines. So, now I’m really convinced I should leave the word as is. So, I either need to:
 
 1. Stick by my guns and use the terminology I think is right (this is a more tool agnostic approach and, I think, the right choice); or
 
@@ -27,14 +29,16 @@ In Google’s Material Design, they also use the word ‘components’ the same 
 
 	Objects → Elements → Modules → Pages → Flows
 
-Other words:
+????
+
+Other words instead of components:
 
 + Groupings
 + Units
 + Clusters
 + …
 
-Run this past Kyle for a second opinion.
+My gut tells me stick with components and that’s what I’ve done for now.
 
 -->
 
@@ -170,21 +174,54 @@ Looking at the illustration at the beginning of this section, I prefer the label
 
 ### Objects → Elements
 
-**Every element that we create for a screen is built from smaller objects.** By learning to mentally break apart the elements we encounter – into their constituent objects – we begin to understand how they are constructed.
+**Every element that we create for a user interface is built from smaller objects.** By learning to mentally break apart the elements we encounter – into their constituent objects – we begin to understand how they are constructed.
 
 Analysing how existing elements are constructed we see that **everything we see in a user interface – an element, a component or a page – is comprised of other, simpler objects**.
+
 
 ![Placeholder Image](images/ch2/constructing-elements.png)
 
 **CAPTION: In the above example, the button element is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines.**
 
+
 This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **elements – the fundamental units from which we build interfaces – are created from relatively simple objects**.
 
-Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can the combine and build into complex interfaces.
+Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can the combine and build into complex interfaces through the creation of components and pages.
 
-One, significant, benefit of this approach of **building from the element up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
+One significant benefit of the approach of **building from the element up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s acquaint ourselves with the anatomy of some further elements.
 
-<!-- This section now seems a little short and I wonder if I should add a little more showing the deconstructions of elements. A two part image: left side: objects; right side: element. Maybe it’s OK as is? -->
+
+### Anatomy of an Element
+
+<!-- This opening paragraph needs to be rewritten. It feels a little too much like notes to myself at the moment. -->
+
+In this section, I’ll unravel a few more elements to further underline how we can re-use objects to create consistent UI elements. **I’ll also stress the importance of paying attention to the details, which are a critical component of successful UIs.** As Charles and Ray Eames famously noted:
+
+> The details are not the details; they make the product.
+
+By reusing a series of core objects to build your elements, **your UI benefits from a consistent and systematic approach**. By working with a core set of objects you ensure that the details take care of themselves. As you start to build your elements, **it’s important to put some thought into their consistency**.
+
+User interfaces that are inconsistent are not only aesthetically poor, but they also **lead to confused and frustrated users**, which can result in even the most promising of digital products to fail.
+
+Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](#), so I’ll be focusing in this chapter on the look of your elements, but keep in mind behaviour – and feel – is important, too.
+
+
+![Placeholder](images/inline-placeholder-image.png)
+
+**CAPTION: This will be an image of four objects that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a tag, a tool tip and a toggle.**
+
+
+As you build your elements, consider how your they are consistently:
+
++ aligned;
++ sized; and
++ scaled.
+
+It’s also import to **consider the relationships between your elements** and how they relate <!-- relationship… relate --> to each other. It’s highly unlikely that your elements will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but as you build different elements, bear in mind that they’ll be existing as part of a system.
+
+It’s important to focus on consistency: ensuring that line weights are the same thickness throughout (unless there’s a reason for them not to be); ensuring that your colour palette is consistent; ensuring that any elements with a border-radius uses the same radius; and that padding within elements is the same.
+
+This level of attention to detail is what sets apart the masters from the amateurs. It might seem overwrought, but the benefits of this approach can’t be stressed highly enough.
 
 
 
@@ -193,9 +230,7 @@ Section 3: A Library of Elements
 
 ![Placeholder Image](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: In the above example, we see a range of different elements: buttons (in various states); stars, perhaps for a rating system; scroll buttons; and search boxes. Each of these elements is – as we’ve seen – quite simply constructed.**
-
-<!-- In the following section, I think we should use modal images so it doesn’t get too image heavy and break up the flow. -->
+**CAPTION: In the above example, we see a range of different elements: buttons (in various states); stars, perhaps for a rating system; social icons; scroll buttons; and search boxes. Each of these elements is – as we’ve seen – quite simply constructed, according to a consistent system.**
 
 
 Now that we understand how elements are constructed, it’s time to dive in and explore some of the elements you might need for your user interface designs. Where possible, if an element exists as a design pattern, it’s best to use this.
@@ -236,10 +271,12 @@ When designing a button, try and ensure it’s clearly communicated within your 
 
 Toggles allow users to change settings between two states, for example: on and off. Ensuring the on and off states are visually distinct improves toggles usability.
 
+**\/\* MORE HERE \*\/**
+
 
 ![Placeholder](images/inline-placeholder-image.png)
 
-**CAPTION: Caption here.**
+**CAPTION: A progress bar needs to go here.**
 
 #### Progress Bars
 
@@ -249,30 +286,36 @@ Progress bars can be dynamic (moving, for example showing the progress of a down
 
 Progress bars are useful for communicating time and alleviating your users’ concerns by showing them that **something is happening**. There is also an opportunity – should your design warrant it – to design progress bars designed to delight users while they wait.
 
+**\/\* MORE HERE \*\/**
+
 
 ![Placeholder](images/inline-placeholder-image.png)
 
-**CAPTION: Caption here.**
+**CAPTION: A series of tags needs to go here.**
 
 #### Tags
 
 Tags are useful in lots of different contexts, for example in profile components or on content-driven pages. When designing tags, try and ensure that you distinguish them from buttons. It’s likely that the content of your tags will indicate this, but ensure that they don’t look like buttons.
 
+**\/\* MORE HERE \*\/**
+
 
 ![Placeholder](images/inline-placeholder-image.png)
 
-**CAPTION: Caption here.**
+**CAPTION: A set of tool tips need to go here.**
 
 #### Tool Tips
 
 Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed. Tool tips are often opened **on top of the screen the use is currently on** saving a round trip back and forth between pages.
+
+**\/\* MORE HERE \*\/**
 
 
 
 Section 4: The Wonderful World of Icons
 ---------------------------------------
 
-![Vic Bell Gloo Icons](images/ch2/icons.png)
+![Vic Bell Gloo Icons](images/ch2/gloo-icons.png)
 
 **CAPTION: Vic Bell’s Gloo icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from [a very detailed and precise icon set created for the project](https://www.behance.net/gallery/59585629/Gloo).**
 
@@ -317,11 +360,11 @@ As I explored in Chapter 1, with the rise of personal computers and their subseq
 
 One of the best known examples of this were Susan Kare’s original icons for the Macintosh. Kare’s icons – designed using only black and white (due to the constraints of early screens) – have a timeless quality to them and it’s no surprise to see them housed [in the collection of New York’s Museum of Modern Art](https://www.moma.org/artists/38483).
 
+
 ![Susan Kare’s Original Macintosh Icons](images/ch2/original-macintosh-icons.png)
 
 **CAPTION: Susan Kare’s original icons for the Macintosh were instrumental in the rise of GUIs and icon-driven interfaces.**
 
-<!-- Remove Kare’s icons, show them in Chapter 1 (?), and replace this illustration with Vic’s icons for Uber. -->
 
 By embracing metaphors – built around everyday objects – Kare was able to provide a helping hand to users new to GUIs enabling them to understand how the interface worked: **a piece of paper** represented a document, which you could store in **a folder** and, when you no longer needed it, you could move it to **a trashcan**.
 
@@ -362,7 +405,7 @@ Kholmatova shephered the development of FutureLearn’s [Design System](https://
 The good news is that, **if you’re building from the element up – as this book encourages – you’ll have a head start on building a design system**, because the methodology I recommend – Objects → Elements → Components → Pages → Flows – is designed to be built in a scalable manner, from the element up.
 
 
-### What Is A Design System?
+### What is a design system?
 
 Put simply, a design system is a collection of elements and components that can be combined and reused to build digital products.
 
@@ -389,6 +432,17 @@ I touched on styleguides in [Chapter 1: Designing Interfaces](https://github.com
 If you’re looking for inspiration, [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent place to start. Created by Jad Limcaco, a designer at Apple, it started life as a collection of resources – examples, articles and tools – for Limcaco’s personal reference.
 
 Generously, Limcaco spent (no doubt a considerable amount of!) time, organising and cataloguing these resources for the benefit of the wider design community. The result is a wealth of resources. The [articles](https://designsystemsrepo.com/articles/) that Limcaco has curated are particularly worth exploring.
+
+<!--
+
+### Airbnb, et al…
+
+????
+
+https://airbnb.design/building-a-visual-language/
+
+-->
+
 
 
 Closing Thoughts

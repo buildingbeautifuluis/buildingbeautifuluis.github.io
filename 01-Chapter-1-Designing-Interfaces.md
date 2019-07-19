@@ -1,7 +1,7 @@
 Chapter 1: Designing Interfaces
 ===============================
 
-<!-- 4,234 Words -->
+<!-- 4,283 Words -->
 
 **This chapter is at the editing stage, so it’s readable. I’ll be adding images shortly, hopefully this weekend (20-21 July), but the content should – I hope! – be sound.**
 
@@ -16,6 +16,16 @@ Should each chapter spell out user interface in full before subsequently using U
 Also, should I define (and use) the term digital product right at the start? Like our Little Thunder proposals. This would save me writing ‘websites and applications’ over and over again, and would be a little more contemporary.
 
 Check with Kyle and Paul for a second opinion. If I do adopt the ‘digital products’ terminology I should perhaps mention it in the overview and in Chapter 1.
+
+Also…
+
+Structurally Chapter 2's sections are consistent:
+
++ Introduction:		2.1.0
++ Part 1:			2.1.1
++ Part 2:			2.1.2
+
+I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the 'A Library of Elements' section in Chapter 2, which won't fit.)
 
 -->
 
