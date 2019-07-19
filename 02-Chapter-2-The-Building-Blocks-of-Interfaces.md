@@ -3,7 +3,7 @@ Chapter 2: The Building Blocks of Interfaces
 
 <!-- 5,711 Words -->
 
-**I’m currently working on this chapter (19 July). I hope to have it in a readable form by the end of the night. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
+**I’m currently working on this chapter (Friday, 19 July, 2019). I hope to have it in a readable form by the end of the night. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -84,7 +84,7 @@ Section 1: Interfaces Are Like LEGO
 
 ![LEGO](images/ch2/lego.jpg)
 
-**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire.** [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com/photos/TL5Vy1IM-uA0).]
+**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic elements – buttons, toggles and tags, for example – we can build any UI we desire.** [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com).]
 
 
 When you’re starting on your journey as a user interface designer **it can be intimidating trying to work out how different interfaces are built**.

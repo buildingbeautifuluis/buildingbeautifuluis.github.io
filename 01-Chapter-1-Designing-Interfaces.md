@@ -45,9 +45,9 @@ Table of Contents
 Summary
 -------
 
-**In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.**
+In this chapter **I’ll explore how we arrived at where we are today**. **I’ll provide a brief history of user interface design** – drawing from principles of human-computer interaction (HCI) – so that **the lessons we’ve learned from the history of UI design aren’t lost**.
 
-**I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.**
+I’ll also stress **the importance of understanding metaphors and mental models**, which underpin UI design. Lastly, **I’ll detail a number of current user interface design systems**, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.
 
 
 
@@ -79,12 +79,6 @@ Everything in this book (and its accompanying materials) has been tried and test
 
 I’ve included my students’ work, because I’m proud of the work they’re doing and – equally importantly – these are relatively young students and they’ve come a long way with their User Interface (UI) design in a relatively short space of time. I hope their work inspires you to do similarly impressive work.
 
-<!--
-
-I need to 100% establish a system for User Interface (UI) design and UI design. See above.
-
--->
-
 In this first chapter I’ll set the scene, providing a little history and context. If you’re up-to-speed on the history of user interface design, and have an understanding of the importance of metaphors and mental models, you might wish to fast-forward to [Chapter 2: The Building Blocks of Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md) where I get into hands-on practicalities.
 
 UI design stretches back to the early GUIs of the 70s and the emergence of computers as devices that were available beyond the confines of universities and big businesses.
@@ -98,7 +92,7 @@ This intense period in computing history saw the emergence of the field of Human
 Section 1: The ‘UI’ in ‘GUI’
 ----------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![The Original Macintosh Interface](images/ch1/macintosh-gui.png)
 
 **CAPTION: This image will show an early UI, probably System 7, so that I can provide some context on the emergence of graphical user interfaces. It will also have a timeline (Memex → Alto → System 7 → Etc.).**
 
@@ -160,9 +154,9 @@ If conversational and voice interfaces interest you, have no fear, I have you co
 Section 2: Designing Human Interfaces
 -------------------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch1/human-interfaces.jpg)
 
-**CAPTION: This image will show someone using a phone whilst undertaking another task. [Something like this.](https://unsplash.com/photos/lszypRm8AkY)**
+**CAPTION: This image will show someone using a phone whilst undertaking another task.** [Photograph by [Gilles Lambert](https://unsplash.com/@gilleslambert) on [Unsplash](https://unsplash.com).]
 
 
 The trouble with the term ‘user interface’ is that it abstracts humans (messy, unpredictable and… human!) into an anonymous category of ‘users’. In fact these users are all different, above all, they’re all **humans**.
@@ -298,7 +292,7 @@ I’ll explore this, stressing the need for a clear overall concept and a strong
 Section 5: UI, Here and Now
 ---------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch1/interface-guidelines.png)
 
 **CAPTION: This image will show a montage, in thirds, of: 1. Apple’s Human Interface Guidelines, 2. Google’s Material Design, and 3. IBM’s Living Language.**
 
