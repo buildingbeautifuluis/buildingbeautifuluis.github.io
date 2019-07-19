@@ -244,9 +244,9 @@ As you use desktop, tablet and mobile applications, take note of the different c
 Section 4: Establishing Clear Mental Models
 -------------------------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch1/mental-models.png)
 
-**CAPTION: This image will show a diagram of a mental model. [Something like the first image (that I’ll redraw) from this page.](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/mental-models)**
+**CAPTION: This image will show a diagram of a mental model. (Something like this image, but redrawn by me.)**
 
 <!--
 
