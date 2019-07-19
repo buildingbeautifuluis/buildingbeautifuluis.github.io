@@ -1,9 +1,9 @@
 Chapter 1: Designing Interfaces
 ===============================
 
-<!-- 4,191 Words -->
+<!-- 4,234 Words -->
 
-**This chapter is at the editing stage, so it’s readable. I’ll be adding images shortly, hopefully this weekend, but the content should (I hope!) be sound.**
+**This chapter is at the editing stage, so it’s readable. I’ll be adding images shortly, hopefully this weekend (20-21 July), but the content should – I hope! – be sound.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -12,6 +12,10 @@ Chapter 1: Designing Interfaces
 **Note to Self**
 
 Should each chapter spell out user interface in full before subsequently using UI? I think each chapter should kick off with user interface in full, that way folks who have skipped Chapter 1, or who have dived right into a later chapter, get the term spelled out in full before the acronym.
+
+Also, should I define (and use) the term digital product right at the start? Like our Little Thunder proposals. This would save me writing ‘websites and applications’ over and over again, and would be a little more contemporary.
+
+Check with Kyle and Paul for a second opinion. If I do adopt the ‘digital products’ terminology I should perhaps mention it in the overview and in Chapter 1.
 
 -->
 
@@ -332,13 +336,9 @@ As of 2019, styleguides.io has gathered 500+ different resources and it’s wort
 Closing Thoughts
 ----------------
 
-<!--
+All being well, this chapter has introduced you to some **important aspects of computing history, paving the way to where we’ve reached today**.
 
-I need to add this to the end of each chapter to summarise the chapter’s content and bridge to the next chapter.
-
--->
-
-All being well, this chapter has introduced you to some important aspects of computing history, paving the way to where we’ve reached today. In the next chapter – [Chapter 2: The Building Blocks of Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md) – I’ll introduce the fundamental building blocks that interfaces are made from: Objects, Elements, Components, Pages and Flows, so that you can start to build your own user interface designs.
+In the next chapter – [Chapter 2: The Building Blocks of Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md) – I’ll introduce the fundamental building blocks that interfaces are made from: Objects, Elements, Components, Pages and Flows, so that you can start to build your own user interface designs. 🎉
 
 
 
@@ -366,9 +366,9 @@ About the Author
 
 A designer, writer and speaker based in Belfast, Christopher mentors purpose-driven businesses, helping them to launch and thrive. He encourages small businesses to think big and he enables big businesses to think small.
 
-The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
-
 As a design strategist he has worked with companies, large and small, to help drive innovation, drawing on his 25+ years of experience working with clients including: Adobe, EA and the BBC.
+
+The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
 
 
 

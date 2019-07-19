@@ -1,9 +1,9 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 4,587 Words -->
+<!-- 5,301 Words -->
 
-**I’m currently working on this chapter (18 July). I hope to have it in a readable form by the end of the day. Sections 1-2 are done, but need images. I’m working on Sections 3-4 as we speak.**
+**I’m currently working on this chapter (19 July). I hope to have it in a readable form by the end of the day. Sections 1-2 and 3-4 are more or less done, but need some images. I’m working on Section 3 as we speak.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -11,11 +11,15 @@ Chapter 2: The Building Blocks of Interfaces
 
 The whole book may need to have references to ‘components’ removed. In the May, 2019 update to XD, Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. Nightmare!
 
-It might lead to confusion if I refer to ‘components’ here, so I've toyed with the idea of renaming these groupings of elements to ‘modules’. In short this is a nightmare and I’m glad we picked it up now before the book was finished.
+It might lead to confusion if I refer to ‘components’ here, so I’ve toyed with the idea of renaming these groupings of elements to ‘modules’. In short this is a nightmare and I’m glad we picked it up now before the book was finished.
 
 BUT…
 
-In Google's Material Design, they also use the word 'components' the same way I do. So, now I'm really convinced I should leave the word as is. So, I either need to:
+GOV.UK uses components:
+
+https://design-system.service.gov.uk
+
+In Google’s Material Design, they also use the word ‘components’ the same way I do. So, now I’m really convinced I should leave the word as is. So, I either need to:
 
 1. Stick by my guns and use the terminology I think is right (this is a more tool agnostic approach and, I think, the right choice); or
 
@@ -180,7 +184,7 @@ Understanding how the basic building blocks of interfaces work – at a simple, 
 
 One, significant, benefit of this approach of **building from the element up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s dive into a library of elements.
 
-<!-- This section now seems a little short and I wonder if I should add a little more showing the deconstructions of elements. A two part image: left side: objects; right side: element. Maybe it's OK as is? -->
+<!-- This section now seems a little short and I wonder if I should add a little more showing the deconstructions of elements. A two part image: left side: objects; right side: element. Maybe it’s OK as is? -->
 
 
 
@@ -194,7 +198,7 @@ Section 3: A Library of Elements
 <!-- In the following section, I think we should use modal images so it doesn’t get too image heavy and break up the flow. -->
 
 
-Now that we understand how elements are constructed, it’s time to dive in and explore some of the elements you might need for your user interface designs. Where possible, if an element exists – as a design pattern – it’s best to use this.
+Now that we understand how elements are constructed, it’s time to dive in and explore some of the elements you might need for your user interface designs. Where possible, if an element exists as a design pattern, it’s best to use this.
 
 As I noted in the preceding chapter, users have a mental model of how interfaces work, so **try – as much as possible – to work within existing conventions**. By doing so, your users will at least have a head start when using your interface.
 
@@ -330,20 +334,69 @@ On a smaller screen, where space is a premium, Bell has designed a distilled set
 Section 5: Design Systems
 -------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch2/design-systems-book.png)
 
-**CAPTION: Caption here.**
+**CAPTION: This is a temporary image. I’ll replace it with a montage of design systems including: Airbnb, IBM, Uber, MailChimp….**
 
 
-This is now design systems…
+As you design and build your user interface elements, **it’s important to ensure that they follow a consistent visual language**. Do this at the element level and you will – by extension as you build components from elements – have the basis of a design system.
 
-As you design and build your user interface elements, it’s important to ensure they follow a consistent visual language. Do this at the element level and you will – by extension as you build modules from elements – have the basis of a design system.
+Design systems have **changed the way we design and build both websites and applications**. They’re quickly becoming a cornerstone of large (and small) organisation’s digital product design strategies.
 
-Design systems are beyond the scope of this book, but they are well worth reading up on. I’d strongly recommend Alla Kholmatova’s [Design Systems: A Practical Guide to Creating Design Languages for Digital Products](https://shop.smashingmagazine.com/products/design-systems-by-alla-kholmatova?utm_source=shop&utm_medium=sidebar-widget) as a starting point.
+Design systems are useful to learn about if you’re getting started in user interface design, because they encourage you to adopt a systematic approach towards the UIs you design.
+
+**By adopting a systematic approach towards your UI as you build it, you can ensure that subsequent elements and components you add to your design follow a consistent trajectory.** The result is a unified look and feel as your website or application scales.
+
+A detailed exploration of design systems is beyond the scope of this book, but I would wholeheartedly recommend reading up on them. I’d strongly recommend Alla Kholmatova’s [Design Systems: A Practical Guide to Creating Design Languages for Digital Products](https://shop.smashingmagazine.com/products/design-systems-by-alla-kholmatova?utm_source=shop&utm_medium=sidebar-widget) as a starting point. I have a copy and it’s **filled** with Post-It Notes!
+
+
+![FutureLearn’s Design System](images/ch2/futurelearn-design-system.png)
+
+**CAPTION: FutureLearn’s design system ensures that everything the FutureLearn team, and its partners, design and build is considered, cohesive and consistent.**
+
 
 Kholmatova shephered the development of FutureLearn’s [Design System](https://design-system.futurelearn.com), which is also worth looking at. Her knowledge of design systems is unparalleled and her book is excellent and well worth owning.
 
-EXPLAIN - IN AN OVERVIEW WAY – WHAT A DESIGN SYSTEM IS.
+<!-- More on Futurelearn here, given the image above. perhaps mention Brad Frost’s methodology, modified. -->
+
+The good news is that, **if you’re building from the element up – as this book encourages – you’ll have a head start on building a design system**, because the methodology I recommend – Objects → Elements → Components → Pages → Flows – is designed to be built in a scalable manner, from the element up.
+
+
+### What Is A Design System?
+
+Put simply, a design system is a collection of elements and components that can be combined and reused to build digital products.
+
+Returning to the LEGO metaphor I used in [Section 1](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego), a design system is like having a series of LEGO bricks that are brand new (shiny and right out of the box).
+
+When you buy a LEGO kit, the bricks it ships with are designed to fit together visually and aesthetically. (Unlike the giant boxes of LEGO bricks that you accumulate over time!)
+
+A design system takes a similar approach. Instead of building elements and components in an ad hoc manner, as you need them, you take a systematic approach so that everything fits together aesthetically. As you add new elements and components to your system, you draw on your design system to ensure consistency.
+
+Embracing design systems pays off with a number of incredibly valuable benefits. A design system ensures:
+
++ your UI is consistent;
++ your elements and components are faster to build; and
++ your collaboration with others is smoother.
+
+Embracing a design system also results in more consistent branding for the different projects that you work on, leading to happier clients.
+
+I touched on styleguides in [Chapter 1: Designing Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) when I introduced styleguides.io, which gathers pattern libraries and style guides, but it’s worth exploring design systems, specifically, here.
+
+![Placeholder Image](images/ch2/design-systems-repo.png)
+
+**CAPTION: Jad Limcaco’s [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent resource to learn about design systems.**
+
+If you’re looking for inspiration, [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent place to start. Created by Jad Limcaco, a designer at Apple, it started life as a collection of resources – examples, articles and tools – for Limcaco’s personal reference.
+
+Generously, Limcaco spent (no doubt a considerable amount of!) time, organising and cataloguing these resources for the benefit of the wider design community. The result is a wealth of resources. The [articles](https://designsystemsrepo.com/articles/) that Limcaco has curated are particularly worth exploring.
+
+
+Closing Thoughts
+----------------
+
+All being well, this chapter has introduced you to the core principals of **how to build consistently designed user interface elements** that will act as the foundation of your UI.
+
+In the next chapter – [Chapter 3: Information Architecture](https://github.com/buildingbeautifuluis/bbuis/blob/master/03-Chapter-3-Information-Architecture.md) – I’ll introduce the idea of using these elements as the basis for constructing components and pages, so that you can further develop your understanding of user interface design. 🎉
 
 
 
@@ -371,9 +424,9 @@ About the Author
 
 A designer, writer and speaker based in Belfast, Christopher mentors purpose-driven businesses, helping them to launch and thrive. He encourages small businesses to think big and he enables big businesses to think small.
 
-The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
-
 As a design strategist he has worked with companies, large and small, to help drive innovation, drawing on his 25+ years of experience working with clients including: Adobe, EA and the BBC.
+
+The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
 
 
 
