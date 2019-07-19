@@ -9,15 +9,19 @@ Chapter 1: Designing Interfaces
 
 <!--
 
-**Note to Self**
+**Notes to Self**
+
+1. User Interface vs. UI
 
 Should each chapter spell out user interface in full before subsequently using UI? I think each chapter should kick off with user interface in full, that way folks who have skipped Chapter 1, or who have dived right into a later chapter, get the term spelled out in full before the acronym.
+
+2. Digital Products?
 
 Also, should I define (and use) the term digital product right at the start? Like our Little Thunder proposals. This would save me writing ‘websites and applications’ over and over again, and would be a little more contemporary.
 
 Check with Kyle and Paul for a second opinion. If I do adopt the ‘digital products’ terminology I should perhaps mention it in the overview and in Chapter 1.
 
-Also…
+3. Chapter Structure
 
 Structurally Chapter 2's sections are consistent:
 
@@ -26,6 +30,10 @@ Structurally Chapter 2's sections are consistent:
 + Part 2:			2.1.2
 
 I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the 'A Library of Elements' section in Chapter 2, which won't fit.)
+
+4. Selected Bold Text
+
+This chapter needs selected bold text, like Chapter 2. Do this once I've paased it over to Kyle for editing.
 
 -->
 
@@ -92,9 +100,9 @@ This intense period in computing history saw the emergence of the field of Human
 Section 1: The ‘UI’ in ‘GUI’
 ----------------------------
 
-![The Original Macintosh Interface](images/ch1/macintosh-gui.png)
+![Placeholder Image](images/section-opening-placeholder-image.png)
 
-**CAPTION: This image will show an early UI, probably System 7, so that I can provide some context on the emergence of graphical user interfaces. It will also have a timeline (Memex → Alto → System 7 → Etc.).**
+**CAPTION: This image will show half a century of user interface design in one image. On the left, the terminal; in the middle System 7; on the right iOS.**
 
 
 Before I dive into the depths of user interfaces (UIs), I think it’s important to get some definitions out of the way. The term ‘UI’ we know and love today has its origins in the 70s term ‘GUI’, an abbreviation of **graphical user interface**.
@@ -102,14 +110,6 @@ Before I dive into the depths of user interfaces (UIs), I think it’s important
 UIs might feel commonplace to us today, but when they were first imagined they represented a fundamental shift in how we interacted with computers. Before the emergence of GUIs, working with a computer involved typing arcane commands into it via a text-based terminal from a [**command-line interface**](http://www.catb.org/esr/writings/taouu/html/ch02s02.html) (CLI), a little like the following command that produced a printable calendar:
 
 	calendar
-
-<!--
-
-http://www.catb.org/esr/writings/taouu/html/ch02s02.html
-
-http://www.catb.org/esr/writings/taouu/taouu.html
-
--->
 
 To work with a computer a user first needed to ‘learn its language’, which was no small task. As Eric S Raymond puts it in ‘The Art of Unix Usability’ (a wonderful and lightly styled HTML website):
 
@@ -120,6 +120,12 @@ The emergence of graphical user interfaces allowed for a much friendlier (and ea
 In 1973, Xerox PARC developed the Alto personal computer, the first computer imagined from its inception to support an operating system that was based on a graphical user interface. Remarkably, the Alto was first introduced on 1 March, 1973, a full decade before mass market GUI computers became available.
 
 The Alto’s interface – which used windows, icons and menus and allowed the user to open, move and delete files – embraced metaphor and a graphical approach. This is, of course, commonplace here and now, but it caught the eye of Steve Jobs who, rightly, saw this approach as the future of computing.
+
+
+![The Original Macintosh Interface](images/ch1/macintosh-gui.png)
+
+**CAPTION: This image will show an early UI, probably System 7, so that I can provide some context on the emergence of graphical user interfaces. It will also have a timeline (Memex → Alto → System 7 → Etc.).**
+
 
 One of the best known early GUIs was Apple’s pre-OS X operating system. System 7 (which was the first graphical user interface I started using many, many years ago!). System 7 (and, before it, Apple’s Lisa OS) was considerably easier to navigate than issuing commands via a keyboard.
 
@@ -137,9 +143,8 @@ Understanding this history might seem like a distraction, but spending a little 
 + Mental Models
 + …
 
-**IMG: 1/3 Terminal; 1/3 System 7; 1/3 iOS**
 
-**CAPTION: This image will show half a century of user interface design in one image. On the left, the terminal; in the middle System 7; on the right iOS.**
+
 
 Of course user interfaces have come a long, long way since the early 70s and we’re now witnessing the rise of non-graphical user interfaces, particularly conversational and voice interfaces. In this book, I’ll focus primarily on graphical user interfaces across a range of contexts:
 
@@ -154,9 +159,9 @@ If conversational and voice interfaces interest you, have no fear, I have you co
 Section 2: Designing Human Interfaces
 -------------------------------------
 
-![Placeholder Image](images/ch1/human-interfaces.jpg)
+![A man using an iPhone.](images/ch1/human-interfaces.jpg)
 
-**CAPTION: This image will show someone using a phone whilst undertaking another task.** [Photograph by [Gilles Lambert](https://unsplash.com/@gilleslambert) on [Unsplash](https://unsplash.com).]
+**CAPTION: Users are often using their phones (and other devices) whilst undertaking other tasks. By ensuring your UI is clear and easy to understand you get out of their way, enabling the, to focus on the task at hand.** [Photograph by [Gilles Lambert](https://unsplash.com/@gilleslambert) on [Unsplash](https://unsplash.com).]
 
 
 The trouble with the term ‘user interface’ is that it abstracts humans (messy, unpredictable and… human!) into an anonymous category of ‘users’. In fact these users are all different, above all, they’re all **humans**.
@@ -198,7 +203,7 @@ Section 3: Desktops and Metaphors
 
 ![Placeholder Image](images/ch1/metaphor-shopping-cart.png)
 
-**CAPTION: This image will show a series of ‘shopping carts’ and ‘baskets’ from different interfaces underlining the point that we encounter metaphor whenever we interact with a user interface.**
+**CAPTION: CAPTION: By embracing a shopping cart metaphor, different UIs adhere to a common language. Users understand – thanks to regular use – what a shopping cart stands for and this metaphor eases their use of the UI (a win!).**
 
 
 If you’ve ever bought anything from Amazon, you’ll have encountered metaphors. When you add something to your basket at Amazon, there is in fact no ‘basket’. The basket is just a metaphor – drawn from the real world – to help you understand where you store your items.
@@ -206,14 +211,6 @@ If you’ve ever bought anything from Amazon, you’ll have encountered metaphor
 As you check out and pay for your items, there is (thankfully) no check out line. You simply pay with your credit card and, magically, your purchases are on their way. This is metaphor in action.
 
 By using everyday models from the ‘real’ world, we can design easily understandable UIs that need very little in the way of explanation.
-
-
-**IMG: Baskets (Amazon, iTunes, etc.)**
-
-**CAPTION: By embracing the basket metaphor, all of these different UIs adhere to a common language. Users understand – thanks to regular use – what a basket stands for. This metaphor eases their use of the UI (a win!).**
-
-**\/\* I don't think I need this images, there's one above. \*\/**
-
 
 Understanding the existing use of metaphors is important. If a convention exists – a shopping basket, for example – it’s best to stick with this metaphor and resist the urge to invent a new one.
 
