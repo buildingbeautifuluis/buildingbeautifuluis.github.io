@@ -196,7 +196,7 @@ I’ll explore these in the next two sections. Unless you’re deeply aware of t
 Section 3: Desktops and Metaphors
 ---------------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch1/metaphor-shopping-cart.png)
 
 **CAPTION: This image will show a series of ‘shopping carts’ and ‘baskets’ from different interfaces underlining the point that we encounter metaphor whenever we interact with a user interface.**
 
@@ -207,9 +207,13 @@ As you check out and pay for your items, there is (thankfully) no check out line
 
 By using everyday models from the ‘real’ world, we can design easily understandable UIs that need very little in the way of explanation.
 
+
 **IMG: Baskets (Amazon, iTunes, etc.)**
 
 **CAPTION: By embracing the basket metaphor, all of these different UIs adhere to a common language. Users understand – thanks to regular use – what a basket stands for. This metaphor eases their use of the UI (a win!).**
+
+**\/\* I don't think I need this images, there's one above. \*\/**
+
 
 Understanding the existing use of metaphors is important. If a convention exists – a shopping basket, for example – it’s best to stick with this metaphor and resist the urge to invent a new one.
 
