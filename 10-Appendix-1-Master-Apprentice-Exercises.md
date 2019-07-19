@@ -1,7 +1,9 @@
 Master-Apprentice Exercises
 ===========================
 
-<!-- 987 Words -->
+<!-- 1,133 Words -->
+
+**I’m just in the process of converting my Keynote Master-Apprentice files into XD files (20 July, 2019). I’m aiming to have this done 22-26 July.**
 
 **As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -36,7 +38,7 @@ Desktop
 The desktop examples I’ve included are browser-focused, but the principles apply equally to desktop software.
 
 
-<img src=”images/master-apprentice/gov-uk.png” width=”650”>
+<img src="images/master-apprentice/gov-uk.png" width="650">
 
 ### GOV.UK
 
@@ -48,7 +50,7 @@ The UK government’s award-winning [GOV.UK](https://www.gov.uk) website is an e
 ---
 
 
-<img src=”images/master-apprentice/if-the-moon.png” width=”650”>
+<img src="images/master-apprentice/if-the-moon.png" width="650">
 
 ### If the Moon Were Only 1 Pixel
 
@@ -66,7 +68,7 @@ Mobile (Smartphone, Tablet)
 The mobile examples I’ve included are for iOS (because I have an iPhone), but – broadly – the principles of information architecture and user interface design map over to other mobile platforms.
 
 
-<img src=”images/master-apprentice/fantastical.png” width=”650”>
+<img src="images/master-apprentice/fantastical.png" width="650">
 
 ### Fantastical
 
@@ -78,7 +80,7 @@ Fantastical 2 for iOS by [Flexibits](https://flexibits.com) is a lovely example 
 ---
 
 
-<img src=”images/master-apprentice/things.png” width=”650”>
+<img src="images/master-apprentice/things.png" width="650">
 
 ### Things 3
 
@@ -96,7 +98,7 @@ Wrist
 The wrist examples I’ve included are for Apple’s watchOS (because I have an Apple Watch). If possible – and of course affording every single device is an issue! – it helps to own the devices you’re designing for so you can truly understand them by using them regularly. 
 
 
-<img src=”images/master-apprentice/activity.png” width=”650”>
+<img src="images/master-apprentice/activity.png" width="650">
 
 ### Activity
 
@@ -108,7 +110,7 @@ At its heart the Activity app for the [Apple Watch](https://www.apple.com/uk/wat
 ---
 
 
-<img src=”images/master-apprentice/bear.png” width=”650”>
+![ALT](images/master-apprentice/bear.png)
 
 ### Bear
 
