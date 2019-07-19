@@ -100,9 +100,9 @@ This intense period in computing history saw the emergence of the field of Human
 Section 1: The ‘UI’ in ‘GUI’
 ----------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch1/cli-macos-ios.png)
 
-**CAPTION: This image will show half a century of user interface design in one image. On the left, the terminal; in the middle System 7; on the right iOS.**
+**CAPTION: This image will show over half a century of user interface design in one image. On the left, the terminal; in the middle System 7; on the right iOS. (This image is a shitshow, sorry, and it needs to be reworked so that it has more finesse.)**
 
 
 Before I dive into the depths of user interfaces (UIs), I think it’s important to get some definitions out of the way. The term ‘UI’ we know and love today has its origins in the 70s term ‘GUI’, an abbreviation of **graphical user interface**.
@@ -142,9 +142,6 @@ Understanding this history might seem like a distraction, but spending a little 
 + The Use of Metaphor in UI
 + Mental Models
 + …
-
-
-
 
 Of course user interfaces have come a long, long way since the early 70s and we’re now witnessing the rise of non-graphical user interfaces, particularly conversational and voice interfaces. In this book, I’ll focus primarily on graphical user interfaces across a range of contexts:
 
