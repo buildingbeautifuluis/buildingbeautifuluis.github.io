@@ -316,7 +316,7 @@ Google’s Material Design guidelines have [a useful overview of buttons](https:
 When designing a button, try and ensure it’s clearly communicated within your interface. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
 
-![Placeholder](images/toggles.png)
+![Placeholder](images/ch2/toggles.png)
 
 **CAPTION: This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example.**
 
@@ -341,7 +341,7 @@ Toggles allow users to change settings between two states, for example: on and o
 **\/\* MORE HERE \*\/**
 
 
-![Placeholder](images/progress-indicators.png)
+![Placeholder](images/ch2/progress-indicators.png)
 
 **CAPTION: This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation.**
 
@@ -370,7 +370,7 @@ Progress indicators can be dynamic (for example providing user feedback about th
 Progress indicators are useful for communicating time and alleviating your users’ concerns by showing them that **something is happening**. There is also an opportunity – should your design warrant it – to design progress bars designed to **[delight users](https://www.justinmind.com/blog/10-inspiring-progress-bars-that-delight-users/)** while they wait.
 
 
-![Placeholder](images/tags.png)
+![Placeholder](images/ch2/tags.png)
 
 **CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags are just like buttons, here indicating which tags are selected.**
 
@@ -391,7 +391,7 @@ Tags are useful in lots of different contexts, for example in profile components
 **\/\* MORE HERE \*\/**
 
 
-![Placeholder](images/tool-tips.png)
+![Placeholder](images/ch2/tool-tips.png)
 
 **CAPTION: This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above.**
 
