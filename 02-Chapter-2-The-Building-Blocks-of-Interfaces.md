@@ -1,9 +1,9 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 6,145 Words -->
+<!-- 7,028 Words -->
 
-**I’m currently working on this chapter (Saturday, 20 July, 2019). I hope to have it in a readable form by the end of the day. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
+**I’m currently working on this chapter (Saturday, 20 July, 2019). I hope to have it in a fully readable form by the end of the day. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -43,11 +43,13 @@ A **page** is *created from objects, elements and components*.
 
 A **flow** is *created from a series of pages that are linked together (including modals, popovers, etc.)*. A flow is what we’re building towards – **from the ground up** – and is the most complex part of the equation.
 
-Last night, at 2.30 am, all of this collapsed, after re-reading GOV.UK’s [Design System](https://design-system.service.gov.uk/) documentation. 😢
+Last night, at 2.30 am, all of this collapsed, after re-reading GOV.UK’s [Design System](https://design-system.service.gov.uk/) documentation.
 
-**I need to fix this now – as it impacts the whole book – which is why I’m asking for your help, which is very much appreciated!**
+😢
 
-GOV.UK’s *components* are what I’ve been calling *elements* (yikes!) so I need to rethink my approach (I think) and move components further down the level of complexity.
+**I need to fix this now – as it impacts the whole book – which is why I’m asking for your help, which I really appreciate!**
+
+GOV.UK’s *components* are what I’ve been calling *elements* so I need to rethink my approach (I think) and move components further down the level of complexity.
 
 Here is how GOV.UK defines [components](https://design-system.service.gov.uk/components/):
 
@@ -58,22 +60,26 @@ Put simply, GOV.UK’s *components* are my *elements*, so I might need to rethin
 
 	Objects → Components → ???? → Pages → Flows
 
-This would have the benefit of fitting with how XD names supercharged symbols as components. It would also build on existing naming conventions (paving the cowpaths), which is a good thing.
+This would have the benefit of fitting with how XD names supercharged symbols as components. It would also build on existing GOV.UK naming conventions (paving the cowpaths), which is a good thing.
 
 Here is how GOV.UK defines [patterns](https://design-system.service.gov.uk/patterns/) (which are what I was calling components):
 
 > Patterns often use one or more components and explain how to adapt them to the context.
 > —GOV.UK
 
-This now (sorry!) strikes me as making much more sense. So: **objects** are used to build **components**, which are then organised into **patterns**, that are then used to build **pages** and, subsequently, **flows**.
+This now strikes me as making much more sense. So: **objects** are used to build **components**, which are then organised into **patterns**, that are then used to build **pages** and, subsequently, **flows**.
 
-My gut tells me to follow GOV.UK’s naming conventions so I’m not introducing **yet another methodology** that will confuse people. So, I’m thinking of changing everything to this:
+My gut tells me to follow GOV.UK’s naming conventions so I’m not introducing **yet another methodology** that will confuse people. So, I’m thinking of changing the naming convention to this:
 
 	Objects → Components → Patterns → Pages → Flows
 
-One added benefit of using the term patterns is that **I can reference Christopher Alexander’s 1977 book *A Pattern Language*, which I reference a great deal in my teaching**.
+One added benefit of using the term ‘patterns’ is that **I can also reference Christopher Alexander’s 1977 book *A Pattern Language*, which I explore a great deal in my teaching**.
 
 [I’d welcome your thoughts on this.](mailto:christopher@mrmurphy.com) I’m so far into the forest I could really benefit from an outside view to help me see the trees – and the forest! – a little more clearly.
+
+All I really need is a simple Y / N answer (unless you have further thoughts) to the following question. Is this a better naming methodology?
+
+	**Objects → Components → Patterns → Pages → Flows**
 
 **Thank you!**
 
@@ -169,9 +175,9 @@ Just like LEGO blocks can be combined to create relatively complicated construct
 Break apart any page – whether it’s desktop-, mobile- or wrist-based – and you’ll see that it’s created from a series of elements and components. **Mastering how to draw these different elements and components will put you in a position to create anything your UI requires.**
 
 
-![Placeholder](images/inline-placeholder-image.png)
+![Placeholder](images/ch2/break-apart)
 
-**CAPTION: Break apart any page and you’ll see it’s create from elements and components. Mastering how to draw these building blocks is what will establish a firm foundation on which to build.**
+**CAPTION: This is a temporary image. It will be replaced by an image of an interface that I’ve deconstructed. Break apart any page and you’ll see it’s create from elements and components. Mastering how to draw these building blocks is what will establish a firm foundation on which to build.**
 
 
 The temptation when you’re starting out is to dive in at the deep end and try to build something all-encompassing and complicated. This isn’t an approach I’d recommend. **Taking on too big a challenge can quickly lead to frustration because you’ve undertaken a task that’s far too challenging and complex.**
@@ -187,9 +193,9 @@ With that out of the way, let’s take a look at the different constituent parts
 Section 2: Objects → Elements → Components → Pages → Flows
 ----------------------------------------------------------
 
-![Objects → Elements → Components → Pages → Flows](images/ch2/objects-elements.png)
+![Objects → Elements → Components → Pages → Flows](images/ch2/objects-elements-components-2px.png)
 
-**CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface elements, which can then be combined to create components that are then organised on pages. Link these pages together and we have the flows that underpin our user interface.**
+**CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface elements, which can then be combined to create components that are then organised on pages. Link these pages together and we have the flows that underpin our user interface. (As we move from left to right, we increase complexity.)**
 
 
 **Everything we create is built from smaller parts.** At the simplest level, user interfaces are comprised of the following:
@@ -247,9 +253,9 @@ User interfaces that are inconsistent are not only aesthetically poor, but they 
 Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](#), so I’ll be focusing in this chapter on the look of your elements, but keep in mind behaviour – and feel – is important, too.
 
 
-![Placeholder](images/inline-placeholder-image.png)
+![Placeholder](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: This will be an image of four objects that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a tag, a tool tip and a toggle.**
+**CAPTION: This is a temporary image. It will be replaced by an image of four elements that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)**
 
 
 As you build your elements, consider how your they are consistently:
@@ -258,7 +264,7 @@ As you build your elements, consider how your they are consistently:
 + sized; and
 + scaled.
 
-It’s also import to **consider the relationships between your elements** and how they relate <!-- relationship… relate --> to each other. It’s highly unlikely that your elements will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but as you build different elements, bear in mind that they’ll be existing as part of a system.
+It’s also import to **consider the relationships between your elements** and how they correlate to each other. It’s highly unlikely that your elements will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but as you build different elements, bear in mind that they’ll be existing as part of a system.
 
 It’s important to focus on consistency: ensuring that line weights are the same thickness throughout (unless there’s a reason for them not to be); ensuring that your colour palette is consistent; ensuring that any elements with a border-radius uses the same radius; and that padding within elements is the same.
 
@@ -293,7 +299,7 @@ The interfaces you design won’t necessarily need **all** of the elements that 
 
 ![Some Typical UI Button Types](images/ch2/buttons-temp.png)
 
-**CAPTION: In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).**
+**CAPTION: This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).**
 
 #### Buttons
 
@@ -307,12 +313,12 @@ Buttons indicate an action – on click or touch – that users can take, and ar
 
 Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive demo that lets you preview button components and their different variations.
 
-When designing a button, try and ensure it’s clearly communicated within your interface. This is particularly important if your button is for a ‘call to action’. As the above illustration shows, you can adjust the emphasis of a button by varying its design.
+When designing a button, try and ensure it’s clearly communicated within your interface. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
 
-![Placeholder](images/inline-placeholder-image.png)
+![Placeholder](images/toggles.png)
 
-**CAPTION: Caption here.**
+**CAPTION: This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example.**
 
 #### Toggles (Or Switches)
 
@@ -335,9 +341,9 @@ Toggles allow users to change settings between two states, for example: on and o
 **\/\* MORE HERE \*\/**
 
 
-![Placeholder](images/inline-placeholder-image.png)
+![Placeholder](images/progress-indicators.png)
 
-**CAPTION: A progress bar needs to go here.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation.**
 
 #### Progress Indicators
 
@@ -357,18 +363,16 @@ Linear progress indicators are composed of two required elements:
 
 -->
 
-Progress bars communicate what stage a user is as at as they progress through a series of tasks. They can also be used to indicate other types of information, for example the progress of a download.
+Progress indicators **communicate what stage a user is as at as they progress through a series of tasks**. They can also be used to **indicate other types of information, for example the progress of a download**.
 
-Progress bars can be dynamic (moving, for example showing the progress of a download) or static (fixed, for example showing where a user is in a sequence of tasks).
+Progress indicators can be dynamic (for example providing user feedback about the progress of a download) or static (for example showing where a user is in a sequence of tasks).
 
-Progress bars are useful for communicating time and alleviating your users’ concerns by showing them that **something is happening**. There is also an opportunity – should your design warrant it – to design progress bars designed to delight users while they wait.
-
-**\/\* MORE HERE \*\/**
+Progress indicators are useful for communicating time and alleviating your users’ concerns by showing them that **something is happening**. There is also an opportunity – should your design warrant it – to design progress bars designed to **[delight users](https://www.justinmind.com/blog/10-inspiring-progress-bars-that-delight-users/)** while they wait.
 
 
-![Placeholder](images/inline-placeholder-image.png)
+![Placeholder](images/tags.png)
 
-**CAPTION: A series of tags needs to go here.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags are just like buttons, here indicating which tags are selected.**
 
 #### Tags
 
@@ -387,9 +391,9 @@ Tags are useful in lots of different contexts, for example in profile components
 **\/\* MORE HERE \*\/**
 
 
-![Placeholder](images/inline-placeholder-image.png)
+![Placeholder](images/tool-tips.png)
 
-**CAPTION: A set of tool tips need to go here.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above.**
 
 #### Tool Tips
 
@@ -397,17 +401,15 @@ Tags are useful in lots of different contexts, for example in profile components
 
 https://material.io/design/components/tooltips.html
 
-> Tooltips display informative text when users hover over, focus on, or tap an element.
-
 This is useful:
 
 https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F0B54x0KDcs5U-a0Vrdnlib1R5TFk%2Ftooltip-usage-do.png
 
 -->
 
-Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed. Tool tips are often opened **on top of the screen the use is currently on** saving a round trip back and forth between pages.
+Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed. Tool tips are often opened **on top of the screen the user is currently on** saving a round trip back and forth between pages.
 
-**\/\* MORE HERE \*\/**
+Tool tips can also display informative text when users hover over, focuses on or taps an element. 
 
 
 
@@ -592,26 +594,21 @@ There are many great publications, offline and online, that will help further un
 Downloadables
 -------------
 
-This chapter is accompanied by a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
+I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
 
-I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards as you see fit.**
+I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards to assist your learning, however, I retain the copyright.**
 
 + [XD Artboards](downloadables/ch2/chapter-2-all-artboards.xd)
 + [PDF Swipe File (With Example Elements)](#) [Coming soon.]
 + [Master-Apprentice Exercises](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md)
 
+You can download, adapt or transform the files (non-commercially, for educational purposes), but you cannot use them for commercial purposes.
 
-<!--
++ [Copyright · Mr Murphy ®](https://mrmurphy.com/)
 
-These files are shared under a Creative Commons [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) license. In plain terms, this means **you can copy and redistribute the files, adapt or transform them (even commercially), but you must provide attribution and provide appropriate credit** by linking to my website:
-
-+ [Mr Murphy Ltd.](https://mrmurphy.com/)
-
-I appreciate that providing attribution can be an added burden, but **I hope you can see from the supporting files that I put a lot of work into creating them**. Credit where credit’s due.
+**I hope you can see from the supporting files that I put a lot of work into creating them. I’d appreciate your respecting their copyright.**
 
 **#karma**
-
--->
 
 
 
