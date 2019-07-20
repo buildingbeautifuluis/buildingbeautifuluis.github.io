@@ -1,7 +1,7 @@
 Chapter 1: Designing Interfaces
 ===============================
 
-<!-- 4,255 Words -->
+<!-- 4,354 Words -->
 
 **This chapter is at the editing stage, so it’s readable. I’ll be developing the images shortly, but the content should – I hope! – be sound.**
 
@@ -35,6 +35,25 @@ I think they should all follow the same rhythm (This is me and my OCD! I like co
 
 This chapter needs selected bold text, like Chapter 2. Do this once I’ve paased it over to Kyle for editing.
 
+5. iOS ≠ Android
+
+Designing for different platforms. This needs to be a sub-section on its own that explains the importance of adopting the 'design language' and paradigms of the platform you are designer.
+
+An iOS application and an Android application – even if they are the sam application by the same company – will be tailored to the different platforms. (Again, this is about users' expectations and mental models.
+
+Compare and contrast:
+
+1. Reply:
+
++ https://material.io/design/material-studies/reply.html#reply
+
++ https://www.androidcentral.com/reply-wants-add-smart-replies-all-your-messaging-apps
+
+2. Mail:
+
++ https://apps.apple.com/us/app/mail/id1108187098
+
+	
 -->
 
 

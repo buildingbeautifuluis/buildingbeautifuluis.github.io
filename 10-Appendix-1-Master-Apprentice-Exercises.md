@@ -1,7 +1,7 @@
 Master-Apprentice Exercises
 ===========================
 
-<!-- 1,133 Words -->
+<!-- 1,119 Words -->
 
 **I’m just in the process of converting my Keynote Master-Apprentice files into XD files (20 July, 2019). I’m aiming to have this done 22-26 July.**
 

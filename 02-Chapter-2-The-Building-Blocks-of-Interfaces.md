@@ -3,7 +3,7 @@ Chapter 2: The Building Blocks of Interfaces
 
 <!-- 7,028 Words -->
 
-**I’m currently working on this chapter (Saturday, 20 July, 2019). I hope to have it in a fully readable form by the end of the day. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
+**I’m currently finalising this chapter (Saturday, 20 July, 2019). I hope to have it in a fully readable form by Sunday morning. Sections 1-4 are more or less done. I’m in the process of adding a sub-section to Section 5 that explores some large scale example design systems (Airbnb, etc.).**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -33,7 +33,7 @@ When I was teaching my students at Belfast School of Art last semester, I used t
 
 You can see a visual of this [here](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/objects-elements-components.png).
 
-+ An **object** is a basic building block from which we build interfaces: a point (circle), a line, a plane, icons and typographic elements. (Icons are built from objects, too.)
++ An **object** is a basic building block from which we build interfaces: points (circles), lines and planes; icons; and typographic elements. (Icons are built from objects, too.)
 
 + An **element** is *created from objects* and, as I’ve used it below, is something like [a button](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/buttons.png), [a toggle or switch](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/toggles.png), or [a progress indicator](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/progress-indicators.png), etc..
 
@@ -75,9 +75,7 @@ My gut tells me to follow GOV.UK’s naming conventions so I’m not introducing
 
 One added benefit of using the term ‘patterns’ is that **I can also reference Christopher Alexander’s 1977 book *A Pattern Language*, which I explore a great deal in my teaching**.
 
-[I’d welcome your thoughts on this.](mailto:christopher@mrmurphy.com) I’m so far into the forest I could really benefit from an outside view to help me see the trees – and the forest! – a little more clearly.
-
-All I really need is a simple Y / N answer (unless you have further thoughts) to the following question. Is this a better naming methodology?
+[I’d welcome your thoughts on this.](mailto:christopher@mrmurphy.com) I’m so far into the forest I could really benefit from an outside view to help me see the trees – and the forest! – a little more clearly. All I really need is a simple Y / N answer (unless you have further thoughts) to the following question. Is this a better naming methodology?
 
 	Objects → Components → Patterns → Pages → Flows
 
@@ -109,6 +107,14 @@ In this chapter **I’ll introduce the fundamental building blocks that interfac
 
 I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany this chapter (and many of the other chapters). **These supporting files walk through the process for more visual learners and can be used alongside the book.**
 
+<!--
+
+The references to supporting files will need to be removed if we can’t agree a non-exclusive license for Adobe. This additional content is 100% developed by me and is outside the scope of the SoW, which is for a book and a glossary.
+
+I’d like to grant Adobe a non-exclusive license as it will raise the profile of the book, but this 100% depends on licensing and IP agreements.
+
+-->
+
 
 
 Overview
@@ -118,7 +124,7 @@ Over the following three connected chapters **I’ll progressively introduce the
 
 In this chapter, ‘The Building Blocks of Interfaces’, I’ll introduce the idea of **a core set of elements with which we can build interfaces**. These include: buttons, toggles, tags and other essential elements. I’ll show how these elements are constructed and explain **how they form the basis of a consistent, yet flexible, design system**.
 
-In Chapter 3, ‘Information Architecture’, **I’ll explore how we can combine these elements to create components, out of which we build pages**. These components include familiar design patterns, including ‘cards’, **popularised by Google’s [Material Design](#) principles**. Lastly – as the chapter’s title promises – **I’ll explore the principles of information architecture**.
+In Chapter 3, ‘Information Architecture’, **I’ll explore how we can combine these elements to create components, out of which we build pages**. These components include familiar design patterns, including ‘cards’, **popularised by Google’s [Material Design](https://material.io/design/components/cards.html) principles**. Lastly – as the chapter’s title promises – **I’ll explore the principles of information architecture**.
 
 In Chapter 4, ‘Getting From A → B’, **I’ll tie everything together by introducing the idea of ‘journey mapping’ and ‘user flows’**. By focusing on how pages are connected together I’ll explore the last piece of the user interface jigsaw: **considering how users move through an interface**, getting from A → B.
 
@@ -138,7 +144,7 @@ When you’re starting on your journey as a user interface designer **it can be 
 
 Take any interface, however, and you’ll see that **even the most complicated of interfaces is built up of simpler elements and components**. By starting with these elements and components you can quickly develop an understanding of how UIs are constructed.
 
-Working with my students at Belfast School of Art, I encourage them to **take existing interfaces and break them down into their constituent parts**. By using a [‘Master-Apprentice‘](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) approach – analysing others’ interfaces and rebuilding them – **you not only learn about how interfaces are constructed, but you also begin to understand the principles that lie behind good interface design**.
+Working with my students at Belfast School of Art, I encourage them to **take existing interfaces and break them down into their constituent parts**. By using a [‘Master-Apprentice’](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) approach – analysing others’ interfaces and rebuilding them – **you not only learn about how interfaces are constructed, but you also begin to understand the principles that lie behind good interface design**.
 
 
 ### The Master-Apprentice Model
@@ -147,7 +153,7 @@ The Master-Apprentice model stretches back to the days of painters like [Rembran
 
 In the 17th century, apprentices’s education was undertaken for a minimum of 2-3 years, and – at times – for as many as seven years. A two year apprenticeship was considered to be the minimum, with guild rules dictating that an apprentice couldn’t leave their master before their term had ended. An apprenticeship was an investment, with a total cost of 600-700 guilders, which could buy a small house at that time.
 
-The good news is that – in our connected world underpinned by the web – **you can embark upon a ‘virtual apprenticeship’ at relatively little cost**. All you need is time and a willingness to work hard and learn. [Dribbble](https://dribbble.com/search?q=UI) is a good place to start. **Search for UI, choose something you like and rebuild it.**
+The good news is that – in our connected world underpinned by the web – **you can embark upon a ‘virtual apprenticeship’ at relatively little cost**. All you need is time and a willingness to work hard and learn. [Dribbble](https://dribbble.com/search?q=UI) is a good place to start. **Search for [UI](https://dribbble.com/search?q=UI), choose something you like and rebuild it.**
 
 One small, but important point to note: What I’m **not** suggesting is **copying your finished user interface** by raiding Dribbble like a Viking. **I’m suggesting learning to use drawing tools – like XD – by deconstructing and rebuilding others’ work.**
 
@@ -157,7 +163,7 @@ One small, but important point to note: What I’m **not** suggesting is **copyi
 **CAPTION: Dan Gold, a second year student on my Interaction Design programme at Belfast School of Art, created the above Master-Apprentice exercise. On the left is the original, by [Nadia Ivanova](https://dribbble.com/nadiat_t), on the right is Gold’s exercise.**
 
 
-To help you on your learning journey **I’ve provided a series of ‘Master-Apprentice’ examples** in addition to the example above, so you can see how these exercises work.
+To help you on your learning journey **I’ve provided a series of [‘Master-Apprentice’](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) examples** in addition to the example above, so you can see how these exercises work.
 
 I’ve provided examples of desktop, mobile (smartphone, tablet) and wrist UIs so **you can begin to develop an understanding of different interfaces across a range of contexts**. I created these myself so that I could develop my skills. I might be fast approaching 50 years old, but I’m still learning!
 
@@ -170,7 +176,7 @@ Coyier’s [rebuild](https://codepen.io/chriscoyier/full/KLWgVy) of Cultured Cod
 
 One of the reasons that LEGO is such a much-loved product is the fact that **from a series of individual building blocks you can make almost anything you put your mind to**. You’re limited only by your imagination.
 
-Just like LEGO blocks can be combined to create relatively complicated constructions, so, too, **complex interfaces are created from relatively simple elements**.
+Just like LEGO blocks can be combined to create relatively complicated constructions, so, too, **complex interfaces can be created from relatively simple elements**.
 
 Break apart any page – whether it’s desktop-, mobile- or wrist-based – and you’ll see that it’s created from a series of elements and components. **Mastering how to draw these different elements and components will put you in a position to create anything your UI requires.**
 
@@ -184,7 +190,7 @@ The temptation when you’re starting out is to dive in at the deep end and try 
 
 A far better approach – one that LEGO also uses – is to **start with something simple and progressively add complexity as your skills develop**. Practice makes perfect and as Mr Miyagi – from the film [The Karate Kid](https://www.youtube.com/watch?v=fULNUr0rvEc) – emphasises: “Wax on. Wax off.” If you haven’t seen The Karate Kid: firstly, you should (the original, not the remake); secondly, Mr Miyagi’s sage advice is simple, but effective: practice, practice, practice.
 
-In short: **Master the fundamentals and the rest falls into place.**
+In short: **Master the fundamentals and the rest falls into place.** Or learn to walk before you attempt to run.
 
 With that out of the way, let’s take a look at the different constituent parts that comprise an interface and begin to unravel them.
 
@@ -206,34 +212,41 @@ Section 2: Objects → Elements → Components → Pages → Flows
 + Pages
 + Flows
 
-In this chapter, **I’ll be focusing on elements, demonstrating how they can be built from simple objects: points (circles), lines, planes and typography**.
+In this chapter, **I’ll be focusing on elements, demonstrating how they can be built from simple objects: points (circles), lines and planes; icons; and typographic elements**.
 
 In the next chapter, I’ll show how these **elements can be combined to create components and pages**, which form the backbone of our user interfaces. In the following chapter, I’ll explore how **we can tie these separate pages together into flows that allow a user to navigate through an interface**.
 
-This approach – Objects → Elements → Components → Pages → Flows – is similar to Brad Frost’s [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/) methodology. I never studied chemistry, so I find Frost’s naming convention – which features ‘atoms’ and ‘molecules’ from the world of chemistry and ‘organisms’ from the world of biology – a little confusing.
+This approach – Objects → Elements → Components → Pages → Flows – is similar to Brad Frost’s [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/) methodology. I never dived deep into science, so I find Frost’s naming convention – which features ‘atoms’ and ‘molecules’ from the world of chemistry and ‘organisms’ from the world of biology – a little confusing.
 
-Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although – to be clear, in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)
+Frost’s methodology is also directed primarily at front-end designers who are using HTML, CSS and JavaScript. Designing interfaces in a tool like Adobe XD is increasingly separated from the world of code. (Although, to be clear – in case I spark the ‘designers should know how to code’ debate – it helps to at least have an understanding of code!)
 
 Given the rise of different specialisms that we’re seeing emerging in the world of user experience design, I believe there’s a need for a different naming convention, one that’s specifically focused on visual designers creating user interfaces.
 
 Looking at the illustration at the beginning of this section, I prefer the labels: **objects, elements, components, pages and flows**. I find these labels easier to grasp and they should, I feel, need no explanation.
+
+I've drawn these terms by looking at the work of others, particularly the award-winning GOV.UK team's work on the [GOV.UK Design System](https://design-system.service.gov.uk). As GOV.UK put it:
+
+> Learn from the research and experience of other service teams and avoid repeating work that’s already been done.
+
+There's no need to reinvent the wheel and, in the spirit of reusing existing naming conventions, I've drawn my naming methodology from their work, adding the term 'objects' to explain the fundamental building blocks from which all of our user interfaces are created.
+
 
 
 ### Objects → Elements
 
 **Every element that we create for a user interface is built from smaller objects.** By learning to mentally break apart the elements we encounter – into their constituent objects – we begin to understand how they are constructed.
 
-Analysing how existing elements are constructed we see that **everything we see in a user interface – an element, a component or a page – is comprised of other, simpler objects**.
+Analysing how existing elements are built we see that **everything we see in a user interface – an element, a component or a page – is comprised of other, simpler objects**.
 
 
 ![Placeholder Image](images/ch2/constructing-elements.png)
 
-**CAPTION: In the above example, the button element is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines.**
+**CAPTION: In the above example, the button element is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow.**
 
 
 This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **elements – the fundamental units from which we build interfaces – are created from relatively simple objects**.
 
-Understanding how the basic building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can the combine and build into complex interfaces through the creation of components and pages.
+Understanding how the fundamental building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can then combine and build into complex interfaces through the creation of components and pages.
 
 One significant benefit of the approach of **building from the element up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s acquaint ourselves with the anatomy of some further elements.
 
@@ -250,7 +263,7 @@ By reusing a series of core objects to build your elements, **your UI benefits f
 
 User interfaces that are inconsistent are not only aesthetically poor, but they also **lead to confused and frustrated users**, which can result in even the most promising of digital products to fail.
 
-Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](#), so I’ll be focusing in this chapter on the look of your elements, but keep in mind behaviour – and feel – is important, too.
+Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md), so I’ll be focusing in this chapter on the look of your elements, but keep in mind behaviour – and feel – is important, too.
 
 
 ![Placeholder](images/ch2/a-range-of-different-elements.png)
@@ -258,17 +271,28 @@ Consistency isn’t just about **how user interfaces look**, it’s also about *
 **CAPTION: This is a temporary image. It will be replaced by an image of four elements that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)**
 
 
-As you build your elements, consider how your they are consistently:
+As you build your elements, consider how they are consistently:
 
 + aligned;
 + sized; and
 + scaled.
 
-It’s also import to **consider the relationships between your elements** and how they correlate to each other. It’s highly unlikely that your elements will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but as you build different elements, bear in mind that they’ll be existing as part of a system.
+It’s also import to **consider the relationships between your elements** and how they correlate to each other. It’s highly unlikely that your elements will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but **as you build different elements, bear in mind that they’ll be existing as part of a wider system**.
 
-It’s important to focus on consistency: ensuring that line weights are the same thickness throughout (unless there’s a reason for them not to be); ensuring that your colour palette is consistent; ensuring that any elements with a border-radius uses the same radius; and that padding within elements is the same.
+<!--
 
-This level of attention to detail is what sets apart the masters from the amateurs. It might seem overwrought, but the benefits of this approach can’t be stressed highly enough.
+I might want to reword the border-radius bullet point. Many successful  designs use considered, but different corner-radii.
+
+-->
+
+It’s important to focus on consistency, ensuring that:
+
++ line weights are the same thickness throughout (unless there’s a reason for them not to be);
++ your colour palette is consistent;
++ any elements with a border-radius uses the same radius; and
++ padding within elements is the same.
+
+**This level of attention to detail is what sets apart the masters from the amateurs.** It might seem overwrought, but the benefits of this approach can’t be stressed highly enough. We're striving for as close to perfection as we can achieve!
 
 
 
@@ -284,17 +308,15 @@ Now that we understand how elements are constructed, it’s time to dive in and 
 
 As I noted in the preceding chapter, users have a mental model of how interfaces work, so **try – as much as possible – to work within existing conventions**. By doing so, your users will at least have a head start when using your interface.
 
-<!-- This could be tightened up in the second, post-edit round. It’s a touch repetitive. -->
-
 The following isn’t an exhaustive list, but it does provide an overview of some typical elements you’ll need to consider.
 
 There are many, many more elements in user interface design. Ever-helpful, usability.gov have put together lots of useful information at [User Interface Elements](https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html). As they put it:
 
 > When designing your interface, try to be consistent and predictable in your choice of interface elements.
 > 
-> Whether they are aware of it or not, users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.
+> Whether they are aware of it or not, users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency and satisfaction.
 
-The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. As I explored in Chapter 1, users have [mental models](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models) of how things work. Sticking to these mental models as closely as you can will result in a user interface that’s clearer and more easily understood.
+The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. Sticking to these mental models as closely as you can will **result in a user interface that’s clearer and more easily understood**.
 
 
 ![Some Typical UI Button Types](images/ch2/buttons.png)
@@ -303,17 +325,11 @@ The interfaces you design won’t necessarily need **all** of the elements that 
 
 #### Buttons
 
-<!--
-
-https://material.io/design/components/buttons.html
-
--->
-
 Buttons indicate an action – on click or touch – that users can take, and are typically labelled with text, an icon or both. You’ll use them throughout your interface in places like: dialogs, forms and toolbars.
 
 Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive demo that lets you preview button components and their different variations.
 
-When designing a button, try and ensure it’s clearly communicated within your interface. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
+When designing a button, try and ensure it’s clearly communicated within your interface and looks 'clickable'. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
 
 ![Placeholder](images/ch2/toggles.png)
@@ -322,23 +338,13 @@ When designing a button, try and ensure it’s clearly communicated within your 
 
 #### Toggles (Or Switches)
 
-<!--
+Toggles or switches **enable users to complete tasks that require binary choices to be made**, for example, turning various settings on or off.
 
-https://material.io/design/components/selection-controls.html#usage
+In addition to toggles or switches, radio buttons or checkboxes can be used, depending on the content you're designing. Toggles or switches should be used instead of radio buttons or checkboxes when the choice is binary: A or B.
 
-Use switches to:
+Toggles allow users to change settings between two states, for example: activating or deactivating something. Ensuring the on and off states are visually distinct improves toggles usability.
 
-+ Toggle a single option on or off, on mobile and tablet
-
-+ Immediately activate or deactivate something
-
-Swtiches should be used instead of radio buttons if only one item can be selected from a list.
-
--->
-
-Toggles allow users to change settings between two states, for example: on and off. Ensuring the on and off states are visually distinct improves toggles usability.
-
-**\/\* MORE HERE \*\/**
+Once again, Google’s Material Design guidelines have [a useful overview of selection controls](https://material.io/design/components/selection-controls.html) that's well worth reading.
 
 
 ![Placeholder](images/ch2/progress-indicators.png)
@@ -349,25 +355,25 @@ Toggles allow users to change settings between two states, for example: on and o
 
 <!--
 
-https://material.io/design/components/progress-indicators.html
-
-**Determinate indicators** display how long a process will take. They should be used when the process completion rate can be detected.
+Add this?
 
 **Indeterminate indicators** express an unspecified amount of wait time. They should be used when progress isn’t detectable, or if it’s not necessary to indicate how long an activity will take.
 
-Linear progress indicators are composed of two required elements:
-
-1. Track: The track is a fixed width rule, with set boundaries for the indicator to travel along.
-
-2. Indicator: The indicator animates along the length of the track.
-
 -->
 
-Progress indicators **communicate what stage a user is as at as they progress through a series of tasks**. They can also be used to **indicate other types of information, for example the progress of a download**.
+Progress indicators **communicate what stage a user is as at as they progress through a series of tasks**. They can also be used to **indicate other types of information, for example, the progress of a download**.
 
-Progress indicators can be dynamic (for example providing user feedback about the progress of a download) or static (for example showing where a user is in a sequence of tasks).
+Progress indicators can be:** dynamic**, for example, providing user feedback about the progress of a download; or **static**, for example, showing where a user is in a sequence of tasks.
 
 Progress indicators are useful for communicating time and alleviating your users’ concerns by showing them that **something is happening**. There is also an opportunity – should your design warrant it – to design progress bars designed to **[delight users](https://www.justinmind.com/blog/10-inspiring-progress-bars-that-delight-users/)** while they wait.
+
+Progress indicators come in both linear and circular forms, as in the above example. Linear progress indicators are composed of two required elements:
+
+1. **Track:** The track is a fixed width rule, with set boundaries (establishing the beginning (0%) and end (100%)) for the indicator to travel along.
+
+2. **Indicator:** The indicator animates along the length of the track.
+
+**As I noted above, it's important to handle your interface elements consistently.** If you've used a circular progress indicator for a refresh action on one screen, that same action shouldn’t use a linear indicator on another screen.
 
 
 ![Placeholder](images/ch2/tags.png)
@@ -376,19 +382,13 @@ Progress indicators are useful for communicating time and alleviating your users
 
 #### Tags
 
-<!--
+Tags are useful in lots of different contexts, for example, in profile components or in content-driven components or pages. They can be used to:
 
-https://material.io/design/components/chips.html#usage
++ filter content;
++ make suggestions; or
++ trigger actions.
 
-This picture is good:
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1lxdaRJ6FXCuTNdmb5bxfBFevLdhzG4EG%2Felements.png
-
--->
-
-Tags are useful in lots of different contexts, for example in profile components or on content-driven pages. When designing tags, try and ensure that you distinguish them from buttons. It’s likely that the content of your tags will indicate this, but ensure that they don’t look like buttons.
-
-**\/\* MORE HERE \*\/**
+When designing tags, it's important to ensure that they are visually and behaviourally consistent. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. TK
 
 
 ![Placeholder](images/ch2/tool-tips.png)
@@ -397,19 +397,21 @@ Tags are useful in lots of different contexts, for example in profile components
 
 #### Tool Tips
 
+As the digital products we design and build become ever more complex, it's important to provide users with a helping hand where possible.
+
+Tool tips are perfect for providing users with additional informative text when users hover over, focus on or tap elements. **When designing tool tips, it's important to consider their behaviour** and how they appear (considering, for example, transitions and timings).
+
+Tool tips often appear **on top of the screen the user is currently interacting with**, saving a round trip back and forth to a help page. When designing tool tips **ensure that they don't hide obstruct the elements or components they are referring to**.
+
+Tool tips often fade in, remain present while the user is interacting with them and then automatically fade out when their purpose has been served. As I noted above, I'll explore these behavioural attributes in more depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md).
+
 <!--
 
-https://material.io/design/components/tooltips.html
+Make a video like this:
 
-This is useful:
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F0B54x0KDcs5U-a0Vrdnlib1R5TFk%2Ftooltip-usage-do.png
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F0B8wSqcLwbhFuYlpHNGcxdXRfZkE%2F01-tooltip-interaction.mp4
 
 -->
-
-Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed. Tool tips are often opened **on top of the screen the user is currently on** saving a round trip back and forth between pages.
-
-Tool tips can also display informative text when users hover over, focuses on or taps an element. 
 
 
 
