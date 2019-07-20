@@ -175,7 +175,7 @@ Just like LEGO blocks can be combined to create relatively complicated construct
 Break apart any page – whether it’s desktop-, mobile- or wrist-based – and you’ll see that it’s created from a series of elements and components. **Mastering how to draw these different elements and components will put you in a position to create anything your UI requires.**
 
 
-![Placeholder](images/ch2/break-apart)
+![Placeholder](images/ch2/break-apart.jpg)
 
 **CAPTION: This is a temporary image. It will be replaced by an image of an interface that I’ve deconstructed. Break apart any page and you’ll see it’s create from elements and components. Mastering how to draw these building blocks is what will establish a firm foundation on which to build.**
 
