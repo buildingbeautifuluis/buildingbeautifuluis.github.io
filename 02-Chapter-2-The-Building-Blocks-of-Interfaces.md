@@ -33,15 +33,15 @@ When I was teaching my students at Belfast School of Art last semester, I used t
 
 You can see a visual of this [here](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/objects-elements-components.png).
 
-An **object** is a basic building block from which we build interfaces: a point (circle), a line, a plane, icons and typographic elements. (Icons are built from objects, too.)
++ An **object** is a basic building block from which we build interfaces: a point (circle), a line, a plane, icons and typographic elements. (Icons are built from objects, too.)
 
-An **element** is *created from objects* and, as I’ve used it below, is something like [a button](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/buttons.png), [a toggle or switch](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/toggles.png), or [a progress indicator](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/progress-indicators.png), etc..
++ An **element** is *created from objects* and, as I’ve used it below, is something like [a button](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/buttons.png), [a toggle or switch](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/toggles.png), or [a progress indicator](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/progress-indicators.png), etc..
 
-A **component** is *created from elements* and, as I’ve used it below (and in the next chapter), is something like a [card](https://design-system.futurelearn.com/molecules/card), a [date picker](https://design-system.futurelearn.com/molecules/date-input), or a [feed item](https://design-system.futurelearn.com/molecules/feed-item).
++ A **component** is *created from elements* and, as I’ve used it below (and in the next chapter), is something like a [card](https://design-system.futurelearn.com/molecules/card), a [date picker](https://design-system.futurelearn.com/molecules/date-input), or a [feed item](https://design-system.futurelearn.com/molecules/feed-item).
 
-A **page** is *created from objects, elements and components*.
++ A **page** is *created from objects, elements and components*.
 
-A **flow** is *created from a series of pages that are linked together (including modals, popovers, etc.)*. A flow is what we’re building towards – **from the ground up** – and is the most complex part of the equation.
++ A **flow** is *created from a series of pages that are linked together (including modals, popovers, etc.)*. A flow is what we’re building towards – **from the ground up** – and is the most complex part of the equation.
 
 Last night, at 2.30 am, all of this collapsed, after re-reading GOV.UK’s [Design System](https://design-system.service.gov.uk/) documentation.
 
