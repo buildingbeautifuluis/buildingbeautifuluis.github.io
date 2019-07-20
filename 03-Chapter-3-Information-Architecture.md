@@ -199,14 +199,11 @@ A decade has passed since I designed the above example and yet – thanks to HTM
 Typeface choice, in this instance, wasn't important (although Georgia, designed by Matthew Carter, is a beautifully designed typeface). What was important was the use of the different typographic elements at a designer's disposal - scale, tone, colour, space, rules… - to establish a clear information hierarchy. Using typography to tease out the underlying meaning of the elements.
 
 
-### Macro-Typography
+### Macro- and Micro-Typography
 
 Perhaps typographic scales? Certainly the relationship between different elements… headings, paragraphs and other semantic components, for example, blockquotes and footnotes… (Footnotes isn't really a mobile thing…)
 
-
-### Micro-Typography
-
-Detail in typography… Is that a bit much for this?
+Detail in typography… Is that a bit much for this? No.
 
 
 

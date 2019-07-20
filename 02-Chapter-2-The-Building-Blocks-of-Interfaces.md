@@ -600,6 +600,9 @@ I’ve designed all of the XD artboards myself (except the swipe files, where I 
 + [PDF Swipe File (With Example Elements)](#) [Coming soon.]
 + [Master-Apprentice Exercises](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md)
 
+
+<!--
+
 These files are shared under a Creative Commons [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) license. In plain terms, this means **you can copy and redistribute the files, adapt or transform them (even commercially), but you must provide attribution and provide appropriate credit** by linking to my website:
 
 + [Mr Murphy Ltd.](https://mrmurphy.com/)
@@ -607,6 +610,8 @@ These files are shared under a Creative Commons [CC BY 4.0](http://creativecommo
 I appreciate that providing attribution can be an added burden, but **I hope you can see from the supporting files that I put a lot of work into creating them**. Credit where credit’s due.
 
 **#karma**
+
+-->
 
 
 
