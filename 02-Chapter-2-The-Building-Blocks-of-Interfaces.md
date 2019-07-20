@@ -297,7 +297,7 @@ There are many, many more elements in user interface design. Ever-helpful, usabi
 The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. As I explored in Chapter 1, users have [mental models](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models) of how things work. Sticking to these mental models as closely as you can will result in a user interface that’s clearer and more easily understood.
 
 
-![Some Typical UI Button Types](images/ch2/buttons-temp.png)
+![Some Typical UI Button Types](images/ch2/buttons.png)
 
 **CAPTION: This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).**
 
