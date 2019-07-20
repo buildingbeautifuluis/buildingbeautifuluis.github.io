@@ -79,7 +79,7 @@ One added benefit of using the term ‘patterns’ is that **I can also referenc
 
 All I really need is a simple Y / N answer (unless you have further thoughts) to the following question. Is this a better naming methodology?
 
-	**Objects → Components → Patterns → Pages → Flows**
+	Objects → Components → Patterns → Pages → Flows
 
 **Thank you!**
 
