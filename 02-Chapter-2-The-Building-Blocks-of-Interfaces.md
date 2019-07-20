@@ -1,9 +1,13 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 7,028 Words -->
+<!-- 7,634 Words -->
 
-**I’m currently finalising this chapter (Saturday, 20 July, 2019). I hope to have it in a fully readable form by Sunday morning. Sections 1-4 are more or less done. I’m in the process of adding a sub-section to Section 5 that explores some large scale example design systems (Airbnb, etc.).**
+**This chapter is at the pre-editing stage (Saturday, 20 July, 2019) whilst I gather some feedback on my naming conventions from a number of supersmart friends.**
+
+**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added some ‘NOTES FOR FEEDBACK’ immediately following these paragraphs, which provide context on the particular problem I’m revisiting. I hope to hear from you!**
+
+😊
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -224,11 +228,11 @@ Given the rise of different specialisms that we’re seeing emerging in the worl
 
 Looking at the illustration at the beginning of this section, I prefer the labels: **objects, elements, components, pages and flows**. I find these labels easier to grasp and they should, I feel, need no explanation.
 
-I've drawn these terms by looking at the work of others, particularly the award-winning GOV.UK team's work on the [GOV.UK Design System](https://design-system.service.gov.uk). As GOV.UK put it:
+I’ve drawn these terms by looking at the work of others, particularly the award-winning GOV.UK team’s work on the [GOV.UK Design System](https://design-system.service.gov.uk). As GOV.UK put it:
 
 > Learn from the research and experience of other service teams and avoid repeating work that’s already been done.
 
-There's no need to reinvent the wheel and, in the spirit of reusing existing naming conventions, I've drawn my naming methodology from their work, adding the term 'objects' to explain the fundamental building blocks from which all of our user interfaces are created.
+There’s no need to reinvent the wheel and, in the spirit of reusing existing naming conventions, I’ve drawn my naming methodology from their work, adding the term ‘objects’ to explain the fundamental building blocks from which all of our user interfaces are created.
 
 
 
@@ -292,7 +296,7 @@ It’s important to focus on consistency, ensuring that:
 + any elements with a border-radius uses the same radius; and
 + padding within elements is the same.
 
-**This level of attention to detail is what sets apart the masters from the amateurs.** It might seem overwrought, but the benefits of this approach can’t be stressed highly enough. We're striving for as close to perfection as we can achieve!
+**This level of attention to detail is what sets apart the masters from the amateurs.** It might seem overwrought, but the benefits of this approach can’t be stressed highly enough. We’re striving for as close to perfection as we can achieve!
 
 
 
@@ -329,7 +333,7 @@ Buttons indicate an action – on click or touch – that users can take, and ar
 
 Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive demo that lets you preview button components and their different variations.
 
-When designing a button, try and ensure it’s clearly communicated within your interface and looks 'clickable'. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
+When designing a button, try and ensure it’s clearly communicated within your interface and looks ‘clickable’. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
 
 ![Placeholder](images/ch2/toggles.png)
@@ -340,11 +344,11 @@ When designing a button, try and ensure it’s clearly communicated within your 
 
 Toggles or switches **enable users to complete tasks that require binary choices to be made**, for example, turning various settings on or off.
 
-In addition to toggles or switches, radio buttons or checkboxes can be used, depending on the content you're designing. Toggles or switches should be used instead of radio buttons or checkboxes when the choice is binary: A or B.
+In addition to toggles or switches, radio buttons or checkboxes can be used, depending on the content you’re designing. Toggles or switches should be used instead of radio buttons or checkboxes when the choice is binary: A or B.
 
 Toggles allow users to change settings between two states, for example: activating or deactivating something. Ensuring the on and off states are visually distinct improves toggles usability.
 
-Once again, Google’s Material Design guidelines have [a useful overview of selection controls](https://material.io/design/components/selection-controls.html) that's well worth reading.
+Once again, Google’s Material Design guidelines have [a useful overview of selection controls](https://material.io/design/components/selection-controls.html) that’s well worth reading.
 
 
 ![Placeholder](images/ch2/progress-indicators.png)
@@ -373,7 +377,7 @@ Progress indicators come in both linear and circular forms, as in the above exam
 
 2. **Indicator:** The indicator animates along the length of the track.
 
-**As I noted above, it's important to handle your interface elements consistently.** If you've used a circular progress indicator for a refresh action on one screen, that same action shouldn’t use a linear indicator on another screen.
+**As I noted above, it’s important to handle your interface elements consistently.** If you’ve used a circular progress indicator for a refresh action on one screen, that same action shouldn’t use a linear indicator on another screen.
 
 
 ![Placeholder](images/ch2/tags.png)
@@ -388,7 +392,7 @@ Tags are useful in lots of different contexts, for example, in profile component
 + make suggestions; or
 + trigger actions.
 
-When designing tags, it's important to ensure that they are visually and behaviourally consistent. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. TK
+When designing tags, it’s important to ensure that they are visually and behaviourally consistent. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. TK
 
 
 ![Placeholder](images/ch2/tool-tips.png)
@@ -397,13 +401,13 @@ When designing tags, it's important to ensure that they are visually and behavio
 
 #### Tool Tips
 
-As the digital products we design and build become ever more complex, it's important to provide users with a helping hand where possible.
+As the digital products we design and build become ever more complex, it’s important to provide users with a helping hand where possible.
 
-Tool tips are perfect for providing users with additional informative text when users hover over, focus on or tap elements. **When designing tool tips, it's important to consider their behaviour** and how they appear (considering, for example, transitions and timings).
+Tool tips are perfect for providing users with additional informative text when users hover over, focus on or tap elements. **When designing tool tips, it’s important to consider their behaviour** and how they appear (considering, for example, transitions and timings).
 
-Tool tips often appear **on top of the screen the user is currently interacting with**, saving a round trip back and forth to a help page. When designing tool tips **ensure that they don't hide obstruct the elements or components they are referring to**.
+Tool tips often appear **on top of the screen the user is currently interacting with**, saving a round trip back and forth to a help page. When designing tool tips **ensure that they don’t hide obstruct the elements or components they are referring to**.
 
-Tool tips often fade in, remain present while the user is interacting with them and then automatically fade out when their purpose has been served. As I noted above, I'll explore these behavioural attributes in more depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md).
+Tool tips often fade in, remain present while the user is interacting with them and then automatically fade out when their purpose has been served. As I noted above, I’ll explore these behavioural attributes in more depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md).
 
 <!--
 
@@ -548,26 +552,34 @@ If you’re looking for inspiration, [Design Systems Repo](https://designsystems
 
 Generously, Limcaco spent (no doubt a considerable amount of!) time, organising and cataloguing these resources for the benefit of the wider design community. The result is a wealth of resources. The [articles](https://designsystemsrepo.com/articles/) that Limcaco has curated are particularly worth exploring.
 
-<!--
 
 ### Learning from the trailblazers…
 
-+ GOV.UK
+#### GOV.UK
 
-Award-winning…
+	https://design-system.service.gov.uk
 
-https://design-system.service.gov.uk
+GOV.UK’s award-winning work is celebrated worldwide. The [GOV.UK Design System](https://design-system.service.gov.uk) is a fantastic resource and, to the GOV.UK team’s credit, they have paved the way in opening up their processes and sharing the lessons they have learned.
 
+Public sector organisations are **often rightly criticised for moving slowly thanks to their often bottomless wells of bureaucracy**. GOV.UK is the opposite, it moves quickly and is constantly exploring new ways to optimise its processes.
 
+It’s a rare example of a public sector organisation teaching the private sector best practice.
 
+As the team put it:
 
-+ Airbnb
+> The GOV.UK Design System is for everyone, with a strong community sitting behind it. It brings together the latest research, design and development from across government to make sure it’s representative and relevant for its users.
 
-????
+GOV.UK offers ample lessons on:
 
-https://airbnb.design/building-a-visual-language/
++ Styles: Guides for applying layout, typography, colour and images;
 
--->
++ Components: Repositories of reusable, accessible components for forms, navigation, panels, tables and more; and
+
++ Patterns: Best practice design solutions for specific user-focused tasks and page types.
+
+Finally, the team has a thriving community sharing best practice, encouraging designers from the wider (non-governmental) to get involved proposing and developing new components and patterns.
+
+If you haven’t explored GOV.UK’s Design System, I strongly suggest you take a look. The level of detail the GOV.UK team focus on – in this button documentation, for example – is, and I don’t think I’m guilty of hyperbole: breathtaking.
 
 
 

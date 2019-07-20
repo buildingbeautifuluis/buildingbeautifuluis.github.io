@@ -3,7 +3,7 @@ Chapter 1: Designing Interfaces
 
 <!-- 4,354 Words -->
 
-**This chapter is at the editing stage, so it’s readable. I’ll be developing the images shortly, but the content should – I hope! – be sound.**
+**This chapter is at the editing stage, so it’s readable. I’ll be further developing the images shortly, but the content itself should – I hope! – be sound.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -37,9 +37,9 @@ This chapter needs selected bold text, like Chapter 2. Do this once I’ve paase
 
 5. iOS ≠ Android
 
-Designing for different platforms. This needs to be a sub-section on its own that explains the importance of adopting the 'design language' and paradigms of the platform you are designer.
+Designing for different platforms. This needs to be a sub-section on its own that explains the importance of adopting the ‘design language’ and paradigms of the platform you are designer.
 
-An iOS application and an Android application – even if they are the sam application by the same company – will be tailored to the different platforms. (Again, this is about users' expectations and mental models.
+An iOS application and an Android application – even if they are the sam application by the same company – will be tailored to the different platforms. (Again, this is about users’ expectations and mental models.
 
 Compare and contrast:
 
