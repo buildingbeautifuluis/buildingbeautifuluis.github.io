@@ -1,9 +1,9 @@
 Chapter 1: Designing Interfaces
 ===============================
 
-<!-- 4,283 Words -->
+<!-- 4,255 Words -->
 
-**This chapter is at the editing stage, so it’s readable. I’ll be adding images shortly, hopefully this weekend (20-21 July), but the content should – I hope! – be sound.**
+**This chapter is at the editing stage, so it’s readable. I’ll be developing the images shortly, but the content should – I hope! – be sound.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
@@ -23,17 +23,17 @@ Check with Kyle and Paul for a second opinion. If I do adopt the ‘digital prod
 
 3. Chapter Structure
 
-Structurally Chapter 2's sections are consistent:
+Structurally Chapter 2’s sections are consistent:
 
 + Introduction:		2.1.0
 + Part 1:			2.1.1
 + Part 2:			2.1.2
 
-I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the 'A Library of Elements' section in Chapter 2, which won't fit.)
+I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the ‘A Library of Elements’ section in Chapter 2, which won’t fit.)
 
 4. Selected Bold Text
 
-This chapter needs selected bold text, like Chapter 2. Do this once I've paased it over to Kyle for editing.
+This chapter needs selected bold text, like Chapter 2. Do this once I’ve paased it over to Kyle for editing.
 
 -->
 

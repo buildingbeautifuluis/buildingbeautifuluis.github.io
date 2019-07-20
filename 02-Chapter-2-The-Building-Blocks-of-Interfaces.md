@@ -1,46 +1,85 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 5,711 Words -->
+<!-- 6,145 Words -->
 
-**I’m currently working on this chapter (Friday, 19 July, 2019). I hope to have it in a readable form by the end of the night. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
+**I’m currently working on this chapter (Saturday, 20 July, 2019). I hope to have it in a readable form by the end of the day. Sections 1-2 and 4-5 are more or less done, but need some images. I’m working on Section 3 as we speak, which also needs images.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
-<!--
 
-Run this past Kyle for a second opinion.
 
-The whole book may need to have references to ‘components’ removed. In the May, 2019 update to XD, Adobe changed its terminology and stopped using ‘symbols’ in favour of calling these ‘components’. Nightmare!
+- - -
 
-It might lead to confusion if I refer to ‘components’ here, so I’ve toyed with the idea of renaming these groupings of elements to ‘modules’. In short this is a nightmare and I’m glad we picked it up now before the book was finished.
 
-BUT…
 
-GOV.UK uses components:
+**NOTES FOR FEEDBACK**
 
-	https://design-system.service.gov.uk
+In the [May 2019 Update](https://theblog.adobe.com/xd-may-2019-update-create-design-systems/) to XD, **Adobe changed its terminology and introduced supercharged ‘symbols’, which they called ‘components’**. I was using the word components to mean something **higher up the chain of complexity**, but I think I need to revisit my terminology as the whole book is built around it and I don’t want to introduce confusion.
 
-Google also use the word ‘components’ the same way I do in their Material Design guidelines. So, now I’m really convinced I should leave the word as is. So, I either need to:
+In light of how Adobe is using the term components, and through further research – especially looking at GOV.UK’s [Design System](https://design-system.service.gov.uk), which uses components differently to how I had used the term – I think I need to rethink the ‘Objects → Elements → Components’ part of the equation.
 
-1. Stick by my guns and use the terminology I think is right (this is a more tool agnostic approach and, I think, the right choice); or
+It’s worth noting before I dive in, that I purposely didn’t use Brad Frost’s Atomic Design naming conventions (and Brad is a friend of mine), because:
 
-2. Change ‘Components’ to another word. Perhaps modules?
+1. I find the terminology (which mixes chemistry and biology metaphors) very confusing, and my students and studiomates find it confusing, too.
 
-	Objects → Elements → Modules → Pages → Flows
+2. Atomic Design is very much in the realm of front-end development and I think UX /+ UI is evolving to become a separate specialism (which – for a lot of UX /+ UI designers, like me, doesn’t involve front-end development (but does, of course, involve **an understanding of code**)).
 
-????
+**Here’s where I am just now (20 July, 2019):**
 
-Other words instead of components:
+When I was teaching my students at Belfast School of Art last semester, I used the following terminology, which I’ve used in the book (v1, below):
 
-+ Groupings
-+ Units
-+ Clusters
-+ …
+	Objects → Elements → Components → Pages → Flows
 
-My gut tells me stick with components and that’s what I’ve done for now.
+You can see a visual of this [here](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/objects-elements-components.png).
 
--->
+An **object** is a basic building block from which we build interfaces: a point (circle), a line, a plane, icons and typographic elements. (Icons are built from objects, too.)
+
+An **element** is *created from objects* and, as I’ve used it below, is something like [a button](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/buttons.png), [a toggle or switch](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/toggles.png), or [a progress indicator](https://github.com/buildingbeautifuluis/bbuis/blob/master/images/ch2/progress-indicators.png), etc..
+
+A **component** is *created from elements* and, as I’ve used it below (and in the next chapter), is something like a [card](https://design-system.futurelearn.com/molecules/card), a [date picker](https://design-system.futurelearn.com/molecules/date-input), or a [feed item](https://design-system.futurelearn.com/molecules/feed-item).
+
+A **page** is *created from objects, elements and components*.
+
+A **flow** is *created from a series of pages that are linked together (including modals, popovers, etc.)*. A flow is what we’re building towards – **from the ground up** – and is the most complex part of the equation.
+
+Last night, at 2.30 am, all of this collapsed, after re-reading GOV.UK’s [Design System](https://design-system.service.gov.uk/) documentation. 😢
+
+**I need to fix this now – as it impacts the whole book – which is why I’m asking for your help, which is very much appreciated!**
+
+GOV.UK’s *components* are what I’ve been calling *elements* (yikes!) so I need to rethink my approach (I think) and move components further down the level of complexity.
+
+Here is how GOV.UK defines [components](https://design-system.service.gov.uk/components/):
+
+> Components are reusable parts of the user interface that have been made to support a variety of applications.
+> —GOV.UK
+
+Put simply, GOV.UK’s *components* are my *elements*, so I might need to rethink my approach like this:
+
+	Objects → Components → ???? → Pages → Flows
+
+This would have the benefit of fitting with how XD names supercharged symbols as components. It would also build on existing naming conventions (paving the cowpaths), which is a good thing.
+
+Here is how GOV.UK defines [patterns](https://design-system.service.gov.uk/patterns/) (which are what I was calling components):
+
+> Patterns often use one or more components and explain how to adapt them to the context.
+> —GOV.UK
+
+This now (sorry!) strikes me as making much more sense. So: **objects** are used to build **components**, which are then organised into **patterns**, that are then used to build **pages** and, subsequently, **flows**.
+
+My gut tells me to follow GOV.UK’s naming conventions so I’m not introducing **yet another methodology** that will confuse people. So, I’m thinking of changing everything to this:
+
+	Objects → Components → Patterns → Pages → Flows
+
+One added benefit of using the term patterns is that **I can reference Christopher Alexander’s 1977 book *A Pattern Language*, which I reference a great deal in my teaching**.
+
+[I’d welcome your thoughts on this.](mailto:christopher@mrmurphy.com) I’m so far into the forest I could really benefit from an outside view to help me see the trees – and the forest! – a little more clearly.
+
+**Thank you!**
+
+
+
+- - -
 
 
 
@@ -52,6 +91,8 @@ Table of Contents
 + [Section 3: A Library of Elements](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-3-a-library-of-elements)
 + [Section 4: The Wonderful World of Icons](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-4-the-wonderful-world-of-icons)
 + [Section 5: Design Systems](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-5-design-systems)
++ [Closing Thoughts and Further Reading](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#closing-thoughts)
++ [Downloadables](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#downloadables)
 
 
 
@@ -256,6 +297,12 @@ The interfaces you design won’t necessarily need **all** of the elements that 
 
 #### Buttons
 
+<!--
+
+https://material.io/design/components/buttons.html
+
+-->
+
 Buttons indicate an action – on click or touch – that users can take, and are typically labelled with text, an icon or both. You’ll use them throughout your interface in places like: dialogs, forms and toolbars.
 
 Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive demo that lets you preview button components and their different variations.
@@ -267,7 +314,21 @@ When designing a button, try and ensure it’s clearly communicated within your 
 
 **CAPTION: Caption here.**
 
-#### Toggles
+#### Toggles (Or Switches)
+
+<!--
+
+https://material.io/design/components/selection-controls.html#usage
+
+Use switches to:
+
++ Toggle a single option on or off, on mobile and tablet
+
++ Immediately activate or deactivate something
+
+Swtiches should be used instead of radio buttons if only one item can be selected from a list.
+
+-->
 
 Toggles allow users to change settings between two states, for example: on and off. Ensuring the on and off states are visually distinct improves toggles usability.
 
@@ -278,7 +339,23 @@ Toggles allow users to change settings between two states, for example: on and o
 
 **CAPTION: A progress bar needs to go here.**
 
-#### Progress Bars
+#### Progress Indicators
+
+<!--
+
+https://material.io/design/components/progress-indicators.html
+
+**Determinate indicators** display how long a process will take. They should be used when the process completion rate can be detected.
+
+**Indeterminate indicators** express an unspecified amount of wait time. They should be used when progress isn’t detectable, or if it’s not necessary to indicate how long an activity will take.
+
+Linear progress indicators are composed of two required elements:
+
+1. Track: The track is a fixed width rule, with set boundaries for the indicator to travel along.
+
+2. Indicator: The indicator animates along the length of the track.
+
+-->
 
 Progress bars communicate what stage a user is as at as they progress through a series of tasks. They can also be used to indicate other types of information, for example the progress of a download.
 
@@ -295,6 +372,16 @@ Progress bars are useful for communicating time and alleviating your users’ co
 
 #### Tags
 
+<!--
+
+https://material.io/design/components/chips.html#usage
+
+This picture is good:
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1lxdaRJ6FXCuTNdmb5bxfBFevLdhzG4EG%2Felements.png
+
+-->
+
 Tags are useful in lots of different contexts, for example in profile components or on content-driven pages. When designing tags, try and ensure that you distinguish them from buttons. It’s likely that the content of your tags will indicate this, but ensure that they don’t look like buttons.
 
 **\/\* MORE HERE \*\/**
@@ -305,6 +392,18 @@ Tags are useful in lots of different contexts, for example in profile components
 **CAPTION: A set of tool tips need to go here.**
 
 #### Tool Tips
+
+<!--
+
+https://material.io/design/components/tooltips.html
+
+> Tooltips display informative text when users hover over, focus on, or tap an element.
+
+This is useful:
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F0B54x0KDcs5U-a0Vrdnlib1R5TFk%2Ftooltip-usage-do.png
+
+-->
 
 Providing user feedback is essential and tool tips are a helpful way to do this, providing users with guidance where it’s needed. Tool tips are often opened **on top of the screen the use is currently on** saving a round trip back and forth between pages.
 
@@ -377,6 +476,18 @@ On a smaller screen, where space is a premium, Bell has designed a distilled set
 Section 5: Design Systems
 -------------------------
 
+<!--
+
+Talk to Tim and Gaby about using this as another of our content upgrades. This post by Vitaly has valuable advice:
+
+https://www.smashingmagazine.com/2016/05/design-systems-responsive-design-sell-output-not-workflow/
+
+> I’m yet to encounter a client that would be genuinely, passionately excited about the atomic design methodology or a module naming workshop. However, everyone does get passionately excited about time-saving features and better, faster output that they can engage with.
+> 
+> Next time you encounter somebody not seeing the benefits of a modular approach, try to convince them of the tangible benefits and the output, not the workflow you’re using. You’re much more likely to succeed this way.
+
+-->
+
 ![Placeholder Image](images/ch2/design-systems-book.png)
 
 **CAPTION: This is a temporary image. I’ll replace it with a montage of design systems including: Airbnb, IBM, Uber, MailChimp….**
@@ -425,7 +536,7 @@ Embracing a design system also results in more consistent branding for the diffe
 
 I touched on styleguides in [Chapter 1: Designing Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) when I introduced styleguides.io, which gathers pattern libraries and style guides, but it’s worth exploring design systems, specifically, here.
 
-![Placeholder Image](images/ch2/design-systems-repo.png)
+![Jad Limcaco’s Design Systems Repo](images/ch2/design-systems-repo.png)
 
 **CAPTION: Jad Limcaco’s [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent resource to learn about design systems.**
 
@@ -435,7 +546,18 @@ Generously, Limcaco spent (no doubt a considerable amount of!) time, organising 
 
 <!--
 
-### Airbnb, et al…
+### Learning from the trailblazers…
+
++ GOV.UK
+
+Award-winning…
+
+https://design-system.service.gov.uk
+
+
+
+
++ Airbnb
 
 ????
 
@@ -464,6 +586,27 @@ There are many great publications, offline and online, that will help further un
 + Manuela Langella’s [Designing For User Interfaces: Icons As Visual Elements For Screen Design](https://www.smashingmagazine.com/2018/02/user-interfaces-icons-visual-elements-screen-design/) – sponsored by Adobe and published by the fine folks at Smashing Magazine – complements this chapter perfectly. Langella provides a thoroughly in-depth view of the role that icons can play as a part of user interfaces.
 
 + Lastly, I’d strongly recommend [Universal Principles of Design](https://amzn.to/2Fdftbn). It covers ‘125 Ways to Enhance Usability, Influence Perception, Increase Appeal, Make Better Design Decisions, and Teach through Design’ and I’ve used it as a backbone for my teaching since it was published.
+
+
+
+Downloadables
+-------------
+
+This chapter is accompanied by a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
+
+I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards as you see fit.**
+
++ [XD Artboards](downloadables/ch2/chapter-2-all-artboards.xd)
++ [PDF Swipe File (With Example Elements)](#) [Coming soon.]
++ [Master-Apprentice Exercises](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md)
+
+These files are shared under a Creative Commons [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) license. In plain terms, this means **you can copy and redistribute the files, adapt or transform them (even commercially), but you must provide attribution and provide appropriate credit** by linking to my website:
+
++ [Mr Murphy Ltd.](https://mrmurphy.com/)
+
+I appreciate that providing attribution can be an added burden, but **I hope you can see from the supporting files that I put a lot of work into creating them**. Credit where credit’s due.
+
+**#karma**
 
 
 
