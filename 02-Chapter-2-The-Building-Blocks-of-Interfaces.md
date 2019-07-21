@@ -250,52 +250,52 @@ I’ve drawn these terms by looking at the work of others, particularly the awar
 There’s no need to reinvent the wheel and, in the spirit of reusing existing naming conventions, I’ve drawn my naming methodology from their work, adding the term ‘objects’ to explain the fundamental building blocks from which all of our user interfaces are created.
 
 
-### Objects → Elements
+### Objects → Components
 
-**Every element that we create for a user interface is built from smaller objects.** By learning to mentally break apart the elements we encounter – into their constituent objects – we begin to understand how they are constructed.
+**Every component that we create for a user interface is built from smaller objects.** By learning to mentally break apart the components we encounter – into their constituent objects – we begin to understand how they are constructed.
 
-Analysing how existing elements are built we see that **everything we see in a user interface – an element, a component or a page – is comprised of other, simpler objects**.
+Analysing how existing components are built we see that **everything we see in a user interface – a component, a pattern or a page – is comprised of other, simpler objects**.
 
 
 ![Placeholder Image](images/ch2/constructing-elements.png)
 
-**CAPTION: In the above example, the button element is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow.**
+**CAPTION: In the above example, the button component is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow.**
 
 
-This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **elements – the fundamental units from which we build interfaces – are created from relatively simple objects**.
+This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **components – the fundamental units from which we build interfaces – are created from relatively simple objects**.
 
-Understanding how the fundamental building blocks of interfaces work – at a simple, element level – helps us to develop a language of elements that we can then combine and build into complex interfaces through the creation of components and pages.
+Understanding how the fundamental building blocks of interfaces work – at a simple, component level – helps us to develop a language of components that we can then combine and build into complex interfaces through the creation of patterns and pages.
 
-One significant benefit of the approach of **building from the element up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s acquaint ourselves with the anatomy of some further elements.
+One significant benefit of the approach of **building from the component up** is that **we’re effectively constructing a design system to ensure our interfaces are consistent** (and easier to build). I’ll explore design systems in the closing section of this chapter, for now, let’s acquaint ourselves with the anatomy of some further components.
 
 
-### Anatomy of an Element
+### Anatomy of a Component
 
 <!-- This opening paragraph needs to be rewritten. It feels a little too much like notes to myself at the moment. -->
 
-In this section, I’ll unravel a few more elements to further underline how we can re-use objects to create consistent UI elements. **I’ll also stress the importance of paying attention to the details, which are a critical component of successful UIs.** As Charles and Ray Eames famously noted:
+In this section, I’ll unravel a few more components to further underline how we can re-use objects to create consistent user interfaces. **I’ll also stress the importance of paying attention to the details, which are a critical component of successful UIs.** As Charles and Ray Eames famously noted:
 
 > The details are not the details; they make the product.
 
-By reusing a series of core objects to build your elements, **your UI benefits from a consistent and systematic approach**. By working with a core set of objects you ensure that the details take care of themselves. As you start to build your elements, **it’s important to put some thought into their consistency**.
+By reusing a series of core objects to build your components, **your user interface benefits from a consistent and systematic approach**. By working with a core set of objects you ensure that the details take care of themselves. As you start to build your components, **it’s important to put some thought into their consistency**.
 
 User interfaces that are inconsistent are not only aesthetically poor, but they also **lead to confused and frustrated users**, which can result in even the most promising of digital products to fail.
 
-Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md), so I’ll be focusing in this chapter on the look of your elements, but keep in mind behaviour – and feel – is important, too.
+Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md), so I’ll be focusing in this chapter on the look of your components, but keep in mind behaviour – and feel – is important, too.
 
 
 ![Placeholder](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: This is a temporary image. It will be replaced by an image of four elements that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)**
+**CAPTION: This is a temporary image. It will be replaced by an image of four components that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)**
 
 
-As you build your elements, consider how they are consistently:
+As you build your components, consider how they are consistently:
 
 + aligned;
 + sized; and
 + scaled.
 
-It’s also import to **consider the relationships between your elements** and how they correlate to each other. It’s highly unlikely that your elements will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but **as you build different elements, bear in mind that they’ll be existing as part of a wider system**.
+It’s also import to **consider the relationships between your components** and how they correlate to each other. It’s highly unlikely that your components will exist in isolation. I’ll explore clustering, proximity and relationships in the next chapter, but **as you build different components, bear in mind that they’ll be existing as part of a wider system**.
 
 <!--
 
@@ -314,27 +314,27 @@ It’s important to focus on consistency, ensuring that:
 
 
 
-Section 3: A Library of Elements
---------------------------------
+Section 3: A Library of Components
+----------------------------------
 
 ![Placeholder Image](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: In the above example, we see a range of different elements: buttons (in various states); stars, perhaps for a rating system; social icons; scroll buttons; and search boxes. Each of these elements is – as we’ve seen – quite simply constructed, according to a consistent system.**
+**CAPTION: In the above example, we see a range of different components: buttons (in various states); stars, perhaps for a rating system; social icons; scroll buttons; and search boxes. Each of these components is – as we’ve seen – quite simply constructed, according to a consistent system.**
 
 
-Now that we understand how elements are constructed, it’s time to dive in and explore some of the elements you might need for your user interface designs. Where possible, if an element exists as a design pattern, it’s best to use this.
+Now that we understand how components are constructed, it’s time to dive in and explore some of the components you might need for your user interface designs. Where possible, if a component exists as a design pattern, it’s best to use this.
 
 As I noted in the preceding chapter, users have a mental model of how interfaces work, so **try – as much as possible – to work within existing conventions**. By doing so, your users will at least have a head start when using your interface.
 
-The following isn’t an exhaustive list, but it does provide an overview of some typical elements you’ll need to consider.
+The following isn’t an exhaustive list, but it does provide an overview of some typical components you’ll need to consider.
 
-There are many, many more elements in user interface design. Ever-helpful, usability.gov have put together lots of useful information at [User Interface Elements](https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html). As they put it:
+There are many, many more components in user interface design. Ever-helpful, usability.gov have put together lots of useful information at [User Interface Elements](https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html). As they put it:
 
 > When designing your interface, try to be consistent and predictable in your choice of interface elements.
 > 
 > Whether they are aware of it or not, users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency and satisfaction.
 
-The interfaces you design won’t necessarily need **all** of the elements that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. Sticking to these mental models as closely as you can will **result in a user interface that’s clearer and more easily understood**.
+The interfaces you design won’t necessarily need **all** of the components that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. Sticking to these mental models as closely as you can will **result in a user interface that’s clearer and more easily understood**.
 
 
 ![Some Typical UI Button Types](images/ch2/buttons.png)
@@ -345,7 +345,7 @@ The interfaces you design won’t necessarily need **all** of the elements that 
 
 Buttons indicate an action – on click or touch – that users can take, and are typically labelled with text, an icon or both. You’ll use them throughout your interface in places like: dialogs, forms and toolbars.
 
-Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive demo that lets you preview button components and their different variations.
+Google’s Material Design guidelines have [a useful overview of buttons](https://material.io/design/components/buttons.html) with an interactive tool that lets you preview button components and their different variations.
 
 When designing a button, try and ensure it’s clearly communicated within your interface and looks ‘clickable’. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
@@ -358,9 +358,9 @@ When designing a button, try and ensure it’s clearly communicated within your 
 
 Toggles or switches **enable users to complete tasks that require binary choices to be made**, for example, turning various settings on or off.
 
-In addition to toggles or switches, radio buttons or checkboxes can be used, depending on the content you’re designing. Toggles or switches should be used instead of radio buttons or checkboxes when the choice is binary: A or B.
+In addition to toggles or switches, radio buttons or checkboxes can be used, depending on the content you’re designing. **Toggles or switches should be used instead of radio buttons or checkboxes when the choice is binary: A or B.**
 
-Toggles allow users to change settings between two states, for example: activating or deactivating something. Ensuring the on and off states are visually distinct improves toggles usability.
+Toggles allow users to change settings between two states, for example: activating or deactivating something. **Ensuring the on and off states are visually distinct improves toggles usability.**
 
 Once again, Google’s Material Design guidelines have [a useful overview of selection controls](https://material.io/design/components/selection-controls.html) that’s well worth reading.
 
@@ -396,17 +396,17 @@ Progress indicators come in both linear and circular forms, as in the above exam
 
 ![Placeholder](images/ch2/tags.png)
 
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags are just like buttons, here indicating which tags are selected.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected.**
 
 #### Tags
 
-Tags are useful in lots of different contexts, for example, in profile components or in content-driven components or pages. They can be used to:
+Tags are useful in lots of different contexts, for example, **in profile patterns or in content-driven pages**. They can be used to:
 
 + filter content;
 + make suggestions; or
 + trigger actions.
 
-When designing tags, it’s important to ensure that they are visually and behaviourally consistent. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. TK
+When designing tags, it’s important to **ensure that they are visually and behaviourally consistent**. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. <!-- TK Seems short. -->
 
 
 ![Placeholder](images/ch2/tool-tips.png)
@@ -419,7 +419,7 @@ As the digital products we design and build become ever more complex, it’s imp
 
 Tool tips are perfect for providing users with additional informative text when users hover over, focus on or tap elements. **When designing tool tips, it’s important to consider their behaviour** and how they appear (considering, for example, transitions and timings).
 
-Tool tips often appear **on top of the screen the user is currently interacting with**, saving a round trip back and forth to a help page. When designing tool tips **ensure that they don’t hide obstruct the elements or components they are referring to**.
+Tool tips often appear **on top of the screen the user is currently interacting with**, saving a round trip back and forth to a help page. When designing tool tips **ensure that they don’t hide or obstruct the components they are referring to**.
 
 Tool tips often fade in, remain present while the user is interacting with them and then automatically fade out when their purpose has been served. As I noted above, I’ll explore these behavioural attributes in more depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md).
 
@@ -441,21 +441,23 @@ Section 4: The Wonderful World of Icons
 **CAPTION: Vic Bell’s Gloo icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from [a very detailed and precise icon set created for the project](https://www.behance.net/gallery/59585629/Gloo).**
 
 
-Icons aren’t really the same as elements, rather **you might use them within elements or in addition to elements** to create a user interface that communicates clearly. **Icons are an incredibly powerful part of the UI designer’s toolkit** and are an important part of user interface design.
+Icons aren’t really the same as components, rather **you might use them within components or in addition to components** to create a user interface that communicates clearly. **Icons are an incredibly powerful part of the UI designer’s toolkit** and are an important part of user interface design.
 
 Icons, or pictograms, **convey information through the use of representational symbols** and are useful where **cross-cultural communication** is important.
 
-**You’ve doubtless encountered icons, certainly you will have in an airport when you’re perhaps lost** – in a strange land, where you perhaps don’t speak the local language – and are looking for something. **Icons help you** to: find a toilet (should you need to spend a penny!); find a taxi rank (if you’re in a hurry); or find the departures gates (when you’re invariably running late).
+**You’ve doubtless encountered icons, certainly you will have in an airport when you’re perhaps lost** – in a strange land, where you perhaps don’t speak the local language – and are looking for something. **Icons help you** to: find a toilet (should you need to spend a penny); find a taxi rank (if you’re in a hurry); or find the departures gates (when you’re invariably running late).
 
 The use of icons in this context, and their ability to supercede language, are **a testament to their power as non-verbal forms of communication**. It’s this ability to transcend language – working across different languages, or accompanying different languages – that makes them so useful in interface design.
 
-We live in an increasingly global world and the websites and applications we build often have a global audience. As such, adding icons to your UI toolbox is a great way to ensure your interfaces speak to the widest possible audience.
+We live in an increasingly global world and **the websites and applications we build often have a global audience**. As such, adding icons to your UI toolbox is a great way to ensure your interfaces speak to the widest possible audience.
 
 Drawing icons is a specialist skill (although like any skill, it can be learned). There are many talented icon designers and I’ll be interviewing a particularly gifted one – Vic Bell – in [Chapter 8: Project X-Rays](https://github.com/buildingbeautifuluis/bbuis/blob/master/08-Chapter-8-Project-X-Rays.md).
 
-If your budget won’t stretch to cover a specialist icon designer [The Noun Project](https://thenounproject.com) is an excellent resource that is bound to have an icon to suit every eventuality. Founded in 2010, The Noun Project, “celebrates the world’s visual language,” and offers over two million curated icons created by a global community.
+If your budget won’t stretch to cover a specialist icon designer, [The Noun Project](https://thenounproject.com) is an excellent resource that is bound to have an icon to suit every eventuality.
 
-That said – as the illustrations in this section clearly demonstrate – commissioning a bespoke icon set by a specialist designer can add a great deal of personality and life to your user interface design and is worth considering.
+Founded in 2010, The Noun Project, “celebrates the world’s visual language,” and offers over two million curated icons created by a global community.
+
+That said – as the illustrations in this chapter clearly demonstrate – **commissioning a bespoke icon set by a specialist designer can add a great deal of personality and life to your user interface design** and is worth considering.
 
 
 ### From Cave Paintings to the Present Day
@@ -466,11 +468,11 @@ The use of pictograms, or icons, was pioneered at the 1964, 1968 and 1972 Olympi
 
 Just as these iconic systems helped people to find their way in a strange environment, so too, **we can use icons to help users find their way around an interface**.
 
-One of the best known sets of icons are Otl Aicher’s icons for the 1972 Munich Olympic Games. The wonderful [otl aicher pictograms](https://www.piktogramm.de/en/) – a website celebrating Aicher’s groundbreaking work – delves into their history and the site features an excellent overview of [pictograms past and present](https://www.piktogramm.de/en/#c53) that’s well worth reading. As the site notes:
+One of the best known sets of icons are Otl Aicher’s icons for the 1972 Munich Olympic Games. The wonderful [otl aicher pictograms](https://www.piktogramm.de/en/) – a website celebrating Aicher’s groundbreaking work – delves into their history and the site features an excellent overview of [pictograms past and present](https://www.piktogramm.de/en/#c53) that is well worth reading. As the website notes:
 
 > Pictograms were the precursors of writing historically speaking. Back in prehistory, Stone Age dwellers used pictorial symbols to record their experiences for posterity on cave walls.
 
-This ‘pictorial language’ can still be read today: We might not be able to understand a Stone Age hunter-gatherer (if, that is, we were to encounter one), but we can certainly look at a cave painting and unravel the story behind it.
+This ‘pictorial language’ can still be read today: We might not be able to understand a Stone Age hunter-gatherer (if, that is, we were able to encounter one), but we can certainly look at a cave painting and unravel the story behind it.
 
 It is this universality that makes icons so powerful. Using them we can design user interfaces that act as a ‘universal language’ for wayfinding within interfaces.
 
@@ -479,7 +481,7 @@ It is this universality that makes icons so powerful. Using them we can design u
 
 As I explored in Chapter 1, with the rise of personal computers and their subsequent move away from command-line interfaces towards graphical interfaces, **the use of icons emerged as a form of universal language to allow users to find their way around what were then unfamiliar operating systems**.
 
-One of the best known examples of this were Susan Kare’s original icons for the Macintosh. Kare’s icons – designed using only black and white (due to the constraints of early screens) – have a timeless quality to them and it’s no surprise to see them housed [in the collection of New York’s Museum of Modern Art](https://www.moma.org/artists/38483).
+One of the best known examples of this were Susan Kare’s original icons for the [Macintosh](https://www.newyorker.com/culture/cultural-comment/the-woman-who-gave-the-macintosh-a-smile). Kare’s icons – designed using only black and white (due to the constraints of early screens) – have a timeless quality to them and it’s no surprise to see them housed [in the collection of New York’s Museum of Modern Art](https://www.moma.org/artists/38483).
 
 
 ![Susan Kare’s Original Macintosh Icons](images/ch2/original-macintosh-icons.png)
@@ -498,26 +500,14 @@ On a smaller screen, where space is a premium, Bell has designed a distilled set
 Section 5: Design Systems
 -------------------------
 
-<!--
-
-Talk to Tim and Gaby about using this as another of our content upgrades. This post by Vitaly has valuable advice:
-
-https://www.smashingmagazine.com/2016/05/design-systems-responsive-design-sell-output-not-workflow/
-
-> I’m yet to encounter a client that would be genuinely, passionately excited about the atomic design methodology or a module naming workshop. However, everyone does get passionately excited about time-saving features and better, faster output that they can engage with.
-> 
-> Next time you encounter somebody not seeing the benefits of a modular approach, try to convince them of the tangible benefits and the output, not the workflow you’re using. You’re much more likely to succeed this way.
-
--->
-
 ![Placeholder Image](images/ch2/design-systems-book.png)
 
 **CAPTION: This is a temporary image. I’ll replace it with a montage of design systems including: Airbnb, IBM, Uber, MailChimp….**
 
 
-As you design and build your user interface elements, **it’s important to ensure that they follow a consistent visual language**. Do this at the element level and you will – by extension as you build components from elements – have the basis of a design system.
+As you design and build your user interface components, **it’s important to ensure that they follow a consistent visual language**. Do this at the component level and you will – by extension as you build patterns from components – have the basis of a design system.
 
-Design systems have **changed the way we design and build both websites and applications**. They’re quickly becoming a cornerstone of large (and small) organisation’s digital product design strategies.
+Design systems have **changed the way we design and build both websites and applications**. They’re quickly becoming a cornerstone of large (and even small) organisation’s digital product design strategies.
 
 Design systems are useful to learn about if you’re getting started in user interface design, because they encourage you to adopt a systematic approach towards the UIs you design.
 
@@ -535,24 +525,30 @@ Kholmatova shephered the development of FutureLearn’s [Design System](https://
 
 <!-- More on Futurelearn here, given the image above. perhaps mention Brad Frost’s methodology, modified. -->
 
-The good news is that, **if you’re building from the element up – as this book encourages – you’ll have a head start on building a design system**, because the methodology I recommend – Objects → Elements → Components → Pages → Flows – is designed to be built in a scalable manner, from the element up.
+The good news is that, **if you’re building from the component up – as this book encourages – you’ll have a head start on building a design system**, because the methodology I recommend – Objects → Components → Patterns → Pages → Flows – is designed to be built in a scalable manner, from the component up.
 
 
 ### What is a design system?
 
-Put simply, a design system is a collection of elements and components that can be combined and reused to build digital products.
+Put simply, a design system is a collection of components and patterns that can be combined and reused to build digital products.
+
+<!--
+
+It’s a little more complicated than this, but this isn’t a book about design systems and I don’t want to get too lost in explaining them. That said, I may need to widen this definition a little more.
+
+-->
 
 Returning to the LEGO metaphor I used in [Section 1](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego), a design system is like having a series of LEGO bricks that are brand new (shiny and right out of the box).
 
 When you buy a LEGO kit, the bricks it ships with are designed to fit together visually and aesthetically. (Unlike the giant boxes of LEGO bricks that you accumulate over time!)
 
-A design system takes a similar approach. Instead of building elements and components in an ad hoc manner, as you need them, you take a systematic approach so that everything fits together aesthetically. As you add new elements and components to your system, you draw on your design system to ensure consistency.
+A design system takes a similar approach. Instead of building components and patterns in an ad hoc manner as you need them, **you take a systematic approach so that everything fits together aesthetically**. As you add new components and patterns to your system, you draw on your design system to ensure consistency.
 
 Embracing design systems pays off with a number of incredibly valuable benefits. A design system ensures:
 
-+ your UI is consistent;
-+ your elements and components are faster to build; and
-+ your collaboration with others is smoother.
++ your user interface is consistent;
++ your components and patterns are faster to design and build; and
++ your collaboration with others is considerably  smoother.
 
 Embracing a design system also results in more consistent branding for the different projects that you work on, leading to happier clients.
 
@@ -564,36 +560,40 @@ I touched on styleguides in [Chapter 1: Designing Interfaces](https://github.com
 
 If you’re looking for inspiration, [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent place to start. Created by Jad Limcaco, a designer at Apple, it started life as a collection of resources – examples, articles and tools – for Limcaco’s personal reference.
 
-Generously, Limcaco spent (no doubt a considerable amount of!) time, organising and cataloguing these resources for the benefit of the wider design community. The result is a wealth of resources. The [articles](https://designsystemsrepo.com/articles/) that Limcaco has curated are particularly worth exploring.
+Generously, Limcaco spent time (no doubt a considerable amount of!), organising and cataloguing these resources for the benefit of the wider design community. The result is a wealth of resources. The [articles](https://designsystemsrepo.com/articles/) that Limcaco has curated are particularly worth exploring.
 
 
 ### Learning from the trailblazers…
 
-#### GOV.UK
+<!-- This section needs a screenshot to break it up. -->
 
-	https://design-system.service.gov.uk
+GOV.UK’s [award-winning work](https://www.wired.co.uk/article/design-of-the-year) is celebrated worldwide. In 2013, The Design Museum in London selected the GOV.UK website as its **2013 Design of the Year Awards Winner**. The same year GOV.UK won **a prestigious black pencil at the D&AD Awards**.
 
-GOV.UK’s award-winning work is celebrated worldwide. The [GOV.UK Design System](https://design-system.service.gov.uk) is a fantastic resource and, to the GOV.UK team’s credit, they have paved the way in opening up their processes and sharing the lessons they have learned.
+Black pencils are only awarded for outstanding projects – they aren’t awarded every year – and GOV.UK now ranks alongside other black pencil winners including the iPhone (2008) and the iconic ‘Cadburry’s Gorilla’ advertisement (2010).
+
+The [GOV.UK Design System](https://design-system.service.gov.uk) is a fantastic resource and, to the GOV.UK team’s remarkable credit, they have paved the way in opening up their processes and sharing the lessons they have learned.
 
 Public sector organisations are **often rightly criticised for moving slowly thanks to their often bottomless wells of bureaucracy**. GOV.UK is the opposite, it moves quickly and is constantly exploring new ways to optimise its processes.
 
-It’s a rare example of a public sector organisation teaching the private sector best practice.
-
-As the team put it:
+It’s a rare example of a public sector organisation teaching the private sector best practice. As the team put it:
 
 > The GOV.UK Design System is for everyone, with a strong community sitting behind it. It brings together the latest research, design and development from across government to make sure it’s representative and relevant for its users.
 
 GOV.UK offers ample lessons on:
 
-+ Styles: Guides for applying layout, typography, colour and images;
++ **[Styles:](https://design-system.service.gov.uk/styles/)** Guides for applying layout, typography, colour and more;
 
-+ Components: Repositories of reusable, accessible components for forms, navigation, panels, tables and more; and
++ **[Components:](https://design-system.service.gov.uk/components/)** A library of reusable, accessible components for buttons, checkboxes, tags and more; and
 
-+ Patterns: Best practice design solutions for specific user-focused tasks and page types.
++ **[Patterns:](https://design-system.service.gov.uk/patterns/)** Best practice design solutions for specific user-focused tasks, all supported by written guidance.
 
-Finally, the team has a thriving community sharing best practice, encouraging designers from the wider (non-governmental) to get involved proposing and developing new components and patterns.
+Finally, GOV.UK has a thriving [community](https://design-system.service.gov.uk/community/) sharing best practice and **encouraging designers from the wider (non-governmental) community to get involved proposing and developing new components and patterns**.
 
-If you haven’t explored GOV.UK’s Design System, I strongly suggest you take a look. The level of detail the GOV.UK team focus on – in this button documentation, for example – is, and I don’t think I’m guilty of hyperbole: breathtaking.
+If you haven’t explored GOV.UK’s Design System, I strongly suggest you take a look. The level of detail the GOV.UK team focus on – in the design system’s [button documentation](https://design-system.service.gov.uk/components/button/), for example – is, and I don’t think I’m guilty of hyperbole: breathtaking.
+
+It’s refreshing (and very unusual) to see a government sector team moving faster than its private sector counterparts. Not only that, but the GOV.UK team is opening up as much of their work as possible. The [government design principles](https://www.gov.uk/guidance/government-design-principles) are rich with valuable advice and can offer the private sector – indeed, any organisation – lessons from which to learn.
+
+If you’d like to get an idea of how far ahead the GOV.UK team are planning, they’ve even published their [Design System Roadmap Board](https://github.com/orgs/alphagov/projects/5?fullscreen=true) and [Design System Sprint Board](https://github.com/orgs/alphagov/projects/4) in the open.
 
 
 

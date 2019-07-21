@@ -15,11 +15,15 @@ Chapter 1: Designing Interfaces
 
 Should each chapter spell out user interface in full before subsequently using UI? I think each chapter should kick off with user interface in full, that way folks who have skipped Chapter 1, or who have dived right into a later chapter, get the term spelled out in full before the acronym.
 
+Thinking about this more, I think I should spell out user interface when I refer to an interface and use UI designer, when I refer to the role.
+
+
 2. Digital Products?
 
 Also, should I define (and use) the term digital product right at the start? Like our Little Thunder proposals. This would save me writing ‘websites and applications’ over and over again, and would be a little more contemporary.
 
 Check with Kyle and Paul for a second opinion. If I do adopt the ‘digital products’ terminology I should perhaps mention it in the overview and in Chapter 1.
+
 
 3. Chapter Structure
 
@@ -31,9 +35,11 @@ Structurally Chapter 2’s sections are consistent:
 
 I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the ‘A Library of Elements’ section in Chapter 2, which won’t fit.)
 
+
 4. Selected Bold Text
 
 This chapter needs selected bold text, like Chapter 2. Do this once I’ve paased it over to Kyle for editing.
+
 
 5. iOS ≠ Android
 
