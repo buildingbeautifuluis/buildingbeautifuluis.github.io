@@ -70,6 +70,14 @@ At the macro-level, we need to **consider the overall information architecture o
 Section 1: Elements → Components → Pages
 ----------------------------------------
 
+<!--
+
+…patterns pre-dating design systems. Long before Pattern Tap existed there was Christopher Alexander’s 1977 book ‘A Pattern Language’. Few have read the book, but Alexander’s thinking has certainly shaped where we are today.
+
+Sadly, Pattern Tap seems to have disappeared, which is a shame. I’ll maybe link to it on the Wayback Machine.
+
+-->
+
 ![Placeholder Image](images/section-opening-placeholder-image.png)
 
 **CAPTION: Caption here.**
