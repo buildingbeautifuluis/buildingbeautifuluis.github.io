@@ -1,9 +1,9 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 7,625 Words -->
+<!-- 8,145 Words -->
 
-**This chapter is at the pre-editing stage (Saturday, 20 July, 2019) whilst I gather some feedback on my naming conventions from a number of supersmart friends.**
+**This chapter is at the editing stage (completed: Sunday, 21 July, 2019). I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
 
 **If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added some ‘NOTES FOR FEEDBACK’ immediately following these paragraphs, which provide context on the particular problem I’m revisiting. I hope to hear from you!**
 
@@ -573,6 +573,12 @@ Black pencils are only awarded for outstanding projects – they aren’t awarde
 
 The [GOV.UK Design System](https://design-system.service.gov.uk) is a fantastic resource and, to the GOV.UK team’s remarkable credit, they have paved the way in opening up their processes and sharing the lessons they have learned.
 
+
+![Placeholder](images/ch2/gov-uk.png)
+
+**CAPTION: The GOV.UK Design System, published in the open, is home to a wealth of information.**
+
+
 Public sector organisations are **often rightly criticised for moving slowly thanks to their often bottomless wells of bureaucracy**. GOV.UK is the opposite, it moves quickly and is constantly exploring new ways to optimise its processes.
 
 It’s a rare example of a public sector organisation teaching the private sector best practice. As the team put it:
@@ -623,6 +629,12 @@ Downloadables
 -------------
 
 I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
+
+
+![ALT](images/ch2/downloadables.png)
+
+**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!**
+
 
 I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards to assist your learning, however, I retain the copyright.**
 

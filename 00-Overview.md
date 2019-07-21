@@ -1,7 +1,7 @@
 Building Beautiful UIs
 ======================
 
-<!-- 1,599 Words -->
+<!-- 1,681 Words -->
 
 I’m super excited to finally share an initial draft of ‘Building Beautiful UIs’. I’ve been working on this ‘course in a book’ for a few months now and it’s slowly, but surely coming together.
 
@@ -80,6 +80,10 @@ You can [follow me on Twitter](https://www.twitter.com/fehler) to be notified wh
 
 
 
+![ALT](images/overview/downloadables.png)
+
+**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!**
+
 Swipe Files and Templates
 -------------------------
 
@@ -91,6 +95,10 @@ Down the line, when Adobe publish everything, I’ll update this page with a lin
 
 
 
+![ALT](images/overview/xd.png)
+
+**CAPTION: Download XD for free so you can work your way through the book.**
+
 Download Adobe XD… Free
 -----------------------
 
@@ -99,6 +107,10 @@ Adobe XD is made for designers by designers. It’s the fastest way to design, p
 To explore the book’s accompanying digital files, [download a copy of XD](https://xd.adobe.com). (Did I mention: It’s free?)
 
 
+
+![ALT](images/overview/open-sans.png)
+
+**CAPTION: Download Open Sans for free from Google Fonts so that you can work with the downloadable XD files.**
 
 Open Sans
 ---------
