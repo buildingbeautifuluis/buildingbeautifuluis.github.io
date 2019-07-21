@@ -88,6 +88,8 @@ All I really need is a simple Y / N answer (unless you have further thoughts) to
 
 	Objects → Components → Patterns → Pages → Flows
 
+If you’d like to see these naming conventions in action, I’ve created [a short document – drawn from this chapter – that uses these terms](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Naming-Conventions.md).
+
 **Thank you!**
 
 
