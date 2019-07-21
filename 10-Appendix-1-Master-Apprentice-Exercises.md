@@ -5,7 +5,7 @@ Master-Apprentice Exercises
 
 **I’m just in the process of converting my Keynote Master-Apprentice files into XD files (20 July, 2019). I’m aiming to have this done 22-26 July.**
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
 
 
@@ -46,6 +46,8 @@ The UK government’s award-winning [GOV.UK](https://www.gov.uk) website is an e
 
 + [Claim tax relief for your job expenses](https://www.gov.uk/tax-relief-for-employees)
 
+**/\* I’ll be adding an analysis file built in XD here, shortly. \*/**
+
 
 ---
 
@@ -57,6 +59,8 @@ The UK government’s award-winning [GOV.UK](https://www.gov.uk) website is an e
 A side project by Josh Worth, [If the Moon Were Only 1 Pixel](https://www.joshworth.com/portfolio-items/if-the-moon-were-only-1-pixel/) does a wonderful job of visualising complex information. I’ve intentionally included this more experiemtal example to show what’s possible with very minimal building blocks of interfaces: points, lines and planes of color.
 
 + [If the moon were only 1 pixel…](http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
+
+**/\* I’ll be adding an analysis file built in XD here, shortly. \*/**
 
 
 ---
@@ -76,6 +80,8 @@ Fantastical 2 for iOS by [Flexibits](https://flexibits.com) is a lovely example 
 
 + [Fantastical](https://flexibits.com/fantastical-iphone)
 
+**/\* I’ll be adding an analysis file built in XD here, shortly. \*/**
+
 
 ---
 
@@ -87,6 +93,8 @@ Fantastical 2 for iOS by [Flexibits](https://flexibits.com) is a lovely example 
 Things 3 for iOS by [Cultured Code](https://culturedcode.com/things/) is an award-winning personal task manager. The app’s user interface not only looks stunning, it **feels** stunning with delightful interactions that communicate how the app works to the user. In this file, I’ve also shown how Things 3 condenses down into a watchOS app so you can see the challenges of designing the same app in two very different contexts.
 
 + [Things 3](https://culturedcode.com/things/whats-new/)
+
+**/\* I’ll be adding an analysis file built in XD here, shortly. \*/**
 
 
 ---
@@ -106,6 +114,8 @@ At its heart the Activity app for the [Apple Watch](https://www.apple.com/uk/wat
 
 + [Activity](https://www.apple.com/uk/watch/close-your-rings/)
 
+**/\* I’ll be adding an analysis file built in XD here, shortly. \*/**
+
 
 ---
 
@@ -118,6 +128,10 @@ Despite occupying a very small amount of space, the watchOS version of [Bear](ht
 
 + [Bear](https://bear.app)
 
+**/\* I’ll be adding an analysis file built in XD here, shortly. \*/**
+
+
+---
 
 
 About the Author
