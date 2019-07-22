@@ -1,19 +1,20 @@
 Chapter 3: Information Architecture
 ===================================
 
-**In it for the long haul…**
-
 <!-- 3,011 Words -->
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**I’m currently working on this chapter (Monday, 22 July, 2019). I hope to have it in a fully readable form by tomorrow morning. For now, it needs a great deal of work, so isn't worth reading. I'm in it for the long haul…!**
+
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
+
 
 
 Table of Contents
 -----------------
 
-+ [Section 1: Elements → Components → Pages](#)
-+ [Section 2: Typography at the Page Level](#)
++ [Section 1: Components → Patterns → Pages](#)
 + [Section 3: The Importance of a Clear Visual Hierarchy](#)
++ [Section 2: Typography at the Page Level](#)
 + [Section 4: Composition and Grid Systems](#)
 + [Section 5: Iconic Layouts and Blockframes](#)
 + [Further Reading](#)

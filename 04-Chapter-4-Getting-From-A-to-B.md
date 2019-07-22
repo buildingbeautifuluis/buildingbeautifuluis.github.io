@@ -3,7 +3,9 @@ Chapter 4: Getting From A → B
 
 <!-- 2,197 Words -->
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**This chapter isn’t worth reading just now (unless you want to get a feel for how I research and write). I hope to have it finished in August.**
+
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
 
 
@@ -21,9 +23,9 @@ Table of Contents
 Summary
 -------
 
-With our pages built, **we need to focus on the flows through the user interface**. In this chapter, I'll explore designing flows through interfaces, stressing the need to consider flows at different levels: page-to-page, and state-to-state.
+With our pages built, **we need to focus on the flows that users take through the user interfaces we design**. In this chapter, I'll explore designing user flows, stressing the need to **consider flows in different manners: page-to-page, and state-to-state**. In short: I'll explore the idea of getting from A → B, **ensuring our users are guided by our user interface**.
 
-In short: we'll explore the idea of moving from A → B, ensuring users are guided by our user interface.
+I'll also consider a number of critical flows that need to be considered when you're designing digital products, including 'onboarding' (when a user is taken through the initial screens of an application) and 'empty states' (when a user is confronted by an application that, at that moment, contains no content).
 
 
 

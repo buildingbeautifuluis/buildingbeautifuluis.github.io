@@ -3,7 +3,13 @@ Chapter 8: Project X-Rays
 
 <!-- 589 Words -->
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**This chapter will feature in-depth interviews with three industry professionals working in user interface design. For each, I’ll be selecting one project and unravelling it and identifying lessons we can learn. I’ll be interviewing the following:**
+
++ **Vic Bell**
++ **Howard Pinsky; and**
++ **Val Head**
+
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
 
 
@@ -21,6 +27,8 @@ Summary
 
 **In this chapter I’ve interviewed a cross-section of industry professionals who are all working in different aspects of user interface design. I've interviewed three different – and very talented – designers who are working in user interface design in different ways.**
 
+<!-- Reuse some of the content I've written above, particularly the idea of unravelling a particular project. -->
+
 
 
 Overview
@@ -29,6 +37,12 @@ Overview
 I’m thinking of focusing the Project X-Rays down to three people (Vic Bell, Howard Pinsky and Val Head) so that we can get the book finished – and published – more quickly.
 
 Everything’s taking a long time to complete and I think we could add a couple more X-Rays once it’s published. The beauty of a digital publication is we can update it. I have others I’ve spoken to who are keen to be included, if there’s time we can build them in.
+
+<!--
+
+Extra interviews:
+
++ Lee Munroe
 
 
 
