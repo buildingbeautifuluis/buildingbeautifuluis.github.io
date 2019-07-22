@@ -1,5 +1,28 @@
 Notes for Feedback
-------------------
+==================
+
+A Wee Update
+------------
+
+	Monday, 22 July
+
+Yesterday I had a lengthy discussion with both [Jordan Moore](https://twitter.com/jordanmoore) and [Lee Munroe](https://twitter.com/leemunroe) about the topic of naming conventions (outlined below). (Thank you both for their help.)
+
+One thing we all agreed on is that there are a lot of often conflicting naming conventions in use. Of course, finding the ‘one true naming convention’ is a quest worthy of [Don Quixote](http://theconversation.com/guide-to-the-classics-don-quixote-the-worlds-first-modern-novel-and-one-of-the-best-94097), it’s doubtless doomed to failure.
+
+For now I’ve settled on the following terms:
+
+	Objects → Components → Patterns → Pages → Flows
+
+I’ve explained these at the top of this sample from the book on [Naming Conventions](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Naming-Conventions.md). The diagram at the top sums everything up visually and it’s followed by some definitions.
+
+
+
+The thorny issue I’m grappling with… (Sunday)
+---------------------------------------------
+
+	Sunday, 21 July
+
 
 In the [May 2019 Update](https://theblog.adobe.com/xd-may-2019-update-create-design-systems/) to XD, **Adobe changed its terminology and introduced supercharged ‘symbols’, which they called ‘components’**. I was using the word components to mean something **higher up the chain of complexity**, but I think I need to revisit my naming convention as the whole book is built around this naming convention and I don’t want to introduce confusion.
 

@@ -5,7 +5,7 @@ Chapter 2: The Building Blocks of Interfaces
 
 **This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
 
-**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](#) document, which provide context on the particular problem I’m revisiting. I hope to hear from you!**
+**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m revisiting. I hope to hear from you!**
 
 😊
 
