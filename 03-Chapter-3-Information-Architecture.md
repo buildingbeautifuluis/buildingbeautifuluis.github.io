@@ -1,6 +1,8 @@
 Chapter 3: Information Architecture
 ===================================
 
+**In it for the long haul…**
+
 <!-- 3,011 Words -->
 
 **As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
