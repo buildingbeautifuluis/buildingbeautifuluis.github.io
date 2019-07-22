@@ -3,7 +3,7 @@ Chapter 3: Information Architecture
 
 <!-- 3,011 Words -->
 
-**I’m currently working on this chapter (Monday, 22 July, 2019). I hope to have it in a fully readable form by tomorrow morning. For now, it needs a great deal of work, so isn't worth reading. I'm in it for the long haul…!**
+**I’m currently working on this chapter (Monday, 22 July, 2019). I hope to have it in a fully readable form by tomorrow afternoon. For now, it needs a great deal of work, so it's definitely not worth reading. I'm in it for the long haul…!**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
@@ -16,17 +16,27 @@ Table of Contents
 + [Section 3: The Importance of a Clear Visual Hierarchy](#)
 + [Section 2: Typography at the Page Level](#)
 + [Section 4: Composition and Grid Systems](#)
-+ [Section 5: Iconic Layouts and Blockframes](#)
-+ [Further Reading](#)
++ [Section 5: Iconic Layouts, Blockframes and Wireframes](#)
++ [Closing Thoughts and Further Reading](#)
++ [Downloadables](#)
 
 
 
 Summary
 -------
 
-In an age of information overload, **establishing a clear information architecture (IA) is more critical than ever**. In this chapter, **I’ll explain what information architecture is, introduce the idea of visual hierarchy, explore the role that typography plays, and introduce grid systems as a backbone for visual alignment and harmony**.
+In this chapter I’ll explore how we can combine components to create patterns, out of which we build pages. I'll introduce the idea of building a pattern library…
 
-In short: This chapter's all about IA.
+
+
+In an age of information overload, **establishing a clear information architecture (IA) – so that we ensure our users can find their way – is more critical than ever**. In this chapter, I’ll explain
+
+
+ what information architecture is, introduce the idea of visual hierarchy
+
+I'll also explore the role that typography plays and introduce grid systems as a backbone for visual alignment and harmony. Lastly, I'll introduce a number of methods – iconic layouts, wireframes and blockframes – that are useful at different stages of the design process.
+
+**In short: This chapter's all about IA.**
 
 
 
@@ -307,12 +317,14 @@ There are whole books written about this. Don't re-invent the wheel, rather sign
 
 
 
-Section 5: Iconic Layouts and Blockframes
------------------------------------------
+Section 5: Iconic Layouts, Blockframes and Wireframes
+-----------------------------------------------------
 
 ![Placeholder Image](images/section-opening-placeholder-image.png)
 
 **CAPTION: Caption here.**
+
+As we start to consider the layout of our pages we can use a number 
 
 
 The idea for 'Iconic Layouts' is drawn from April Grieman's 1990 book 'Hybrid Imagery: The Fusion of Technology and Graphic Design'. The world has moved on a great deal since 1990, but one idea that Grieman explored has stuck with me over three decades later…
