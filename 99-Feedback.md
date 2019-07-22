@@ -18,8 +18,8 @@ I’ve explained these at the top of this sample from the book on [Naming Conven
 
 
 
-The thorny issue I’m grappling with… (Sunday)
----------------------------------------------
+The thorny issue I’m grappling with…
+------------------------------------
 
 	Sunday, 21 July
 
