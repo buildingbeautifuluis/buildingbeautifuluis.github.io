@@ -5,19 +5,6 @@ Chapter 3: Information Architecture
 
 **As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
 
-<!--
-
-Structurally Chapter 2's sections are consistent:
-
-+ Introduction:		2.1.0
-+ Part 1:			2.1.1
-+ Part 2:			2.1.2
-
-I think they should all follow the same rhythm (This is me and my OCD! I like consistency – except for outliers, like the 'A Library of Elements' section in Chapter 2, which won't fit.)
-
--->
-
-
 
 Table of Contents
 -----------------
