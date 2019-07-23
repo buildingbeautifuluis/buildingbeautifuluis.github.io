@@ -3,7 +3,9 @@ Chapter 6: Designing Desktop Interfaces
 
 <!-- 1,214 Words -->
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**This chapter isn’t worth reading just now (unless you want to get a feel for how I research and write). I hope to have it finished in August.**
+
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
 
 

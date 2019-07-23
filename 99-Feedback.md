@@ -6,7 +6,9 @@ A Wee Update
 
 	Monday, 22 July
 
-Yesterday I had a lengthy discussion with both [Jordan Moore](https://twitter.com/jordanmoore) and [Lee Munroe](https://twitter.com/leemunroe) about the topic of naming conventions (outlined below). (Thank you both for their help.)
+Yesterday I had a lengthy discussion with both [Jordan Moore](https://twitter.com/jordanmoore) and [Lee Munroe](https://twitter.com/leemunroe) about the topic of naming conventions (outlined below).
+
+**Thank you Jordan and Lee for your help.**
 
 One thing we all agreed on is that there are a lot of often conflicting naming conventions in use. Of course, finding the ‘one true naming convention’ is a quest worthy of [Don Quixote](http://theconversation.com/guide-to-the-classics-don-quixote-the-worlds-first-modern-novel-and-one-of-the-best-94097), it’s doubtless doomed to failure.
 
@@ -14,7 +16,7 @@ For now I’ve settled on the following terms:
 
 	Objects → Components → Patterns → Pages → Flows
 
-I’ve explained these at the top of this sample from the book on [Naming Conventions](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Naming-Conventions.md). The diagram at the top sums everything up visually and it’s followed by some definitions.
+I’ve explained these in this sample from my book, where I explore [Naming Conventions](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Naming-Conventions.md). The diagram at the top sums everything up visually and it’s followed by some definitions.
 
 
 

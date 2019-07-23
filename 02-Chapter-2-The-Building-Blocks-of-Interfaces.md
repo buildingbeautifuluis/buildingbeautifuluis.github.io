@@ -5,11 +5,11 @@ Chapter 2: The Building Blocks of Interfaces
 
 **This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
 
-**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m revisiting. I hope to hear from you!**
+**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I'd love to hear from you.**
 
 😊
 
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
 
 
@@ -17,8 +17,8 @@ Table of Contents
 -----------------
 
 + [Section 1: Interfaces Are Like LEGO](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego)
-+ [Section 2: Objects → Components → Patterns → Pages → Flows](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-2-objects--elements--components--pages--flows)
-+ [Section 3: A Library of Elements](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-3-a-library-of-elements)
++ [Section 2: Objects → Components → Patterns → Pages → Flows](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-2-objects--components--patterns--pages--flows)
++ [Section 3: A Library of Components](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-3-a-library-of-components)
 + [Section 4: The Wonderful World of Icons](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-4-the-wonderful-world-of-icons)
 + [Section 5: Design Systems](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-5-design-systems)
 + [Closing Thoughts and Further Reading](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#closing-thoughts)

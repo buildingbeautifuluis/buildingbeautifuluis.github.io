@@ -5,7 +5,7 @@ Chapter 1: Designing Interfaces
 
 **This chapter is at the editing stage, so it’s readable. I’ll be further developing the images shortly, but the content itself should – I hope! – be sound.**
 
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
 <!--
 

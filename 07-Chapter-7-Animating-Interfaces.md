@@ -3,7 +3,9 @@ Chapter 7: Animating Interfaces
 
 <!-- 829 Words -->
 
-**As I’ve noted in the [overview](https://github.com/fehler/building-beautiful-uis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. It isn’t finished, but I hope it provides some value as I finalise all of the chapter content.**
+**This chapter isn’t worth reading just now (unless you want to get a feel for how I research and write). I hope to have it finished in August.**
+
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
 /*
 
@@ -31,12 +33,6 @@ Table of Contents
 + [Section 3: Lessons From Disney](#)
 + [Section 4: Macro-Interactions (Page-Level)](#)
 + [Section 5: Micro-Interactions (Element– and Component-Level)](#)
-
-<!--
-
-There is *a lot* for this chapter in my Simplenote file. Check that before I start writing.
-
--->
 
 
 
