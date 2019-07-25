@@ -395,4 +395,4 @@ I hope you find this resource useful. I’m also currently working on a book for
 
 You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
 
-**Copyright · Adobe XD + Mr Murphy Ltd.**
+**Copyright · Mr Murphy Ltd + Adobe Xd | Design and Code by Dan Gold at Little Thunder.**
