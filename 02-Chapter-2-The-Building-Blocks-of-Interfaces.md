@@ -1,11 +1,11 @@
 Chapter 2: The Building Blocks of Interfaces
 ============================================
 
-<!-- 7,317 Words -->
+<!-- 7,597 Words -->
 
 **This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
 
-**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I'd love to hear from you.**
+**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I’d love to hear from you.**
 
 😊
 
@@ -465,9 +465,17 @@ Embracing design systems pays off with a number of incredibly valuable benefits.
 + your components and patterns are faster to design and build; and
 + your collaboration with others is considerably  smoother.
 
-Embracing a design system also results in more consistent branding for the different projects that you work on, leading to happier clients.
+Embracing a design system also results in more consistent branding for the different projects that you work on, leading to happier clients. A design system isn’t a magic bullet, however, in order to prove effective, it needs to constantly evolve, keeping pace with the evolution of user interface paradigms.
 
-I touched on styleguides in [Chapter 1: Designing Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) when I introduced styleguides.io, which gathers pattern libraries and style guides, but it’s worth exploring design systems, specifically, here.
+Jordan Staniscia summarises this perfectly in [Build Your Design System With These 8 Real World Lessons](https://www.abstract.com/blog/building-your-design-system/), where he emphasises the need to ‘Always Be Updating’:
+
+> The biggest mistake you can make when scaling a design system is thinking that you’re done. You can always do something better, and new requirements are always coming out. **You need to be in it for the long haul.**
+> 
+> Standards change. For instance, Apple’s Human Interface Guidelines gained some new updates this year, and it will probably change again next year. **You need to be constantly updating to stay on top of user expectations.**
+
+As Staniscia rightly points out, design systems are essentially living systems. As user interface paradigms change, so too your design system needs to change to meet users’ new and evolved expectations.
+
+I touched on style guides in [Chapter 1: Designing Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) when I introduced styleguides.io, which gathers pattern libraries and style guides, but it’s worth exploring design systems, specifically, here.
 
 ![Jad Limcaco’s Design Systems Repo](images/ch2/design-systems-repo.png)
 
@@ -526,6 +534,21 @@ All being well, this chapter has introduced you to the core principals of **how 
 In the next chapter – [Chapter 3: Information Architecture](https://github.com/buildingbeautifuluis/bbuis/blob/master/03-Chapter-3-Information-Architecture.md) – I’ll introduce the idea of using these elements as the basis for constructing components and pages, so that you can further develop your understanding of user interface design. 🎉
 
 
+### So, what did we learn?
+
+After reading Chapter 2, you should understand that:
+
+1. **We can use simple things to build complicated things.** (Just like LEGO.)
+
+2. **We’ve established a naming convention,** so we’re all speaking the same language:
+
+	Objects → Components → Patterns → Pages → Flows
+
+3. **We’re able to build what is essentially a design system by designing our components, patterns and pages from the object up.**
+
+Lastly, I’ve introduced you to **some typical components you’ll encounter when you begin to design user interaces**: buttons, toggles, progress indicators, tags and tool tips.
+
+
 
 Further Reading
 ---------------
@@ -548,7 +571,7 @@ I’ve created a series of supporting files – reference files and Adobe XD art
 
 ![ALT](images/ch2/downloadables.png)
 
-**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!**
+**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s original Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!**
 
 
 I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards to assist your learning, however, I retain the copyright.**
