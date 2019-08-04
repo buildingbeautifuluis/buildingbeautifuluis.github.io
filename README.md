@@ -11,10 +11,12 @@ Building Beautiful UIs
 
 The content is drawn from my 25+ years working as a designer and 15+ years working as an educator. In short: It’s all tried and tested.
 
-My studiomates at [Little Thunder](https://littlethunder.co) designed this temporary website for the ‘in progress’ version of the book so that you can read it as I write it.
+My studiomates at [Little Thunder](https://littlethunder.co) designed [a temporary website](https://buildingbeautifuluis.github.io) for the ‘in progress’ version of the book so that you can read it as I write it.
 
-I’m delighted with the new website. As usual, the Little Thunder team – and particularly their intern (paid!), [Dan Gold](https://dan.gold) – have knocked it out of the park. If you’re looking for partners on a digital product or user experience project, I’d recommend them in a heartbeat.
+I’m delighted with the new website. As usual, the Little Thunder team – and particularly their (paid!) intern, [Dan Gold](https://dan.gold) – have knocked it out of the park. If you’re looking for partners on a digital product or user experience project, I’d recommend them in a heartbeat.
 
 You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
+
+👨🏻‍💻
 
 —Christopher Murphy
