@@ -39,6 +39,7 @@ sass:
 collections:
   chapters:
     output: true
+    permalink: /chapters/:name/
 
 defaults:
   - scope:

@@ -5,7 +5,14 @@ layout: default
 
   <header>
     <h1>{{ page.title | escape }}</h1>
+    <p>{{ page.opening-text | newline_to_br }}</p>
   </header>
+
+  <section class="toc">
+    {%- for item in page.toc -%}
+      <a href="#section-{{ item.section }}">Section {{ item.section }} {{ item.title}}</a> 
+    {%- endfor -%}
+  </section>
 
   <div>
     {{ content }}

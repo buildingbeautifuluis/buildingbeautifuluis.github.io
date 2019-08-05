@@ -1,5 +1,12 @@
 ---
 title: "Chapter 1: Designing Interfaces"
+opening-text: "In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.
+
+I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language."
+
+toc:
+  - section: "1"
+    title: "The ‘UI’ in ‘GUI’"
 ---
 
 <!-- 4,354 Words -->
@@ -123,7 +130,7 @@ This intense period in computing history saw the emergence of the field of Human
 
 
 
-Section 1: The ‘UI’ in ‘GUI’
+Section 1: The ‘UI’ in ‘GUI’ {#section-1}
 ----------------------------
 
 ![Placeholder Image](/images/ch1/command-line-interface.png)
