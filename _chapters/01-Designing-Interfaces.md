@@ -1,19 +1,28 @@
 ---
-title: "Chapter 1: Designing Interfaces"
-opening-text: "In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.
+chapter-number: "01"
+title: "Designing Interfaces"
+opening-text: "<p>In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.</p>
 
-I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language."
+<p>I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.</p>"
 
-toc:
+table-of-contents:
   - section: "1"
-    title: "The ‘UI’ in ‘GUI’"
+    section-title: "The ‘UI’ in ‘GUI’"
+  - section: "2"
+    section-title: "Designing Human Interfaces"
+  - section: "3"
+    section-title: "Desktops and Metaphors"
+  - section: "4"
+    section-title: "Establishing Clear Mental Models"
+  - section: "5"
+    section-title: "UI, Here and Now"
 ---
 
 <!-- 4,354 Words -->
 
-**This chapter is at the editing stage, so it’s readable. I’ll be further developing the images shortly, but the content itself should – I hope! – be sound.**
+<!-- **This chapter is at the editing stage, so it’s readable. I’ll be further developing the images shortly, but the content itself should – I hope! – be sound.**
 
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.** -->
 
 <!--
 
@@ -72,14 +81,14 @@ Compare and contrast:
 
 
 
-Table of Contents
+<!-- Table of Contents
 -----------------
 
 + [Section 1: The ‘UI’ in ‘GUI’](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-1-the-ui-in-gui)
 + [Section 2: Designing Human Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-2-designing-human-interfaces)
 + [Section 3: Desktops and Metaphors](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-3-desktops-and-metaphors)
 + [Section 4: Establishing Clear Mental Models](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models)
-+ [Section 5: UI, Here and Now](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now)
++ [Section 5: UI, Here and Now](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) -->
 
 
 
@@ -133,14 +142,12 @@ This intense period in computing history saw the emergence of the field of Human
 Section 1: The ‘UI’ in ‘GUI’ {#section-1}
 ----------------------------
 
-![Placeholder Image](/images/ch1/command-line-interface.png)
-
-**CAPTION: Before graphical user interfaces (GUIs) were imagined in the 70s and 80s, users would interact with a computer via a command-line interface.)**
+{% include figure.html url="/images/ch1/command-line-interface.png" alt="" description="Before graphical user interfaces (GUIs) were imagined in the 70s and 80s, users would interact with a computer via a command-line interface." %}
 
 
 Before I dive into the depths of user interfaces (UIs), I think it’s important to get some definitions out of the way. The term ‘UI’ we know and love today has its origins in the 70s term ‘GUI’, an abbreviation of **graphical user interface**.
 
-UIs might feel commonplace to us today, but when they were first imagined they represented a fundamental shift in how we interacted with computers. Before the emergence of GUIs, working with a computer involved typing arcane commands into it via a text-based terminal from a [**command-line interface**](http://www.catb.org/esr/writings/taouu/html/ch02s02.html) (CLI), a little like the following command that produced a printable calendar:
+UIs might feel commonplace to us today, but when they were first imagined they represented a fundamental shift in how we interacted with computers. Before the emergence of GUIs, working with a computer involved typing arcane commands into it via a text-based terminal from a [command-line interface](http://www.catb.org/esr/writings/taouu/html/ch02s02.html) (CLI), a little like the following command that produced a printable calendar:
 
 	calendar
 
@@ -154,11 +161,7 @@ In 1973, Xerox PARC developed the Alto personal computer, the first computer ima
 
 The Alto’s interface – which used windows, icons and menus and allowed the user to open, move and delete files – embraced metaphor and a graphical approach. This is, of course, commonplace here and now, but it caught the eye of Steve Jobs who, rightly, saw this approach as the future of computing.
 
-
-![The Original Macintosh Interface](/images/ch1/macintosh-gui.png)
-
-**CAPTION: This image will show an early UI, probably System 7, so that I can provide some context on the emergence of graphical user interfaces. It will also have a timeline (Memex → Alto → System 7 → Etc.).**
-
+{% include figure.html url="/images/ch1/macintosh-gui.png" alt="" description="The Original Macintosh Interface" %}
 
 One of the best known early GUIs was Apple’s pre-OS X operating system. System 7 (which was the first graphical user interface I started using many, many years ago!). System 7 (and, before it, Apple’s Lisa OS) was considerably easier to navigate than issuing commands via a keyboard.
 
@@ -189,10 +192,7 @@ If conversational and voice interfaces interest you, have no fear, I have you co
 Section 2: Designing Human Interfaces
 -------------------------------------
 
-![A man using an iPhone.](/images/ch1/human-interfaces.jpg)
-
-**CAPTION: Users are often using their phones (and other devices) whilst undertaking other tasks. By ensuring your UI is clear and easy to understand you get out of their way, enabling the, to focus on the task at hand.** [Photograph by [Gilles Lambert](https://unsplash.com/@gilleslambert) on [Unsplash](https://unsplash.com).]
-
+{% include figure.html url="/images/ch1/human-interfaces.jpg" alt="A man using an iPhone." description="Users are often using their phones (and other devices) whilst undertaking other tasks. By ensuring your UI is clear and easy to understand you get out of their way, enabling the, to focus on the task at hand." %}
 
 The trouble with the term ‘user interface’ is that it abstracts humans (messy, unpredictable and… human!) into an anonymous category of ‘users’. In fact these users are all different, above all, they’re all **humans**.
 
@@ -231,10 +231,7 @@ I’ll explore these in the next two sections. Unless you’re deeply aware of t
 Section 3: Desktops and Metaphors
 ---------------------------------
 
-![Placeholder Image](/images/ch1/metaphor-shopping-cart.png)
-
-**CAPTION: By embracing a shopping cart metaphor, different user interfaces adhere to a common language. Users understand – thanks to regular use – what a shopping cart stands for and this metaphor eases their use of the UI (a win!).**
-
+{% include figure.html url="/images/ch1/metaphor-shopping-cart.png" alt="" description="By embracing a shopping cart metaphor, different user interfaces adhere to a common language. Users understand – thanks to regular use – what a shopping cart stands for and this metaphor eases their use of the UI (a win!)." %}
 
 If you’ve ever bought anything from Amazon, you’ll have encountered metaphors. When you add something to your basket at Amazon, there is in fact no ‘basket’. The basket is just a metaphor – drawn from the real world – to help you understand where you store your items.
 
@@ -277,9 +274,9 @@ As you use desktop, tablet and mobile applications, take note of the different c
 Section 4: Establishing Clear Mental Models
 -------------------------------------------
 
-![Placeholder Image](/images/ch1/mental-models.png)
+<!-- ![Placeholder Image](/images/ch1/mental-models.png)
 
-**CAPTION: This image will show a diagram of a mental model. (Something like this image, but redrawn by me.)**
+**CAPTION: This image will show a diagram of a mental model. (Something like this image, but redrawn by me.)** -->
 
 <!--
 
@@ -288,6 +285,8 @@ Stylistically, this is a nicer image, but do this in the style I did for the Ado
 https://s3.amazonaws.com/ceblog/wp-content/uploads/2018/01/16213553/Conceptual-Model-Vs-Mental-Model.png
 
 -->
+
+{% include figure.html url="/images/ch1/mental-models.png" alt="" description="" %}
 
 
 A mental model is an explanation of an individual’s imagined thought process about how something works in the real world.
@@ -323,9 +322,11 @@ I’ll explore this, stressing the need for a clear overall concept and a strong
 Section 5: UI, Here and Now
 ---------------------------
 
-![Placeholder Image](/images/ch1/interface-guidelines.png)
+{% include figure.html url="/images/ch1/interface-guidelines.png" alt="" description="" %}
 
-**CAPTION: This image will show a montage, in thirds, of: 1. Apple’s Human Interface Guidelines, 2. Google’s Material Design, and 3. IBM’s Living Language.**
+<!-- ![Placeholder Image](/images/ch1/interface-guidelines.png)
+
+**CAPTION: This image will show a montage, in thirds, of: 1. Apple’s Human Interface Guidelines, 2. Google’s Material Design, and 3. IBM’s Living Language.** -->
 
 
 Fortunately there are a wealth of resources available to us that can inform our understanding of UI design. Apple’s Human Interface Guidelines, Google’s Material Design, and IBM’s Living Language all offer lessons we can learn from, regardless of the devices we’re designing for.
@@ -336,36 +337,45 @@ As I noted earlier, I think the fact that Apple provides **human** interface gui
 
 Apple is treading a bit of a tightrope, clearly they don’t want to lose sight of their heritage (and their first set of groundbreaking Human Interface Guidelines), but – as you’ll see in the copy on their page – they use both terms: **human** interface and **user** interface.
 
-![Apple’s Human Interface Guidelines](/images/ch1/apple-human-interface-guidelines.png)
+{% include figure.html url="/images/ch1/apple-human-interface-guidelines.png" alt="Apple’s Human Interface Guidelines" description="Apple’s Human Interface Guidelines provide in-depth information and resources for designing interfaces that work on Apple’s various operating systems (macOS, iPadOS, iOS…)." %}
 
-**Caption: Apple’s Human Interface Guidelines provide in-depth information and resources for designing interfaces that work on Apple’s various operating systems (macOS, iPadOS, iOS…).**
+<!-- ![Apple’s Human Interface Guidelines](/images/ch1/apple-human-interface-guidelines.png)
+
+**Caption: Apple’s Human Interface Guidelines provide in-depth information and resources for designing interfaces that work on Apple’s various operating systems (macOS, iPadOS, iOS…).** -->
 
 
 Developed in 2014, Google’s [Material Design](https://material.io/design/) expanded on the ‘card’ motifs that debuted in Google Now. Material Design uses more grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.
 
 <!-- Check the above paragraph, it feels like it’s from Google’s Material Design copy. It also needs to be expanded a little so that it’s about the same weight as Apple’s. -->
 
-![Google’s Material Design](/images/ch1/google-material-design.png)
 
-**Caption: Google’s Material Design guidelines provide in-depth information and resources for designing interfaces that work across a range of devices.**
+{% include figure.html url="/images/ch1/google-material-design.png" alt="Google’s Material Design" description="Google’s Material Design guidelines provide in-depth information and resources for designing interfaces that work across a range of devices." %}
+
+<!-- ![Google’s Material Design](/images/ch1/google-material-design.png)
+
+**Caption: Google’s Material Design guidelines provide in-depth information and resources for designing interfaces that work across a range of devices.** -->
 
 
 IBM’s [Living Language](https://www.ibm.com/design/language/) – designed to be a shared vocabulary for design – represents IBM’s move into a design-driven culture and is well worth exploring. Currently on v2, IBM are also maintaining an archive of past versions, which offer a great deal of practical advice for designing user interfaces.
 
 As IBM put it in their Living Language: “Focus on users’ goals. Design tools that lead people to actionable insights. Be proactive, always anticipating users’ next moves and helping them prepare for change.”
 
-![IBM’s Living Language](/images/ch1/ibm-living-language.png)
+{% include figure.html url="/images/ch1/ibm-living-language.png" alt="IBM’s Living Language" description="IBM’s Living Language is described as, “A shared vocabulary for design.” It represents IBM’s move into a design-driven culture and is well worth exploring." %}
 
-**Caption: IBM’s Living Language is described as, “A shared vocabulary for design.” It represents IBM’s move into a design-driven culture and is well worth exploring.**
+<!-- ![IBM’s Living Language](/images/ch1/ibm-living-language.png)
 
+**Caption: IBM’s Living Language is described as, “A shared vocabulary for design.” It represents IBM’s move into a design-driven culture and is well worth exploring.** -->
 
 Lastly, [styleguides.io](http://styleguides.io) is a very useful roundup of other approaches to developing user interface libraries and style guides. It’s worth bookmarking and offers an insight into how a wide range of companies, both large and small, are moving towards the development of visually consistent user interface libraries.
 
 As of 2019, styleguides.io has gathered 500+ different resources and it’s worth exploring to get a feel for how other companies – that are smaller in scale to Apple, Google and IBM – are approaching the question of creating consistent user interface guidelines.
 
-![styleguides.io](/images/ch1/styleguides-io.png)
 
-**Caption: styleguides.io is also worth bookmarking for a useful overview of how other companies – at a wide range of scales – are handling user interface design.**
+{% include figure.html url="/images/ch1/styleguides-io.png" alt="styleguides.io" description="styleguides.io is also worth bookmarking for a useful overview of how other companies – at a wide range of scales – are handling user interface design." %}
+
+<!-- ![styleguides.io](/images/ch1/styleguides-io.png)
+
+**Caption: styleguides.io is also worth bookmarking for a useful overview of how other companies – at a wide range of scales – are handling user interface design.** -->
 
 
 Closing Thoughts
@@ -387,33 +397,3 @@ There are many great publications, offline and online, that will help further un
 + The Interaction Design Foundation have a useful overview of UI design titled [What is User Interface (UI) Design?](https://www.interaction-design.org/literature/topics/ui-design) It’s well worth a read for a high level introduction to user interface design.
 
 + Lastly, Nielsen Norman Group have a comprehensive overview on [Mental Models](https://www.nngroup.com/articles/mental-models/) that is well worth reading. Additionally, they have [a wealth of additional articles and videos](https://www.nngroup.com/search/?q=mental+models) on the topic, that are worth exploring.
-
-
-
-About the Author
-----------------
-
-![Christopher Murphy](/images/overview/mr-murphy.png)
-
-### Christopher Murphy
-
-[@fehler](https://www.twitter.com/fehler)
-
-A designer, writer and speaker based in Belfast, Christopher mentors purpose-driven businesses, helping them to launch and thrive. He encourages small businesses to think big and he enables big businesses to think small.
-
-As a design strategist he has worked with companies, large and small, to help drive innovation, drawing on his 25+ years of experience working with clients including: Adobe, EA and the BBC.
-
-The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
-
-
-
----
-
-
-
-I hope you find this resource useful. I’m also currently working on a book for the fine folks at [Smashing Magazine](https://www.smashingmagazine.com) – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.
-
-You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
-
-Copyright · Mr Murphy + Adobe  
-Design and Build · Dan Gold + Little Thunder

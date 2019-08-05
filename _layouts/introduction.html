@@ -2,26 +2,6 @@
 layout: default
 ---
 <main class="content--chapters">
-  <section class='content__wrapper'>
-    <h4>Chapter {{ page.chapter-number }}</h4>
-    <h1>{{ page.title | escape }}</h1>
-    <p>{{ page.opening-text }}</p>
-  </section>
-
-  <section class='chapter__contents content__wrapper'>
-    <h4>Table of Contents</h4>
-    <nav>
-      {%- for item in page.table-of-contents -%}
-      <a href="#section-{{ item.section }}-{{ item.section-title | slugify }}">
-        <span>Section {{ item.section }}</span>
-        <p>{{ item.section-title }}</p>
-      </a>
-      {%- endfor -%}
-      <a href="#further-reading">
-        <p>Further Reading</p>
-      </a>
-    </nav>
-  </section>
 
   <section class="content__wrapper">
     {{ content }}

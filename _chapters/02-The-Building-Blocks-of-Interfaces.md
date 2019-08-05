@@ -1,20 +1,34 @@
 ---
-title: "Chapter 2: The Building Blocks of Interfaces"
+chapter-number: "02"
+title: "The Building Blocks of Interfaces"
+opening-text: "<p>In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.</p>
+
+<p>I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.</p>"
+
+table-of-contents:
+  - section: "1"
+    section-title: "Interfaces Are Like LEGO"
+  - section: "2"
+    section-title: "Objects → Components → Patterns → Pages → Flows"
+  - section: "3"
+    section-title: "A Library of Components"
+  - section: "4"
+    section-title: "The Wonderful World of Icons"
+  - section: "5"
+    section-title: "Design Systems"
 ---
 
 <!-- 7,597 Words -->
 
-**This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
+<!-- **This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
 
 **If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I’d love to hear from you.**
 
-😊
-
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
+**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.** -->
 
 
 
-Table of Contents
+<!-- Table of Contents
 -----------------
 
 + [Section 1: Interfaces Are Like LEGO](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego)
@@ -23,7 +37,7 @@ Table of Contents
 + [Section 4: The Wonderful World of Icons](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-4-the-wonderful-world-of-icons)
 + [Section 5: Design Systems](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-5-design-systems)
 + [Closing Thoughts and Further Reading](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#closing-thoughts)
-+ [Downloadables](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#downloadables)
++ [Downloadables](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#downloadables) -->
 
 
 
@@ -62,9 +76,11 @@ With the overview of Chapters 2-4 mapped out, let’s get down to business and e
 Section 1: Interfaces Are Like LEGO
 -----------------------------------
 
-![LEGO](images/ch2/lego.jpg)
+{% include figure.html url="/images/ch2/lego.jpg" alt="LEGO" description="With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic components – buttons, toggles and tags, for example – we can build any UI we desire." %}
 
-**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic components – buttons, toggles and tags, for example – we can build any UI we desire.** [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com).]
+<!-- ![LEGO](images/ch2/lego.jpg)
+
+**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic components – buttons, toggles and tags, for example – we can build any UI we desire.** [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com).] -->
 
 
 When you’re starting on your journey as a user interface designer **it can be intimidating trying to work out how different interfaces are built**.
@@ -84,10 +100,10 @@ The good news is that – in our connected world underpinned by the web – **yo
 
 One small, but important point to note: What I’m **not** suggesting is **copying your finished user interface** by raiding Dribbble like a Viking. **I’m suggesting learning to use drawing tools – like XD – by deconstructing and rebuilding others’ work.**
 
+{% include figure.html url="/images/ch2/dan-gold-master-apprentice.png" alt="Dan Gold Master-Apprentice" description="Dan Gold, a second year student on my Interaction Design programme at Belfast School of Art, created the above Master-Apprentice exercise. On the left is the original, by Nadia Ivanova https://dribbble.com/nadiat_t, on the right is Gold’s exercise." %}
+<!-- ![Dan Gold Master-Apprentice](images/ch2/dan-gold-master-apprentice.png)
 
-![Dan Gold Master-Apprentice](images/ch2/dan-gold-master-apprentice.png)
-
-**CAPTION: Dan Gold, a second year student on my Interaction Design programme at Belfast School of Art, created the above Master-Apprentice exercise. On the left is the original, by [Nadia Ivanova](https://dribbble.com/nadiat_t), on the right is Gold’s exercise.**
+**CAPTION: Dan Gold, a second year student on my Interaction Design programme at Belfast School of Art, created the above Master-Apprentice exercise. On the left is the original, by [Nadia Ivanova](https://dribbble.com/nadiat_t), on the right is Gold’s exercise.** -->
 
 
 To help you on your learning journey **I’ve provided a series of [‘Master-Apprentice’](https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md) examples** in addition to the example above, so you can see how these exercises work.
@@ -107,10 +123,10 @@ Just like LEGO blocks can be combined to create relatively complicated construct
 
 Break apart any page – whether it’s desktop-, mobile- or wrist-based – and you’ll see that it’s created from a series of components and patterns. **Mastering how to draw these different components and patterns will put you in a position to create anything your UI requires.**
 
+{% include figure.html url="/images/ch2/break-apart.jpg" alt="Placeholder" description="This is a temporary image. It will be replaced by an image of an interface that I’ve deconstructed. Break apart any page and you’ll see it’s create from components and patterns. Mastering how to draw these building blocks is what will establish a firm foundation on which to build." %}
+<!-- ![Placeholder](images/ch2/break-apart.jpg)
 
-![Placeholder](images/ch2/break-apart.jpg)
-
-**CAPTION: This is a temporary image. It will be replaced by an image of an interface that I’ve deconstructed. Break apart any page and you’ll see it’s create from components and patterns. Mastering how to draw these building blocks is what will establish a firm foundation on which to build.**
+**CAPTION: This is a temporary image. It will be replaced by an image of an interface that I’ve deconstructed. Break apart any page and you’ll see it’s create from components and patterns. Mastering how to draw these building blocks is what will establish a firm foundation on which to build.** -->
 
 
 The temptation when you’re starting out is to dive in at the deep end and try to build something all-encompassing and complicated. This isn’t an approach I’d recommend. **Taking on too big a challenge can quickly lead to frustration because you’ve undertaken a task that’s far too challenging and complex.**
@@ -126,9 +142,10 @@ With that out of the way, let’s take a look at the different constituent parts
 Section 2: Objects → Components → Patterns → Pages → Flows
 ----------------------------------------------------------
 
-![Objects → Components → Patterns → Pages → Flows](images/ch2/objects-components-patterns.png)
+{% include figure.html url="/images/ch2/objects-components-patterns.png" alt="Objects → Components → Patterns → Pages → Flows" description="Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface components, which can then be combined to create patterns that are then organised on pages. Link these pages together and we have the flows that underpin our user interface." %}
+<!-- ![Objects → Components → Patterns → Pages → Flows](images/ch2/objects-components-patterns.png)
 
-**CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface components, which can then be combined to create patterns that are then organised on pages. Link these pages together and we have the flows that underpin our user interface.**
+**CAPTION: Everything we build is created from relatively simple objects. By combining these objects in different ways we can create different user interface components, which can then be combined to create patterns that are then organised on pages. Link these pages together and we have the flows that underpin our user interface.** -->
 
 
 **Everything we create is built from smaller parts.** At the simplest level, user interfaces are comprised of the following:
@@ -172,10 +189,10 @@ There’s no need to reinvent the wheel and, in the spirit of reusing existing n
 
 Analysing how existing components are built we see that **everything we see in a user interface – a component, a pattern or a page – is comprised of other, simpler objects**.
 
+{% include figure.html url="/images/ch2/constructing-elements.png" alt="Placeholder Image" description="In the above example, the button component is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow." %}
+<!-- ![Placeholder Image](images/ch2/constructing-elements.png)
 
-![Placeholder Image](images/ch2/constructing-elements.png)
-
-**CAPTION: In the above example, the button component is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow.**
+**CAPTION: In the above example, the button component is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow.** -->
 
 
 This idea – **of building complexity from the object up** – lies at the heart of everything we do. Grasping it we understand that **components – the fundamental units from which we build interfaces – are created from relatively simple objects**.
@@ -199,10 +216,10 @@ User interfaces that are inconsistent are not only aesthetically poor, but they 
 
 Consistency isn’t just about **how user interfaces look**, it’s also about **how user interfaces behave**. I’ll explore behaviour in depth in [Chapter 7: Animating Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/07-Chapter-7-Animating-Interfaces.md), so I’ll be focusing in this chapter on the look of your components, but keep in mind behaviour – and feel – is important, too.
 
+{% include figure.html url="/images/ch2/a-range-of-different-elements.png" alt="Placeholder" description="This is a temporary image. It will be replaced by an image of four components that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)" %}
+<!-- ![Placeholder](images/ch2/a-range-of-different-elements.png)
 
-![Placeholder](images/ch2/a-range-of-different-elements.png)
-
-**CAPTION: This is a temporary image. It will be replaced by an image of four components that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)**
+**CAPTION: This is a temporary image. It will be replaced by an image of four components that shows how they are consistently built. I’ll be highlighting: stroke widths; consistent border radius, colours, etc.. (Show: a button, a toggle, a tag and a tool tip.)** -->
 
 
 As you build your components, consider how they are consistently:
@@ -233,9 +250,10 @@ It’s important to focus on consistency, ensuring that:
 Section 3: A Library of Components
 ----------------------------------
 
-![Placeholder Image](images/ch2/a-range-of-different-elements.png)
+{% include figure.html url="/images/ch2/a-range-of-different-elements.png" alt="Placeholder Image" description="In the above example, we see a range of different components: buttons (in various states); stars, perhaps for a rating system; social icons; scroll buttons; and search boxes. Each of these components is – as we’ve seen – quite simply constructed, according to a consistent system." %}
+<!-- ![Placeholder Image](images/ch2/a-range-of-different-elements.png)
 
-**CAPTION: In the above example, we see a range of different components: buttons (in various states); stars, perhaps for a rating system; social icons; scroll buttons; and search boxes. Each of these components is – as we’ve seen – quite simply constructed, according to a consistent system.**
+**CAPTION: In the above example, we see a range of different components: buttons (in various states); stars, perhaps for a rating system; social icons; scroll buttons; and search boxes. Each of these components is – as we’ve seen – quite simply constructed, according to a consistent system.** -->
 
 
 Now that we understand how components are constructed, it’s time to dive in and explore some of the components you might need for your user interface designs. Where possible, if a component exists as a design pattern, it’s best to use this.
@@ -252,10 +270,10 @@ There are many, many more components in user interface design. Ever-helpful, usa
 
 The interfaces you design won’t necessarily need **all** of the components that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. Sticking to these mental models as closely as you can will **result in a user interface that’s clearer and more easily understood**.
 
+{% include figure.html url="/images/ch2/buttons.png" alt="Some Typical UI Button Types" description="This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed)." %}
+<!-- ![Some Typical UI Button Types](images/ch2/buttons.png)
 
-![Some Typical UI Button Types](images/ch2/buttons.png)
-
-**CAPTION: This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).**
+**CAPTION: This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).** -->
 
 #### Buttons
 
@@ -265,10 +283,10 @@ Google’s Material Design guidelines have [a useful overview of buttons](https:
 
 When designing a button, try and ensure it’s clearly communicated within your interface and looks ‘clickable’. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
+{% include figure.html url="/images/ch2/toggles.png" alt="Placeholder" description="This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example." %}
+<!-- ![Placeholder](images/ch2/toggles.png)
 
-![Placeholder](images/ch2/toggles.png)
-
-**CAPTION: This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example.**
+**CAPTION: This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example.** -->
 
 #### Toggles (Or Switches)
 
@@ -280,10 +298,10 @@ Toggles allow users to change settings between two states, for example: activati
 
 Once again, Google’s Material Design guidelines have [a useful overview of selection controls](https://material.io/design/components/selection-controls.html) that’s well worth reading.
 
+{% include figure.html url="/images/ch2/progress-indicators.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation." %}
+<!-- ![Placeholder](images/ch2/progress-indicators.png)
 
-![Placeholder](images/ch2/progress-indicators.png)
-
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation.** -->
 
 #### Progress Indicators
 
@@ -309,10 +327,10 @@ Progress indicators come in both linear and circular forms, as in the above exam
 
 **As I noted above, it’s important to handle your interface elements consistently.** If you’ve used a circular progress indicator for a refresh action on one screen, that same action shouldn’t use a linear indicator on another screen.
 
+{% include figure.html url="/images/ch2/tags.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected." %}
+<!-- ![Placeholder](images/ch2/tags.png)
 
-![Placeholder](images/ch2/tags.png)
-
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected.** -->
 
 #### Tags
 
@@ -324,10 +342,10 @@ Tags are useful in lots of different contexts, for example, **in profile pattern
 
 When designing tags, it’s important to **ensure that they are visually and behaviourally consistent**. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. <!-- TK Seems short. -->
 
+{% include figure.html url="/images/ch2/tool-tips.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above." %}
+<!-- ![Placeholder](images/ch2/tool-tips.png)
 
-![Placeholder](images/ch2/tool-tips.png)
-
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above.**
+**CAPTION: This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above.** -->
 
 #### Tool Tips
 
@@ -352,9 +370,10 @@ https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F0B8wSqcLwb
 Section 4: The Wonderful World of Icons
 ---------------------------------------
 
-![Vic Bell Gloo Icons](images/ch2/gloo-icons.png)
+{% include figure.html url="/images/ch2/gloo-icons.png" alt="Vic Bell Gloo Icons" description="Vic Bell’s Gloo icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from a very detailed and precise icon set created for the project https://www.behance.net/gallery/59585629/Gloo." %}
+<!-- ![Vic Bell Gloo Icons](images/ch2/gloo-icons.png)
 
-**CAPTION: Vic Bell’s Gloo icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from [a very detailed and precise icon set created for the project](https://www.behance.net/gallery/59585629/Gloo).**
+**CAPTION: Vic Bell’s Gloo icons were designed to help app designer Roberto Ortiz inject a little more life and character into his user interface designs. These are just a handful drawn from [a very detailed and precise icon set created for the project](https://www.behance.net/gallery/59585629/Gloo).** -->
 
 
 Icons aren’t really the same as components, rather **you might use them within components or in addition to components** to create a user interface that communicates clearly. **Icons are an incredibly powerful part of the UI designer’s toolkit** and are an important part of user interface design.
@@ -399,10 +418,10 @@ As I explored in Chapter 1, with the rise of personal computers and their subseq
 
 One of the best known examples of this were Susan Kare’s original icons for the [Macintosh](https://www.newyorker.com/culture/cultural-comment/the-woman-who-gave-the-macintosh-a-smile). Kare’s icons – designed using only black and white (due to the constraints of early screens) – have a timeless quality to them and it’s no surprise to see them housed [in the collection of New York’s Museum of Modern Art](https://www.moma.org/artists/38483).
 
+{% include figure.html url="/images/ch2/original-macintosh-icons.png" alt="Susan Kare’s Original Macintosh Icons" description="Susan Kare’s original icons for the Macintosh were instrumental in the rise of GUIs and icon-driven interfaces." %}
+<!-- ![Susan Kare’s Original Macintosh Icons](images/ch2/original-macintosh-icons.png)
 
-![Susan Kare’s Original Macintosh Icons](images/ch2/original-macintosh-icons.png)
-
-**CAPTION: Susan Kare’s original icons for the Macintosh were instrumental in the rise of GUIs and icon-driven interfaces.**
+**CAPTION: Susan Kare’s original icons for the Macintosh were instrumental in the rise of GUIs and icon-driven interfaces.** -->
 
 
 By embracing metaphors – built around everyday objects – Kare was able to provide a helping hand to users new to GUIs enabling them to understand how the interface worked: **a piece of paper** represented a document, which you could store in **a folder** and, when you no longer needed it, you could move it to **a trashcan**.
@@ -416,9 +435,10 @@ On a smaller screen, where space is a premium, Bell has designed a distilled set
 Section 5: Design Systems
 -------------------------
 
-![Placeholder Image](images/ch2/design-systems-book.png)
+{% include figure.html url="/images/ch2/design-systems-book.png" alt="" description="This is a temporary image. I’ll replace it with a montage of design systems including: Airbnb, IBM, Uber, MailChimp…." %}
+<!-- ![Placeholder Image](images/ch2/design-systems-book.png)
 
-**CAPTION: This is a temporary image. I’ll replace it with a montage of design systems including: Airbnb, IBM, Uber, MailChimp….**
+**CAPTION: This is a temporary image. I’ll replace it with a montage of design systems including: Airbnb, IBM, Uber, MailChimp….** -->
 
 
 As you design and build your user interface components, **it’s important to ensure that they follow a consistent visual language**. Do this at the component level and you will – by extension as you build patterns from components – have the basis of a design system.
@@ -431,10 +451,10 @@ Design systems are useful to learn about if you’re getting started in user int
 
 A detailed exploration of design systems is beyond the scope of this book, but I would wholeheartedly recommend reading up on them. I’d strongly recommend Alla Kholmatova’s [Design Systems: A Practical Guide to Creating Design Languages for Digital Products](https://shop.smashingmagazine.com/products/design-systems-by-alla-kholmatova?utm_source=shop&utm_medium=sidebar-widget) as a starting point. I have a copy and it’s **filled** with Post-It Notes!
 
+{% include figure.html url="/images/ch2/futurelearn-design-system.png" alt="FutureLearn’s Design System" description="FutureLearn’s design system ensures that everything the FutureLearn team, and its partners, design and build is considered, cohesive and consistent." %}
+<!-- ![FutureLearn’s Design System](images/ch2/futurelearn-design-system.png)
 
-![FutureLearn’s Design System](images/ch2/futurelearn-design-system.png)
-
-**CAPTION: FutureLearn’s design system ensures that everything the FutureLearn team, and its partners, design and build is considered, cohesive and consistent.**
+**CAPTION: FutureLearn’s design system ensures that everything the FutureLearn team, and its partners, design and build is considered, cohesive and consistent.** -->
 
 
 Kholmatova shephered the development of FutureLearn’s [Design System](https://design-system.futurelearn.com), which is also worth looking at. Her knowledge of design systems is unparalleled and her book is excellent and well worth owning.
@@ -478,9 +498,10 @@ As Staniscia rightly points out, design systems are essentially living systems. 
 
 I touched on style guides in [Chapter 1: Designing Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) when I introduced styleguides.io, which gathers pattern libraries and style guides, but it’s worth exploring design systems, specifically, here.
 
-![Jad Limcaco’s Design Systems Repo](images/ch2/design-systems-repo.png)
+{% include figure.html url="/images/ch2/design-systems-repo.png" alt="Jad Limcaco’s Design Systems Repo" description="Jad Limcaco’s Design Systems Repo is an excellent resource to learn about design systems." %}
+<!-- ![Jad Limcaco’s Design Systems Repo](images/ch2/design-systems-repo.png)
 
-**CAPTION: Jad Limcaco’s [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent resource to learn about design systems.**
+**CAPTION: Jad Limcaco’s [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent resource to learn about design systems.** -->
 
 If you’re looking for inspiration, [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent place to start. Created by Jad Limcaco, a designer at Apple, it started life as a collection of resources – examples, articles and tools – for Limcaco’s personal reference.
 
@@ -497,10 +518,10 @@ Black pencils are only awarded for outstanding projects – they aren’t awarde
 
 The [GOV.UK Design System](https://design-system.service.gov.uk) is a fantastic resource and, to the GOV.UK team’s remarkable credit, they have paved the way in opening up their processes and sharing the lessons they have learned.
 
+{% include figure.html url="/images/ch2/gov-uk.png" alt="The GOV.UK Design System, published in the open, is home to a wealth of information." description="The GOV.UK Design System, published in the open, is home to a wealth of information." %}
+<!-- ![Placeholder](images/ch2/gov-uk.png)
 
-![Placeholder](images/ch2/gov-uk.png)
-
-**CAPTION: The GOV.UK Design System, published in the open, is home to a wealth of information.**
+**CAPTION: The GOV.UK Design System, published in the open, is home to a wealth of information.** -->
 
 
 Public sector organisations are **often rightly criticised for moving slowly thanks to their often bottomless wells of bureaucracy**. GOV.UK is the opposite, it moves quickly and is constantly exploring new ways to optimise its processes.
@@ -569,10 +590,10 @@ Downloadables
 
 I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
 
+{% include figure.html url="/images/ch2/downloadables.png" alt="" description="" %}
+<!-- ![ALT](images/ch2/downloadables.png)
 
-![ALT](images/ch2/downloadables.png)
-
-**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s original Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!**
+**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s original Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!** -->
 
 
 I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards to assist your learning, however, I retain the copyright.**
@@ -591,7 +612,7 @@ You can download, adapt or transform the files (non-commercially, for educationa
 
 
 
-About the Author
+<!-- About the Author
 ----------------
 
 ![Christopher Murphy](images/overview/mr-murphy.png)
@@ -617,4 +638,4 @@ I hope you find this resource useful. I’m also currently working on a book for
 You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
 
 Copyright · Mr Murphy + Adobe  
-Design and Build · Dan Gold + Little Thunder
+Design and Build · Dan Gold + Little Thunder -->

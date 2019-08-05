@@ -1,0 +1,98 @@
+---
+layout: default
+---
+<main class='content--resources content--chapters'>
+    <section class="content__wrapper">
+        <h4>Resources</h4>
+        <h1>{{ page.title }}</h1>
+
+        {{ content }}
+    </section>
+
+    <section class="resources--desktop content__wrapper">
+        <h2>Desktop</h2>
+        <p>The desktop examples I’ve included are browser-focused, but the principles apply equally to desktop software.</p>
+
+        <div class="resources__list">
+            {% for item in page.section-desktop %}
+            <article class='list__item'>
+                <a href="{{ item.url }}" target="__blank">
+                    <figure>
+                        <img src="{{ item.image }}" alt="{{ item.image-alt-text }}">
+                    </figure>
+                    <div>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="resources--mobile content__wrapper">
+        <h2>Mobile (Smartphone, Tablet)</h2>
+        <p>The mobile examples I’ve included are for iOS (because I have an iPhone), but – broadly – the principles of information architecture and user interface design map over to other mobile platforms.</p>
+
+        <div class="resources__list">
+            {% for item in page.section-mobile %}
+            <article class='list__item'>
+                <a href="{{ item.url }}" target="__blank">
+                    <figure>
+                        <img src="{{ item.image }}" alt="{{ item.image-alt-text }}">
+                    </figure>
+                    <div>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="resources--mobile content__wrapper">
+        <h2>Wrist</h2>
+        <p>The wrist examples I’ve included are for Apple’s watchOS (because I have an Apple Watch). If possible – and of course affording every single device is an issue! – it helps to own the devices you’re designing for so you can truly understand them by using them regularly. </p>
+
+        <div class="resources__list">
+            {% for item in page.section-wrist %}
+            <article class='list__item'>
+                <a href="{{ item.url }}" target="__blank">
+                    <figure>
+                        <img src="{{ item.image }}" alt="{{ item.image-alt-text }}">
+                    </figure>
+                    <div>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="additional-content">
+        <div class="content__wrapper additional__about">
+            <img src="/images/overview/mr-murphy.png" alt="Christopher Murphy">
+            <h3>Christopher Murphy</h3>
+            <a href="https://www.twitter.com/fehler" style="margin-bottom: 2rem;" target='__blank'>@fehler</a>
+            <p>A designer, writer and speaker based in Belfast, Christopher mentors purpose-driven businesses,
+                helping them to launch and thrive. He encourages small businesses to think big and he enables big
+                businesses to think small.</p>
+            <p>As a design strategist he has worked with companies, large and small, to help drive innovation,
+                drawing on his 25+ years of experience working with clients including: Adobe, EA and the BBC.</p>
+            <p>The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful
+                Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are
+                accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of
+                experience as a design educator.</p>
+        </div>
+    </section>
+
+    <section class="additional-content additional-content--extra">
+        <div class="content__wrapper">
+            <p>I hope you find this resource useful. I’m also currently working on a book for the fine folks at <a href="https://www.smashingmagazine.com/" target='__blank'>Smashing Magazine</a> – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.</p>
+            <p>You might like to <a href="https://twitter.com/fehler/" target='__blank'>follow me on Twitter</a> for updates on this book, that book and other projects I’m working on.</p>
+        </div>
+    </section>
+</main>

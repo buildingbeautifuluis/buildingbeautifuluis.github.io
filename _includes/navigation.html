@@ -1,0 +1,211 @@
+<header class="header-navigation">
+  <nav class='navigation__container'>
+      <a href="/index.html" class='main-logo'>Building Beautiful UIs</a>
+
+      <button class='menu__toggle'>
+          Menu
+          <svg viewBox='0 0 10 10' width='2em'>
+              <rect x='0' y='0' width='10' height='2'/>
+              <rect x='0' y='4' width='10' height='2'/>
+              <rect x='0' y='8' width='10' height='2'/>
+          </svg>
+      </button>
+
+      <ul class="navigation__links">
+          <li><a href="/" class='{%- if page.layout == "default" -%}link--active{%- endif -%}'>Home</a></li>
+          <li>
+            {%- if page.layout == "introduction" -%}
+            <p class='submenu__trigger link--active'>Introduction</p>
+            {%- else -%}
+            <p class='submenu__trigger'>Introduction</p>
+            {%- endif -%}
+              <ul class='chapter__submenu'>
+                  <li>
+                      <a href="/introduction/overview/">
+                          <p>Overview</p>
+                      </a>
+                  </li>
+                  <li><a href="#" class='link--inactive'>
+                          <p>Foreword</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <p>Audience</p>
+                      </a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            {%- if page.layout == "chapter" -%}
+            <p class='submenu__trigger link--active'>Chapters</p>
+            {%- else -%}
+            <p class='submenu__trigger'>Chapters</p>
+            {%- endif -%}
+              <ul class='chapter__submenu'>
+                  <li>
+                      <a href="/chapters/01-Designing-Interfaces/">
+                          <h5>01</h5>
+                          <p>Designing Interfaces</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="/chapters/02-The-Building-Blocks-of-Interfaces/">
+                          <h5>02</h5>
+                          <p>The Building Blocks of Interfaces</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <h5>03</h5>
+                          <p>Information Architecture</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <h5>04</h5>
+                          <p>Getting from A to B</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <h5>05</h5>
+                          <p>Designing Mobile Interfaces</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <h5>06</h5>
+                          <p>Designing Desktop Interfaces</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <h5>07</h5>
+                          <p>Animating Interfaces</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <h5>08</h5>
+                          <p>Project X-Rays</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#"class='link--inactive'>
+                          <h5>09</h5>
+                          <p>Where to from here for UI?</p>
+                      </a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            {%- if page.layout == "resources" -%}
+            <p class='submenu__trigger link--active'>Resources</p>
+            {%- else -%}
+            <p class='submenu__trigger'>Resources</p>
+            {%- endif -%}
+              <ul class='chapter__submenu'>
+                  <li>
+                      <a href="/resources/master-apprentice/">
+                          <p>Master-Apprentice Exercises</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#" class='link--inactive'>
+                          <p>Swipe Files</p>
+                      </a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  </nav>
+
+  <ul class='navigation__mobile'>
+      <li><a href="/">Home</a></li>
+
+      <li class='link--top'>Inroduction</li>
+      <li>
+          <a href="/introduction/overview/">
+              <p>Overview</p>
+          </a>
+      </li>
+      <li><a href="#" class='link--inactive'>
+              <p>Foreword</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <p>Audience</p>
+          </a>
+      </li>
+
+      <li class='link--top'>Chapters</li>
+      <li>
+          <a href="/chapters/01-Designing-Interfaces/">
+              <h5>01</h5>
+              <p>Designing Interfaces</p>
+          </a>
+      </li>
+      <li>
+          <a href="/chapters/02-The-Building-Blocks-of-Interfaces/">
+              <h5>02</h5>
+              <p>The Building Blocks of Interfaces</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <h5>03</h5>
+              <p>Information Architecture</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <h5>04</h5>
+              <p>Getting from A to B</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <h5>05</h5>
+              <p>Designing Mobile Interfaces</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <h5>06</h5>
+              <p>Designing Desktop Interfaces</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <h5>07</h5>
+              <p>Animating Interfaces</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <h5>08</h5>
+              <p>Project X-Rays</p>
+          </a>
+      </li>
+      <li>
+          <a href="#"class='link--inactive'>
+              <h5>09</h5>
+              <p>Where to from here for UI?</p>
+          </a>
+      </li>
+
+      <li class='link--top'>Resources</li>
+      <li>
+          <a href="/resources/master-apprentice/">
+              <p>Master-Apprentice Exercises</p>
+          </a>
+      </li>
+      <li>
+          <a href="#" class='link--inactive'>
+              <p>Swipe Files</p>
+          </a>
+      </li>
+  </ul>
+</header>

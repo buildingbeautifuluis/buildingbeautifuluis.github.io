@@ -37,16 +37,32 @@ sass:
 
 # Collections
 collections:
+  introduction:
+    output: true
+    permalink: /introduction/:name/
   chapters:
     output: true
     permalink: /chapters/:name/
+  resources:
+    output: true
+    permalink: /resources/:name/
 
 defaults:
+  - scope:
+      path: ""
+      type: "introduction"
+    values:
+      layout: introduction
   - scope:
       path: ""
       type: "chapters"
     values:
       layout: chapter
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: resources
 
 
 # Exclude from processing.
