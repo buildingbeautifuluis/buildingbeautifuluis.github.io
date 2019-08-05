@@ -709,6 +709,21 @@ See Also:
 - - -
 
 
+## Performance
+
+Definition:
+
+Speed. Look at Harry Roberts for some definition here.
+
+
+See Also:
+
++ The 100ms Rule
+
+
+- - -
+
+
 ## Persona
 
 Definition:
@@ -829,6 +844,19 @@ See Also:
 - - -
 
 
+## The 100ms Rule
+
+> The creator of Gmail, Paul Buchheit, had a rule: every interaction should be faster than 100ms. Why? Because 100ms is the threshold where interactions feel instantaneous.
+> —[Superhuman](https://superhuman.com)
+
+See Also:
+
++ Performance
+
+
+- - -
+
+
 ## Top Tasks
 
 Definition:
@@ -884,6 +912,24 @@ Definition:
 See Also:
 
 + CONTENT
+
+
+- - -
+
+
+## Usability
+
+Definition:
+
+Superhuman: "We deliberately started with low contrast to make it look attractive and differentiated. As or audience becomes more diverse we plan to increase contrast." This is not good.
+
+Superhuman should be ashamed of this.
+
+
+See Also:
+
++ Accessibility
++ Contrast Checker (https://webaim.org/resources/linkcontrastchecker/)
 
 
 - - -

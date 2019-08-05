@@ -1,9 +1,13 @@
 Chapter 3: Information Architecture
 ===================================
 
+<!-- Before I start writing, look at Alla’s book: 1. It mentions, Alexander’s book; 2. It may mention Patterns and provide examples. -->
+
 <!-- 3,011 Words -->
 
-**I’m currently working on this chapter (Monday, 22 July, 2019). I hope to have it in a fully readable form by tomorrow afternoon. For now, it needs a great deal of work, so it's definitely not worth reading. I'm in it for the long haul…!**
+**This is a complete rebuild…**
+
+**I’m currently working on this chapter (Sunday, 4 August, 2019). I hope to have it in a fully readable form by tomorrow afternoon. For now, it needs a great deal of work, so it’s definitely not worth reading. I’m in it for the long haul!**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
@@ -12,10 +16,10 @@ Chapter 3: Information Architecture
 Table of Contents
 -----------------
 
-+ [Section 1: Components → Patterns → Pages](#)
-+ [Section 3: The Importance of a Clear Visual Hierarchy](#)
-+ [Section 2: Typography at the Page Level](#)
-+ [Section 4: Composition and Grid Systems](#)
++ [Section 1: A Pattern Language](#)
++ [Section 2: Components → Patterns → Pages](#)
++ [Section 3: A Library of Patterns](#)
++ [Section 4: Information Architecture](#)
 + [Section 5: Iconic Layouts, Blockframes and Wireframes](#)
 + [Closing Thoughts and Further Reading](#)
 + [Downloadables](#)
@@ -25,23 +29,18 @@ Table of Contents
 Summary
 -------
 
-In this chapter I’ll explore how we can combine components to create patterns, out of which we build pages. I'll introduce the idea of building a pattern library…
+In this chapter **I'll level up the complexity a little**. I'll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of **patterns, reusable solutions to user interface problems that occur frequently**.
 
+Once I've explored patterns, **I'll tie everything together** to consider how **we can use patterns, alongside components and objects, to build pages**. With patterns and pages covered, I'll stress the need to consider information architecture, **so that we ensure our users can find their way to what they're looking for**.
 
-
-In an age of information overload, **establishing a clear information architecture (IA) – so that we ensure our users can find their way – is more critical than ever**. In this chapter, I’ll explain
-
-
- what information architecture is, introduce the idea of visual hierarchy
-
-I'll also explore the role that typography plays and introduce grid systems as a backbone for visual alignment and harmony. Lastly, I'll introduce a number of methods – iconic layouts, wireframes and blockframes – that are useful at different stages of the design process.
-
-**In short: This chapter's all about IA.**
+Lastly, I'll introduce a number of methods – iconic layouts, wireframes and blockframes – that are **useful at different stages of the design process** and which will pave the way for Chapter 4, **where I explore flows and getting from A → B**.
 
 
 
 Overview
 --------
+
+<!-- This might need a sentence to cover off patterns and pages. (Or it might be OK as is, because I cover this in the second half. Re-read in the morning.) -->
 
 When we design an interface, it’s important to put some thought into our overall information architecture (IA). Information architecture is focused on **organising, structuring and labelling content in a way that eases users through the overall information presented**.
 
@@ -51,269 +50,251 @@ Our goal as designers is to:
 
 2. **enable them to complete the goals they intend to undertake**.
 
-In order to do this, it’s important to put some thought into **how the different elements fit together as part of the overall system** within which they exist.
+In order to do this, it’s important to put some thought into **how the different elements we use in an interface fit together as part of the overall system** within which they exist.
 
 To design an effective information architecture, **we need to consider the relationship of elements at a range of different levels**:
 
-Component Level
-Page Level
-Site / App Level
++ The Pattern Level
++ The Page Level; and
++ The Site Level *
 
-Our components – the content elements that make up our pages, that I explored in the preceding chapter – **will have their own information architecture that we need to consider at the micro-level**.
+The components and patterns we design – the content elements that make up our pages – **will have their own information architecture that we need to consider at the micro-level**.
 
-Similarly, pages will have a page-level information architecture, that relates to the context in which they’re consumed, for example, in a browser in a desktop or mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
+Similarly, pages will have a page-level information architecture, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
 
 At the macro-level, we need to **consider the overall information architecture of the site or application we’re building**. We need to **ensure that we organise our information clearly**, ensuring users understand the overall structure of the site and enabling them to build a ‘mental model’ of how everything is organised.
 
+With the overview covered, let’s get down to business and explore some further building blocks of user interfaces: patterns.
+
+\* Our site might, of course, be an app.
 
 
-Section 1: Elements → Components → Pages
+
+Section 1: A Pattern Language
+-----------------------------
+
+_/* This section should be close. I showed it to Matthew Smith (Pattern Tap) and he seemed happy with it. */_
+
+<!--
+
+This section will introduce the idea of patterns and pattern languages. I’ll talk about Pattern Tap, but – more importantly – I’ll talk about Christopher Alexander’s book ‘A Pattern Language’.
+
+I’ve been in touch with Matthew Smith (who created Pattern Tap) and he’s happy with my first draft at Section 1.
+
+-->
+
+![Placeholder Image](images/section-opening-placeholder-image.png)
+
+**CAPTION: Caption here.**
+
+
+In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of ‘pattern langauges’ as I begin to explore the ‘Components → Patterns → Pages…’ part of the interface equation**.
+
+**A pattern language is a system for cataloguing and describing good design practice.** The term was coined in 1977 by the architect, Christopher Alexander (who I’ll return to shortly). Essentially pattern languages are used to gather tried and tested solutions to design problems, for example, a login pattern that’s been shown to work through testing.
+
+The thinking behind pattern langauges pre-dates design systems by quite some time.
+
+Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
+
+_IMAGE /* This needs an image here_ _showing the collections overview. */_
+
+_CAPTION: Pattern Tap saved you re-inventing the_ _user interface wheel by gathered a wealth of design patterns for inspiration._
+
+**Pattern Tap collected examples of user interface design patterns**, largely as applied to the web. As Smith put it:
+
+> Imagine one place where you can **drink deeply of great design patterns**. Imagine there’s no more war. There’s no more dissent. You don’t have to sludge through design after design for **the best pattern inspiration** anymore.
+
+The site allowed you to browse curated /* Were they curated? I can’t recall. */ collections to **find design patterns that solved a particular problem you were dealing with**. It’s collections included:
+
+- forms;
+- breadcrumb trails;
+- navigation;
+- logins; and
+- footers.
+
+Imagine you had to include a form on a website you were creating. **Pattern Tap was useful for seeing design patterns for forms that others had designed to address this problem. **As with my note of caution about Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics like a Viking, it was to provide different ways of tackling a problem – patterns – that designers could learn principles from**.
+
+_/* What I’m trying to say here (and need to be clear on) is that Pattern Tap was about design principles – methods, approaches… – not surface-level, aesthetic inspiration. */_
+
+
+### The Father of Pattern Languages
+
+_/* This section, about Alexander’s book, might be flagged up as ‘you should read it, but you can skip it if history’s not your thing’. (See my comments below.) That said, I think it’s important. Also, there were three books, not two. (Even though Alexander's book mentions 'two halves'.) */_
+
+Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was preceded by ‘The Timeless Way of Building’.
+
+Together, these books provided, “a language, for building and planning,” and, “the theory and instructions for the use of that language,” and were the result of eight years of practice and thought.
+
+_This needs a little more clarity, i.e.: Alexander’s intention was to codify an approach towards building (in an architectural context) and establish a library of patterns from which an architect could draw. His book gathered examples, as in the illustration below. This still needs more to draw out the idea that underpins ‘A Pattern Language’._
+
+_This looks interesting:_
+
++ _[www.resilience.org/stories/2016-10-13/working-with-patterns-an-introduction/](https://www.resilience.org/stories/2016-10-13/working-with-patterns-an-introduction/)_
+
+_Maybe content worth adding. This abstract also summarises it well, use a blockquote:_
+
+> _A Pattern Language by Christopher Alexander is renowned for providing simple, conveniently formatted, humanist solutions to complex design problems ranging in scale from urban planning through to interior design. This text is also believed to be the most widely read architectural treatise ever published._
+
+> _[cityterritoryarchitecture.springeropen.com/articles/10.1186/s40410-017-0073-1](https://cityterritoryarchitecture.springeropen.com/articles/10.1186/s40410-017-0073-1)_
+
+_The above says, “It is only one part of a trilogy of works documenting Alexander’s ‘second theory’ of architecture…” Check this. I thought it was one half (perhaps in parentheses add that, ultimately it became one of a trilogy of works). In Alexander’s book he says there are two books, a third was – perhaps – added later._
+
+
+_IMAGE: Redraw from the book perhaps, as I doubt we’ll have the £s to license an image._
+
+_CAPTION: Whilst Alexander’s work focused on architecture, the underlying methodology can be applied much more widely._
+
+Replace ‘building’ (house) with ‘digital product’ and a great deal of Alexander’s thinking maps over.
+
+It’s worth noting that Alexander points out – within the book’s opening paragraphs – that ‘A Pattern Language’ (specifically the one introduced in his book) is **one possible pattern langauge, i.e. it is not the only possible pattern language**.
+
+Put simply: there are many possible patterns and the ones you choose will be influenced by your goals and your intended audience (and to a degree your individual aesthetic preferences).
+
+_/* I hope people follow along with this as it’s important. I’m worried that some people will love this, but others will want to get down to business, but I think this needs to be included, not least as Alexander is regarded as the father of the pattern language movement. */_
+
+_/* What this is missing, is the application of ‘A Pattern Language’ to software, etc.,. This is well-documented and I need to tease it out at the end of this part so that I bridge into the next part, moving on to explore patterns in software, and by extension, user interface design. */_
+
+
+### Many patterns form a language…
+
+**I’m working on this section just now, so it’s a bit of a work in progress. Before I start on this on Monday, read through this. There's a lot here, it just needs to be knocked into shape.**
+
+	http://bit.ly/patternsandlanguages
+
+_/* Perhaps this section should explore the patterns movement that Alexander helped to bring to life. This then gets unpacked in this part, which leaves the next section to really dive deep into specific examples of patterns and pages. */_
+
+<!-- This section is where I could also use the language metaphor that I’ve noted somewhere. -->
+
+_/* One thing I want to stress is that it's worth the time taken to build a dictionary of patterns that you can refer back to. */_
+
+What I want to explore in this section is the idea that we can build our own encyclopaedias, or dictionaries, of examples (similar to Smith’s work with Pattern Tap). This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
+
+It’s a good idea – especially in studio downtime – to **collect examples of the different design patterns you create on projects**. These can be useful to show clients examples of how typical design challenges are addressed. (A series of forms, for example.)
+
+<!-- Remove the Little Thunder reference. It's too much of an in-joke. -->
+
+There is always downtime in a studio. You can use that time to let off steam and play table tennis (as my Little Thunder studiomates do, frequently), but you can also put that time to good use, by gathering examples of patterns ‘in the wild’ that you can return to when you embark upon new projects.
+
+By building a collection of design patterns and noting why they work, you can accelerate the design process considerably. Before you build something (which is time-consuming and expensive), you can show clients relevant examples from your library, helping them to visualise how things night look.
+
+ADD A LINK TO A REPO HERE WITH SOME EXAMPLES. OR THIS COULD BE A NOTIST DECK. REGARDLESS, IT’S ONE OF THE BOOK’S ASSOCIATED FILES.
+
+
+Each pattern has:
+
+- a clear name;
+- an image;
+- a descriptive entry; and
+- cross-references.
+
+Applying this to user interface design this might be:
+
+- a payment form;
+- a screenshot;
+- an example of a payment form (for Get Invited) that’s used to gather customers’ credit card details;
+- links to other payment forms you’ve designed for other projects. (So, for example, you can show clients alternative patterns.)
+
+Just as Aexander’s thinking could be applied to the construction of buildings and, at a larger scale, towns, **it can also be applied to user interface design**. Indeed, Alexander is regarded as the father of the pattern language movement and his impact on software design is widely acknowledged.
+
+_/* Essentially, this is where I introduce the idea – that I established in the previous chapter - that we’re building a library, a set of patterns, created from objects and components, that we’ll combine in different ways as we build our interfaces. */_
+
+The following is from [Wikipedia](https://en.wikipedia.org/wiki/Pattern_language#What_is_a_pattern?), it captures what I want to say, but needs to be rewritten:
+
+> _When a designer designs something – whether a house, computer program, or lamp – they must make many decisions about how to solve problems. A single problem is documented with its typical place (the syntax), and use (the grammar) with the most common and recognized good solution seen in the wild, like the examples seen in dictionaries._
+
+> _Each such entry is a single design pattern. Each pattern has a name, a descriptive entry, and some cross-references, much like a dictionary entry. A documented pattern should explain why that solution is good in the pattern’s contexts._
+
+Just as it’s important to consider the consistency of your components so that they meet a wide range of diverse needs, cohesively, so too it’s important to consider the consistency of your patterns.
+
+Using the objects and components, that I explored in the previous chapter, to create patterns is where things get interesting. **We can build, from the ground up, a consistent set of elements that we can then orchestrate within pages.**
+
+
+
+Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-<!--
+This section will focus on the progressive complexity of:
 
-…patterns pre-dating design systems. Long before Pattern Tap existed there was Christopher Alexander’s 1977 book ‘A Pattern Language’. Few have read the book, but Alexander’s thinking has certainly shaped where we are today.
++ Components
++ Patterns
++ Pages
 
-Sadly, Pattern Tap seems to have disappeared, which is a shame. I’ll maybe link to it on the Wayback Machine.
+We can use components (that we focused on in Chapter 2) to build patterns and pages. We can also use objects and components to create pages.
 
--->
+This will explain the context covering both patterns (showing some examples) and how we can then use these patterns, along with objects and components, to build pages (showing examples).
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+In terms of sub-sections, these might be…
 
-**CAPTION: Caption here.**
 
+![Dribbble Pattern (Card)](images/ch3/dribbble-pattern-card.png)
 
-<!--
+### Anatomy of a Pattern (Micro IA)
 
-It feels like there should be a part that comes before 'Elements → Components → Pages' that deals with the overall concept of signposting. That could use the following, airport content.
+This takes something like a Dribbble shot pattern (a card) and shows how it's structured. Draw attention to the buttons so that I can show how objects and components come together in patterns.
 
--->
 
-As UI designers, our role is to orchestrate the elements on a page and impose some order on it. Whether that page is in a desktop-, a mobile- or a wrist-based context we need to take different elements, components, and groupings of content (words, imagery, video…) and organise it.
+![Dribbble Page](images/ch3/dribbble-page.png)
 
-This is where information architecture (IA) comes in.
+### Anatomy of a Page (Macro IA)
 
-Everything we design is created from content. When we design a UI, we take this content and organise it, enabling the user to navigate it, quickly and easily finding their way.
+This takes a page and shows how it's structured and organised. Dribbble page, perhaps. So we see how the card pattern for the shots comes together in the context of the page.
 
-Our job is to consider the hierarchy of information on a page – and the different pages that are connected together and ensure everything is clearly signposted.
 
 
-This is a new Part 1, it's about building up from the elements and components we explored in the previous chapter.
+Section 3: A Library of Patterns
+--------------------------------
 
-Show an example of how a page is built up:
+This section will echo the section from Chapter 2 called a ‘A Library of Components’. I’ll use the section to introduce (five?) patterns (and mention others). Essentially this will be like:
 
-+ Element
-+ Component
-+ Page
+	https://design-system.service.gov.uk/patterns/
 
-Mention design systems (reiterating what I said in the preceding chapter).
+I’ll talk about patterns like: cards for a user profile; a date picker; a credit card form; etc.. It will largely be show and tell and will be accompanied by XD files like Chapter 2.
 
-This chapter's about IA so focus less on the flows for now and focus on the IA.
+I’ll explore five patterns (echoing Chapter 2, where I also explored five components), I’ll also list others that you might need to consider.
 
-Analysing how different interfaces work at different levels of information hierarchy (Elements → Components → Pages) will give you a clearer understanding of how to manage your information architecture.
+	https://uxuigifs.tumblr.com/
 
-There's an information architecture at each of these resolutions: components will have their own information architecture, as will pages, which are often created from components.
 
-For example, a simple profile card might have three groupings of information:
+**SO THIS WOULD BE 1/5 EXAMPLES**
 
-+ User Profile
-+ Social
-+ Tags
+### Sign-In Forms
 
-MENTION THE XD EXAMPLE FILES
+I’ve focused on sign in forms because they explore forms (about which entire books have been written, like XXXX’s excellent [XXXX]), but they do so in a focused way. If your project includes forms – and it is very likely to – I’d highly recommend XXXX’s [XXXX], it’s thorough and comprehensive and – like all books published by Smashing Magazine – it’s beautifully designed and printed.
 
+Sign in forms generally require two pieces of data:
 
-### Cards
++ a username; and
++ a password.
 
-<!-- If I'm going to do this, show something else also. Or can cards be the main focus. After all, Material Design is a further development of the cards metaphor from before and we're seeing this model crop up a lot now. -->
+They should also include an option to navigate to a sign up page, in case a user doesn’t have an account. Equally, they should include an opportunity to reset your password (or get help), should you have forgotten your login details.
 
-**Reword this. (See content below.)**
 
-Focus on the adaptability aspect, i.e. cards can be used as components that can be **reorganised** depending upon screen real estate. For example, in a desktop context we might lay out our cards in a grid, in a mobile context (tablet or phone) – where space is at more of a premium – we might vertically stack cards in a layout that users can scroll down.
 
-A card is a component that’s constructed from smaller elements, for example typographic content, buttons and other elements.
 
-Cards can be used to organise and display logical groupings of information, for example:
+Section 4: Information Architecture
+-----------------------------------
 
-+ User Profiles
-+ Login Components
-+ Content Modules
-+ Video or Audio Players
-+ Payment Information
-+ Etc.
+This chapter is title ‘Information Architecture’, so I think it’s important I explain what that means. Donna Spence’s Five Simple Steps book explains this well (p3-4 are great), essentially explaining that Information Architecture is all about:
 
-In certain applications cards can also be dragged, dropped and re-ordered. For example, Trello….
+1. Organising content or objects;
+2. Describing them clearly;
+3. Providing ways for people to get to them.
 
-> As an information container, cards hold all elements such as text, rich media, buttons, etc. Based on this contents, it can adapt its size to that of different devices and screens, balancing user interface and user experience.
-> 
-> Compared to traditional UI design, a simple but intuitive advantage of card UI is that it provides a more personalized user experience, making the entire interface more clear, balanced, aesthetically pleasing, simple and stylish with good usability.
-> 
-> https://www.mockplus.com/blog/post/card-ui-design
+The above is true of: **parts of a page** (patterns, e.g. forms); **the page itself**; and **the page in relation to other pages**.
 
-### Show and Tell: Dribbble
+At this point I’ll use the supermarket metaphor that Donna Spencer has used in her book. Donna used chocolate, but I’m using ice cream. (The freezers are broken, so it’s as if this page is down for maintenance.) I can find what I’m looking for, however…
 
-Look at Dribbble as an example. Cards are used to gather the content that comprises posts:
+ICE CREAM STORY HERE
 
-+ Imagery
-+ Likes
-+ Comments
-+ Views
-+ Buckets
 
-This design – which has stood the test of time – still functions well and works in both a desktop, mobile and native context.
+### Wayfinding
 
-SHOW A MARKED UP VERSION WITH ANALYSIS, ASK FOR PERMISSION
+There is probably a subsection on wayfinding, this might include:
 
-<!-- This is ending on pages, so it's logical that pages come next. -->
++ Breadcrumb Trails
++ Shopping Cart Process
++ Revisit the component from C2.
 
-
-
-Section 3: Typography at the Page Level
----------------------------------------
-
-![Placeholder Image](images/section-opening-placeholder-image.png)
-
-**CAPTION: Caption here.**
-
-
-I won't be covering typography in depth – that could be a standalone book in and of itself – what I'll cover are fundamental principles that you’ll find useful for managing information architecture.
-
-All interfaces will feature language somewhere. In addition to developing an understanding of language, it’s important to develop an awareness of fundamental typographic principles.
-
-As the digital landscape evolves, offering us ever more exciting opportunities – and ever more information – well-structured information design will become more critical than ever. We need to make sense of the sea of information that surrounds us…
-
-As designers we need to consider the role that typography plays…
-
-**IMG: Unstructured Content and Structured Content**
-
-**CAPTION: On the left is a typical piece of unstructured content… On the right, typographic hierarchy helps to tease out meaning.**
-
-In the above example – an exercise from 2008 – I added some information hierarchy for a DVD release being designed by [Alorenz, Vienna](http://www.alorenz.net).
-
-The brief was to look at the information hierarchy and the relationship between the different elements, considering how a minimal typographic palette – coupled with typographic scale and color – could be translated from a physical DVD release to an accompanying website.
-
-Using a range of HTML elements:
-
-+ Headings (h1-h3)
-+ Classes (.highlight, .smallprint and .copyright)
-+ Paragraph Styles
-+ Horizontal Rules
-+ …
-
-All of the above are at the service of **content hierarchy** through considered semantic markup.
-
-A decade has passed since I designed the above example and yet – thanks to HTML's longevity – I would change very little, other than to use HTML5 elements like `<small>` instead of classes, where new elements made this possible. The information hierarchy remains the same.
-
-Typeface choice, in this instance, wasn't important (although Georgia, designed by Matthew Carter, is a beautifully designed typeface). What was important was the use of the different typographic elements at a designer's disposal - scale, tone, colour, space, rules… - to establish a clear information hierarchy. Using typography to tease out the underlying meaning of the elements.
-
-
-### Macro- and Micro-Typography
-
-Perhaps typographic scales? Certainly the relationship between different elements… headings, paragraphs and other semantic components, for example, blockquotes and footnotes… (Footnotes isn't really a mobile thing…)
-
-Detail in typography… Is that a bit much for this? No.
-
-
-
-Section 3: The Importance of a Clear Visual Hierarchy
------------------------------------------------------
-
-![Placeholder Image](images/section-opening-placeholder-image.png)
-
-**CAPTION: Caption here.**
-
-
-When we’re in an airport, we find our way around by following the signage provided. This ‘wayfinding’ material allows us to navigate through the airport to find our desired destination.
-
-Designing an interface is similar. Our goal is to ensure the user can get from A to B (both within a page and between pages), ideally in the quickest way possible.
-
-Visual hierarchy is critical for this…
-
-
-
-We can create hierarchy in a number of ways: through the use of scale or weight; color or tone; or alignment. Hierarchy is important for taking complex, information-heavy material and ordering it so that the user isn’t overwhelmed by the interface.
-
-PICTURE: Clear Visual Hierarchy
-
-**Caption: Above, clockwise from top-left: 1. no hierarchy; 2. hierarchy through scale or weight; 3. hierarchy through color; 4. hierarchy through alignment.**
-
-We can combine these approaches – for example, using scale and colour – to further tease out the hierarchy of our information, but we don’t need to. **Often the best designs are the simplest, the important point is to ensure that we’ve used the principles of design to establish a clear visual hierarchy.**
-
-PICTURE: GOV.UK
-
-**Caption: GOV.UK uses a clear information architecture to ensure users can find out what they need to quickly and easily.**
-
-GOV.UK is a great example of a clear information hierarchy, where a great deal of information is ordered systematically.
-
-At a macro level, the page is clearly organised with prominent, but understated branding (1) at the top of the page. A breadcrumb trail underneath the branding (2) provides users with a clear sense of where the user is in the overall hierarchy:
-
-Home > Money and Tax > Income Tax
-
-The interface is clearly focused on the ‘job to be done’, in this case finding out about how to claim tax relief for work-related expenses (3). Finally, a ‘Contents’ list at the top of the content (4) allows users to jump to the information they need quickly and easily.
-
-The hierarchy is focused on the user’s needs and, as such, it’s no surprise that GOV.UK has won numerous design awards.
-
-The design might look simple, but it’s this simplicity that lies at the heart of the design’s success. This focus on creating a user interface that is uncluttered and highly functional is encapsulated in GOV.UK’s Government Design Principles, specifically Principle 4:
-
-Do the hard work to make it simple.
-
-At GOV.UK users have a clear mental model of the site that they’re using because the information architecture is clearly articulated through:
-
-the site’s simple, yet clearly organised structure;
-the use of breadcrumb navigation, which provides a clear sense of where a user is within the site; and
-the clear use of language, coupled with an uncluttered design.
-
-From a user interface perspective the site might appear simple, but – as I’ve noted above – that simplicity is driven by users’ needs.
-
-It might be tempting to look at this design and imagine ways in which we could add to the interface – perhaps using animation or other ‘enhancements’ – but this would be missing the point, which is to start with user needs and enable users to satisfy these needs as quickly as possible.
-
-PICTURE: Things 3
-
-**Caption: Things – an award-winning personal task manager – demonstrates the importance of a clear information architecture in a mobile context, where space is at a premium.**
-
-Things, an award-winning personal task manager, is a great example of the importance of establishing a clear information architecture in a mobile context, where space is at a premium.
-
-In the iOS app (left) pages are clearly organised: the user’s tasks for ‘Today’ (1) are clearly listed on the page. Tasks that haven’t been allocated to an established category (2) are listed first. Tasks that are categorised follow (3, 4) with a simple pie chart (4) showing the user’s progress through a category. Despite the limited amount of space, everything is organised clearly communicating a maximum of information.
-
-In the watchOS app (right) – where space is even more premium – the same list of tasks is listed with a micro-chart (5) showing how many tasks have been achieved and with a clear list of tasks (6) that can be scrolled through to access the rest of the tasks.
-
-In both examples above – regardless of the context: desktop, mobile or wrist – the focus is on establishing a clear visual hierarchy to help users navigate the information presented.
-
-
-### CRAP
-
-How our elements are arranged in relationship to each other is also important. As the number of elements in our interfaces increases, we can use the relationships between elements to organise our information architecture. We can organise our components in a variety of ways:
-
-+ Repetition
-+ Symmetry / Asymmetry
-+ Groupings
-+ Proximity
-
-PICTURE: Relationships (Repetition, Symmetry / Asymmetry, Groupings, proximity.
-
-**Caption: Caption goes here.**
-
-This content will draw from the book Universal Principles of Design, which is absolutely required reading. I’ll cover the principles of repetition, symmetry / asymmetry, groupings and proximity as they’re important for organising information in interfaces.
-
-ADD 'UNIVERSAL PRINCIPLES OF DESIGN' TO FURTHER READING.
-
-
-
-Section 4: Composition and Grid Systems
----------------------------------------
-
-![Placeholder Image](images/section-opening-placeholder-image.png)
-
-**CAPTION: Caption here.**
-
-
-<!-- LOTS OF MATEJ LATIN STYLE CONTENT HERE -->
-
-We can also put some thought into how our interface elements are arranged compositionally in relation to the page. Different pages – depending upon context (desktop, mobile, wrist…) – will lend themselves to different compositions.
-
-In a desktop context, for example, we might use white space to draw the user’s eye towards critical information. In a wrist based context – where space is at a premium – we need to orchestrate our content in a different manner.
-
-There are whole books written about this. Don't re-invent the wheel, rather signpost readers to helpful content.
 
 
 
@@ -324,20 +305,41 @@ Section 5: Iconic Layouts, Blockframes and Wireframes
 
 **CAPTION: Caption here.**
 
-As we start to consider the layout of our pages we can use a number 
+I could use ‘Iconic Layouts, Blockframes and Wireframes’ as the last section. This would allow me to talk about mapping out pages at an iconic, high level before I move on to cover flows in Chapter 4.
 
+These are microlayouts, they’re at a level of fidelity that you can get a feel for the overall look and feel of a page, but they’re not so detailed that they absorb too much time before you explore user flows. At the end of the introductory text, stress that I’ll explore the layout of pages in more detail in [Chapter 6: Designing Desktop Interfaces], where I’ll cover:
+
++ The Importance of a Clear Visual Hierarchy
++ Typography at the Page Level
++ Composition and Grid Systems
+
+If you want to get a more in-depth view, you might want to take a round trip to [Chapter 6: Designing Desktop Interfaces](#) and return here, before we move on to [Chapter 4: Getting From A → B](#), where I’ll explore user flows and overall site and application structure.
+
+
+### Iconic Layouts
+
+This kicks off with revisiting April Grieman’s iconic layouts for Vitra magazine. They struck me as interesting at the time (19XX). They very much pre-dated the web, but they looked similar to the kinds of low level iconic layouts I would use in a project to map out flows…
+
+1. Show an example, by Grieman.
+2. Show my Camper / Glyph sketches.
 
 The idea for 'Iconic Layouts' is drawn from April Grieman's 1990 book 'Hybrid Imagery: The Fusion of Technology and Graphic Design'. The world has moved on a great deal since 1990, but one idea that Grieman explored has stuck with me over three decades later…
 
-Grieman referred to her initial digital sketches – for Workspirit Magazine (for Swiss furniture manufacturer Vitra) – as the 'iconic' first stage. As she put it:
+Grieman referred to her initial digital sketches – for Workspirit Magazine (a publication for Swiss furniture manufacturer Vitra) – as the 'iconic' first stage. As she put it:
 
 > A surprise in producing [the] initial miniature version was that I could see the whole magazine as a kind of 'iconic texture', free from detail.
+
+
+![Workspirit Magazine · Placeholder Image](images/section-opening-placeholder-image.png)
+
+**CAPTION: Grieman's overall page printouts reminded me of the iconic layouts I often sketch at the initial paper prototyping phase of a project.**
+
 
 I've used this approach ever since. By creating 'iconic' layouts – very small layouts, focused on scale, color and tone, the hierarchy of pages can be grasped at a high level (a birds' eye view).
 
 This approach allows you to establish page layouts and get a feel for their flows.
 
-/* Insert blockframes here? */
+/* Insert blockframes here? YES? NO? READ TOMORROW. */
 
 If I put blockframes in here, I need to emphasise their role. They're not about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
 
@@ -346,6 +348,26 @@ Expand on this by referencing the Medium article:
 https://medium.com/ux-power-tools/blockframing-and-31-free-sketch-ready-layouts-using-auto-layout-by-anima-app-1be039007ecf
 
 By Jon Moore. (Also give Jon Moore credit for his UX Power Tools downloadables.)
+
+
+
+Closing Thoughts
+----------------
+
+Some closing thoughts here paving the way for the next chapter.
+
+
+### So, what did we learn?
+
+After reading Chapter 3, you should understand that:
+
+1. **Objects and Components can be combined to create Patterns and all of these elements can be orchestrated to create pages.**
+
+2. Something else…
+
+3. Something else…
+
+Lastly, I’ve introduced you to **some typical patterns you’ll encounter when you begin to design user interaces**: A, B, C, D and E. _/* These will be swapped out after I've written the chapter, */_
 
 
 
@@ -360,13 +382,30 @@ There are many great publications, offline and online, that will help further un
 
 + Finally, Steve Krug’s [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2Xa5DS3) is a timeless book that I’d highly recommend. Whilst focused on usability, it contains a wealth of insights that are applicable when considering your overall information architecture.
 
-<!--
 
-Maybe replace Steve Krug's book with Josef Muller-Brockmann’s 'Grid Systems in Graphic Design': https://amzn.to/2x8cD33
 
-Reorder: JMB, usability.gov, Donna Spencer…
+Downloadables
+-------------
 
--->
+_/* This doesn't need to be repeated every time. Think about how these downloadables are introduced for other chapters. */_
+
+I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
+
+![ALT](images/ch2/downloadables.png)
+
+I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards to assist your learning, however, I retain the copyright.**
+
++ [XD Artboards](#) [Coming soon.]
++ [PDF Swipe File (With Example Elements)](#) [Coming soon.]
++ [Master-Apprentice Exercises](#) [Coming soon.]
+
+You can download, adapt or transform the files (non-commercially, for educational purposes), but you cannot use them for commercial purposes.
+
++ [Copyright · Mr Murphy ®](https://mrmurphy.com/)
+
+**I hope you can see from the supporting files that I put a lot of work into creating them. I’d appreciate your respecting their copyright.**
+
+**#karma**
 
 
 

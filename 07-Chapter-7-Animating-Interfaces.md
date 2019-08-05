@@ -1,6 +1,16 @@
 Chapter 7: Animating Interfaces
 ===============================
 
+<!--
+
+BUILD LOTS OF THINGS LIKE THIS FOR THIS CHAPTER:
+
+https://dribbble.com/shots/3178195-Menu-and-search-icon-screen-transition
+
+It will teach me auto-animate. Publish on Dribble and credit original designer. Tag it master-apprentice.
+
+-->
+
 <!-- 829 Words -->
 
 **This chapter isn’t worth reading just now (unless you want to get a feel for how I research and write). I hope to have it finished in August.**
@@ -145,9 +155,10 @@ Further Reading
 
 There are many great publications, offline and online, that will help further underpin your understanding of designing user interfaces for a desktop context. I’ve included a few below to start you on your journey.
 
-+ Val Head's resources, for sure, should be included here. Also point people towards her newsletter.
++ Val Head's book and her web-based resources should be included here. Also point people towards her newsletter.
 
-+ Val's book, perhaps? Or roll that in to the preceding recommendation.
++ I'd strongly recommend setting aside an hour and watching [Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803/). It's an absolutely fantastic video that explores the challenge of designing fluid gestural interfaces.  from WWDC, 2018 by Chan Karunamuni, Nathan de Vries and Marcos Alonso from Apple's Human Interface Design Team. /* A little more on this here. */
+
 
 + Donovan's CSS Animation? It doesn't feel right to me as it's very CSS-focused and I think this chapter needs to deal with principles, first and foremost.
 
