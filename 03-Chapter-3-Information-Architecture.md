@@ -180,6 +180,9 @@ By building a collection of design patterns and noting why they work, you can ac
 ADD A LINK TO A REPO HERE WITH SOME EXAMPLES. OR THIS COULD BE A NOTIST DECK. REGARDLESS, IT’S ONE OF THE BOOK’S ASSOCIATED FILES.
 
 
+**Something that's worth touching upon here is the idea of an Interface Inventory (mention Brad Frost).**
+
+
 Each pattern has:
 
 - a clear name;
@@ -213,15 +216,60 @@ Using the objects and components, that I explored in the previous chapter, to cr
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-This section will focus on the progressive complexity of:
+In this section I'll focus on how we build complexity progressively as we move up a path of increasing complexity that includes:
 
 + Components
 + Patterns
 + Pages
 
-We can use components (that we focused on in Chapter 2) to build patterns and pages. We can also use objects and components to create pages.
+**We can use our objects and components** (that we focused on in Chapter 2) **to build patterns and pages**. Take any page and you'll see it's built from these core building blocks. _/* This might be a good place for an animated GIF showing Dribbble deconstructed. */_
 
-This will explain the context covering both patterns (showing some examples) and how we can then use these patterns, along with objects and components, to build pages (showing examples).
+<!-- This will explain the context covering both patterns (showing some examples) and how we can then use these patterns, along with objects and components, to build pages (showing examples). -->
+
+Before we explore patterns and pages in depth – and **given this chapter promises to explore information architecture** – it's important to ground everything we build, no matter how complex, with the principle of helping our users 'find their way'.
+
+I'll dive a little deeper into this in Section 4](#), so feel free to take a round trip to that section and return here, if you wish.
+
+As user interface designers, **our role is to orchestrate the elements on a page and impose some order on it**. Whether that page is in a desktop-, a mobile- or a wrist-based context we need to take different objects, components, patterns and groupings of content (words, imagery, video…) and organise everything.
+
+This is where information architecture (IA) comes in.
+
+Everything we design is created from content. When we design a UI, we take this content and we organise it, enabling the user to navigate it and helping them to quickly and easily find their way.
+
+Our job is to consider the hierarchy of information when we design:
+
++ patterns;
++ pages; and
++ flows
+
+I'll explore flows in [Chapter 4: Getting From A → B](#) so – in this chapter, I'll focus on patterns and pages – but the overall emphasis remains the same. We need to ensure everything is clearly signposted.
+
+![Dribbble Pattern (Card)](images/ch3/dribbble-pattern-card.png)
+
+**CAPTION: In the above screenshot – of Dribbble – we see that there's an information architecture at *both* the pattern and page level.**
+
+Analysing how different interfaces work at different levels of information hierarchy (Components → Patterns → Pages) will give you a clearer understanding of how to manage the information architecture when you build your own user interfaces.
+
+There's an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are, more often than not, created from components.
+
+
+### Information Architecture at the Pattern Level (Micro)
+
+Let's take a look at Dribbble's 
+
+For example, a simple profile card might have three groupings of information:
+
++ User Profile
++ Social
++ Tags
+
+
+
+
+
+
+
+
 
 In terms of sub-sections, these might be…
 
