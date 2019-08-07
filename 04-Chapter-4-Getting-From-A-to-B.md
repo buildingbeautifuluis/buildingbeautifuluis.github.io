@@ -28,6 +28,25 @@ With our pages built, **we need to focus on the flows that users take through th
 I'll also consider a number of critical flows that need to be considered when you're designing digital products, including 'onboarding' (when a user is taken through the initial screens of an application) and 'empty states' (when a user is confronted by an application that, at that moment, contains no content).
 
 
+<!--
+
+Where is empty states? I think probably here, because it involves a process: empty → full.
+
+Empty States
+------------
+
+**First define what 'empty states' are.**
+
+When dealing with empty states – before a user has uploaded any content to a publishing system, for example – we need to saisfy the following goals:
+
+1. educate users;
+2. direct them towards an action; and
+3. delight them.
+
+What we don't want is a user staring at a blank screen and not knowing what to do next.
+
+-->
+
 
 Overview
 --------
@@ -54,6 +73,16 @@ This section's more about a high level of flows, introducing the idea that we fl
 + Sign Up
 + Forgot Username / Password
 + Etc.
+
+Explain what wayfinding is and then map this over to UI.
+
+Great navigation helps you move forward. It doesn’t try to second guess you.
+
+Add too much secondary navigation – and alternative options – and you’ll get in your users’ way. Don’t second guess.
+
+**Design for momentum.**
+
+As well as primary and secondary navigation, talk about breadcrumb trails and how these can be used to locate a user within space conceptually.
 
 -->
 

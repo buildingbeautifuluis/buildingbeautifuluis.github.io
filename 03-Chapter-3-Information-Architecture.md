@@ -264,7 +264,13 @@ For example, a simple profile card might have three groupings of information:
 + Tags
 
 
+<!--
 
+NNg:
+
+Just like the  [IA](https://www.nngroup.com/articles/ia-vs-navigation/)  reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/) , which is made up of all the page headings and subheadings, reflects the information structure of a page.
+
+-->
 
 
 
@@ -432,6 +438,8 @@ There are many great publications, offline and online, that will help further un
 
 
 
+<!--
+
 Downloadables
 -------------
 
@@ -454,6 +462,8 @@ You can download, adapt or transform the files (non-commercially, for educationa
 **I hope you can see from the supporting files that I put a lot of work into creating them. I’d appreciate your respecting their copyright.**
 
 **#karma**
+
+-->
 
 
 
