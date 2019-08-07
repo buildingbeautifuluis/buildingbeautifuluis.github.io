@@ -156,7 +156,7 @@ Alexander’s intention was **to codify an approach towards building** (in an ar
 From these patterns, one could build everything from a house to a region (orchestrating the distribution of towns).
 
 
-![A Pattern Language](images/ch3/c3-temp-ui-patterns.png)
+![A Pattern Language](images/ch3/c3-temp-small-work-groups.png)
 
 **CAPTION: Alexander’s patterns for working spaces emphasise the need for privacy. “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.”**
 
