@@ -1,13 +1,15 @@
 Chapter 3: Information Architecture
 ===================================
 
-<!-- Before I start writing, look at Alla’s book: 1. It mentions, Alexander’s book; 2. It may mention Patterns and provide examples. -->
+<!-- Before I start writing, look at Alla’s book: 1. It mentions, Alexander’s book; 2. It may mention A Pattern Language and provide visual examples. -->
 
 <!-- 3,011 Words -->
 
 **This is a complete rebuild…**
 
-**I’m currently working on this chapter (Sunday, 4 August, 2019). I hope to have it in a fully readable form by tomorrow afternoon. For now, it needs a great deal of work, so it’s definitely not worth reading. I’m in it for the long haul!**
+**I’m currently working on this chapter (4–7 August, 2019 – Ongoing; it’s been a struggle). I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading. I’m in it for the long haul!**
+
+**The images, for the most part, are placeholders and draft images that I’ll develop further.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
@@ -29,18 +31,18 @@ Table of Contents
 Summary
 -------
 
-In this chapter **I'll level up the complexity a little**. I'll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of **patterns, reusable solutions to user interface problems that occur frequently**.
+In this chapter **I’ll level up the complexity a little**. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of **patterns, reusable solutions to user interface problems that occur frequently**.
 
-Once I've explored patterns, **I'll tie everything together** to consider how **we can use patterns, alongside components and objects, to build pages**. With patterns and pages covered, I'll stress the need to consider information architecture, **so that we ensure our users can find their way to what they're looking for**.
+Once I’ve explored patterns, **I’ll tie everything together** to consider how **we can use patterns, alongside components and objects, to build pages**. With patterns and pages covered, I’ll stress the need to consider information architecture, **so that we ensure our users can find their way to what they’re looking for**.
 
-Lastly, I'll introduce a number of methods – iconic layouts, wireframes and blockframes – that are **useful at different stages of the design process** and which will pave the way for Chapter 4, **where I explore flows and getting from A → B**.
+Lastly, I’ll introduce a number of methods – iconic layouts, blockframes and wireframes – at different levels of fidelity, which are **useful  at different stages of the design process** and which will pave the way for Chapter 4, **where I explore user flows and getting from A → B**.
 
 
 
 Overview
 --------
 
-<!-- This might need a sentence to cover off patterns and pages. (Or it might be OK as is, because I cover this in the second half. Re-read in the morning.) -->
+<!-- This might need a sentence to cover off patterns and pages. (Or it might be OK as is, because I cover this in the second half. Re-read on Thursday morning.) -->
 
 When we design an interface, it’s important to put some thought into our overall information architecture (IA). Information architecture is focused on **organising, structuring and labelling content in a way that eases users through the overall information presented**.
 
@@ -48,7 +50,7 @@ Our goal as designers is to:
 
 1. **help users find the information they’re looking for**; and
 
-2. **enable them to complete the goals they intend to undertake**.
+2. **enable them to complete the goals they aim to undertake**.
 
 In order to do this, it’s important to put some thought into **how the different elements we use in an interface fit together as part of the overall system** within which they exist.
 
@@ -73,7 +75,9 @@ With the overview covered, let’s get down to business and explore some further
 Section 1: A Pattern Language
 -----------------------------
 
-_/* This section should be close. I showed it to Matthew Smith (Pattern Tap) and he seemed happy with it. */_
+![An Example of a UI Pattern](images/ch3/c3-temp-password-pattern.png)
+
+**CAPTION: Caption goes here explaining that we can refer to (and build) ‘pattern libraries’. Very short explanation of what design patterns are.**
 
 <!--
 
@@ -83,12 +87,9 @@ I’ve been in touch with Matthew Smith (who created Pattern Tap) and he’s hap
 
 -->
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern langauges’ as I begin to explore the ‘Components → _Patterns → Pages_…’ part of the interface equation**.
 
-**CAPTION: Caption here.**
-
-
-In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of ‘pattern langauges’ as I begin to explore the ‘Components → Patterns → Pages…’ part of the interface equation**.
+**_/* TIDIED TO HERE */_**
 
 **A pattern language is a system for cataloguing and describing good design practice.** The term was coined in 1977 by the architect, Christopher Alexander (who I’ll return to shortly). Essentially pattern languages are used to gather tried and tested solutions to design problems, for example, a login pattern that’s been shown to work through testing.
 
@@ -112,9 +113,13 @@ The site allowed you to browse curated /* Were they curated? I can’t recall. *
 - logins; and
 - footers.
 
-Imagine you had to include a form on a website you were creating. **Pattern Tap was useful for seeing design patterns for forms that others had designed to address this problem. **As with my note of caution about Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics like a Viking, it was to provide different ways of tackling a problem – patterns – that designers could learn principles from**.
+Imagine you had to include a form on a website you were creating. **Pattern Tap was useful for seeing design patterns for forms that others had designed to address this particular problem.** As Smith put it:
 
-_/* What I’m trying to say here (and need to be clear on) is that Pattern Tap was about design principles – methods, approaches… – not surface-level, aesthetic inspiration. */_
+> Pattern Tap is here to satisfy and encourage the inspiration needs of my interface design peers. We aspire to be the one stop pattern shop for your next inspiration need.
+
+As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics like a Viking, it was to provide different ways of tackling a design problem – using patterns – that designers could learn principles from**.
+
+In essence, Pattern Tap was focused more on design principles – methods, approaches… – and less on surface-level, aesthetic inspiration.
 
 
 ### The Father of Pattern Languages
