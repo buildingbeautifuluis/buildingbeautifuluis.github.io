@@ -3,7 +3,7 @@ Chapter 3: Information Architecture
 
 <!-- Before I start writing, look at Alla’s book: 1. It mentions, Alexander’s book; 2. It may mention A Pattern Language and provide visual examples. -->
 
-<!-- 4,944 Words -->
+<!-- 5,181 Words -->
 
 **This is a complete rebuild…**
 
@@ -134,74 +134,93 @@ In essence, Pattern Tap was focused more on design principles – methods and ap
 Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a more crowdsourced philosophy, “UI Patterns is a personal project, but it is extremely open to contributions.” The result is a comprehensive resource that will help you develop an understanding of the power of patterns.
 
 
-__/* TIDIED TO HERE */__
-
 
 ### The Father of Pattern Languages
 
-_/* This section, about Alexander’s book, might be flagged up as ‘you should read it, but you can skip it if history’s not your thing’. (See my comments below.) That said, I think it’s important. Also, there were three books, not two. (Even though Alexander's book mentions 'two halves'.) */_
+Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” (which eventually became a trilogy) – ‘A Pattern Language’ was preceded by ‘The Timeless Way of Building’.
 
-Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was preceded by ‘The Timeless Way of Building’.
+Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
 
-Together, these books provided, “a language, for building and planning,” and, “the theory and instructions for the use of that language,” and were the result of eight years of practice and thought.
+Alexander was careful to stress the book’s title ‘**A** Pattern Language’, not ‘**The** Pattern Language’: “[I] have called it ‘A Pattern Language’ with the emphasis on the word ‘A’.”
 
-_This needs a little more clarity, i.e.: Alexander’s intention was to codify an approach towards building (in an architectural context) and establish a library of patterns from which an architect could draw. His book gathered examples, as in the illustration below. This still needs more to draw out the idea that underpins ‘A Pattern Language’._
-
-_This looks interesting:_
-
-+ _[www.resilience.org/stories/2016-10-13/working-with-patterns-an-introduction/](https://www.resilience.org/stories/2016-10-13/working-with-patterns-an-introduction/)_
-
-_Maybe content worth adding. This abstract also summarises it well, use a blockquote:_
-
-> _A Pattern Language by Christopher Alexander is renowned for providing simple, conveniently formatted, humanist solutions to complex design problems ranging in scale from urban planning through to interior design. This text is also believed to be the most widely read architectural treatise ever published._
-
-> _[cityterritoryarchitecture.springeropen.com/articles/10.1186/s40410-017-0073-1](https://cityterritoryarchitecture.springeropen.com/articles/10.1186/s40410-017-0073-1)_
-
-_The above says, “It is only one part of a trilogy of works documenting Alexander’s ‘second theory’ of architecture…” Check this. I thought it was one half (perhaps in parentheses add that, ultimately it became one of a trilogy of works). In Alexander’s book he says there are two books, a third was – perhaps – added later._
-
-
-_IMAGE: Redraw from the book perhaps, as I doubt we’ll have the £s to license an image._
-
-_CAPTION: Whilst Alexander’s work focused on architecture, the underlying methodology can be applied much more widely._
-
-Replace ‘building’ (house) with ‘digital product’ and a great deal of Alexander’s thinking maps over.
-
-It’s worth noting that Alexander points out – within the book’s opening paragraphs – that ‘A Pattern Language’ (specifically the one introduced in his book) is **one possible pattern langauge, i.e. it is not the only possible pattern language**.
+It’s also worth noting that Alexander points out – within the book’s opening paragraphs – that ‘A Pattern Language’ (specifically the one introduced in his book) is **one possible pattern langauge, i.e. it is not the only possible pattern language**.
 
 Put simply: there are many possible patterns and the ones you choose will be influenced by your goals and your intended audience (and to a degree your individual aesthetic preferences).
 
-_/* I hope people follow along with this as it’s important. I’m worried that some people will love this, but others will want to get down to business, but I think this needs to be included, not least as Alexander is regarded as the father of the pattern language movement. */_
+Alexander’s intention was **to codify an approach towards building** (in an architectural context) and **establish a library of patterns from which an architect could draw**. His book gathered examples that spanned the entire scale of architecture, including:
 
-_/* What this is missing, is the application of ‘A Pattern Language’ to software, etc.,. This is well-documented and I need to tease it out at the end of this part so that I bridge into the next part, moving on to explore patterns in software, and by extension, user interface design. */_
++ The Distribution of Towns (Pattern 2, Global Patterns)
++ Building Complexes (Pattern 95, Buildings)
++ Secret Places (Pattern 204, Details)
+
+From these patterns, one could build everything from a house to a region (orchestrating the distribution of towns).
+
+
+![A Pattern Language](images/ch3/c3-temp-ui-patterns.png)
+
+**CAPTION: Alexander’s patterns for working spaces emphasise the need for privacy. “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.”**
+
+
+You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
+
+I believe Alexander’s original work (even in a different discipline, architecture) needs to be included, not least as Alexander is regarded as the father of the pattern language movement in computer science.
+
+As the wonderfully archaic [patternlanguage.com](http://www.patternlanguage.com) explains:
+
+> [Alexander] is the father of the Pattern Language movement in computer science, and ‘A Pattern Language’ was perhaps the first complete book ever written in hypertext fashion.
+
+Slate explains a little more helpfully in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
+
+> Alexander’s ideas have taken root in unexpected places. His early books, especially [‘Notes on the Synthesis of Form’](https://amzn.to/33bC2aO) and [‘A Pattern Language’](https://amzn.to/2M7M9Za), influenced computer scientists, who found useful parallels between building design and software design.
+
+If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages! – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
+
+The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander sequencing, moves from the large to the small:
+
+> When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments…
+
+Hopefully – other than the fact that the sequencing we use in user interface design runs in the opposite direction (from the smaller patterns to the larger) – as you read this, you’ll understand the parallel.
+
+Alexander has created **an index of patterns which we can combine, like a language, to build whatever we desire**. Replace ‘building’ (house) with ‘digital product’ (website or application) and a great deal of Alexander’s thinking maps over.
+
+__/* TIDIED TO HERE */__
 
 
 ### Many patterns form a language…
 
-**I’m working on this section just now, so it’s a bit of a work in progress. Before I start on this on Monday, read through this. There's a lot here, it just needs to be knocked into shape.**
+**I’m working on this section just now, so it’s a bit of a work in progress. There’s a lot here, it needs to be knocked into shape.**
 
-	http://bit.ly/patternsandlanguages
+<!-- http://bit.ly/patternsandlanguages -->
 
-_/* Perhaps this section should explore the patterns movement that Alexander helped to bring to life. This then gets unpacked in this part, which leaves the next section to really dive deep into specific examples of patterns and pages. */_
+_/* One thing I want to stress is that it’s worth the time taken to build a dictionary of patterns that you can refer back to. */_
 
-<!-- This section is where I could also use the language metaphor that I’ve noted somewhere. -->
+Just as Alexander created a 1,171 page – and index of patterns (and, to a degree, instructions for their use) – so too, we can create our own indices, gathering examples of patterns that work.
 
-_/* One thing I want to stress is that it's worth the time taken to build a dictionary of patterns that you can refer back to. */_
-
-What I want to explore in this section is the idea that we can build our own encyclopaedias, or dictionaries, of examples (similar to Smith’s work with Pattern Tap). This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
+Put simply: We can **build our own encyclopaedia of examples** (similar to Smith’s work with Pattern Tap). This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
 
 It’s a good idea – especially in studio downtime – to **collect examples of the different design patterns you create on projects**. These can be useful to show clients examples of how typical design challenges are addressed. (A series of forms, for example.)
 
-<!-- Remove the Little Thunder reference. It's too much of an in-joke. -->
 
-There is always downtime in a studio. You can use that time to let off steam and play table tennis (as my Little Thunder studiomates do, frequently), but you can also put that time to good use, by gathering examples of patterns ‘in the wild’ that you can return to when you embark upon new projects.
+![Placeholder Image](images/section-opening-placeholder-image.png)
 
-By building a collection of design patterns and noting why they work, you can accelerate the design process considerably. Before you build something (which is time-consuming and expensive), you can show clients relevant examples from your library, helping them to visualise how things night look.
+**CAPTION: This will show a set of XD artboards I’ve created where I’ve been gathering a variety of patterns for my own reference in my studio. (A little like building my own Pattern Tap.)**
+
+
+At this point, I’ll link to some of the examples I’ve collected (in my personal Master-Apprentice deliberate practice), so I can **show** readers what I’m talking about. Show:
+
+1. Drone Deploy Sign Up Form (or) Netlify Credit Card Form
+2. App Footer Nav Bars <!-- What’s Apple’s term for this? -->
+3. Twitter (and other) app loaders.
+
+There is always downtime in a studio. You can use that time to let off steam and play table tennis or Fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
+
+By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in the previous chapter) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
+
+Before you build something (which is time-consuming and expensive), you can show clients relevant examples from your library, helping them to visualise how things night look.
 
 ADD A LINK TO A REPO HERE WITH SOME EXAMPLES. OR THIS COULD BE A NOTIST DECK. REGARDLESS, IT’S ONE OF THE BOOK’S ASSOCIATED FILES.
 
-
-**Something that's worth touching upon here is the idea of an Interface Inventory (mention Brad Frost).**
-
+_/* Something that’s worth touching upon here is the idea of an Interface Inventory (mention Brad Frost). It’s slightly different, but used in conjunction with a pattern library, will allow you to tackle user interface problems from an informed position in a strategic manner. */_
 
 Each pattern has:
 
@@ -236,19 +255,21 @@ Using the objects and components, that I explored in the previous chapter, to cr
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-In this section I'll focus on how we build complexity progressively as we move up a path of increasing complexity that includes:
+<!-- The preceding section explored the pattern language movement that Alexander helped to bring to life. That leaves this section to really dive deep into specific examples of: 1. patterns; and 2. pages. -->
+
+In this section I’ll focus on how we build complexity progressively as we move up a path of increasing complexity that includes:
 
 + Components
 + Patterns
 + Pages
 
-**We can use our objects and components** (that we focused on in Chapter 2) **to build patterns and pages**. Take any page and you'll see it's built from these core building blocks. _/* This might be a good place for an animated GIF showing Dribbble deconstructed. */_
+**We can use our objects and components** (that we focused on in Chapter 2) **to build patterns and pages**. Take any page and you’ll see it’s built from these core building blocks. _/* This might be a good place for an animated GIF showing Dribbble deconstructed. */_
 
 <!-- This will explain the context covering both patterns (showing some examples) and how we can then use these patterns, along with objects and components, to build pages (showing examples). -->
 
-Before we explore patterns and pages in depth – and **given this chapter promises to explore information architecture** – it's important to ground everything we build, no matter how complex, with the principle of helping our users 'find their way'.
+Before we explore patterns and pages in depth – and **given this chapter promises to explore information architecture** – it’s important to ground everything we build, no matter how complex, with the principle of helping our users ‘find their way’.
 
-I'll dive a little deeper into this in Section 4](#), so feel free to take a round trip to that section and return here, if you wish.
+I’ll dive a little deeper into this in Section 4](#), so feel free to take a round trip to that section and return here, if you wish.
 
 As user interface designers, **our role is to orchestrate the elements on a page and impose some order on it**. Whether that page is in a desktop-, a mobile- or a wrist-based context we need to take different objects, components, patterns and groupings of content (words, imagery, video…) and organise everything.
 
@@ -262,15 +283,15 @@ Our job is to consider the hierarchy of information when we design:
 + pages; and
 + flows
 
-I'll explore flows in [Chapter 4: Getting From A → B](#) so – in this chapter, I'll focus on patterns and pages – but the overall emphasis remains the same. We need to ensure everything is clearly signposted.
+I’ll explore flows in [Chapter 4: Getting From A → B](#) so – in this chapter, I’ll focus on patterns and pages – but the overall emphasis remains the same. We need to ensure everything is clearly signposted.
 
 ![Dribbble Pattern (Card)](images/ch3/dribbble-pattern-card.png)
 
-**CAPTION: In the above screenshot – of Dribbble – we see that there's an information architecture at *both* the pattern and page level.**
+**CAPTION: In the above screenshot – of Dribbble – we see that there’s an information architecture at *both* the pattern and page level.**
 
 Analysing how different interfaces work at different levels of information hierarchy (Components → Patterns → Pages) will give you a clearer understanding of how to manage the information architecture when you build your own user interfaces.
 
-There's an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are, more often than not, created from components.
+There’s an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are, more often than not, created from components.
 
 
 ### Information Architecture at the Pattern Level (Micro)
