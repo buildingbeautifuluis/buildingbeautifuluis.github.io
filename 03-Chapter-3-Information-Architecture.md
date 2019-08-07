@@ -3,11 +3,11 @@ Chapter 3: Information Architecture
 
 <!-- Before I start writing, look at Alla’s book: 1. It mentions, Alexander’s book; 2. It may mention A Pattern Language and provide visual examples. -->
 
-<!-- 3,011 Words -->
+<!-- 4,944 Words -->
 
 **This is a complete rebuild…**
 
-**I’m currently working on this chapter (4–7 August, 2019 – Ongoing; it’s been a struggle). I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading. I’m in it for the long haul!**
+**I’m currently working on this chapter (4–? August, 2019). This is ongoing, it’s been a struggle. I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading (unless I sent you the link). I’m in it for the long haul!**
 
 **The images, for the most part, are placeholders and draft images that I’ll develop further.**
 
@@ -18,13 +18,13 @@ Chapter 3: Information Architecture
 Table of Contents
 -----------------
 
-+ [Section 1: A Pattern Language](#)
-+ [Section 2: Components → Patterns → Pages](#)
-+ [Section 3: A Library of Patterns](#)
-+ [Section 4: Information Architecture](#)
-+ [Section 5: Iconic Layouts, Blockframes and Wireframes](#)
-+ [Closing Thoughts and Further Reading](#)
-+ [Downloadables](#)
++ [Section 1: A Pattern Language](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/03-Chapter-3-Information-Architecture.md#section-1-a-pattern-language)
++ [Section 2: Components → Patterns → Pages](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/03-Chapter-3-Information-Architecture.md#section-1-a-pattern-language)
++ [Section 3: A Library of Patterns](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/03-Chapter-3-Information-Architecture.md#section-3-a-library-of-patterns)
++ [Section 4: Information Architecture](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/03-Chapter-3-Information-Architecture.md#section-4-information-architecture)
++ [Section 5: Iconic Layouts, Blockframes and Wireframes](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/03-Chapter-3-Information-Architecture.md#section-5-iconic-layouts-blockframes-and-wireframes)
++ [Closing Thoughts and Further Reading](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/03-Chapter-3-Information-Architecture.md#closing-thoughts)
++ [Downloadables](#) [Soon. I’m working on them!]
 
 
 
@@ -77,7 +77,7 @@ Section 1: A Pattern Language
 
 ![An Example of a UI Pattern](images/ch3/c3-temp-password-pattern.png)
 
-**CAPTION: Caption goes here explaining that we can refer to (and build) ‘pattern libraries’. Very short explanation of what design patterns are.**
+**CAPTION: By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re working on.**
 
 <!--
 
@@ -87,25 +87,25 @@ I’ve been in touch with Matthew Smith (who created Pattern Tap) and he’s hap
 
 -->
 
-In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern langauges’ as I begin to explore the ‘Components → _Patterns → Pages_…’ part of the interface equation**.
+In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation**.
 
-**_/* TIDIED TO HERE */_**
+**A pattern language is a system for cataloguing and describing good design practice.** The term was coined in 1977 by the architect, Christopher Alexander (who I’ll return to shortly). Essentially pattern languages are used to gather **tried and tested solutions to design problems**, for example, a login pattern that’s been shown to work through thorough testing.
 
-**A pattern language is a system for cataloguing and describing good design practice.** The term was coined in 1977 by the architect, Christopher Alexander (who I’ll return to shortly). Essentially pattern languages are used to gather tried and tested solutions to design problems, for example, a login pattern that’s been shown to work through testing.
+The thinking behind pattern languages pre-dates design systems, as we currently understand them in the world of user interface design, by quite some time.
 
-The thinking behind pattern langauges pre-dates design systems by quite some time.
+Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of expired credit cards and lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
-Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
-_IMAGE /* This needs an image here_ _showing the collections overview. */_
+![Pattern Tap](images/ch3/c3-temp-pattern-tap-collections.png)
 
-_CAPTION: Pattern Tap saved you re-inventing the_ _user interface wheel by gathered a wealth of design patterns for inspiration._
+**CAPTION: Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from.**
+
 
 **Pattern Tap collected examples of user interface design patterns**, largely as applied to the web. As Smith put it:
 
 > Imagine one place where you can **drink deeply of great design patterns**. Imagine there’s no more war. There’s no more dissent. You don’t have to sludge through design after design for **the best pattern inspiration** anymore.
 
-The site allowed you to browse curated /* Were they curated? I can’t recall. */ collections to **find design patterns that solved a particular problem you were dealing with**. It’s collections included:
+The site allowed you to browse an extensive of series of collections – all carefully curated by Smith – to **find design patterns that solved a particular problem you were dealing with**. It’s collections included:
 
 - forms;
 - breadcrumb trails;
@@ -117,9 +117,24 @@ Imagine you had to include a form on a website you were creating. **Pattern Tap 
 
 > Pattern Tap is here to satisfy and encourage the inspiration needs of my interface design peers. We aspire to be the one stop pattern shop for your next inspiration need.
 
-As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics like a Viking, it was to provide different ways of tackling a design problem – using patterns – that designers could learn principles from**.
+As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics like a Viking**, it was to provide **different ways of tackling a design problem – using patterns – that designers could learn principles from**.
 
-In essence, Pattern Tap was focused more on design principles – methods, approaches… – and less on surface-level, aesthetic inspiration.
+In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but other pattern libraries have surfaced to take its place.
+
+
+![Pattern Tap](images/ch3/c3-temp-ui-patterns.png)
+
+**CAPTION: UI Patterns offers ample solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”**
+
+
+[UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. It is very much a successor to Pattern Tap and is well worth bookmarking. As Toxboe puts it:
+
+> By not only listing **different ways of solving common design problems**, but also rationalizing about **how, when and why such solutions should be used**, [my] goal is to **create a tool that will help end feature debates**, get a clear understanding of why we’re doing what we’re doing, and why we’re not doing what we’re not doing.
+
+Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a more crowdsourced philosophy, “UI Patterns is a personal project, but it is extremely open to contributions.” The result is a comprehensive resource that will help you develop an understanding of the power of patterns.
+
+
+__/* TIDIED TO HERE */__
 
 
 ### The Father of Pattern Languages
