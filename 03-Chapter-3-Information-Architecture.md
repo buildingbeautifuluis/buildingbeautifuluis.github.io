@@ -7,9 +7,9 @@ Chapter 3: Information Architecture
 
 **This is a complete rebuild…**
 
-**I’m currently working on this chapter (4–? August, 2019). This is ongoing, it’s been a struggle. I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading (unless I sent you the link). I’m in it for the long haul!**
+**I’m currently working on this chapter (4–? August, 2019). This is ongoing, it’s been a struggle. I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading (unless I sent you the link for pre-feedback). I’m in it for the long haul, and have been for days.**
 
-**The images, for the most part, are placeholders and draft images that I’ll develop further.**
+**The images, for the most part, are placeholders and draft images that I’ll develop further. These are not the final images.**
 
 **As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
 
@@ -77,21 +77,14 @@ Section 1: A Pattern Language
 
 ![An Example of a UI Pattern](images/ch3/c3-temp-password-pattern.png)
 
-**CAPTION: By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re working on.**
+**CAPTION: By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start.**
 
-<!--
 
-This section will introduce the idea of patterns and pattern languages. I’ll talk about Pattern Tap, but – more importantly – I’ll talk about Christopher Alexander’s book ‘A Pattern Language’.
-
-I’ve been in touch with Matthew Smith (who created Pattern Tap) and he’s happy with my first draft at Section 1.
-
--->
-
-In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation**.
+In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
 
 **A pattern language is a system for cataloguing and describing good design practice.** The term was coined in 1977 by the architect, Christopher Alexander (who I’ll return to shortly). Essentially pattern languages are used to gather **tried and tested solutions to design problems**, for example, a login pattern that’s been shown to work through thorough testing.
 
-The thinking behind pattern languages pre-dates design systems, as we currently understand them in the world of user interface design, by quite some time.
+The thinking behind pattern languages pre-dates design systems, as we currently understand them in user interface design, by quite some time.
 
 Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of expired credit cards and lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
@@ -105,7 +98,7 @@ Pattern languages, as they relate to user interface design, were popularised by 
 
 > Imagine one place where you can **drink deeply of great design patterns**. Imagine there’s no more war. There’s no more dissent. You don’t have to sludge through design after design for **the best pattern inspiration** anymore.
 
-The site allowed you to browse an extensive of series of collections – all carefully curated by Smith – to **find design patterns that solved a particular problem you were dealing with**. It’s collections included:
+The site allowed you to browse an extensive series of collections – all carefully curated by Smith – to **find design patterns that solved a particular problem you were dealing with**. It’s collections, amongst many others, included:
 
 - forms;
 - breadcrumb trails;
@@ -113,52 +106,60 @@ The site allowed you to browse an extensive of series of collections – all car
 - logins; and
 - footers.
 
-Imagine you had to include a form on a website you were creating. **Pattern Tap was useful for seeing design patterns for forms that others had designed to address this particular problem.** As Smith put it:
+Imagine you had to include a form on a website you were creating. **Pattern Tap was useful for seeing design patterns for forms that others had designed to address this particular problem.** As Smith summarised it:
 
 > Pattern Tap is here to satisfy and encourage the inspiration needs of my interface design peers. We aspire to be the one stop pattern shop for your next inspiration need.
 
-As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics like a Viking**, it was to provide **different ways of tackling a design problem – using patterns – that designers could learn principles from**.
+As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics**, it was to provide **different ways of tackling a design problem – using patterns – that designers could learn principles from**.
 
 In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but other pattern libraries have surfaced to take its place.
 
 
 ![Pattern Tap](images/ch3/c3-temp-ui-patterns.png)
 
-**CAPTION: UI Patterns offers ample solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”**
+**CAPTION: UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”**
 
 
 [UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. It is very much a successor to Pattern Tap and is well worth bookmarking. As Toxboe puts it:
 
 > By not only listing **different ways of solving common design problems**, but also rationalizing about **how, when and why such solutions should be used**, [my] goal is to **create a tool that will help end feature debates**, get a clear understanding of why we’re doing what we’re doing, and why we’re not doing what we’re not doing.
 
-Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a more crowdsourced philosophy, “UI Patterns is a personal project, but it is extremely open to contributions.” The result is a comprehensive resource that will help you develop an understanding of the power of patterns.
+Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a more crowdsourced philosophy. Toxboe states: “UI Patterns is a personal project, but it is extremely open to contributions.” The result is a comprehensive resource that will help you to develop an understanding of the power that lies in embracing patterns.
 
 
 
 ### The Father of Pattern Languages
 
-Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” (which eventually became a trilogy) – ‘A Pattern Language’ was preceded by ‘The Timeless Way of Building’.
+Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” (which eventually became a trilogy) – ‘A Pattern Language’ was preceded by Alexander’s ‘The Timeless Way of Building’.
 
 Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
 
 Alexander was careful to stress the book’s title ‘**A** Pattern Language’, not ‘**The** Pattern Language’: “[I] have called it ‘A Pattern Language’ with the emphasis on the word ‘A’.”
 
-It’s also worth noting that Alexander points out – within the book’s opening paragraphs – that ‘A Pattern Language’ (specifically the one introduced in his book) is **one possible pattern langauge, i.e. it is not the only possible pattern language**.
+It’s also worth noting that Alexander points out, within the book’s opening paragraphs, that ‘A Pattern Language’ (specifically the one introduced in his book) is **one possible pattern langauge, i.e. it is not the only possible pattern language**.
 
-Put simply: there are many possible patterns and the ones you choose will be influenced by your goals and your intended audience (and to a degree your individual aesthetic preferences).
+Put simply: **there are many possible patterns** and **the ones you choose will be influenced by your goals and your intended audience** (and to a degree your individual aesthetic preferences).
 
 Alexander’s intention was **to codify an approach towards building** (in an architectural context) and **establish a library of patterns from which an architect could draw**. His book gathered examples that spanned the entire scale of architecture, including:
 
-+ The Distribution of Towns (Pattern 2, Global Patterns)
-+ Building Complexes (Pattern 95, Buildings)
-+ Secret Places (Pattern 204, Details)
++ **The Distribution of Towns** (Pattern 2, Global Patterns)
++ **Building Complexes** (Pattern 95, Buildings)
++ **Secret Places** (Pattern 204, Details)
 
-From these patterns, one could build everything from a house to a region (orchestrating the distribution of towns).
+From these patterns, one could build everything from a house (orchestrating people) to a region (orchestrating towns). ‘A Pattern Tap’ remains a central text defining architectural theory, but its impact extends far beyond the realm of architecture.
+
+<!--
+
+More here:
+
+https://www.archdaily.com/488929/a-theory-of-architecture-part-1-pattern-language-vs-form-language
+
+-->
 
 
 ![A Pattern Language](images/ch3/c3-temp-small-work-groups.png)
 
-**CAPTION: Alexander’s patterns for working spaces emphasise the need for privacy. “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.”**
+**CAPTION: Alexander’s patterns for working spaces emphasise the need for privacy. “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate.**
 
 
 You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
@@ -167,7 +168,9 @@ I believe Alexander’s original work (even in a different discipline, architect
 
 As the wonderfully archaic [patternlanguage.com](http://www.patternlanguage.com) explains:
 
-> [Alexander] is the father of the Pattern Language movement in computer science, and ‘A Pattern Language’ was perhaps the first complete book ever written in hypertext fashion.
+> [Alexander] is the father of the pattern language movement in computer science, and ‘A Pattern Language’ was perhaps the first complete book ever written in hypertext fashion.
+
+MENTION THE HYPERTEXT HERE… EVERYTHING IS CONNECTED AND INTER-RELATED (JUST LIKE A USER INTERFACE). EXPAND UPON THIS.
 
 Slate explains a little more helpfully in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
 
@@ -256,6 +259,11 @@ Section 2: Components → Patterns → Pages
 ----------------------------------------
 
 <!-- The preceding section explored the pattern language movement that Alexander helped to bring to life. That leaves this section to really dive deep into specific examples of: 1. patterns; and 2. pages. -->
+
+Talk about the single responsibility principle. This applies at a pattern level and a page level. When creating patterns, ensure that they are focused and not all-encompassing, or you'll:
+
+1. confuse users; and
+2. trigger decision paralysis', where a user can't reach a decision because 
 
 In this section I’ll focus on how we build complexity progressively as we move up a path of increasing complexity that includes:
 
@@ -396,11 +404,29 @@ There is probably a subsection on wayfinding, this might include:
 Section 5: Iconic Layouts, Blockframes and Wireframes
 -----------------------------------------------------
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Sketching Interfaces](images/c3-temp-sketch-pre-iconic.png)
 
-**CAPTION: Caption here.**
+**CAPTION: Before we use a tool like XD to build higher fidelity deliverables, it’s important to get our thinking right through a process of sketching interfaces. This is the lowest form of fidelity in the user interface (and it’s also the fastest, to it’s easier to discard ideas that don’t necessarily work).**
 
-I could use ‘Iconic Layouts, Blockframes and Wireframes’ as the last section. This would allow me to talk about mapping out pages at an iconic, high level before I move on to cover flows in Chapter 4.
+**In this section, I'll explore the process of creating design deliverables at the page level. I'll stress the need to develop your user interface at a range of fidelities (fast (sketches) → slow (mockups)). I'll explore a typical design process that includes:
+
++ Sketching Interfaces
++ Creating Low Fidelity 'Iconic Layouts'
++ Exploring Blockframes
++ Increasing Fidelity by Creating Wireframes
+
+This would allow me to talk about mapping out pages at an iconic, birds' eye (high-level) before I move on to cover flows in Chapter 4, where we consider how we connect these pages together.
+
+
+### Sketching Interfaces + Iconic Layouts
+
+This section will look at the process of mapping out your thinking and stress the fundamental need to **think through paper**.
+
+When I work with learners – students at Belfast School of Art or participants in my [workshops](#) – they frequently have one thing in common: They rush to start designing on a computer far, far too quickly.
+
+Paper is a critical design tool.
+
+**SHOW KHOI VINH'S CHART, REDRAW** <!-- This could be the excuse I need to contact Khoi? -->
 
 These are microlayouts, they’re at a level of fidelity that you can get a feel for the overall look and feel of a page, but they’re not so detailed that they absorb too much time before you explore user flows. At the end of the introductory text, stress that I’ll explore the layout of pages in more detail in [Chapter 6: Designing Desktop Interfaces], where I’ll cover:
 
