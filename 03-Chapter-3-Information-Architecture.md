@@ -174,6 +174,12 @@ Pattern 83, ‘Master and Apprentices’, references other patterns:
 
 When you consider that Alexander’s book was published in 1977 – **a decade and a half before the birth of the web** – it’s clear that the book was far ahead of its time. Indeed, Alexander’s book would lend itself well to **a new, web-based edition that takes advantage of the extensive cross-referencing that he built into the book**.
 
+
+![Sketching Interfaces](images/ch3/c3-temp-working-with-patterns.png)
+
+**CAPTION: This will be redrawn. It’s from ‘Working with Patterns: An Introduction’ by Helmut Leitner, who states: “Through sharing and participation [we can] bring about high quality design.”**
+
+
 Slate highlights the widespread impact of ‘A Pattern Language’ in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
 
 > Alexander’s ideas have taken root in unexpected places. His early books, especially [‘Notes on the Synthesis of Form’](https://amzn.to/33bC2aO) and [‘A Pattern Language’](https://amzn.to/2M7M9Za), influenced computer scientists, who found useful parallels between building design and software design.
