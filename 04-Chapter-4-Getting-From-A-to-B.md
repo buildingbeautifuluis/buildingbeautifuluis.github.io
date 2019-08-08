@@ -281,9 +281,28 @@ After the user's completed the onboarding they may face an empty state…
 
 Explain what an empty state is.
 
-X
-Y
-Z
+The following article is very good for empty states:
+
+	https://www.toptal.com/designers/ux/empty-state-ux-design
+
+> A useful empty state will let the user know what’s happening, why it’s happening, and what to do about it.
+
+The following list provides some common situations in which an empty state might be encountered:
+
++ Setting up a new social media account, where – until you follow others – you have no connections.
+
++ A new Dropbox screen, when no files or folders have been created.
+
++ The resulting screen after completing all of your tasks in a to-do list manager.
+
+Google, there's another article (Medium?) on empty states that has other examples.
+
+I have screenshots of Grammarly's onboarding, which are worth showing because they've really considered the empty states problem. Things 3 also provide a sample project with instructions on how to use the app, again this is nicely considered. Lastly, Agenda does a great job of handling empty states, again by providing sample content.
+
+
+
+
+
 
 Google has some great examples in their [Material Design](https://material.io/design/communication/empty-states.html) guidelines.
 

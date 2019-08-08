@@ -148,14 +148,6 @@ Alexander’s intention was **to codify an approach towards building** (in an ar
 
 From these patterns, one could build everything from a house (orchestrating people) to a region (orchestrating towns). ‘A Pattern Tap’ remains a central text defining architectural theory, but its impact extends far beyond the realm of architecture.
 
-<!--
-
-More here:
-
-https://www.archdaily.com/488929/a-theory-of-architecture-part-1-pattern-language-vs-form-language
-
--->
-
 
 ![A Pattern Language](images/ch3/c3-temp-small-work-groups.png)
 
@@ -164,44 +156,55 @@ https://www.archdaily.com/488929/a-theory-of-architecture-part-1-pattern-languag
 
 You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
 
-I believe Alexander’s original work (even in a different discipline, architecture) needs to be included, not least as Alexander is regarded as the father of the pattern language movement in computer science.
+I believe Alexander’s original work (even in architecture, an entirely different discipline) needs to be included, not least as **Alexander is regarded as the father of the pattern language movement in computer science**.
 
 As the wonderfully archaic [patternlanguage.com](http://www.patternlanguage.com) explains:
 
 > [Alexander] is the father of the pattern language movement in computer science, and ‘A Pattern Language’ was perhaps the first complete book ever written in hypertext fashion.
 
-MENTION THE HYPERTEXT HERE… EVERYTHING IS CONNECTED AND INTER-RELATED (JUST LIKE A USER INTERFACE). EXPAND UPON THIS.
+‘A Pattern Language’ was **influenced by emergent thinking around computer programming and design**. Alexander writes: “A pattern language has the structure of a network.” Echoing networks, and the connections that exist between nodes on the network, **each pattern cross-references others**.
 
-Slate explains a little more helpfully in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
+The result is a book that is structured in a similar manner to hypertext, where each pattern links other related patterns. For example, the description of Pattern 148 ‘Small Work Groups’ closes:
+
+> Treat each small work group, in every kind of industry and office, as a place of learning. [See:] ‘Master and Apprentices’ (83).
+
+Pattern 83, ‘Master and Apprentices’, references other patterns:
+
+> Arrange the workspaces as ‘Half-Private Offices (152) or ‘Workplace Enclosures’ (183).
+
+When you consider that Alexander’s book was published in 1977 – **a decade and a half before the birth of the web** – it’s clear that the book was far ahead of its time. Indeed, Alexander’s book would lend itself well to **a new, web-based edition that takes advantage of the extensive cross-referencing that he built into the book**.
+
+Slate highlights the widespread impact of ‘A Pattern Language’ in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
 
 > Alexander’s ideas have taken root in unexpected places. His early books, especially [‘Notes on the Synthesis of Form’](https://amzn.to/33bC2aO) and [‘A Pattern Language’](https://amzn.to/2M7M9Za), influenced computer scientists, who found useful parallels between building design and software design.
 
 If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages! – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
 
-The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander sequencing, moves from the large to the small:
+The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander’s sequencing, designed to meet the needs of a different discipline, moves from the large to the small:
 
 > When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments…
+
+We could imagine similar words being used to describe the design of pages, which have to function at a practical level, but which can be embellished at a component and pattern level.
 
 Hopefully – other than the fact that the sequencing we use in user interface design runs in the opposite direction (from the smaller patterns to the larger) – as you read this, you’ll understand the parallel.
 
 Alexander has created **an index of patterns which we can combine, like a language, to build whatever we desire**. Replace ‘building’ (house) with ‘digital product’ (website or application) and a great deal of Alexander’s thinking maps over.
 
-__/* TIDIED TO HERE */__
-
 
 ### Many patterns form a language…
 
-**I’m working on this section just now, so it’s a bit of a work in progress. There’s a lot here, it needs to be knocked into shape.**
+**If you’re reading this pre-draft content. All of the above I’m more or less happy with. I’m working on the final part of Section 1 just now, so it’s a bit of a work in progress. There’s a lot here, but it needs to be knocked into shape.**
 
-<!-- http://bit.ly/patternsandlanguages -->
-
-_/* One thing I want to stress is that it’s worth the time taken to build a dictionary of patterns that you can refer back to. */_
-
-Just as Alexander created a 1,171 page – and index of patterns (and, to a degree, instructions for their use) – so too, we can create our own indices, gathering examples of patterns that work.
+Just as Alexander created a 1,171 page including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own indices, gathering examples of patterns that work**.
 
 Put simply: We can **build our own encyclopaedia of examples** (similar to Smith’s work with Pattern Tap). This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
 
-It’s a good idea – especially in studio downtime – to **collect examples of the different design patterns you create on projects**. These can be useful to show clients examples of how typical design challenges are addressed. (A series of forms, for example.)
+It’s a good idea – especially during studio downtime – to **collect examples of the different design patterns** that you either:
+
++ create on projects, or
++ discover during your research.
+
+These can be useful to show clients examples of how typical design challenges are addressed. (A series of navigation bars, for example.)
 
 
 ![Placeholder Image](images/section-opening-placeholder-image.png)
@@ -404,7 +407,7 @@ There is probably a subsection on wayfinding, this might include:
 Section 5: Iconic Layouts, Blockframes and Wireframes
 -----------------------------------------------------
 
-![Sketching Interfaces](images/c3-temp-sketch-pre-iconic.png)
+![Sketching Interfaces](images/ch3/c3-temp-sketch-pre-iconic.png)
 
 **CAPTION: Before we use a tool like XD to build higher fidelity deliverables, it’s important to get our thinking right through a process of sketching interfaces. This is the lowest form of fidelity in the user interface (and it’s also the fastest, to it’s easier to discard ideas that don’t necessarily work).**
 
