@@ -203,7 +203,13 @@ Alexander has created **an index of patterns which we can combine, like a langua
 
 Just as Alexander created a 1,171 page book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own indices, gathering examples of user interface patterns that work**.
 
-Put simply: We can **build our own encyclopaedia of examples** (similar to Smith’s work with Pattern Tap). This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
+Put simply: We can **build our own encyclopaedia of examples**, similar to Smith’s work with Pattern Tap. This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
+
+<!--
+
+There is always downtime in a studio. You can use that time to let off steam and play table tennis or fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
+
+-->
 
 It’s a good idea – especially during studio downtime – to **collect examples of the different design patterns** that you either:
 
@@ -219,53 +225,56 @@ In my work, I keep collections of example patterns organised by folders. **For e
 
 **CAPTION: An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (This is a little like building my own Pattern Tap.)**
 
+<!--
 
-At this point, I’ll link to some of the examples I’ve collected (in my personal Master-Apprentice deliberate practice), so I can **show** readers what I’m talking about. Show:
+At this point, I’ll link to some of the examples I’ve collected (in my Mr Murphy Pattern Library), so I can **show** readers what I’m talking about. Show:
 
 1. Drone Deploy Sign Up Form (or) Netlify Credit Card Form
-2. App Footer Nav Bars <!-- What’s Apple’s term for this? -->
-3. Twitter (and other) app loaders.
+2. App Footer Nav Bars /* What’s Apple’s term for this? */
+3. Twitter (and other) app splash screens / loaders.
 
-There is always downtime in a studio. You can use that time to let off steam and play table tennis or Fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
+-->
 
-By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in the previous chapter) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
+By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in Chapter 2) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
 
-Before you build something (which is time-consuming and expensive), you can show clients relevant examples from your library, helping them to visualise how things night look.
+Before you build something (which is time-consuming and expensive), you can show clients relevant examples from your library, helping them to visualise how things might look.
 
-ADD A LINK TO A REPO HERE WITH SOME EXAMPLES. OR THIS COULD BE A NOTIST DECK. REGARDLESS, IT’S ONE OF THE BOOK’S ASSOCIATED FILES.
-
-_/* Something that’s worth touching upon here is the idea of an Interface Inventory (mention Brad Frost). It’s slightly different, but used in conjunction with a pattern library, will allow you to tackle user interface problems from an informed position in a strategic manner. */_
-
-Each pattern has:
+When you build your pattern library, it’s important to establish some conventions that you follow. At the very least, each pattern entry should have:
 
 - a clear name;
 - an image;
 - a descriptive entry; and
 - cross-references.
 
-Applying this to user interface design this might be:
+Applying this to the above Netlify credit card modal dialog, this might be:
 
-- a payment form;
-- a screenshot;
-- an example of a payment form (for Get Invited) that’s used to gather customers’ credit card details;
-- links to other payment forms you’ve designed for other projects. (So, for example, you can show clients alternative patterns.)
++ Netlify Credit Card Modal;
++ a [screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png);
++ Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you 
+enter your card details on the left side, the credit card updates with those details on the right side.
++ links to other payment forms you’ve designed for other projects. (So you can show clients or partners alternative patterns.)
 
-Just as Aexander’s thinking could be applied to the construction of buildings and, at a larger scale, towns, **it can also be applied to user interface design**. Indeed, Alexander is regarded as the father of the pattern language movement and his impact on software design is widely acknowledged.
+Every entry in your system is a single design pattern and each of your documented patterns should explain why that solution works well in the pattern’s contexts.
 
-_/* Essentially, this is where I introduce the idea – that I established in the previous chapter - that we’re building a library, a set of patterns, created from objects and components, that we’ll combine in different ways as we build our interfaces. */_
+**Using our objects and components to create patterns is where things get interesting.** Essentially, we’re building a library – a set of patterns, created from objects and components – that we’ll combine in different ways as we build our interfaces.
 
-The following is from [Wikipedia](https://en.wikipedia.org/wiki/Pattern_language#What_is_a_pattern?), it captures what I want to say, but needs to be rewritten:
-
-> _When a designer designs something – whether a house, computer program, or lamp – they must make many decisions about how to solve problems. A single problem is documented with its typical place (the syntax), and use (the grammar) with the most common and recognized good solution seen in the wild, like the examples seen in dictionaries._
-
-> _Each such entry is a single design pattern. Each pattern has a name, a descriptive entry, and some cross-references, much like a dictionary entry. A documented pattern should explain why that solution is good in the pattern’s contexts._
-
-Just as it’s important to consider the consistency of your components so that they meet a wide range of diverse needs, cohesively, so too it’s important to consider the consistency of your patterns.
-
-Using the objects and components, that I explored in the previous chapter, to create patterns is where things get interesting. **We can build, from the ground up, a consistent set of elements that we can then orchestrate within pages.**
+By starting from the object and working up towards components and patterns, we can build **a consistent set of user interface elements that we can then further orchestrate within pages, as I’ll explore in the next section.**
 
 
 _/* I’ve tidied everything up to this point. If you’re reading this pre-draft content, I’m working on Sections 2–5 just now, so everything below this comment is in-progress. (Friday, 9 August) */_
+
+<!--
+
+Something that might be worth touching upon – in the above section? or somewhere – is Brad Frost's idea of an Interface Inventory:
+
+http://bradfrost.com/blog/post/interface-inventory/
+
+It’s not the same as a pattern library and is focused on approaching **existing** elements for a redesign, but used in conjunction with a pattern library, it would allow you to tackle user interface problems from an informed position in a strategic manner.
+
+WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
+
+-->
+
 
 
 
