@@ -77,7 +77,7 @@ Section 1: A Pattern Language
 
 ![An Example of a UI Pattern](images/ch3/c3-temp-password-pattern.png)
 
-**CAPTION: By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start.**
+**CAPTION: _(I’ll be replacing this image with a grid of four images showing four different patterns that echoes the image that accompanies Christopher Alexander’s ‘A Pattern Language’.)_  By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start.**
 
 
 In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
@@ -130,7 +130,7 @@ Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a 
 
 ### The Father of Pattern Languages
 
-Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” (which eventually became a trilogy) – ‘A Pattern Language’ was preceded by Alexander’s ‘The Timeless Way of Building’.
+Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). * **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” (which eventually became a trilogy) – ‘A Pattern Language’ was preceded by Alexander’s ‘The Timeless Way of Building’.
 
 Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
 
@@ -151,7 +151,7 @@ From these patterns, one could build everything from a house (orchestrating peop
 
 ![A Pattern Language](images/ch3/c3-temp-small-work-groups.png)
 
-**CAPTION: Alexander’s patterns for working spaces emphasise the need for privacy. “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate.**
+**CAPTION: _(I’ll be replacing this image with a grid of four images showing four different patterns that echoes this section’s opening image.)_ Alexander’s patterns for working spaces emphasise the need for privacy. “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate.**
 
 
 You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
@@ -196,12 +196,12 @@ Hopefully – other than the fact that the sequencing we use in user interface d
 
 Alexander has created **an index of patterns which we can combine, like a language, to build whatever we desire**. Replace ‘building’ (house) with ‘digital product’ (website or application) and a great deal of Alexander’s thinking maps over.
 
+\* Although ‘A Pattern Language’ is widely credited to Christopher Alexander (as the lead author of the book) it was actually co-authored by Sara Ishikawa and Murray Silverstein, with the assistance of Max Jacobson, Ingrid Fiksdahl-King and Shlomo Angel.
+
 
 ### Many patterns form a language…
 
-**If you’re reading this pre-draft content. All of the above I’m more or less happy with. I’m working on the final part of Section 1 just now, so it’s a bit of a work in progress. There’s a lot here, but it needs to be knocked into shape.**
-
-Just as Alexander created a 1,171 page including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own indices, gathering examples of patterns that work**.
+Just as Alexander created a 1,171 page book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own indices, gathering examples of user interface patterns that work**.
 
 Put simply: We can **build our own encyclopaedia of examples** (similar to Smith’s work with Pattern Tap). This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
 
@@ -210,12 +210,14 @@ It’s a good idea – especially during studio downtime – to **collect exampl
 + create on projects, or
 + discover during your research.
 
-These can be useful to show clients examples of how typical design challenges are addressed. (A series of navigation bars, for example.)
+These can be useful for showing clients or project partners **examples of how typical design problems are addressed**. (A series of navigation bars in a mobile footer, for example.)
+
+In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** [Here is an example.](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal)
 
 
-![Placeholder Image](images/section-opening-placeholder-image.png)
+![Placeholder Image](images/ch3/c3-temp-netlify-credit-card-modal.png)
 
-**CAPTION: This will show a set of XD artboards I’ve created where I’ve been gathering a variety of patterns for my own reference in my studio. (A little like building my own Pattern Tap.)**
+**CAPTION: An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (This is a little like building my own Pattern Tap.)**
 
 
 At this point, I’ll link to some of the examples I’ve collected (in my personal Master-Apprentice deliberate practice), so I can **show** readers what I’m talking about. Show:
@@ -261,6 +263,9 @@ The following is from [Wikipedia](https://en.wikipedia.org/wiki/Pattern_language
 Just as it’s important to consider the consistency of your components so that they meet a wide range of diverse needs, cohesively, so too it’s important to consider the consistency of your patterns.
 
 Using the objects and components, that I explored in the previous chapter, to create patterns is where things get interesting. **We can build, from the ground up, a consistent set of elements that we can then orchestrate within pages.**
+
+
+_/* I’ve tidied everything up to this point. If you’re reading this pre-draft content, I’m working on Sections 2–5 just now, so everything below this comment is in-progress. (Friday, 9 August) */_
 
 
 
