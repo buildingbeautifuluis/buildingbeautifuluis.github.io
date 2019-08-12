@@ -196,7 +196,7 @@ main section {
   left: 0;
   top: 0;
   display: inline-block;
-  background-color: #f0f0f0;
+  background-color: rgb(42, 89, 255);
 }
 
 .content__wrapper blockquote p,section blockquote p {
@@ -227,11 +227,11 @@ main section {
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
-.additional-content .additional__about {
-  align-items: center;
+.additional-content .adobe {
+  align-items: flex-start;
 }
 
 @media (min-width: 1250px) {
