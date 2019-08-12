@@ -25,6 +25,7 @@ html {
   display: inline-flex;
   align-items: center;
   font-size: 1.125rem;
+  // text-transform: uppercase;
 }
 
 .social-share__button svg {
@@ -36,4 +37,8 @@ html {
   max-width: 25ch;
   font-size: 2.5rem;
   margin-top: 1.5rem;
+}
+
+.social-share h4 {
+  font-weight: 600;
 }
