@@ -139,7 +139,7 @@ This intense period in computing history saw the emergence of the field of Human
 
 
 
-Section 1: The ‘UI’ in ‘GUI’ {#section-1}
+Section 1: The ‘UI’ in ‘GUI’
 ----------------------------
 
 {% include figure.html url="/images/ch1/command-line-interface.png" alt="" description="Before graphical user interfaces (GUIs) were imagined in the 70s and 80s, users would interact with a computer via a command-line interface." %}

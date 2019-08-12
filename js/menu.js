@@ -16,7 +16,7 @@ navItems.forEach ( element => {
 });
 
 
-window.addEventListener('click', function(e){
+document.addEventListener('click', function(e){
 
   navItems.forEach(element => {
     if (element.contains(e.target)){
