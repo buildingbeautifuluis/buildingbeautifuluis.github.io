@@ -174,7 +174,7 @@ Design and Build · Dan Gold + Little Thunder -->
 
 [02]: /chapters/02-The-Building-Blocks-of-Interfaces/ "Chapter 2: The Building Blocks of Interfaces"
 
-[03]: https://github.com/buildingbeautifuluis/bbuis/blob/master/03-Chapter-3-Information-Architecture.md "Chapter 3: Information Architecture"
+[03]: /chapters/03-Information-Architecture/ "Chapter 3: Information Architecture"
 
 [04]: https://github.com/buildingbeautifuluis/bbuis/blob/master/04-Chapter-4-Getting-From-A-to-B.md "Chapter 4: Getting From A → B"
 
