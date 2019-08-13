@@ -5,7 +5,7 @@ Chapter 3: Information Architecture
 
 <!-- 5,181 Words -->
 
-**This is a complete rebuild…**
+**This is a complete rebuild… I’m about to push Section 1 (13 August).**
 
 **I’m currently working on this chapter (4–? August, 2019). This is ongoing, it’s been a struggle. I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading (unless I sent you the link for pre-feedback). I’m in it for the long haul, and have been for days.**
 
