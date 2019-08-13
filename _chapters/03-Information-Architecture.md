@@ -38,14 +38,6 @@ table-of-contents:
 
 
 
-
-Summary
--------
-
-
-
-
-
 Overview
 --------
 
