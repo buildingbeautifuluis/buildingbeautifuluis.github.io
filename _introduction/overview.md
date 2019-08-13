@@ -170,9 +170,9 @@ Design and Build · Dan Gold + Little Thunder -->
 
 <!-- Links -->
 
-<!-- [01]: https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md "Chapter 1: Designing Interfaces"
+[01]: /chapters/01-Designing-Interfaces/ "Chapter 1: Designing Interfaces"
 
-[02]: https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md "Chapter 2: The Building Blocks of Interfaces"
+[02]: /chapters/02-The-Building-Blocks-of-Interfaces/ "Chapter 2: The Building Blocks of Interfaces"
 
 [03]: https://github.com/buildingbeautifuluis/bbuis/blob/master/03-Chapter-3-Information-Architecture.md "Chapter 3: Information Architecture"
 
@@ -190,4 +190,4 @@ Design and Build · Dan Gold + Little Thunder -->
 
 [A1]: https://github.com/buildingbeautifuluis/bbuis/blob/master/10-Appendix-1-Master-Apprentice-Exercises.md "Appendix 1: Master-Apprentice Exercises"
 
-[A2]: https://github.com/buildingbeautifuluis/bbuis/blob/master/11-Appendix-2-XD-Swipe-Files.md "Appendix 2: XD Swipe Files" -->
+[A2]: https://github.com/buildingbeautifuluis/bbuis/blob/master/11-Appendix-2-XD-Swipe-Files.md "Appendix 2: XD Swipe Files"
