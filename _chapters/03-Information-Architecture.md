@@ -82,9 +82,7 @@ With the overview covered, let’s get down to business and explore some further
 Section 1: A Pattern Language
 -----------------------------
 
-![An Example of a UI Pattern](images/ch3/c3-temp-password-pattern.png)
-
-**CAPTION: _(I’ll be replacing this image with a grid of four images showing four different patterns that echoes the image that accompanies Christopher Alexander’s ‘A Pattern Language’.)_  By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start.**
+{% include figure.html url="/images/ch3/c3-temp-password-pattern.png" alt="An Example of a UI Pattern" description="(I’ll be replacing this image with a grid of four images showing four different patterns that echoes the image that accompanies Christopher Alexander’s ‘A Pattern Language’.)_  By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start." %}
 
 
 In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
