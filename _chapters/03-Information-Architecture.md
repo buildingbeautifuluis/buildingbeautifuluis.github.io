@@ -285,7 +285,7 @@ WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
 
 
 
-Section 2: Components → Patterns → Pages
+Section 2: Components → Patterns → Pages {#section-2-components-patterns-pages}
 ----------------------------------------
 
 Coming soon. (I'm working on it [13 August, 2019].)
