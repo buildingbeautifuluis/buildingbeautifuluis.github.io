@@ -1,7 +1,7 @@
 ---
 chapter-number: "03"
 title: "Information Architecture"
-opening-text: "<p><strong>I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</strong></p>
+opening-text: "<p class='text--warning'>I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -277,7 +277,7 @@ WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
 
 
 
-Section 2: Components → Patterns → Pages {#section-2-components-patterns-pages}
+Section 2: Components → Patterns → Pages
 ----------------------------------------
 
 Coming soon. (I'm working on it [13 August, 2019].)
@@ -318,34 +318,3 @@ There are many great publications, offline and online, that will help further un
 + usability.gov has an excellent overview of [Information Architecture Basics](https://www.usability.gov/what-and-why/information-architecture.html) that’s well worth reading. The site is an excellent resource that – whilst primarily focused on design for government – offers a wide range of resources that are applicable beyond design for the public sector.
 
 + Finally, Steve Krug’s [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2Xa5DS3) is a timeless book that I’d highly recommend. Whilst focused on usability, it contains a wealth of insights that are applicable when considering your overall information architecture.
-
-
-
-
-About the Author
-----------------
-
-![Christopher Murphy](images/overview/mr-murphy.png)
-
-### Christopher Murphy
-
-[@fehler](https://www.twitter.com/fehler)
-
-A designer, writer and speaker based in Belfast, Christopher mentors purpose-driven businesses, helping them to launch and thrive. He encourages small businesses to think big and he enables big businesses to think small.
-
-As a design strategist he has worked with companies, large and small, to help drive innovation, drawing on his 25+ years of experience working with clients including: Adobe, EA and the BBC.
-
-The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
-
-
-
----
-
-
-
-I hope you find this resource useful. I’m also currently working on a book for the fine folks at [Smashing Magazine](https://www.smashingmagazine.com) – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.
-
-You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
-
-Copyright · Mr Murphy + Adobe  
-Design and Build · Dan Gold + Little Thunder

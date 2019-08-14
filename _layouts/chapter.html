@@ -12,7 +12,7 @@ layout: default
     <h4>Table of Contents</h4>
     <nav>
       {%- for item in page.table-of-contents -%}
-      <a href="#section-{{ item.section }}-{{ item.section-title | slugify }}">
+      <a href="#section-{{ item.section }}-{{ item.section-title | replace: '→ ', '-' | slugify: 'raw' }}">
         <span>Section {{ item.section }}</span>
         <p>{{ item.section-title }}</p>
       </a>

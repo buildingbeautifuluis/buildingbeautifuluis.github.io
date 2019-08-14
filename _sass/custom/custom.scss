@@ -796,8 +796,10 @@ figure img {
 }
 
 figcaption {
+  margin-top: 1.25rem;
   margin-bottom: 3rem;
   color: #9d9d9d;
+  line-height: 1.5em;
 }
 
 code {
@@ -1063,4 +1065,11 @@ code {
       }
     }
   }
+}
+
+.text--warning {
+  color: rgb(160, 0, 51) !important;
+  background-color: rgb(255, 243, 246);
+  padding: .5em;
+  border-radius: .125em;
 }
