@@ -44,6 +44,9 @@ collections:
   resources:
     output: true
     permalink: /resources/:name/
+  preview:
+    output: true
+    permalink: /preview/:name/
 
 defaults:
   - scope:
