@@ -1,9 +1,9 @@
 ---
 chapter-number: "02"
 title: "The Building Blocks of Interfaces"
-opening-text: "<p>In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.</p>
+opening-text: "<p>In this chapter <strong>I’ll introduce the fundamental building blocks that interfaces are made from</strong>: Objects, Components, Patterns, Pages and Flows. <strong>I’ll break apart a series of interface elements</strong> – which I’ll also provide as swipe files for reference – <strong>and I’ll analyse how everything we use in an interface is constructed from simple building blocks, or objects</strong>.</p>
 
-<p>I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.</p>"
+<p>I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany this chapter (and many of the other chapters). <strong>These supporting files walk through the process for more visual learners and can be used alongside the book.</strong></p>"
 
 table-of-contents:
   - section: "1"
@@ -18,37 +18,15 @@ table-of-contents:
     section-title: "Design Systems"
 ---
 
-<!-- 7,597 Words -->
 
-<!-- **This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.**
-
-**If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I’d love to hear from you.**
-
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.** -->
-
-
-
-<!-- Table of Contents
------------------
-
-+ [Section 1: Interfaces Are Like LEGO](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-1-interfaces-are-like-lego)
-+ [Section 2: Objects → Components → Patterns → Pages → Flows](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-2-objects--components--patterns--pages--flows)
-+ [Section 3: A Library of Components](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-3-a-library-of-components)
-+ [Section 4: The Wonderful World of Icons](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-4-the-wonderful-world-of-icons)
-+ [Section 5: Design Systems](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#section-5-design-systems)
-+ [Closing Thoughts and Further Reading](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#closing-thoughts)
-+ [Downloadables](https://github.com/buildingbeautifuluis/bbuis/blob/master/02-Chapter-2-The-Building-Blocks-of-Interfaces.md#downloadables) -->
-
-
-
-Summary
--------
-
-In this chapter **I’ll introduce the fundamental building blocks that interfaces are made from**: Objects, Components, Patterns, Pages and Flows. **I’ll break apart a series of interface elements** – which I’ll also provide as swipe files for reference – **and I’ll analyse how everything we use in an interface is constructed from simple building blocks, or objects**.
-
-I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany this chapter (and many of the other chapters). **These supporting files walk through the process for more visual learners and can be used alongside the book.**
 
 <!--
+
+This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.
+
+If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I’d love to hear from you.
+
+As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.
 
 The references to supporting files will need to be removed if we can’t agree a non-exclusive license for Adobe. This additional content is 100% developed by me and is outside the scope of the SoW, which is for a book and a glossary.
 
@@ -611,31 +589,3 @@ You can download, adapt or transform the files (non-commercially, for educationa
 **#karma**
 
 
-
-<!-- About the Author
-----------------
-
-![Christopher Murphy](images/overview/mr-murphy.png)
-
-### Christopher Murphy
-
-[@fehler](https://www.twitter.com/fehler)
-
-A designer, writer and speaker based in Belfast, Christopher mentors purpose-driven businesses, helping them to launch and thrive. He encourages small businesses to think big and he enables big businesses to think small.
-
-As a design strategist he has worked with companies, large and small, to help drive innovation, drawing on his 25+ years of experience working with clients including: Adobe, EA and the BBC.
-
-The author of numerous books, he is currently hard at work on his eighth, ‘Designing Delightful Experiences’, for Smashing Magazine and ninth, ‘Building Beautiful UIs’, for Adobe. Both are accompanied by a wealth of digital resources, and are drawn from Christopher’s 15+ years of experience as a design educator.
-
-
-
----
-
-
-
-I hope you find this resource useful. I’m also currently working on a book for the fine folks at [Smashing Magazine](https://www.smashingmagazine.com) – ‘Designing Delightful Experiences’ – which focuses on the user experience design process from start to finish. It will be published in late 2019.
-
-You might like to [follow me on Twitter](https://www.twitter.com/fehler) for updates on this book and other projects I’m working on.
-
-Copyright · Mr Murphy + Adobe  
-Design and Build · Dan Gold + Little Thunder -->

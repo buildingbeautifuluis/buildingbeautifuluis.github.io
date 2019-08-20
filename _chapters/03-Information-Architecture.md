@@ -1,7 +1,7 @@
 ---
 chapter-number: "03"
 title: "Information Architecture"
-opening-text: "<p class='text--warning'>I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content and this is a preview page for my editors.</strong> I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -24,17 +24,15 @@ table-of-contents:
 
 
 
-<!-- 5,181 Words -->
-
 <!--
 
-**This is a complete rebuild… This is just Section 1, I’ll add Sections 2-5 shortly.**
+This is a complete rebuild… This is just Section 1, I’ll add Sections 2-5 shortly.
 
-**I’m currently working on this chapter (4–? August, 2019). This is ongoing, it’s been a struggle. I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading (unless I sent you the link for pre-feedback). I’m in it for the long haul, and have been for days.**
+I’m currently working on this chapter (4–? August, 2019). This is ongoing, it’s been a struggle. I hope to have it in a fully readable form this week. For now, it needs a great deal of work, so it’s definitely not worth reading (unless I sent you the link for pre-feedback). I’m in it for the long haul, and have been for days.
 
-**The images, for the most part, are placeholders and draft images that I’ll develop further. These are not the final images.**
+The images, for the most part, are placeholders and draft images that I’ll develop further. These are not the final images.
 
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.**
+As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.
 
 -->
 

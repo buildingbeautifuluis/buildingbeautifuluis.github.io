@@ -1,9 +1,9 @@
 ---
 chapter-number: "01"
 title: "Designing Interfaces"
-opening-text: "<p>In this chapter I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design – drawing from principles of human-computer interaction (HCI) – so that the lessons we’ve learned from the history of UI design aren’t lost.</p>
+opening-text: "<p>In this chapter <strong>I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design</strong> – drawing from principles of human-computer interaction (HCI) – so that <strong>the lessons we’ve learned from the history of UI design aren’t lost</strong>.</p>
 
-<p>I’ll also stress the importance of understanding metaphors and mental models, which underpin UI design. Lastly, I’ll detail a number of current user interface design systems, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.</p>"
+<p>I’ll also stress <strong>the importance of understanding metaphors and mental models</strong>, which underpin UI design. Lastly, <strong>I’ll detail a number of current user interface design systems</strong>, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.</p>"
 
 table-of-contents:
   - section: "1"
@@ -18,13 +18,14 @@ table-of-contents:
     section-title: "UI, Here and Now"
 ---
 
-<!-- 4,354 Words -->
 
-<!-- **This chapter is at the editing stage, so it’s readable. I’ll be further developing the images shortly, but the content itself should – I hope! – be sound.**
-
-**As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.** -->
 
 <!--
+
+This chapter is at the editing stage, so it’s readable. I’ll be further developing the images shortly, but the content itself should – I hope! – be sound.
+
+As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.
+
 
 **Notes to Self**
 
@@ -76,28 +77,7 @@ Compare and contrast:
 
 + https://apps.apple.com/us/app/mail/id1108187098
 
-	
 -->
-
-
-
-<!-- Table of Contents
------------------
-
-+ [Section 1: The ‘UI’ in ‘GUI’](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-1-the-ui-in-gui)
-+ [Section 2: Designing Human Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-2-designing-human-interfaces)
-+ [Section 3: Desktops and Metaphors](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-3-desktops-and-metaphors)
-+ [Section 4: Establishing Clear Mental Models](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-4-establishing-clear-mental-models)
-+ [Section 5: UI, Here and Now](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) -->
-
-
-
-Summary
--------
-
-In this chapter **I’ll explore how we arrived at where we are today**. **I’ll provide a brief history of user interface design** – drawing from principles of human-computer interaction (HCI) – so that **the lessons we’ve learned from the history of UI design aren’t lost**.
-
-I’ll also stress **the importance of understanding metaphors and mental models**, which underpin UI design. Lastly, **I’ll detail a number of current user interface design systems**, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.
 
 
 

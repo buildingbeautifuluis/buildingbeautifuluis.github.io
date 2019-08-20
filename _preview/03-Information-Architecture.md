@@ -2,7 +2,7 @@
 chapter-number: "03"
 title: "Information Architecture [D]"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content and this is a preview page for my editors.</strong> I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -23,18 +23,7 @@ table-of-contents:
     section-title: "Iconic Layouts, Blockframes and Wireframes"
 ---
 
-<!--
 
-Summary
--------
-
-In this chapter **I’ll level up the complexity a little**. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of **patterns, reusable solutions to user interface problems that occur frequently**.
-
-Once I’ve explored patterns, **I’ll tie everything together** to consider how **we can use patterns, alongside components and objects, to build pages**. With patterns and pages covered, I’ll stress the need to consider information architecture, **so that we ensure our users can find their way to what they’re looking for**.
-
-Lastly, I’ll introduce a number of methods – iconic layouts, blockframes and wireframes – at different levels of fidelity, which are **useful  at different stages of the design process** and which will pave the way for Chapter 4, **where I explore user flows and getting from A → B**.
-
--->
 
 Overview
 --------
@@ -70,7 +59,7 @@ With the overview covered, let’s get down to business and explore some further
 Section 1: A Pattern Language
 -----------------------------
 
-![An Example of a UI Pattern](images/ch3/c3-temp-password-pattern.png)
+![An Example of a UI Pattern](/images/ch3/c3-temp-password-pattern.png)
 
 **CAPTION: _(I’ll be replacing this image with a grid of four images showing four different patterns that echoes the image that accompanies Christopher Alexander’s ‘A Pattern Language’.)_  By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start.**
 
