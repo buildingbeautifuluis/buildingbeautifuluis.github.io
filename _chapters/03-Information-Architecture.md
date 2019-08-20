@@ -24,7 +24,7 @@ table-of-contents:
 
 
 
-**Draft Content**
+### Draft Content
 
 **This is a complete rebuild of Chapter 3 and – at present – this is just Section 1. I’ll add Sections 2-5 shortly.**
 
