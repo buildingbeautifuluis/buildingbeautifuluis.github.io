@@ -283,7 +283,7 @@ If we look at, for example, Dribbble’s [profile page](https://dribbble.com/feh
 + a shot pattern that is used multiple times on the page.
 
 
-{% include figure.html url="/images/ch3/cc3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with content surfaced from the bottom." %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with content surfaced from the bottom." %}
 
 
 Each of these patterns has been considered and has been designed to communicate different types of information.
