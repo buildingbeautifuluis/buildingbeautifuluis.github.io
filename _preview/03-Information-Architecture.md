@@ -1,6 +1,6 @@
 ---
 chapter-number: "03"
-title: "Information Architecture"
+title: "Information Architecture [D]"
 layout: chapter
 opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
 
