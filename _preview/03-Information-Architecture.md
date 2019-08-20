@@ -6,4 +6,4 @@ layout: chapter
 Test Heading
 ------------
 
-This is just test content. Happy days! Hmmm, it's 404ing.
+This is just test content. Happy days! Odd, where is the logo?
