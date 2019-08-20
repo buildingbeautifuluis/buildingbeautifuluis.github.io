@@ -1,8 +1,8 @@
 ---
 chapter-number: "03"
-title: "Information Architecture [Draft]"
+title: "Information Architecture"
 layout: chapter
-opening-text: "<p class='text--warning'>I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak, I’ll be releasing it section by section over the next few days.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
