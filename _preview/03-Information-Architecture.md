@@ -260,19 +260,33 @@ WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
+{% include figure.html url="/images/ch3/c3-s2-opening-image.jpg" alt="Components → Patterns → Pages" description="This isn’t the final image, it’s a sketch from my sketchbook (with the elements renamed) to fit my naming convention. I’ll update this image shortly." %}
+
+
 Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a greater whole.
 
 I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
 
-I’ve focused on Dribbble because it’s a good example of a site that combines various patterns to create the different pages that it requires, and by focusing on a single website, **I’ll draw attention to how these principles are applied in a real world context**.
+I’ve focused on Dribbble because it’s a good example of a site that combines a variety of different patterns to create building blocks for the different pages of the website. By focusing on a single website, as  a case study, **I’ll draw attention to how these principles are applied in a real world context**.
 
-This chapter follows the approach I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages are comprised of a wide variety of elements including:
+_/* **This sub-section needs to be expanded a little more before I dive deeper into the Dribbble case study. (There is commented out content below that I can use for this.)**_
+
+_The point I want to drive home further – before exploring Dribbble and showcasing the ideas I’m establishing in practice – is that we’re increasing the level of complexity and we’re starting to focus in on the **Patterns → Pages** part of the **Objects → Components → Patterns → Pages → Flows** equation._
+
+_Put simply: This approach, **building from the object up**, allows us to establish an information architecture at every level of the design process: Components → Patterns → Pages → Flows._
+
+_If we consider the information architecture of the patterns we build, when we put them together to form pages, managing the overall information architecture at the page level falls, more or less, into place, i.e. **we consider the information architecture of our content at multiple levels** as we design it. */_
+
+
+### Case Study: Dribbble
+
+This chapter follows the approach I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages are comprised of a wide range of elements including:
 
 + Objects
 + Components; and
 + Patterns
 
-By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components** that were the focus of Chapter 2 **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
+By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components** that were the focus of Chapter 2, **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with content surfaced from the bottom." %}
@@ -284,52 +298,76 @@ If we look at Dribbble’s [profile page](https://dribbble.com/fehler), we can s
 + a profile pattern, on the left-hand side of the page; and
 + a shot pattern that is used multiple times on the right-hand side of the page.
 
-Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own structure.
+Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own logical structure.
 
-This is an important point and is worth emphasising. Put simply: **We can consider our overall information architecture at multiple levels, including the pattern and the page level.**
+This is an important point and is one that’s worth emphasising. Put simply: **We can consider our overall information architecture at multiple levels, including the pattern and the page level.**
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is sub-divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
 
 
-The ‘profile pattern’ communicates information about the user in question. This information is sub-divided into three sub-sections or groupings of content: profile, skills and elsewhere. **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
+The ‘profile pattern’ communicates information about the user in question. This information is sub-divided into three sub-sections or groupings of content: ‘profile’, ‘skills’ and ‘elsewhere’. **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
 
-+ Profile
++ **Profile**
   + The User’s Name (Christopher Murphy);
   + The User’s Location (Belfast);
   + The User’s Biography (A designer, writer and speaker…);
-+ Skills
++ **Skills**
   + content design, content strategy, etc..
-+ Elsewhere
++ **Elsewhere**
   + dev.mrmurphy.com
   + Twitter
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.gif" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
 
 
-Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement) has gone into the design of the site’s ‘shot pattern’**. This pattern is used in a number of different locations on the site, including:
+Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement over time) has gone into the design of the site’s ‘shot pattern’**. Shots are, after all, the primary focus of Dribbble.
 
-+ The Home Page [[→]](https://dribbble.com)
-+ The Shots, Designers and Teams Pages; and
-+ The Community Pages
+This shot pattern is used in a number of different locations on the site, including:
+
++ The [Home](https://dribbble.com) Page
++ The [Shots](https://dribbble.com/shots), [Designers](https://dribbble.com/designers) and [Teams](https://dribbble.com/teams) Pages; and
++ The [Playoffs](https://dribbble.com/shots?list=playoffs) Pages
 
 The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of the **Objects → Components → Patterns → Pages → Flows** approach, namely: reusability.
 
-The more you embrace reusability and the less you reinvent the wheel, the more consistent your user interfaces are and the quicker they are to build. This is a little like Sass (if you’re familiar with it): make a change to a variable, and it cascades out, taking care of the bigger picture.
+**The more you embrace reusability** and the less you reinvent the wheel, **the more consistent your user interfaces are and the quicker they are to build**.
+
+Patterns used this way are a little like variables in programming languages: **make a change to a variable and that change cascades out, taking care of the bigger picture**.
+
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014!)" %}
+
 
 Dribbble’s ‘shot pattern’ communicates information about the shot in question:
 
-+ it’s title (Break Badges [Sketch]);
-+ it’s upload date (August 23, 2014);
-+ a save button, so you can bookmark it; and
-+ a like button, to show your appreciation.
++ The Shot's Title (Break Badges [Sketch]);
++ The Shot's Upload Date (August 23, 2014);
 
-It should be obvious – after reading Chapter 2 – that **the skills on the ‘profile pattern’ and the save and like buttons on the ‘shot pattern’ are examples of components**.
+It also features buttons (components, as we explored in Chapter 2) so that users can interact with the shot:
 
-By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: 1. more efficient from a design perspective; and 2. leads to a more cohesive and consistent interface. /* Heads up. I made this point above. */
++ A Save Button: So user's can add the shot to buckets; and
++ A Like Button, to show your appreciation.
 
-On Dribbble’s [home page](https://dribbble.com), for example, we see the ‘shot pattern’ re-used multiple times to show the latest shots that have been uploaded.
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
+
+
+If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that it has four possible states:
+
+1. a non-hover state that showcases the shot alone;
+2. a hover state that reveals metadata about the shot;
+3. a hover state that highlights when a user has liked a shot; and
+4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (a user-generated collections of images).
+
+It should be obvious – after reading Chapter 2 – that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the shot pattern; and the skills listed are examples of **tag components** used as a part of the profile pattern.
+
+By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: more efficient from a design perspective; and leads to a more cohesive and consistent user interface.
+
+On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
+
+With our case study wrapped up, let’s explore the idea of information architecture a little more at the macro- and the micro-level.
 
 <!--
 
@@ -351,44 +389,25 @@ Our job is to consider the hierarchy of information when we design:
 
 I’ll explore flows in [Chapter 4: Getting From A → B](#) so – in this chapter, I’ll focus on patterns and pages – but the overall emphasis remains the same. We need to ensure everything is clearly signposted.
 
-![Dribbble Pattern (Card)](images/ch3/dribbble-pattern-card.png)
-
-**CAPTION: In the above screenshot – of Dribbble – we see that there’s an information architecture at *both* the pattern and page level.**
-
 Analysing how different interfaces work at different levels of information hierarchy (Components → Patterns → Pages) will give you a clearer understanding of how to manage the information architecture when you build your own user interfaces.
 
-There’s an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are, more often than not, created from components.
+There’s an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are created from components and patterns.
 
-
-### Information Architecture at the Pattern Level (Micro)
-
-Let's take a look at Dribbble's 
-
-For example, a simple profile card might have three groupings of information:
-
-+ User Profile
-+ Social
-+ Tags
-
-NNg:
-
-Just like the  [IA](https://www.nngroup.com/articles/ia-vs-navigation/)  reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/) , which is made up of all the page headings and subheadings, reflects the information structure of a page.
+NNg: "Just like the [IA](https://www.nngroup.com/articles/ia-vs-navigation/) reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/), which is made up of all the page headings and subheadings, reflects the information structure of a page.
 
 -->
 
-I might dive deeper using Dribbble as an example so I can continue the theme and explore the IA of the patterns (profile) and pages (home). So, these might be…
 
-<!--
-![Dribbble Pattern (Card)](images/ch3/dribbble-pattern-card.png)
--->
+### Information Architecture at the Macro- and Micro-Level
 
-### Anatomy of a Pattern (Micro IA)
+In the closing part of this section, I'll widen the lens out and look at some other examples of sites using the same approach as Dribbble. Given that this is a book commissioned by Adobe, this might be Behance.
 
-This takes something like a Dribbble ‘shot pattern’ (a card) and shows how it’s structured. Draw attention to the buttons so that I can show how objects and components come together in patterns.
+The upsides of Behance: It's an Adobe product and Becky will appreciate that. The downsides of Behance: It might be a little too similar to Dribbble, but that might not be a bad thing as it might help to underline the fact that we see this approach used by great designers, a great deal.
 
-<!--
-![Dribbble Page](images/ch3/dribbble-page.png)
--->
+Another possible site I could look at, also Adobe's, would 
+
+This takes something like a Dribbble ‘shot pattern’ (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in patterns.
+
 
 ### Anatomy of a Page (Macro IA)
 
