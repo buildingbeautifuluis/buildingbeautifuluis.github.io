@@ -1,8 +1,8 @@
 ---
 chapter-number: "03"
-title: "Information Architecture ☠"
+title: "Information Architecture ~
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (20 August), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (21 August), I’ll be releasing it section by section over the next few days.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -27,11 +27,11 @@ table-of-contents:
 
 ### Draft Content
 
-**This is a complete rebuild of Chapter 3 and – at present – this is just Section 1. I’ll add Sections 2-5 shortly.**
+**This is a complete rebuild of Chapter 3. I’m adding to it section by section.**
 
-It’s been a struggle to find the time to do this chapter justice, on top of taking a short break for a much-needed holiday. I hope to the entirety of the chapter in a fully readable form this week, however. I am doing my best!
+It was a struggle to find the time to do this chapter justice on top of a short break I took for a much-needed holiday. My holiday, sadly, is now over, so I’m back at the coal face. I hope to have the entirety of the chapter in a fully readable form this week (21 August).
 
-The images, for the most part, are placeholders and draft images that I’ll develop further. **These are not the final images.** With that disclaimer out of the way, feel free to dive in!
+The images, for the most part, are pdraft images that I’ll develop further. **These are not the final images.** With that disclaimer out of the way, feel free to dive in!
 
 
 
@@ -187,7 +187,7 @@ Alexander has created **an index of patterns which we can combine, like a langua
 
 Just as Alexander created a 1,171 page book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own indices, gathering examples of user interface patterns that work**.
 
-Put simply: We can **build our own encyclopaedia of examples**, similar to Smith’s work with Pattern Tap. This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges.
+Put simply: We can **build our own encyclopaedia of examples**, similar to Matthew Smith’s work with Pattern Tap. This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges in your user interface design.
 
 <!--
 
@@ -200,7 +200,7 @@ It’s a good idea – especially during studio downtime – to **collect exampl
 + create on projects, or
 + discover during your research.
 
-These can be useful for showing clients or project partners **examples of how typical design problems are addressed**. (A series of navigation bars in a mobile footer, for example.)
+These can be useful for showing clients or project partners **examples of how typical design problems are addressed**. (A series of credit card patterns if you’re developing a digital store, for example.)
 
 In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** [Here is an example.](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal)
 
@@ -235,16 +235,13 @@ Applying this to the above Netlify credit card modal dialog, this might be:
 + a [screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png);
 + Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you 
 enter your card details on the left side, the credit card updates with those details on the right side.
-+ links to other payment forms you’ve designed for other projects. (So you can show clients or partners alternative patterns.)
++ links to other payment forms you’ve designed for other projects, or discovered in your research. (So you can show clients or partners alternative patterns.)
 
 Every entry in your system is a single design pattern and each of your documented patterns should explain why that solution works well in the pattern’s contexts.
 
-**Using our objects and components to create patterns is where things get interesting.** Essentially, we’re building a library – a set of patterns, created from objects and components – that we’ll combine in different ways as we build our interfaces.
+**Using our objects and components to create patterns is where things get interesting.** Essentially, we’re building a library – a set of patterns, created from objects and components – that we’ll combine in different ways to create the pages of our interfaces.
 
 By starting from the object and working up towards components and patterns, we can build **a consistent set of user interface elements that we can then further orchestrate within pages, as I’ll explore in the next section.**
-
-
-_/* I’ve tidied everything up to this point. If you’re reading this pre-draft content, I’m working on Sections 2–5 just now, so everything below this comment is in-progress. (Friday, 9 August) */_
 
 <!--
 
@@ -260,23 +257,24 @@ WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
 
 
 
-
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-Having explored the benefits of design patterns and pattern languages, and provided some context about their origins, in this section **I’ll dive deeper into some specific examples of patterns and pages** showing how we can combine them to create rich user interfaces.
+Having explored the benefits of design patterns and pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a whole.
 
-I’ll explore patterns first, then I’ll look at how we can coordinate these patterns (along with components and objects) to build pages.
+I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
 
-This chapter follows the strategy established in Chapter 2 – where I explored **the idea of building complexity progressively from the object up** – in this section I’ll focus on how we build user interfaces as we progressively move up a path of increasing complexity that includes:
+I've focused on Dribbble because it's a great example of a site that combines various patterns to create the different pages that it requires, and by focusing on a single website, **I’ll draw attention to how these principles are applied in a real world context**.
 
-+ Components
-+ Patterns; and
-+ Pages
+This chapter follows the strategy I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages are comprised of a wide variety of elements including:
 
-**We can use our objects and components** (that we focused on in Chapter 2) **to build patterns and pages**. Take any page and you’ll see it’s – more often than not – built from a set of core building blocks: patterns that have been designed to satisfy a particular purpose.
++ Objects
++ Components; and
++ Patterns
 
-If we look at, for example, Dribbble’s [profile page](https://dribbble.com/fehler), we see that it uses a number of patterns:
+By analysing Dribbble, I’ll show how **we can use the objects and components** (that I focused on in Chapter 2) **to build patterns and pages**, which is the focus of this chapter.
+
+If we look at Dribbble’s [profile page](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: patterns that have been designed to satisfy a particular purpose. These patterns include:
 
 + navigation patterns, at the top of the page;
 + a profile pattern (which is divided into three sub-sections: profile, skills and elsewhere); and
@@ -286,7 +284,7 @@ If we look at, for example, Dribbble’s [profile page](https://dribbble.com/feh
 {% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with content surfaced from the bottom." %}
 
 
-Each of these patterns has been considered and has been designed to communicate different types of information.
+Each of these patterns has been considered and has been designed to communicate different types of information. We can look at each of these patterns in turn and see that they each have their own structure.
 
 The ‘profile pattern’ communicates information about the user in question:
 
