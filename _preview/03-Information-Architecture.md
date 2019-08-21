@@ -295,16 +295,30 @@ This is an important point and is worth emphasising. Put simply: **We can consid
 The ‘profile pattern’ communicates information about the user in question. This information is sub-divided into three sub-sections or groupings of content: profile, skills and elsewhere. **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
 
 + Profile
-  + The User's Name (Christopher Murphy);
-  + The User's Location (Belfast);
-  + The User's Biography (A designer, writer and speaker…);
+  + The User’s Name (Christopher Murphy);
+  + The User’s Location (Belfast);
+  + The User’s Biography (A designer, writer and speaker…);
 + Skills
   + content design, content strategy, etc..
 + Elsewhere
   + dev.mrmurphy.com
   + Twitter
 
-The ‘shot pattern’ communicates information about the shot in question:
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.gif" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
+
+
+Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement) has gone into the design of the site’s ‘shot pattern’**. This pattern is used in a number of different locations on the site, including:
+
++ The Home Page [[→]](https://dribbble.com)
++ The Shots, Designers and Teams Pages; and
++ The Community Pages
+
+The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of the **Objects → Components → Patterns → Pages → Flows** approach, namely: reusability.
+
+The more you embrace reusability and the less you reinvent the wheel, the more consistent your user interfaces are and the quicker they are to build. This is a little like Sass (if you’re familiar with it): make a change to a variable, and it cascades out, taking care of the bigger picture.
+
+Dribbble’s ‘shot pattern’ communicates information about the shot in question:
 
 + it’s title (Break Badges [Sketch]);
 + it’s upload date (August 23, 2014);
@@ -313,7 +327,7 @@ The ‘shot pattern’ communicates information about the shot in question:
 
 It should be obvious – after reading Chapter 2 – that **the skills on the ‘profile pattern’ and the save and like buttons on the ‘shot pattern’ are examples of components**.
 
-By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: 1. more efficient from a design perspective; and 2. leads to a more cohesive and consistent interface.
+By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: 1. more efficient from a design perspective; and 2. leads to a more cohesive and consistent interface. /* Heads up. I made this point above. */
 
 On Dribbble’s [home page](https://dribbble.com), for example, we see the ‘shot pattern’ re-used multiple times to show the latest shots that have been uploaded.
 
