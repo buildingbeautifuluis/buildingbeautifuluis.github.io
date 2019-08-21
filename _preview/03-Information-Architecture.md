@@ -1,6 +1,6 @@
 ---
 chapter-number: "03"
-title: "Information Architecture ~"
+title: "Information Architecture ¼"
 layout: chapter
 opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (21 August), I’ll be releasing it section by section over the next few days.</p>
 
@@ -260,39 +260,49 @@ WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-Having explored the benefits of design patterns and pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a whole.
+Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a greater whole.
 
 I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
 
-I've focused on Dribbble because it's a great example of a site that combines various patterns to create the different pages that it requires, and by focusing on a single website, **I’ll draw attention to how these principles are applied in a real world context**.
+I’ve focused on Dribbble because it’s a good example of a site that combines various patterns to create the different pages that it requires, and by focusing on a single website, **I’ll draw attention to how these principles are applied in a real world context**.
 
-This chapter follows the strategy I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages are comprised of a wide variety of elements including:
+This chapter follows the approach I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages are comprised of a wide variety of elements including:
 
 + Objects
 + Components; and
 + Patterns
 
-By analysing Dribbble, I’ll show how **we can use the objects and components** (that I focused on in Chapter 2) **to build patterns and pages**, which is the focus of this chapter.
+By analysing Dribbble, I’ll show how **we can use the objects and components**, that I focused on in Chapter 2, **to build patterns and pages**, which is the focus of this chapter.
 
-If we look at Dribbble’s [profile page](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: patterns that have been designed to satisfy a particular purpose. These patterns include:
+If we look at Dribbble’s [profile page](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
 
-+ navigation patterns, at the top of the page;
-+ a profile pattern (which is divided into three sub-sections: profile, skills and elsewhere); and
-+ a shot pattern that is used multiple times on the page.
++ a navigation pattern, at the top of the page;
++ a profile pattern, on the left-hand side of the page; and
++ a shot pattern that is used multiple times on the right-hand side of the page.
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with content surfaced from the bottom." %}
 
 
-Each of these patterns has been considered and has been designed to communicate different types of information. We can look at each of these patterns in turn and see that they each have their own structure.
+Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own structure. This is an important point and bears emphasis. Put simply: **We can consider our overall information architecture at multiple levels, including the pattern and the page level.**
 
-The ‘profile pattern’ communicates information about the user in question:
 
-+ their name (Christopher Murphy);
-+ their location (Belfast);
-+ their biography (A designer…);
-+ their skills; and
-+ their URLs, elsewhere.
+{% include figure.html url="/images/ch3/c3-s2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is sub-divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
+
+
+The ‘profile pattern’ communicates information about the user in question. This information is sub-divided into three sub-sections or groupings of content: profile, skills and elsewhere.
+
+**So – even at the pattern level – we can consider the information architecture ensuring everything is logically structured.**
+
++ Profile
+  + The User's Name (Christopher Murphy);
+  + The User's Location (Belfast);
+  + The User's Biography (A designer, writer and speaker…);
++ Skills
+  + content design, content strategy, etc..
++ Elsewhere
+  + dev.mrmurphy.com
+  + Twitter
 
 The ‘shot pattern’ communicates information about the shot in question:
 
