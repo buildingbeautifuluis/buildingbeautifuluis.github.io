@@ -361,7 +361,7 @@ If we dive a little deeper and explore Dribbble’s shot pattern in more depth, 
 3. a hover state that highlights when a user has liked a shot; and
 4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (a user-generated collections of images).
 
-It should be obvious – after reading Chapter 2 – that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the shot pattern; and the skills listed are examples of **tag components** used as a part of the profile pattern.
+It should be obvious (I hope!) – after reading Chapter 2 – that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the shot pattern; and the skills listed are examples of **tag components** used as a part of the profile pattern.
 
 By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: more efficient from a design perspective; and leads to a more cohesive and consistent user interface.
 
@@ -400,18 +400,26 @@ NNg: "Just like the [IA](https://www.nngroup.com/articles/ia-vs-navigation/) ref
 
 ### Information Architecture at the Macro- and Micro-Level
 
-In the closing part of this section, I'll widen the lens out and look at some other examples of sites using the same approach as Dribbble. Given that this is a book commissioned by Adobe, this might be Behance.
+In the closing part of this section, I’ll widen the lens out and look at some other examples of sites using the same approach as Dribbble. Given that this is a book commissioned by Adobe, I might use Behance as an example.
 
-The upsides of Behance: It's an Adobe product and Becky will appreciate that. The downsides of Behance: It might be a little too similar to Dribbble, but that might not be a bad thing as it might help to underline the fact that we see this approach used by great designers, a great deal.
+The upsides of Behance: It’s an Adobe product and Becky will appreciate that. The downsides of Behance: It might be a little too similar to Dribbble, but that might not be a bad thing as it might help to underline the fact that we see this approach used by great designers, a great deal.
 
-Another possible site I could look at, also Adobe's, would 
+Another possible site I could look at, also Adobe’s, would be [Adobe Fonts](https://fonts.adobe.com/fonts), which also uses a lot of repeating patterns.
 
-This takes something like a Dribbble ‘shot pattern’ (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in patterns.
+**Micro-Level IA**
+
+This takes something like Dribbble’s shot pattern (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
 
 
-### Anatomy of a Page (Macro IA)
+**Macro-Level IA**
 
-This takes a page and shows how it’s structured and organised. Dribbble page, perhaps. So we see how the card pattern for the shots comes together in the context of the page.
+This takes a page and shows how it’s structured and organised. Again, this could be Behance or Adobe Fonts. Adobe Fonts, in particular, has some lovely varying patterns used to manage the complexity of typographic samples:
+
++ Sample of Typeface (XL)
++ Typeface Name (L)
++ Foundry (M)
++ Number of Fonts (M)
++ Call to Action
 
 
 
