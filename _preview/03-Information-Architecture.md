@@ -275,7 +275,7 @@ _The point I want to drive home further – before exploring Dribbble and showca
 
 _Put simply: This approach, **building from the object up**, allows us to establish an information architecture at every level of the design process: Components → Patterns → Pages → Flows._
 
-_If we consider the information architecture of the patterns we build, when we put them together to form pages, managing the overall information architecture at the page level falls, more or less, into place, i.e. **we consider the information architecture of our content at multiple levels** as we design it. */_
+_If we consider the information architecture of the patterns we build, when we put them together to form pages the overall information architecture at that level falls, more or less, into place, i.e. **we consider the information architecture of our content at multiple levels** as we design it. */_
 
 
 ### Case Study: Dribbble
@@ -289,7 +289,7 @@ This chapter follows the approach I established in Chapter 2, **developing the i
 By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components** that were the focus of Chapter 2, **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with content surfaced from the bottom." %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with metadata content surfaced from the bottom." %}
 
 
 If we look at Dribbble’s [profile page](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
@@ -337,35 +337,37 @@ The re-use of this pattern in so many different areas of Dribbble’s website un
 Patterns used this way are a little like variables in programming languages: **make a change to a variable and that change cascades out, taking care of the bigger picture**.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014!)" %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014 (!) when I ran my design conference, Break.)" %}
 
 
 Dribbble’s ‘shot pattern’ communicates information about the shot in question:
 
-+ The Shot's Title (Break Badges [Sketch]);
-+ The Shot's Upload Date (August 23, 2014);
++ **The Shot’s Title:** Break Badges [Sketch]; and
++ **The Shot’s Upload Date:** August 23, 2014;
 
-It also features buttons (components, as we explored in Chapter 2) so that users can interact with the shot:
+It also features ‘Save’ and ‘Like’ buttons (which are components, as we explored in Chapter 2) so that users can interact with the shot:
 
-+ A Save Button: So user's can add the shot to buckets; and
-+ A Like Button, to show your appreciation.
-
-
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
++ **A Save Button:** So user’s can add the shot to buckets; and
++ **A Like Button:** To show your appreciation of the shot.
 
 
-If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that it has four possible states:
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern has a number of ‘states’: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
+
+
+If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that **the pattern has four possible states**:
 
 1. a non-hover state that showcases the shot alone;
 2. a hover state that reveals metadata about the shot;
 3. a hover state that highlights when a user has liked a shot; and
-4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (a user-generated collections of images).
+4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets.
 
-It should be obvious (I hope!) – after reading Chapter 2 – that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the shot pattern; and the skills listed are examples of **tag components** used as a part of the profile pattern.
+It should be obvious (I hope!) – after reading Chapter 2 – that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the shot pattern.
 
 By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: more efficient from a design perspective; and leads to a more cohesive and consistent user interface.
 
 On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
+
+_/* I think I’ll create a Notist slidedeck – [something like this](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal) – to gather this analysis of Dribbble into one location for reference. This could be provided with the chapter’s downloadables. */_
 
 With our case study wrapped up, let’s explore the idea of information architecture a little more at the macro- and the micro-level.
 
