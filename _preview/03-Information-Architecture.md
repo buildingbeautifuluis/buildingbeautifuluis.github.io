@@ -267,6 +267,47 @@ Having explored the benefits of pattern languages, and provided some history abo
 
 I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
 
+<!-- Bridge to cards? They'd be a useful pattern to show first as a great deal thereafter uses cards, not least Dribbble. -->
+
+_In particular, I'll focus on how Dribbble uses cards – a widely used pattern that's risen in popularity in no small part thanks to its standardisation in Google's Material Design language – and explore a number of examples of cards across a range of websites._
+
+_Now explain what cards are, then show Behance and break apart a couple of the cards?_
+
+_The following is too focused on Dribbble, I'll get to that shortly, de-emphasise it here and focus on cards instead as that'll slot nicely into Dribbble as is uses a lot of cards._
+
+<!--
+
+### Cards
+
+Google and check these words aren't from somewhere else.
+
+A card is a component that’s constructed from smaller elements, for example typographic content, buttons and other elements.
+
+Cards can be used to organise and display logical groupings of information, for example:
+
++ User Profiles
++ Login Components
++ Content Modules
++ Video or Audio Players
++ Payment Information
++ Etc.
+
+In certain applications cards can also be dragged, dropped and re-ordered. For example, Trello….
+
+> As an information container, cards hold all elements such as text, rich media, buttons, etc. Based on this contents, it can adapt its size to that of different devices and screens, balancing user interface and user experience.
+> 
+> Compared to traditional UI design, a simple but intuitive advantage of card UI is that it provides a more personalized user experience, making the entire interface more clear, balanced, aesthetically pleasing, simple and stylish with good usability.
+> 
+> https://www.mockplus.com/blog/post/card-ui-design
+
+One of the primary benefits of a embracing cards is their adaptability.  Cards can be **reorganised** depending upon screen real estate:
+
++ in a desktop context we might lay out our cards in a grid; and
++ in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might vertically stack cards in a layout that users can scroll down.
+
+
+-->
+
 I’ve focused on Dribbble because it’s **a good example of a site that combines a variety of different patterns to create building blocks for the different pages the site requires**. By focusing on a single website as  a case study, **I’ll draw attention to how these principles are applied in a real world context**.
 
 Before exploring Dribbble in detail, and showcasing the ideas I’m establishing in practice, it’s important to stress that this chapter increases the level of complexity by starting to focus in on the **Patterns → Pages** part of the **Objects → Components → Patterns → Pages → Flows** equation._
@@ -543,6 +584,8 @@ Donna Spence’s Five Simple Steps book explains this well (pp3-4 are great), es
 
 -->
 
+In an age of information overload, **establishing a clear information architecture – so that we ensure our users can find their way – is more critical than ever**.
+
 Given that this chapter is titled ‘Information Architecture’, I think it’s important I explain what that means! Essentially, **information architecture focuses on organising and structuring information so we can improve its findability and discoverability**.
 
 **The information architecture of websites and applications is critical** because – if it's done well – it will enable users to find the information they're looking for and complete the tasks that they need to complete. Conversely, if the information architecture is ill-considered, it leads to frustrated users who will very quickly find an alternative solution.
@@ -561,6 +604,8 @@ As user interface designers, **our role is to orchestrate the elements that comp
 
 This is where information architecture (IA) comes in.
 
+_Information architecture also includes the architecture of flows, but I’ll explore that in the next chapter (Chapter 4: Getting From A → B)._
+
 Everything we design is created from content. When we design a UI, we take this content and we organise it, enabling the user to navigate it and help them to quickly and easily find their way. As we design, we need to consider the hierarchy of the content we're organising and apply that hierarchy to our patterns, pages and flows.
 
 There’s an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are created from components and patterns.
@@ -572,6 +617,16 @@ I’ll explore flows in [Chapter 4: Getting From A → B](#) so – in this chap
 _At this point I’ll use the supermarket metaphor that Donna Spencer has used in her book. Donna used chocolate, but I’m using ice cream. (The freezers are broken, so it’s as if this page is down for maintenance.) I can still find what I’m looking for, however… */_
 
 NNg: "Just like the [IA](https://www.nngroup.com/articles/ia-vs-navigation/) reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/), which is made up of all the page headings and subheadings, reflects the information structure of a page.
+
+Back to my words…
+
+I need to talk about clustering, labelling, etc. (Remember the ice cream metaphor.)
+
+Show a credit card example and show how everything is organised (spatially) and clearly labelled.
+
+The freezer part of the supermarket is also nice because it's a grouping of things, but it's also 'undergoing maintenance' (so, even when something isn't available – because the page content is being updated, for example – the user should be kept informed).
+
+Look in Simplenote, there's a tonne of stuff there. Not least the information architecture of cards, i.e. at a component and pattern (‘sub-page’) level.
 
 -->
 
