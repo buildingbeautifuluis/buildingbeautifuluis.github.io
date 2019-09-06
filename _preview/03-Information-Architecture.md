@@ -329,19 +329,19 @@ This section feels a touch short. There's content in Agenda and below (commented
 
 ### Case Study: Dribbble
 
-This chapter follows the approach I established in Chapter 2, **developing the idea of **building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively elements including:
+This chapter follows the approach I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribbble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively simple elements including:
 
 + Objects
 + Components; and
 + Patterns
 
-By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components** that were the focus of Chapter 2, **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
+By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components**, that were the focus of Chapter 2, **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
 
 If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
 
 + a navigation pattern, at the top of the page (1);
 + a profile pattern, on the left-hand side of the page (2); and
-+ a shot pattern that is used multiple times on the right-hand side of the page (3, 4).
++ a shot pattern that is used multiple times on the right-hand side of the page (3: non-active state, 4: active state).
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-profile-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘navigation pattern’; 2. a ‘profile pattern’; 3. a ‘shot pattern’; and 4. a shot pattern in an active state with metadata showing at the bottom." %}
@@ -349,7 +349,7 @@ If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler), 
 
 Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own logical structure.
 
-This is an important point to note and it’s one that’s worth emphasising. **We can consider information architecture at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** information architecture, so too do the different patterns on the pages.
+This is an important point to note and it’s one that’s worth emphasising. **We can – and should – consider information architecture at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** information architecture, so too do the different patterns on the pages.
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
@@ -371,6 +371,8 @@ Looking at the above profile pattern (mine) we see the information is organised 
   + dev.mrmurphy.com
   + Twitter
 
+This **pattern level information architecture** groups related content – all about the user – into one, carefully organised space.
+
 Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement over time) has gone into the design of the site’s ‘shot pattern’**. Shots are, after all, the primary focus of Dribbble.
 
 
@@ -379,7 +381,7 @@ Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise 
 <!-- Before publication, re-screenshot this page with some more up-to-date shots (from this book for added meta). -->
 
 
-Dribbble’s ‘shot pattern’ communicates information about the shot in question:
+Dribbble’s ‘shot pattern’, like the profile pattern, has its own information architecture that communicated information about the shot in question:
 
 + **The Shot’s Title:** Break Badges [Sketch]
 + **The Shot’s Upload Date:** August 23, 2014
@@ -399,7 +401,7 @@ This shot pattern is used in a number of different locations throughout the Drib
 {% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
 
 
-The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of the approach of building from the object up, namely: **reusability**.
+The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of building patterns as a core part of your design process, namely: **reusability**.
 
 **The more you embrace reusability** and the less you reinvent the wheel, **the more consistent your user interfaces are and the quicker they are to build**.
 
@@ -425,9 +427,9 @@ By embracing a pattern-driven approach, **Dribbble can re-use these components a
 
 On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
 
-_/* To close out this section, I need to show an example of a shot page, where the shot is featured on its own. This is where I can have fun with the #inception idea._
+_/* To close out this section, I need to show an example of a featured shot page (where the shot is shown on its own). This is where I can have some fun with the #inception idea. I think I might draw the browser myself so I can get what I really want. */_
 
-_In addition to the above, I think I’ll create a Notist slidedeck – [something like this](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal) – to gather this analysis of Dribbble into one location for reference. This could be provided with the chapter’s downloadables. */_
+_/* In addition to the above, I think I’ll create a Notist slidedeck – [something like this](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal) – to gather this analysis of Dribbble into one location for reference. This could be provided with the chapter’s downloadables. */_
 
 With our case study wrapped up, let’s explore the idea of information architecture a little more at the macro- and the micro-level.
 
