@@ -6,7 +6,7 @@ opening-text: "<p class='text--warning'><strong>This is draft content.</strong> 
 
 <p class='text--warning'><strong>Unfortunately, I had a family crisis over the last 2–3 weeks and had to pause writing.</strong> Thankfully, the family member who was very ill is doing better, so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
 
-<p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
+<p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns: reusable solutions to user interface problems that occur frequently</strong>.</p>
 
 <p>Once I’ve explored patterns, <strong>I’ll tie everything together</strong> to consider how <strong>we can use patterns, alongside components and objects, to build pages</strong>. With patterns and pages covered, I’ll stress the need to consider information architecture, <strong>so that we ensure our users can find their way to what they’re looking for</strong>.</p>
 
@@ -33,9 +33,9 @@ table-of-contents:
 
 Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first.
 
-Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.
+Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be. I'll be working this weekend and I hope to get back on track and have this chapter finished by w/c 9 September.
 
-The images in this preview are primarily draft images that I’ll develop further, **i.e. these are not the final images.** With that disclaimer out of the way, feel free to dive in.
+The images in this preview are primarily draft images that I’ll be developing further, **i.e. these are not the final images.** With that disclaimer out of the way, feel free to dive in.
 
 
 
@@ -329,7 +329,7 @@ This section feels a touch short. There's content in Agenda and below (commented
 
 ### Case Study: Dribbble
 
-This chapter follows the approach I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages are comprised of a wide range of elements including:
+This chapter follows the approach I established in Chapter 2, **developing the idea of **building complexity step-by-step, from the object up**. As we’ll see, Dribble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively elements including:
 
 + Objects
 + Components; and
@@ -337,82 +337,91 @@ This chapter follows the approach I established in Chapter 2, **developing the i
 
 By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components** that were the focus of Chapter 2, **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
 
+If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘profile pattern’; 2. a ‘shot pattern’; and 3. a shot pattern in an active state with metadata content surfaced from the bottom." %}
++ a navigation pattern, at the top of the page (1);
++ a profile pattern, on the left-hand side of the page (2); and
++ a shot pattern that is used multiple times on the right-hand side of the page (3, 4).
 
 
-If we look at Dribbble’s [profile page](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
+{% include figure.html url="/images/ch3/c3-s2-dribbble-profile-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘navigation pattern’; 2. a ‘profile pattern’; 3. a ‘shot pattern’; and 4. a shot pattern in an active state with metadata showing at the bottom." %}
 
-+ a navigation pattern, at the top of the page;
-+ a profile pattern, on the left-hand side of the page; and
-+ a shot pattern that is used multiple times on the right-hand side of the page.
 
 Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own logical structure.
 
-This is an important point and is one that’s worth emphasising. Put simply: **We can consider our overall information architecture at multiple levels, including the pattern and the page level.**
+This is an important point to note and it’s one that’s worth emphasising. **We can consider information architecture at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** information architecture, so too do the different patterns on the pages.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is sub-divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
+
+<!-- Before publication, re-screenshot this and change the URL to mrmurphy.com. -->
 
 
-The ‘profile pattern’ communicates information about the user in question. This information is sub-divided into three sub-sections or groupings of content: ‘profile’, ‘skills’ and ‘elsewhere’. **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
+If we focus in one one of these patterns, the ‘profile pattern’ communicates information about the user in question. This information is divided into three sub-sections or groupings of content: ‘profile’ (1), ‘skills’ (2) and ‘elsewhere’ (3). **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
+
+Looking at the above profile pattern (mine) we see the information is organised into three sections:
 
 + **Profile**
-  + The User’s Name (Christopher Murphy);
-  + The User’s Location (Belfast);
-  + The User’s Biography (A designer, writer and speaker…);
+  + The User’s Name: Christopher Murphy
+  + The User’s Location: Belfast
+  + The User’s Biography: A designer, writer and speaker… etc..
 + **Skills**
-  + content design, content strategy, etc..
+  + content design, content strategy, design, etc..
 + **Elsewhere**
   + dev.mrmurphy.com
   + Twitter
 
-
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
-
-
 Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement over time) has gone into the design of the site’s ‘shot pattern’**. Shots are, after all, the primary focus of Dribbble.
 
-This shot pattern is used in a number of different locations on the site, including:
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014 (!) when I ran my design conference, Break. Sorry, Dribbble!)" %}
+
+<!-- Before publication, re-screenshot this page with some more up-to-date shots (from this book for added meta). -->
+
+
+Dribbble’s ‘shot pattern’ communicates information about the shot in question:
+
++ **The Shot’s Title:** Break Badges [Sketch]
++ **The Shot’s Upload Date:** August 23, 2014
+
+It also features ‘Save’ and ‘Like’ buttons (which are examples of components, as we explored in Chapter 2) so that users can interact with the shot:
+
++ **A Save Button:** So users can add the shot to their buckets.
++ **A Like Button:** To show your appreciation of the shot in question.
+
+This shot pattern is used in a number of different locations throughout the Dribbble website, including:
 
 + The [Home](https://dribbble.com) Page
 + The [Shots](https://dribbble.com/shots), [Designers](https://dribbble.com/designers) and [Teams](https://dribbble.com/teams) Pages; and
 + The [Playoffs](https://dribbble.com/shots?list=playoffs) Pages
 
-The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of the **Objects → Components → Patterns → Pages → Flows** approach, namely: reusability.
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
+
+
+The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of the approach of building from the object up, namely: **reusability**.
 
 **The more you embrace reusability** and the less you reinvent the wheel, **the more consistent your user interfaces are and the quicker they are to build**.
 
 Patterns used this way are a little like variables in programming languages: **make a change to a variable and that change cascades out, taking care of the bigger picture**.
 
+If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that **the pattern has four possible states**:
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014 (!) when I ran my design conference, Break.)" %}
-
-
-Dribbble’s ‘shot pattern’ communicates information about the shot in question:
-
-+ **The Shot’s Title:** Break Badges [Sketch]; and
-+ **The Shot’s Upload Date:** August 23, 2014;
-
-It also features ‘Save’ and ‘Like’ buttons (which are components, as we explored in Chapter 2) so that users can interact with the shot:
-
-+ **A Save Button:** So user’s can add the shot to buckets; and
-+ **A Like Button:** To show your appreciation of the shot.
+1. a non-hover state that showcases the shot alone (1);
+2. a hover state that reveals metadata about the shot (2);
+3. a hover state that highlights when a user has liked a shot (3); and
+4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (4).
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern has a number of ‘states’: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
 
 
-If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that **the pattern has four possible states**:
+It should be obvious, after reading Chapter 2, that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the pattern.
 
-1. a non-hover state that showcases the shot alone;
-2. a hover state that reveals metadata about the shot;
-3. a hover state that highlights when a user has liked a shot; and
-4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets.
+By embracing a pattern-driven approach, **Dribbble can re-use these components and patterns elsewhere on the site**, which is:
 
-It should be obvious (I hope!) – after reading Chapter 2 – that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the shot pattern.
-
-By embracing a pattern-driven approach, **Dribbble can re-use these patterns elsewhere on the site**, which is: more efficient from a design perspective; and leads to a more cohesive and consistent user interface.
++ **more efficient** from a design perspective; and
++ leads to a **more cohesive and consistent** user interface.
 
 On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
 
