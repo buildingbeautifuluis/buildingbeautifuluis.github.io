@@ -2,7 +2,7 @@
 chapter-number: "03"
 title: "Information Architecture ¼"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (21 August), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (6 September), I’ll be releasing it section by section over the next few days.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -25,13 +25,15 @@ table-of-contents:
 
 
 
-### Draft Content
+### Draft Content Notes
 
 **This is a complete rebuild of Chapter 3. I’m adding to it section by section.**
 
-It was a struggle to find the time to work on this chapter on top of a short break I took for a much-needed holiday. My holiday, however, is now over, so I’m back at the coal face. I hope to have the entirety of the chapter in a fully readable form by the end of this week (25 August).
+Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first.
 
-The images, for the most part, are draft images that I’ll develop further. **These are not the final images.** With that disclaimer out of the way, feel free to dive in!
+Thankfully, he is doing better so I’m restarting the work I was doing before on this chapter. I hope to have it finished soon.
+
+The images in this preview are primarily draft images that I’ll develop further, **i.e. these are not the final images.** With that disclaimer out of the way, feel free to dive in.
 
 
 
