@@ -23,9 +23,9 @@ Table of Contents
 Summary
 -------
 
-With our pages built, **we need to focus on the flows that users take through the user interfaces we design**. In this chapter, I'll explore designing user flows, stressing the need to **consider flows in different manners: page-to-page, and state-to-state**. In short: I'll explore the idea of getting from A → B, **ensuring our users are guided by our user interface**.
+With our pages built, **we need to focus on the flows that users take through the user interfaces we design**. In this chapter, I’ll explore designing user flows, stressing the need to **consider flows in different contexts: page-to-page, and state-to-state**. In short: I’ll explore the idea of getting from A → B, **ensuring our users are guided by our user interface**.
 
-I'll also consider a number of critical flows that need to be considered when you're designing digital products, including 'onboarding' (when a user is taken through the initial screens of an application) and 'empty states' (when a user is confronted by an application that, at that moment, contains no content).
+I’ll also consider **a number of critical flows that need to be considered when you’re designing digital products**, including: **’onboarding’**, when a user is taken through the initial screens of an application; and considering **’empty states’**, when a user is confronted by an application that, at that moment, contains no content.
 
 
 <!--
