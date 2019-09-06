@@ -1,10 +1,10 @@
 ---
 chapter-number: "03"
-title: "Information Architecture ≈"
+title: "Information Architecture ≠"
 layout: chapter
 opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (6 September), I’ll be releasing it section by section over the next few days.</p>
 
-<p class='text--warning'>Unfortunately, I had a family crisis over the last 2–3 weeks and had to pause writing. Thankfully, things on the family front are improving, so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
+<p class='text--warning'><strong>Unfortunately, I had a family crisis over the last 2–3 weeks and had to pause writing.</strong> Thankfully, the family member who was very ill is doing better, so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
