@@ -2,7 +2,7 @@
 chapter-number: "03"
 title: "Information Architecture ¼"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (6 September), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (6 September), I’ll be releasing it section by section over the next few days. Unfortunately, I had <a href="https://bbuis.org/preview/03-information-architecture/index.html#draft-content-notes">a family crisis</a> and had to pause writing, but I’m back at my desk writing now.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -31,7 +31,7 @@ table-of-contents:
 
 Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first.
 
-Thankfully, he is doing better so I’m restarting the work I was doing before on this chapter. I hope to have it finished soon.
+Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.
 
 The images in this preview are primarily draft images that I’ll develop further, **i.e. these are not the final images.** With that disclaimer out of the way, feel free to dive in.
 
