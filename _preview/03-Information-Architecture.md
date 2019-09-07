@@ -444,7 +444,7 @@ Scrolling down the page reveals additional information about the shot thanks to 
 + links to other shots by the designer in question.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot-details.png" alt="Underneath the image, Dribbble provides a wide range of meta data about the shot (1) and links to further shots by the designer in question (2)." %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot-details.png" alt="Dribbble’s Featured Shot Pattern Meta Data" description="Underneath the image, Dribbble provides a wide range of meta data about the shot (1) and links to further shots by the designer in question (2)." %}
 
 
 Hopefully this case study has demonstrated **the power of embracing user interface patterns** as a core part of your user interface design strategy. By incorporating **patterns built from objects and components** into your user interface toolbox, you reap countless benefits, including:
