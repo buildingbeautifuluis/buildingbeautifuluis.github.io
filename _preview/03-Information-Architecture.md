@@ -435,6 +435,10 @@ When we focus on featured shots on Dribbble we see a different set of patterns. 
 {% include figure.html url="/images/ch3/banana.png" alt="Test caption." %}
 
 
+{% include figure.html url="/images/ch3/banana.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern has a number of ‘states’: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
+
+
+
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot.png" alt="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
 
