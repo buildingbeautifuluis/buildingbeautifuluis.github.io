@@ -401,7 +401,7 @@ This shot pattern is used in a number of different locations throughout the Drib
 {% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
 
 
-The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of building patterns as a core part of your design process, namely: **reusability**.
+The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of building patterns as a core part of your design process, namely: **reusability and consistency**.
 
 **The more you embrace reusability** and the less you reinvent the wheel, **the more consistent your user interfaces are and the quicker they are to build**.
 
@@ -427,11 +427,40 @@ By embracing a pattern-driven approach, **Dribbble can re-use these components a
 
 On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
 
-_/* To close out this section, I need to show an example of a featured shot page (where the shot is shown on its own). This is where I can have some fun with the #inception idea. I think I might draw the browser myself so I can get what I really want. */_
+<!-- This essentially repeats what’s said above. Either roll it into the above or edit it out? -->
 
-_/* In addition to the above, I think I’ll create a Notist slidedeck – [something like this](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal) – to gather this analysis of Dribbble into one location for reference. This could be provided with the chapter’s downloadables. */_
+When we focus on featured shots on Dribbble we see a different set of patterns. From a functional perspective, clicking on a shot preview opens it in **a modal dialog** – a dialog, or window, that appears **on top of the main window** – focusing your attention on the shot in question and presenting it at a larger size.
 
-With our case study wrapped up, let’s explore the idea of information architecture a little more at the macro- and the micro-level.
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot.png" alt="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: the details of shot (1); a larger image of the shot in question (2) and supplementary information on the shot provided by its designer (3)." %}
+
+
+This pattern – which uses most of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: the shot details, including ‘Save’ and ‘Like’ buttons (1); the shot itself at a larger size (2); and any additional details about the shot that the designer has provided (3).
+
+Scrolling down the page reveals additional information about the shot thanks to the use of a number of other patterns. These include:
+
++ a description of the shot, with users’ responses beneath it;
++ supplementary information about the shot including: tags, the shot’s colour palette, the number of times the shot has been viewed, and other details; and
++ links to other shots by the designer in question.
+
+
+{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot-details.png" alt="Underneath the image, Dribbble provides a wide range of meta data about the shot (1) and links to further shots by the designer in question (2)." %}
+
+
+Hopefully this case study has demonstrated **the power of embracing user interface patterns** as a core part of your user interface design strategy. By incorporating **patterns built from objects and components** into your user interface toolbox, you reap countless benefits, including:
+
++ accelerating your design process;
++ creating updatable patterns that help streamline the maintenance of your design over the long-term; and
++ ensuring your interfaces are more consistent.
+
+With our case study wrapped up, let’s explore the idea of information architecture a little more at the macro- and the micro-level, focusing on pages.
+
+<!--
+
+In addition to the above, I think I’ll create a Notist slidedeck – [something like this](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal) – to gather this analysis of Dribbble into one location for reference. This could be provided with the chapter’s downloadables.
+
+-->
+
 
 
 ### Information Architecture at the Macro- and Micro-Level
