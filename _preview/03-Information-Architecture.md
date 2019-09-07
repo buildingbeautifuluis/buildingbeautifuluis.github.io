@@ -432,6 +432,10 @@ On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot 
 When we focus on featured shots on Dribbble we see a different set of patterns. From a functional perspective, clicking on a shot preview opens it in **a modal dialog** – a dialog, or window, that appears **on top of the main window** – focusing your attention on the shot in question and presenting it at a larger size.
 
 
+{% include figure.html url="/images/ch3/banana.png" alt="Test caption." %}
+
+
+
 {% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot.png" alt="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
 
 
