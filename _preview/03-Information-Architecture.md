@@ -432,7 +432,7 @@ On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot 
 When we focus on featured shots on Dribbble we see a different set of patterns. From a functional perspective, clicking on a shot preview opens it in **a modal dialog** – a dialog, or window, that appears **on top of the main window** – focusing your attention on the shot in question and presenting it at a larger size.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot.png" alt="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: the details of shot (1); a larger image of the shot in question (2) and supplementary information on the shot provided by its designer (3)." %}
+{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot.png" alt="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
 
 
 This pattern – which uses most of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: the shot details, including ‘Save’ and ‘Like’ buttons (1); the shot itself at a larger size (2); and any additional details about the shot that the designer has provided (3).
