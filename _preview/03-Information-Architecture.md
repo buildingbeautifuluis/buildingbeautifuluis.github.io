@@ -73,7 +73,7 @@ With an overview of this chapter covered, let’s get down to business and explo
 Section 1: A Pattern Language
 -----------------------------
 
-{% include figure.html url="/images/ch3/c3-temp-password-pattern.png" alt="An Example of a UI Pattern" description="By building ‘pattern libraries’ for the patterns we design, we can save time in the design process, by: 1. drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use within projects we’re about to start." %}
+{% include figure.html url="/images/ch3/c3-s1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. showing clients examples of the types of patterns we propose to use before we spend time building them." %}
 
 
 In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
@@ -85,12 +85,12 @@ The thinking behind pattern languages pre-dates design systems, as we currently 
 Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of expired credit cards and lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
 
-{% include figure.html url="/images/ch3/c3-temp-pattern-tap-collections.png" alt="Pattern Tap" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from." %}
+{% include figure.html url="/images/ch3/c3-s1-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from, in this case an example of a footer pattern from Shaun Inman’s Mint website." %}
 
 
 **Pattern Tap collected examples of user interface design patterns**, largely as applied to the web. As Smith put it:
 
-> Imagine one place where you can **drink deeply of great design patterns**. Imagine there’s no more war. There’s no more dissent. You don’t have to sludge through design after design for **the best pattern inspiration** anymore.
+> Imagine one place where you can **drink deeply of great design patterns**. Imagine you don’t have to sludge through design after design for **the best pattern inspiration** anymore.
 
 The site allowed you to browse an extensive series of collections – all carefully curated by Smith – to **find design patterns that solved a particular problem you were dealing with**. It’s collections, amongst many others, included:
 
@@ -104,19 +104,21 @@ Imagine you had to include a form on a website you were creating. **Pattern Tap 
 
 > Pattern Tap is here to satisfy and encourage the inspiration needs of my interface design peers. We aspire to be the one stop pattern shop for your next inspiration need.
 
-As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics**, it was to provide **different ways of tackling a design problem – using patterns – that designers could learn principles from**.
+As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics**, it was to provide **different ways of tackling a design problem – using pre-existing patterns – that designers could learn from**.
 
 In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but other pattern libraries have surfaced to take its place.
 
 
-{% include figure.html url="/images/ch3/c3-temp-ui-patterns.png" alt="UI Patterns" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
+{% include figure.html url="/images/ch3/c3-s1-ui-patterns-detail.png" alt="UI Patterns (Detail)" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
 
 
-[UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. It is very much a successor to Pattern Tap and is well worth bookmarking. As Toxboe puts it:
+[UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. As the detail (above) shows, it collects **User Interface Design Patterns** – navigation, dealing with data, onboarding… – so that designers can explore pre-existing examples of common solutions to user interface problems.
+
+UI Patterns is very much a successor to Pattern Tap and is well worth bookmarking. As Toxboe puts it:
 
 > By not only listing **different ways of solving common design problems**, but also rationalizing about **how, when and why such solutions should be used**, [my] goal is to **create a tool that will help end feature debates**, get a clear understanding of why we’re doing what we’re doing, and why we’re not doing what we’re not doing.
 
-Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a more crowdsourced philosophy. Toxboe states: “UI Patterns is a personal project, but it is extremely open to contributions.” The result is a comprehensive resource that will help you to develop an understanding of the power that lies in embracing patterns.
+Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a more crowdsourced philosophy. Toxboe states: “UI Patterns is a personal project, but it is extremely open to contributions.” **The result is a comprehensive resource that will help you to develop an understanding of the power that lies in embracing patterns.**
 
 
 
