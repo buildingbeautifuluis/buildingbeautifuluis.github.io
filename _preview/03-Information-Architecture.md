@@ -73,7 +73,7 @@ With an overview of this chapter covered, let’s get down to business and explo
 Section 1: A Pattern Language
 -----------------------------
 
-{% include figure.html url="/images/ch3/c3-s1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. showing clients examples of the types of patterns we propose to use before we spend time building them." %}
+{% include figure.html url="/images/ch3/c3-s1-1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. showing clients examples of the types of patterns we propose to use before we spend time building them." %}
 
 
 In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
@@ -85,7 +85,7 @@ The thinking behind pattern languages pre-dates design systems, as we currently 
 Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of expired credit cards and lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
 
-{% include figure.html url="/images/ch3/c3-s1-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from, in this case an example of a footer pattern from Shaun Inman’s Mint website." %}
+{% include figure.html url="/images/ch3/c3-s1-2-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from, in this case an example of a footer pattern from Shaun Inman’s Mint website." %}
 
 
 **Pattern Tap collected examples of user interface design patterns**, largely as applied to the web. As Smith put it:
@@ -109,10 +109,10 @@ As with my note of caution about the use of Dribbble in Chapter 2, the intention
 In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but **other pattern libraries have surfaced to take its place**.
 
 
-{% include figure.html url="/images/ch3/c3-s1-ui-patterns-detail.png" alt="UI Patterns (Detail)" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
+{% include figure.html url="/images/ch3/c3-s1-3-ui-patterns-detail.png" alt="UI Patterns (Detail)" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
 
 
-[UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. As the detail (above) shows, it collects **User Interface Design Patterns** – navigation, dealing with data, onboarding… – so that designers can explore pre-existing examples of common solutions to user interface problems.
+[UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. As the detail (above) shows, it collects **User Interface Design Patterns** – navigation, dealing with data, onboarding… – so that designers can explore pre-existing examples of solutions to user interface problems.
 
 UI Patterns is very much a successor to Pattern Tap and is well worth bookmarking. As Toxboe puts it:
 
@@ -124,15 +124,15 @@ Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a 
 
 ### The Father of Pattern Languages
 
-Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). * **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” (which eventually became a trilogy) – ‘A Pattern Language’ was preceded by Alexander’s ‘The Timeless Way of Building’.
+Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was preceded by Alexander’s [‘The Timeless Way of Building’](https://amzn.to/2ZZDl9Y).
 
 Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
 
-Alexander was careful to stress the book’s title ‘**A** Pattern Language’, not ‘**The** Pattern Language’: “[I] have called it ‘A Pattern Language’ with the emphasis on the word ‘A’.”
+Alexander was careful to stress the book’s title ‘**A** Pattern Language’, not ‘**The** Pattern Language’, stating: “I have called it ‘A Pattern Language’ with the emphasis on the word ‘A’.”
 
 It’s also worth noting that Alexander points out, within the book’s opening paragraphs, that ‘A Pattern Language’ (specifically the one introduced in his book) is **one possible pattern langauge, i.e. it is not the only possible pattern language**.
 
-Put simply: **there are many possible patterns** and **the ones you choose will be influenced by your goals and your intended audience** (and to a degree your individual aesthetic preferences).
+Put simply: **there are many possible patterns** (which collectively form a language) and **the patterns you choose will be influenced by your goals and your intended audience** (and to a degree your individual aesthetic preferences).
 
 Alexander’s intention was **to codify an approach towards building** (in an architectural context) and **establish a library of patterns from which an architect could draw**. His book gathered examples that spanned the entire scale of architecture, including:
 
@@ -140,15 +140,15 @@ Alexander’s intention was **to codify an approach towards building** (in an ar
 + **Building Complexes** (Pattern 95, Buildings)
 + **Secret Places** (Pattern 204, Details)
 
-From these patterns, one could build everything from a house (orchestrating people) to a region (orchestrating towns). ‘A Pattern Tap’ remains a central text defining architectural theory, but its impact extends far beyond the realm of architecture.
+From these patterns, one could build everything from a house (organising people) to a region (organising towns). ‘A Pattern Tap’ remains a central text defining architectural theory, but its impact extends far beyond the realm of architecture.
 
 
-{% include figure.html url="/images/ch3/c3-temp-small-work-groups.png" alt="A Pattern Language" description="Alexander’s patterns for working spaces emphasise the need for privacy: “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate." %}
+{% include figure.html url="/images/ch3/c3-s1-4-small-work-groups.png" alt="A Pattern Language" description="Alexander’s patterns for working spaces emphasise the need for privacy: “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate." %}
 
 
 You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
 
-I believe Alexander’s original work (even in architecture, an entirely different discipline) needs to be included, not least as **Alexander is regarded as the father of the pattern language movement in computer science**.
+I believe Alexander’s original work (even in architecture, an entirely different discipline) needs to be included, not least as **Alexander is regarded as the father of the pattern language movement in computer science**, which has influenced user interface design as we understand it today.
 
 As the wonderfully archaic [patternlanguage.com](http://www.patternlanguage.com) explains:
 
@@ -156,18 +156,12 @@ As the wonderfully archaic [patternlanguage.com](http://www.patternlanguage.com)
 
 ‘A Pattern Language’ was **influenced by emergent thinking around computer programming and design**. Alexander writes: “A pattern language has the structure of a network.” Echoing networks, and the connections that exist between nodes on the network, **each pattern cross-references others**.
 
-The result is a book that is structured in a similar manner to hypertext, where each pattern links other related patterns. For example, the description of Pattern 148 ‘Small Work Groups’ closes:
-
-> Treat each small work group, in every kind of industry and office, as a place of learning. [See:] ‘Master and Apprentices’ (83).
-
-Pattern 83, ‘Master and Apprentices’, references other patterns:
-
-> Arrange the workspaces as ‘Half-Private Offices (152) or ‘Workplace Enclosures’ (183).
+The result is a book that is structured in a similar manner to hypertext, where each pattern links to other, related patterns. For example, the description of Pattern 148 ‘Small Work Groups’ references Pattern 83, ‘Master and Apprentices’, which – in turn – references other patterns (Patterns 152 and 183).
 
 When you consider that Alexander’s book was published in 1977 – **a decade and a half before the birth of the web** – it’s clear that the book was far ahead of its time. Indeed, Alexander’s book would lend itself well to **a new, web-based edition that takes advantage of the extensive cross-referencing that he built into the book**.
 
 
-{% include figure.html url="/images/ch3/c3-temp-working-with-patterns.png" alt="Working With Patterns" description="This will be redrawn. It’s from ‘Working with Patterns: An Introduction’ by Helmut Leitner, who states: “Through sharing and participation [we can] bring about high quality design.”" %}
+{% include figure.html url="/images/ch3/c3-s1-5-slate-do-you-see-a-pattern" alt="Slate: The Enduring Influence of Architect Christopher Alexander" description="Slate notes Alexander’s goal: “Nothing less than to catalog the entire built environment,” highlighting the parallels between building design and software design." %}
 
 
 Slate highlights the widespread impact of ‘A Pattern Language’ in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
@@ -176,32 +170,28 @@ Slate highlights the widespread impact of ‘A Pattern Language’ in an excelle
 
 If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages! – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
 
-The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander’s sequencing, designed to meet the needs of a different discipline, moves from the large to the small:
+The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander’s sequencing, designed to meet the needs of architecture, moves from the large to the small:
 
 > When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments…
 
 We could imagine similar words being used to describe the design of pages, which have to function at a practical level, but which can be embellished at a component and pattern level.
 
-Hopefully – other than the fact that the sequencing we use in user interface design runs in the opposite direction (from the smaller patterns to the larger) – as you read this, you’ll understand the parallel.
+Hopefully, as you read this, you’ll understand the parallel.
 
-Alexander has created **an index of patterns which we can combine, like a language, to build whatever we desire**. Replace ‘building’ (house) with ‘digital product’ (website or application) and a great deal of Alexander’s thinking maps over.
+Alexander has created **an index of patterns which designers (architects) can combine, like the words of a language, to build whatever they desire**. Replace ‘building’ (house) with ‘digital product’ (website or application) and a great deal of Alexander’s thinking maps over.
 
 \* Although ‘A Pattern Language’ is widely credited to Christopher Alexander (as the lead author of the book) it was actually co-authored by Sara Ishikawa and Murray Silverstein, with the assistance of Max Jacobson, Ingrid Fiksdahl-King and Shlomo Angel.
 
 
 ### Many patterns form a language…
 
-Just as Alexander created a 1,171 page book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own indices, gathering examples of user interface patterns that work**.
+Just as Alexander created a 1,171 page book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own pattern libraries, gathering examples of user interface patterns that work**.
 
-Put simply: We can **build our own encyclopaedia of examples**, similar to Matthew Smith’s work with Pattern Tap. This encyclopaedia will prove incredibly valuable over time as you encounter new problems and new challenges in your user interface design.
-
-<!--
+Put simply: We can **build our own libraries of patterns**, similar to Matthew Smith’s work with Pattern Tap. These libraries will prove incredibly valuable over time as you encounter new problems and new challenges in your user interface design.
 
 There is always downtime in a studio. You can use that time to let off steam and play table tennis or fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
 
--->
-
-It’s a good idea – especially during studio downtime – to **collect examples of the different design patterns** that you either:
+It’s a good idea to get into the habit of **collecting examples of the different design patterns** that you either:
 
 + create on projects, or
 + discover during your research.
@@ -211,7 +201,7 @@ These can be useful for showing clients or project partners **examples of how ty
 In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** [Here is an example.](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal)
 
 
-{% include figure.html url="/images/ch3/c3-temp-netlify-credit-card-modal.png" alt="Netlify's Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (This is a little like building my own Pattern Tap.)" %}
+{% include figure.html url="/images/ch3/c3-temp-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
 
 
 <!--
@@ -226,26 +216,25 @@ At this point, I’ll link to some of the examples I’ve collected (in my Mr Mu
 
 By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in Chapter 2) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
 
-Before you build something (which is time-consuming and expensive), you can show clients relevant examples from your library, helping them to visualise how things might look.
+Before you build something (which is a time-consuming and expensive process), it helps to find relevant examples from your library, allowing you to visualise how things might look.
 
 When you build your pattern library, it’s important to establish some conventions that you follow. At the very least, each pattern entry should have:
 
 - a clear name;
 - an image;
 - a descriptive entry; and
-- cross-references.
+- cross-references to other related patterns.
 
 Applying this to the above Netlify credit card modal dialog, this might be:
 
-+ Netlify Credit Card Modal;
-+ a [screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png);
-+ Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you 
-enter your card details on the left side, the credit card updates with those details on the right side.
-+ links to other payment forms you’ve designed for other projects, or discovered in your research. (So you can show clients or partners alternative patterns.)
++ **Name:** Netlify Credit Card Modal;
++ **Image:** [Modal Screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png);
++ **Description:** Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you enter your card details on the left side, the credit card updates with those details on the right side.
++ **Related Patterns:** Here you might gather links to other payment forms you’ve designed for projects, or to ones you’ve discovered in your research.
 
 Every entry in your system is a single design pattern and each of your documented patterns should explain why that solution works well in the pattern’s contexts.
 
-**Using our objects and components to create patterns is where things get interesting.** Essentially, we’re building a library – a set of patterns, created from objects and components – that we’ll combine in different ways to create the pages of our interfaces.
+**Using our objects and components to create patterns is where things get interesting.** Essentially, we’re building a library of patterns that we’ll then combine in different ways to create the pages of our interfaces.
 
 By starting from the object and working up towards components and patterns, we can build **a consistent set of user interface elements that we can then further orchestrate within pages, as I’ll explore in the next section.**
 
@@ -257,7 +246,7 @@ http://bradfrost.com/blog/post/interface-inventory/
 
 It’s not the same as a pattern library and is focused on approaching **existing** elements for a redesign, but used in conjunction with a pattern library, it would allow you to tackle user interface problems from an informed position in a strategic manner.
 
-WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
+When I re-read the above, I think this should go somewhere, the problem is that this section is heavy already.
 
 -->
 
@@ -266,57 +255,10 @@ WHEN I RE-READ THE ABOVE, I THINK IT SHOULD GO **SOMEWHERE**
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-{% include figure.html url="/images/ch3/c3-s2-opening-image.jpg" alt="Components → Patterns → Pages" description="This isn’t the final image, it’s a sketch from my sketchbook (with the elements renamed) to fit my naming convention. I’ll update this image shortly." %}
+{% include figure.html url="/images/ch3/c3-s2-1-components-patterns-pages.png" alt="Components → Patterns → Pages" description="In the last chapter, I focused on the ‘Objects → Components’ part of the equation. In this chapter, I’m focusing on the next phase of the ‘building from the object up’ approach: ‘Components → Patterns → Pages’." %}
 
 
 Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a greater whole.
-
-I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
-
-<!-- Bridge to cards? They'd be a useful pattern to show first as a great deal thereafter uses cards, not least Dribbble. -->
-
-_In particular, I'll focus on how Dribbble uses cards – a widely used pattern that's risen in popularity in no small part thanks to its standardisation in Google's Material Design language – and explore a number of examples of cards across a range of websites._
-
-_Now explain what cards are, then show Behance and break apart a couple of the cards?_
-
-_The following is too focused on Dribbble, I'll get to that shortly, de-emphasise it here and focus on cards instead as that'll slot nicely into Dribbble as is uses a lot of cards._
-
-<!--
-
-### Cards
-
-Google and check these words aren't from somewhere else.
-
-A card is a component that’s constructed from smaller elements, for example typographic content, buttons and other elements.
-
-Cards can be used to organise and display logical groupings of information, for example:
-
-+ User Profiles
-+ Login Components
-+ Content Modules
-+ Video or Audio Players
-+ Payment Information
-+ Etc.
-
-In certain applications cards can also be dragged, dropped and re-ordered. For example, Trello….
-
-> As an information container, cards hold all elements such as text, rich media, buttons, etc. Based on this contents, it can adapt its size to that of different devices and screens, balancing user interface and user experience.
-> 
-> Compared to traditional UI design, a simple but intuitive advantage of card UI is that it provides a more personalized user experience, making the entire interface more clear, balanced, aesthetically pleasing, simple and stylish with good usability.
-> 
-> https://www.mockplus.com/blog/post/card-ui-design
-
-One of the primary benefits of a embracing cards is their adaptability.  Cards can be **reorganised** depending upon screen real estate:
-
-+ in a desktop context we might lay out our cards in a grid; and
-+ in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might vertically stack cards in a layout that users can scroll down.
-
-
--->
-
-I’ve focused on Dribbble because it’s **a good example of a site that combines a variety of different patterns to create building blocks for the different pages the site requires**. By focusing on a single website as  a case study, **I’ll draw attention to how these principles are applied in a real world context**.
-
-Before exploring Dribbble in detail, and showcasing the ideas I’m establishing in practice, it’s important to stress that this chapter increases the level of complexity by starting to focus in on the **Patterns → Pages** part of the **Objects → Components → Patterns → Pages → Flows** equation._
 
 Put simply: This approach, **building from the object up**, allows us to establish an information architecture at every level of our design’s hierarchy: Components → Patterns → Pages → Flows.
 
@@ -329,9 +271,39 @@ This section feels a touch short. There's content in Agenda and below (commented
 -->
 
 
+### Information Architecture at the Macro- and Micro-Level
+
+In the closing part of this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
+
+_/* Given that this is a book commissioned by Adobe, I might use Behance as an example._
+
+_The upsides of Behance: It’s an Adobe product and Becky will appreciate that. The downsides of Behance: It might be a little too similar to Dribbble, but that might not be a bad thing as it might help to underline the fact that we see this approach used by great designers, a great deal._
+
+_Another possible site I could look at, also an Adobe site, would be [Adobe Fonts](https://fonts.adobe.com/fonts), which also uses a lot of repeating patterns.
+
+
+#### Micro-Level IA _/* Is there an H4? */_
+
+This takes something like Dribbble’s shot pattern (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
+
+
+#### Macro-Level IA
+
+This takes a page and shows how it’s structured and organised. Again, this could be Behance or Adobe Fonts. Adobe Fonts, in particular, has some lovely varying patterns used to manage the complexity of typographic samples:
+
++ Sample of Typeface
++ Typeface Name
++ Foundry
++ Number of Fonts
++ Call to Action
+
+
+
 ### Case Study: Dribbble
 
-This chapter follows the approach I established in Chapter 2, **developing the idea of building complexity step-by-step, from the object up**. As we’ll see, Dribbble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively simple elements including:
+In this case study, I'm following the approach I established in Chapter 2, of **building complexity step-by-step, from the object up**.
+
+As we’ll see, Dribbble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively simple elements including:
 
 + Objects
 + Components; and
@@ -339,11 +311,11 @@ This chapter follows the approach I established in Chapter 2, **developing the i
 
 By using Dribbble as a case study and analysing it, I’ll show how **we can use the objects and components**, that were the focus of Chapter 2, **as the building blocks from which to build patterns and pages** that are the focus of this chapter.
 
-If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
+If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler) (below), we can see that it’s built from a set of core building blocks: **patterns that have been designed to satisfy a variety of particular purposes**. These patterns include:
 
 + a navigation pattern, at the top of the page (1);
 + a profile pattern, on the left-hand side of the page (2); and
-+ a shot pattern that is used multiple times on the right-hand side of the page (3: non-active state, 4: active state).
++ a shot pattern that is used multiple times on the right-hand side of the page (3: in a non-active state, and 4: in an active state).
 
 
 {% include figure.html url="/images/ch3/c3-s2-dribbble-profile-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘navigation pattern’; 2. a ‘profile pattern’; 3. a ‘shot pattern’; and 4. a shot pattern in an active state with metadata showing at the bottom." %}
@@ -462,34 +434,6 @@ With our case study wrapped up, let’s explore the idea of information architec
 In addition to the above, I think I’ll create a Notist slidedeck – [something like this](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal) – to gather this analysis of Dribbble into one location for reference. This could be provided with the chapter’s downloadables.
 
 -->
-
-
-
-### Information Architecture at the Macro- and Micro-Level
-
-In the closing part of this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
-
-_/* Given that this is a book commissioned by Adobe, I might use Behance as an example._
-
-_The upsides of Behance: It’s an Adobe product and Becky will appreciate that. The downsides of Behance: It might be a little too similar to Dribbble, but that might not be a bad thing as it might help to underline the fact that we see this approach used by great designers, a great deal._
-
-_Another possible site I could look at, also an Adobe site, would be [Adobe Fonts](https://fonts.adobe.com/fonts), which also uses a lot of repeating patterns.
-
-
-#### Micro-Level IA _/* Is there an H4? */_
-
-This takes something like Dribbble’s shot pattern (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
-
-
-#### Macro-Level IA
-
-This takes a page and shows how it’s structured and organised. Again, this could be Behance or Adobe Fonts. Adobe Fonts, in particular, has some lovely varying patterns used to manage the complexity of typographic samples:
-
-+ Sample of Typeface
-+ Typeface Name
-+ Foundry
-+ Number of Fonts
-+ Call to Action
 
 
 
