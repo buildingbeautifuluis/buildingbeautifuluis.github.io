@@ -216,9 +216,9 @@ At this point, I’ll link to some of the examples I’ve collected (in my Mr Mu
 
 By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in Chapter 2) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
 
-Before you build something (which is a time-consuming and expensive process), it helps to find relevant examples from your library, allowing you to visualise how things might look.
+Before you build something (which is a time-consuming and expensive process), **it helps to find relevant examples from your library, allowing you to visualise how user interface elements might look**.
 
-When you build your pattern library, it’s important to establish some conventions that you follow. At the very least, each pattern entry should have:
+When you build your pattern library, it’s important to **establish some conventions that you follow**. At the very least, each pattern entry should have:
 
 - a clear name;
 - an image;
@@ -227,14 +227,14 @@ When you build your pattern library, it’s important to establish some conventi
 
 Applying this to the above Netlify credit card modal dialog, this might be:
 
-+ **Name:** Netlify Credit Card Modal;
-+ **Image:** [Modal Screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png);
-+ **Description:** Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you enter your card details on the left side, the credit card updates with those details on the right side.
++ **Name:** Netlify Credit Card Modal
++ **Image:** [Modal Screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png)
++ **Description:** Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you enter your card details on the left-hand side, the credit card updates, showing your card details on the right-hand side.
 + **Related Patterns:** Here you might gather links to other payment forms you’ve designed for projects, or to ones you’ve discovered in your research.
 
 Every entry in your system is a single design pattern and each of your documented patterns should explain why that solution works well in the pattern’s contexts.
 
-**Using our objects and components to create patterns is where things get interesting.** Essentially, we’re building a library of patterns that we’ll then combine in different ways to create the pages of our interfaces.
+**Using our objects and components to create patterns that we organise on pages is where things get interesting.** Essentially, we’re building a library of consistently designed elements that we’ll then combine in different ways to create the pages of our interfaces.
 
 By starting from the object and working up towards components and patterns, we can build **a consistent set of user interface elements that we can then further orchestrate within pages, as I’ll explore in the next section.**
 
@@ -260,15 +260,40 @@ Section 2: Components → Patterns → Pages
 
 Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a greater whole.
 
-Put simply: This approach, **building from the object up**, allows us to establish an information architecture at every level of our design’s hierarchy: Components → Patterns → Pages → Flows.
+The beauty of this approach, **building from the object up**, is that it allows us to establish an information architecture at every level of our design’s hierarchy: Components → Patterns → Pages → Flows.
 
 If we consider the information architecture of the patterns we build, when we put them together to form pages, our overall information architecture falls, more or less, into place. In short, it’s important to **consider the information architecture of our content at multiple levels** as we design it.
 
-<!--
+Consider a typical page, like the following from [Behance](https://www.behance.net/galleries?tracking_source=Graphic%20Design). There is an overall hierarchy and structure **at the page level**, there is also a specific hierarchy and structure **at the pattern level**.
 
-This section feels a touch short. There's content in Agenda and below (commented out) that I could perhaps add to it.
 
--->
+{% include figure.html url="/images/ch3/c3-s2-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), before being drawn to the categories (2), before finally being drawn to the three project samples (3)." %}
+
+
+If we focus in on the category patterns they also have a clear information hierarchy at the pattern level.
+
+
+{% include figure.html url="/images/ch3/c3-s2-behance-graphic-design-box-ia.png" alt="Behance · Curated Galleries · Graphic Design" description="At the pattern level, there is an equally clear hierarchy and structure. The eye is drawn to the title – Graphic Design – first, with its short overview paragraph, before being drawn to the ‘Follow Gallery’ call to action button. The gold ‘Gr’ bookmark at the top is, whilst satisfying a function, the least visually dominant." %}
+
+
+{% include figure.html url="/images/ch3/c3-s2-graphic-design-box-construction.png" alt="Behance · Curated Galleries · Graphic Design" description="The construction of the pattern itself is relatively simple: a bookmark; a title and accompanying paragraph; and a call to action button (a component)." %}
+
+
+Take the above captions and move them into body copy. Expand them out a little as body copy, then shorten the captions. (The middle one is ridiculously long.)
+
+As I read this in BBEdit, I think the above (Behance) might need to be moved to the next section: ‘Information Architecture at the Macro- and Micro-Level’.
+
+This section should probably echo Chapter 2 and show the construction of some patterns (out of objects and components) so that I continue the theme. If I want something underpinning it, I could mention the design of cards, as per the scratch file content:
+
+> As an information container, cards hold all elements such as text, rich media, buttons, etc. Based on this contents, it can adapt its size to that of different devices and screens, balancing user interface and user experience.
+> 
+> Compared to traditional UI design, a simple but intuitive advantage of card UI is that it provides a more personalized user experience, making the entire interface more clear, balanced, aesthetically pleasing, simple and stylish with good usability.
+
+One of the primary benefits of a embracing cards is their adaptability.  Cards can be **reorganised** depending upon screen real estate:
+
++ in a desktop context we might lay out our cards in a grid; and
++ in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might vertically stack cards in a layout that users can scroll down.
+
 
 
 ### Information Architecture at the Macro- and Micro-Level
@@ -459,6 +484,10 @@ As I’ve noted above, patterns are incredibly useful and can save you a conside
 With that point stressed, let’s explore some typical user interface patterns you may find useful.
 
 
+
+{% include figure.html url="/images/ch2/c3-s3-1-date-pickers.png" alt="Date Pickers" description="This is a temporary image (and it’s not mine). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+
+
 ### Date Pickers
 
 As user interface designers we frequently encounter a need for date patterns. A user might, for example, need to:
@@ -473,7 +502,7 @@ As I’ve stressed throughout this book (in particular, in Chapter 1) users have
 
 Google’s flight selector is a great example of a date selector that’s beautifully designed, intuitive and easy to use.
 
-IMAGE
+IMAGE? LOSE THIS OR THIS GETS TOO LONG.
 
 By pre-focusing on a pre-selected date, it **gives the user a head start**. Of course, not all users will want to travel on the date that Google’s designers have pre-selected, so **the design makes it easy to pick another more convenient date to travel**.
 
@@ -492,6 +521,10 @@ As you explore patterns and build your own library of examples, it’s worth not
 MAYBE STICK WITH MY OWN EXAMPLE SO THIS CHAPTER BUILDS ON THE DESIGN SYSTEM I’M ESTABLISHING AND USE GOOGLE’s PICKER FOR A PATTERN ANALYSIS (ON NOTIST).
 
 UI Patterns, which I explored in Section 1, has [a useful collection of date pickers](http://ui-patterns.com/patterns/CalendarPicker) that are worth looking at.
+
+
+
+{% include figure.html url="/images/ch2/c3-s3-2-sign-in.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Cotton Bureau’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
 
 
 ### Register / Sign-In Forms
@@ -522,6 +555,10 @@ I’ve focused on sign in forms because doing so enables me to explore forms (ab
 If the user interface you’re designing includes forms – and it’s highly likely it will – I’d strongly recommend Adam Silver’s [Form Design Patterns](https://shop.smashingmagazine.com/products/form-design-patterns-by-adam-silver). It’s comprehensive and – like all books published by my friends at Smashing Magazine – it’s beautifully designed and printed.
 
 
+
+{% include figure.html url="/images/ch2/c3-s3-3-credit-card-form.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Netlify’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+
+
 ### Credit Card Forms
 
 _/* Look at Letterboxd’s credit card form. */_
@@ -533,6 +570,7 @@ One of the wonderful aspects of working on the web is its leanings towards openn
 UX Collective, which gathers ‘curated stories on user experience, usability and product design’, offers a wealth of information and Gabriel Tomescu’s [‘Anatomy of a Credit Card Form’](https://uxdesign.cc/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb) takes the ubiquitous credit card form we meet, day-in day-out, and presents an exhaustive analysis of credit card patterns and is required reading should your project require payments of any kind.
 
 When money is changing hands, it’s important to establish a bond of trust, indicating to the users that their card details are safe and secure. UI Patterns has a helpful article on [Designing for Trust](http://ui-patterns.com/blog/Designing-for-trust) that’s worth reading so you can put your users’ minds at ease.
+
 
 
 ### Notifications

@@ -248,10 +248,10 @@ There are many, many more components in user interface design. Ever-helpful, usa
 
 The interfaces you design won’t necessarily need **all** of the components that usability.gov list, but it will include a substantial number. As ever, if a pattern for something exists, use it. Sticking to these mental models as closely as you can will **result in a user interface that’s clearer and more easily understood**.
 
-{% include figure.html url="/images/ch2/buttons.png" alt="Some Typical UI Button Types" description="This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed)." %}
-<!-- ![Some Typical UI Button Types](images/ch2/buttons.png)
 
-**CAPTION: This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed).** -->
+
+{% include figure.html url="/images/ch2/buttons.png" alt="Some Typical UI Button Types" description="This is a temporary image. It will be replaced by an image of four buttons. In the above example, we see four types of button: 1. A text button (for low emphasis); 2. An outlined button (with slightly more emphasis); 3. A solid button (with high emphasis); and 4. A button with an active state (perhaps being pressed)." %}
+
 
 #### Buttons
 
@@ -261,10 +261,10 @@ Google’s Material Design guidelines have [a useful overview of buttons](https:
 
 When designing a button, try and ensure it’s clearly communicated within your interface and looks ‘clickable’. This is particularly important if your button is for a [‘call to action’](https://www.optimizely.com/uk/optimization-glossary/call-to-action/). As the above illustration shows, you can adjust the emphasis of a button by varying its design.
 
-{% include figure.html url="/images/ch2/toggles.png" alt="Placeholder" description="This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example." %}
-<!-- ![Placeholder](images/ch2/toggles.png)
 
-**CAPTION: This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example.** -->
+
+{% include figure.html url="/images/ch2/toggles.png" alt="Placeholder" description="This is a temporary image. It will be replaced by an image of a series of different types of toggles. Toggles (or switches) allow users to change settings between two states: on / off, for example." %}
+
 
 #### Toggles (Or Switches)
 
@@ -276,10 +276,10 @@ Toggles allow users to change settings between two states, for example: activati
 
 Once again, Google’s Material Design guidelines have [a useful overview of selection controls](https://material.io/design/components/selection-controls.html) that’s well worth reading.
 
-{% include figure.html url="/images/ch2/progress-indicators.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation." %}
-<!-- ![Placeholder](images/ch2/progress-indicators.png)
 
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation.** -->
+
+{% include figure.html url="/images/ch2/progress-indicators.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image with more examples. At the simplest level, we might use two different colored lines as a progress indicator. We can also add complexity to develop richer progress indicators, for example, including animation." %}
+
 
 #### Progress Indicators
 
@@ -305,10 +305,10 @@ Progress indicators come in both linear and circular forms, as in the above exam
 
 **As I noted above, it’s important to handle your interface elements consistently.** If you’ve used a circular progress indicator for a refresh action on one screen, that same action shouldn’t use a linear indicator on another screen.
 
-{% include figure.html url="/images/ch2/tags.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected." %}
-<!-- ![Placeholder](images/ch2/tags.png)
 
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected.** -->
+
+{% include figure.html url="/images/ch2/tags.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image showing a series of tags designed in different way. Tags can be used to communicate different groupings and can also be dynamic, interacted with like buttons, here indicating which tags are selected." %}
+
 
 #### Tags
 
@@ -320,10 +320,10 @@ Tags are useful in lots of different contexts, for example, **in profile pattern
 
 When designing tags, it’s important to **ensure that they are visually and behaviourally consistent**. Tags are often integrated into components, for example, a set of tags indicating interests on a user profile card, as in the example above. <!-- TK Seems short. -->
 
-{% include figure.html url="/images/ch2/tool-tips.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above." %}
-<!-- ![Placeholder](images/ch2/tool-tips.png)
 
-**CAPTION: This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above.** -->
+
+{% include figure.html url="/images/ch2/tool-tips.png" alt="Placeholder" description="This is a temporary image. It will be replaced by a better spaced image. At the simplest level, we might use two rectangles to create a tool tip, as shown above." %}
+
 
 #### Tool Tips
 
