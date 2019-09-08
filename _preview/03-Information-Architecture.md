@@ -272,14 +272,25 @@ Consider a typical page, like the following from [Behance](https://www.behance.n
 
 If we focus in on the category patterns they also have a clear information hierarchy at the pattern level.
 
+At the pattern level, there is an equally clear hierarchy and structure. The eye is drawn to the title – Graphic Design – first, with its short overview paragraph, before being drawn to the ‘Follow Gallery’ call to action button. The gold ‘Gr’ bookmark at the top is, whilst satisfying a function, the least visually dominant.
 
-{% include figure.html url="/images/ch3/c3-s2-behance-graphic-design-box-ia.png" alt="Behance · Curated Galleries · Graphic Design" description="At the pattern level, there is an equally clear hierarchy and structure. The eye is drawn to the title – Graphic Design – first, with its short overview paragraph, before being drawn to the ‘Follow Gallery’ call to action button. The gold ‘Gr’ bookmark at the top is, whilst satisfying a function, the least visually dominant." %}
+
+{% include figure.html url="/images/ch3/c3-s2-behance-graphic-design-box-ia.png" alt="Behance · Curated Galleries · Graphic Design" description="This image needs numbers like the previous image: 1. The ‘Graphic Design’ title and short descriptive overview; 2. The call to action button; and 3. The ‘Gr’ bookmark." %}
+
+
+The focus of this opening section should be on something along the lines of the following image, showing the construction of a pattern (out of objects and components).
 
 
 {% include figure.html url="/images/ch3/c3-s2-graphic-design-box-construction.png" alt="Behance · Curated Galleries · Graphic Design" description="The construction of the pattern itself is relatively simple: a bookmark; a title and accompanying paragraph; and a call to action button (a component)." %}
 
 
-Take the above captions and move them into body copy. Expand them out a little as body copy, then shorten the captions. (The middle one is ridiculously long.)
+There also needs to be an image that **I've drawn** so that it reflects Chapter 2.
+
+
+{% include figure.html url="/images/ch2/constructing-elements.png" alt="Placeholder Image" description="In the above example, the button component is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow." %}
+
+
+Take the above Behance captions and move them into body copy. Expand them out a little as body copy, then shorten the captions. (The middle one is ridiculously long.)
 
 As I read this in BBEdit, I think the above (Behance) might need to be moved to the next section: ‘Information Architecture at the Macro- and Micro-Level’.
 
@@ -298,7 +309,7 @@ One of the primary benefits of a embracing cards is their adaptability.  Cards c
 
 ### Information Architecture at the Macro- and Micro-Level
 
-In the closing part of this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
+In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
 
 _/* Given that this is a book commissioned by Adobe, I might use Behance as an example._
 
@@ -307,12 +318,12 @@ _The upsides of Behance: It’s an Adobe product and Becky will appreciate that.
 _Another possible site I could look at, also an Adobe site, would be [Adobe Fonts](https://fonts.adobe.com/fonts), which also uses a lot of repeating patterns.
 
 
-#### Micro-Level IA _/* Is there an H4? */_
+**Micro-Level IA**
 
 This takes something like Dribbble’s shot pattern (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
 
 
-#### Macro-Level IA
+**Macro-Level IA**
 
 This takes a page and shows how it’s structured and organised. Again, this could be Behance or Adobe Fonts. Adobe Fonts, in particular, has some lovely varying patterns used to manage the complexity of typographic samples:
 
@@ -485,7 +496,7 @@ With that point stressed, let’s explore some typical user interface patterns y
 
 
 
-{% include figure.html url="/images/ch2/c3-s3-1-date-pickers.png" alt="Date Pickers" description="This is a temporary image (and it’s not mine). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-1-date-pickers.png" alt="Date Pickers" description="This is a temporary image (and it’s not mine). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
 
 
 ### Date Pickers
@@ -524,7 +535,7 @@ UI Patterns, which I explored in Section 1, has [a useful collection of date pic
 
 
 
-{% include figure.html url="/images/ch2/c3-s3-2-sign-in.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Cotton Bureau’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-2-sign-in.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Cotton Bureau’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
 
 
 ### Register / Sign-In Forms
@@ -556,7 +567,7 @@ If the user interface you’re designing includes forms – and it’s highly li
 
 
 
-{% include figure.html url="/images/ch2/c3-s3-3-credit-card-form.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Netlify’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Netlify’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
 
 
 ### Credit Card Forms
