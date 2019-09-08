@@ -161,7 +161,7 @@ The result is a book that is structured in a similar manner to hypertext, where 
 When you consider that Alexander’s book was published in 1977 – **a decade and a half before the birth of the web** – it’s clear that the book was far ahead of its time. Indeed, Alexander’s book would lend itself well to **a new, web-based edition that takes advantage of the extensive cross-referencing that he built into the book**.
 
 
-{% include figure.html url="/images/ch3/c3-s1-5-slate-do-you-see-a-pattern" alt="Slate: The Enduring Influence of Architect Christopher Alexander" description="Slate notes Alexander’s goal: “Nothing less than to catalog the entire built environment,” highlighting the parallels between building design and software design." %}
+{% include figure.html url="/images/ch3/c3-s1-5-slate-do-you-see-a-pattern.png" alt="Slate: The Enduring Influence of Architect Christopher Alexander" description="‘Do You See a Pattern?’, published by Slate, highlights the impact Christopher Alexander’s thinking has had on software design and user interface design." %}
 
 
 Slate highlights the widespread impact of ‘A Pattern Language’ in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
@@ -201,7 +201,7 @@ These can be useful for showing clients or project partners **examples of how ty
 In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** [Here is an example.](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal)
 
 
-{% include figure.html url="/images/ch3/c3-temp-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
+{% include figure.html url="/images/ch3/c3-s1-6-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
 
 
 <!--
