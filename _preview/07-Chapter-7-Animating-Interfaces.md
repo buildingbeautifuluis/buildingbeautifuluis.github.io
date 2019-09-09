@@ -26,6 +26,21 @@ table-of-contents:
 **Pre-Release notes here. Anything I'd like to draw Jordan's and Kyle's attention to.**
 
 
+### Animation everywhere…
+
+…the use of **subtle, yet delightful interactions, which provide feedback to the user in a delightful manner**.
+
+As computers have become more powerful and, hand-in-hand with this, our connections to the web have become more accommodating, there has been **a rise in the use of animation within interfaces**.
+
+Users now expect animation to be an integral part of a user interface and, as a consequence, static interfaces have become less appealing. I’ll explore the use of animation in [Chapter 7: Animating Interfaces](#), but as I explore patterns, it’s worth bearing in mind that **patterns exist not just for how elements look, but also how they feel**.
+
+As you explore patterns and build your own library of examples, it’s worth noting how the various patterns you encounter work at an interactive level, considering:
+
++ how interfaces change as you interact with them;
++ how transitions are used to signal a shift from one state to another; and
++ how long transitions take.
+
+
 
 Overview
 --------

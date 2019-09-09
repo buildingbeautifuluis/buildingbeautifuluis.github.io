@@ -198,7 +198,7 @@ It’s a good idea to get into the habit of **collecting examples of the differe
 
 These can be useful for showing clients or project partners **examples of how typical design problems are addressed**. (A series of credit card patterns if you’re developing a digital store, for example.)
 
-In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** [Here is an example.](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal)
+In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** Here is an example, analysing [Netlify’s Credit Card Modal Pattern](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal).
 
 
 {% include figure.html url="/images/ch3/c3-s1-6-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
@@ -476,9 +476,7 @@ In addition to the above, I think I’ll create a Notist slidedeck – [somethin
 Section 3: A Library of Patterns
 --------------------------------
 
-_/* This section needs images. For now I’m focused on the content. */_
-
-In this section, which echoes the structure of Chapter 2, **I’ll explore a series of typical design patterns** that you might encounter and that you might also need to design.
+In this section, which echoes the structure of Chapter 2, **I’ll explore a series of typical user interface design patterns** that you might encounter and will almost certainly need to design.
 
 As with the previous chapter, **this is not an exhaustive list, rather it’s intended to focus on a subset of common patterns that exist**, highlighting the principle that patterns are useful in user interface design and need to be considered. There are many more design patterns available, as always, research is key.
 
@@ -490,7 +488,7 @@ I’ll explore the following patterns and, as with Chapter 2, I’ll provide a s
 + Notifications
 + Profile Cards
 
-As I’ve noted above, patterns are incredibly useful and can save you a considerable amount of time when you’re designing a user interface. Put simply: If a pattern exists, embracing it (and modifying it if you need to) saves you from doing work that’s been done before by others.
+As I’ve noted above, **patterns are incredibly useful and can save you a considerable amount of time when you’re designing a user interface**. There’s little point in reinventing the wheel, if a pattern exists, embracing it – and modifying it if you need to – saves you from doing work that’s been done before by others.
 
 With that point stressed, let’s explore some typical user interface patterns you may find useful.
 
@@ -501,50 +499,44 @@ With that point stressed, let’s explore some typical user interface patterns y
 
 ### Date Pickers
 
-As user interface designers we frequently encounter a need for date patterns. A user might, for example, need to:
+As user interface designers **we frequently encounter a need for date picker patterns**. A user might, for example, need to:
 
 + book a flight;
 + add a reminder to a calendar; or
 + make an appointment.
 
-All of these interactions require a date – or a span of dates – to be selected. At the simplest level, a date selection pattern will include a calendar of some description, allowing the user to select dates. At a more complex level, we might need to consider the inclusion of times in the users’ selection.
+All of these interactions require a date – or a span of dates – to be selected. At the simplest level, **a date picker pattern will include a calendar of some description**, allowing the user to select the date or dates they require. At a more complex level, **we might need to consider the inclusion of times in the user’s selection**.
 
-As I’ve stressed throughout this book (in particular, in Chapter 1) users have mental models of how these interactions function, based on their past experience. Rather than try to reinvent the wheel it makes sense to explore what has already been tried and tested and proven to work.
+As I’ve stressed throughout this book, **users have mental models of how these interactions function, based on their past experience**. Rather than try to reinvent the wheel, it makes sense to explore what has already been tried and tested and proven to work.
 
-Google’s flight selector is a great example of a date selector that’s beautifully designed, intuitive and easy to use.
+Regardless of your requirements, you’ll almost certainly need to consider:
 
-IMAGE? LOSE THIS OR THIS GETS TOO LONG.
++ displaying the current day’s date in a clear and obvious manner;
++ how users move between different months and years; and
++ managing error states (for example, if a user enters a return date that’s **before** the departure date).
 
-By pre-focusing on a pre-selected date, it **gives the user a head start**. Of course, not all users will want to travel on the date that Google’s designers have pre-selected, so **the design makes it easy to pick another more convenient date to travel**.
+Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different states (base, hover and error states). Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read (!), it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
 
-What’s particularly nice about Google’s approach to this pattern is its use of **subtle, yet delightful interactions, which provide feedback to the user in a delightful manner**.
+Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
 
-As computers have become more powerful and, hand-in-hand with this, our connections to the web have become more accommodating, there has been **a rise in the use of animation within interfaces**.
-
-Users now expect animation to be an integral part of a user interface and, as a consequence, static interfaces have become less appealing. I’ll explore the use of animation in [Chapter 7: Animating Interfaces](#), but as I explore patterns, it’s worth bearing in mind that **patterns exist not just for how elements look, but also how they feel**.
-
-As you explore patterns and build your own library of examples, it’s worth noting how the various patterns you encounter work at an interactive level, considering:
-
-+ how interfaces change as you interact with them;
-+ how transitions are used to signal a shift from one state to another; and
-+ how long transitions take.
-
-MAYBE STICK WITH MY OWN EXAMPLE SO THIS CHAPTER BUILDS ON THE DESIGN SYSTEM I’M ESTABLISHING AND USE GOOGLE’s PICKER FOR A PATTERN ANALYSIS (ON NOTIST).
-
-UI Patterns, which I explored in Section 1, has [a useful collection of date pickers](http://ui-patterns.com/patterns/CalendarPicker) that are worth looking at.
+What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. **Despite the complexity of the information it presents, the user interface is clear**, chunked into a series of easily parsable steps.
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-2-sign-in.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Cotton Bureau’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="This is a temporary image (it’s Cotton Bureau’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
 
 
-### Register / Sign-In Forms
+### Sign-Up / Sign-In Forms
 
-As more and more applications move towards the web the need for Register / Sign-In forms has grown. When a user first encounters a web-based application they will often be asked to register an account. This allows information relevant to the user to be stored for their return.
+If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service, **you’ll need to consider a Sign-Up / Sign-In forms for users to sign up for your product or service, or sign into it**.
 
-Once a user has registered, they will need to sign-in to access their account. **If signing in is important to the application you’re building, it’s essential to ensure that the sign-in form is clearly signposted.**
+When a user first encounters a SaaS (Software as a Service) product, they’ll often be **asked to register for an account**. This allows information relevant to the user to be stored for their return, or items added to a shopping cart to be saved for later.
 
-Registration and Sign-In forms at the very least require two pieces of data:
+This will often involve a round trip to an email client for your users to confirm they are who they say they are (something you’ll also need to consider).
+
+Once a user has registered, they’ll need to sign-in to access their account. **If signing in is important to the application you’re building, it’s essential to ensure that the sign-in form is clearly signposted.**
+
+Sign-Up and Sign-In forms at the very least require two pieces of data:
 
 + a username; and
 + a password.
@@ -553,17 +545,17 @@ Some forms ask for more information, but **as a rule of thumb it’s best to kee
 
 If your goal is for users to sign up for an account, you want to **remove as much friction as possible** and removing form fields is a good way to do this. As a user becomes more embedded, using your application more frequently, **you can ask for additional information you might need**.
 
-In addition to the design of the core registration and sign-in forms there’s a need to consider what happens should users forget their registration details. In this example, I’ve focused on the registration and sign-in forms, but you’ll also need to consider how you support users who have forgotten or lost their details.
+In addition to the design of the core sign-up and sign-in forms, **there’s a need to consider what happens should users forget their registration details**.
 
-It might be tempting to kill two birds with one stone and present users with both the registration and sign-in forms in two forms side-by-side. This often leads to confusion, however, where a user tries to register by using the sign-in form (or vice-versa).
+There’s nothing more frustrating than an application that doesn’t allow you to recover (or reset) your password should you have forgotten or lost it.
 
-A better approach is to **present the user with one form, with a clearly signposted link to the other form**.
+It might be tempting to kill two birds with one stone and present users with both the registration and sign-in forms in two forms side-by-side. **This often leads to confusion**, however, where a user tries to register by using the sign-in form (or vice-versa).
 
-<!-- Look at Silver, pp212-213. It’s excellent. Perhaps mention this in the required reading also? -->
+A better approach is to **present the user with one form, with a clearly signposted link to the other form**. In the above example, clicking on the greyed out option takes the user to the form they’re not currently on, enabling them to switch easily.
 
-I’ve focused on sign in forms because doing so enables me to explore forms (about which entire books have been written!), but do it in a more focused way without getting lost in detail.
+I’ve focused on sign in forms because **doing so enables me to explore forms** (about which entire books have been written!), but do it in a more focused way without getting lost in detail.
 
-If the user interface you’re designing includes forms – and it’s highly likely it will – I’d strongly recommend Adam Silver’s [Form Design Patterns](https://shop.smashingmagazine.com/products/form-design-patterns-by-adam-silver). It’s comprehensive and – like all books published by my friends at Smashing Magazine – it’s beautifully designed and printed.
+If the user interface you’re designing includes forms – and it’s highly likely it will – **I’d strongly recommend Adam Silver’s [Form Design Patterns](https://shop.smashingmagazine.com/products/form-design-patterns-by-adam-silver)**. It’s comprehensive and – like all books published by my friends at Smashing Magazine – it’s beautifully designed and printed.
 
 
 
@@ -574,11 +566,25 @@ If the user interface you’re designing includes forms – and it’s highly li
 
 _/* Look at Letterboxd’s credit card form. */_
 
-The web has long proven a powerful platform for digital commerce and, as such, credit card patterns – which codify the input of users’ credit card details – are in plentiful supply.
+The web has proven **a powerful platform for digital commerce** and, as such, credit card patterns – which structure the input of users’ credit card details – are in plentiful supply.
 
-One of the wonderful aspects of working on the web is its leanings towards openness. Thanks to the web’s beginnings, in particular its open ‘View Source’ culture, we’ve inherited a culture of shared understanding where talented individuals share their thinking for the benefit of all.
+One of the wonderful aspects of working on the web is its leanings towards openness. Thanks to the web’s beginnings, **in particular its open ‘View Source’ culture**, we’ve inherited a culture of shared understanding where talented individuals share their thinking for the benefit of all.
 
-UX Collective, which gathers ‘curated stories on user experience, usability and product design’, offers a wealth of information and Gabriel Tomescu’s [‘Anatomy of a Credit Card Form’](https://uxdesign.cc/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb) takes the ubiquitous credit card form we meet, day-in day-out, and presents an exhaustive analysis of credit card patterns and is required reading should your project require payments of any kind.
+UX Collective, which gathers **‘curated stories on user experience, usability and product design’**, offers a wealth of information on the design of all things UX +/ UI, and **Gabriel Tomescu’s [‘Anatomy of a Credit Card Form’](https://uxdesign.cc/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb) takes the ubiquitous credit card form we meet, day-in day-out, and presents an exhaustive analysis of credit card patterns**. It’s required reading should your project require payments of any kind.
+
+When designing a credit card pattern, you'll need to consider showing:
+
++ What cards are accepted?
++ A total field, where the user can enter a total (unless it's pre-populated as the result of a preceding transaction).
++ The name on the card.
++ A card number (which you can dynamically format, to help the user).
+
+In addition to the above, it's also helpful to indicate the type of card the user is using, so they feel re-assured. It's possible to determine the type of card being used by the card number's starting number.
+
++ **3:** American Express, Diners Club…
++ **4:** Visa
++ **5:** MasterCard
++ **6:** Discover Card
 
 When money is changing hands, it’s important to establish a bond of trust, indicating to the users that their card details are safe and secure. UI Patterns has a helpful article on [Designing for Trust](http://ui-patterns.com/blog/Designing-for-trust) that’s worth reading so you can put your users’ minds at ease.
 
