@@ -608,7 +608,7 @@ Ideally error checking can be handled on the client side (before submitting the 
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-4-notifications.png" alt="Notifications" description="Notifications are seemingly an ever-present part of daily life. Use them with caution for fear of irritating users." %}
+{% include figure.html url="/images/ch3/c3-s3-4-notifications.png" alt="Notifications" description="Notifications are now an ever-present part of daily life. Notifications can be incredibly useful, but they can equally be incredibly irritating if used too often. Use them sparingly." %}
 
 <!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. This is also a temporary caption, written at 2.05 am. -->
 
@@ -646,17 +646,18 @@ Notifications can appear in a number of ways:
 
 System level notifications offer a number of benefits, not least because **they’re persistent at the top level of the interface, i.e. your users can be made aware of notifications when the application you’re building isn’t open**.
 
-**Most operating systems will allow you to tie into system level notifications using SDKs (Software Development Kits) or APIs (Application Programming Interfaces).** SDKs and APIs are beyond the scope of this book, but as you consider the design of your notifications, it’s worth bearing in mind that they are available at the system level, should you need them.
+**Most operating systems will allow you to tie into system level notifications using <span title="Software Development Kits">SDKs</span> or <span title="Application Programming Interfaces">APIs</span>.** SDKs and APIs are beyond the scope of this book, but it’s worth bearing in mind that notifications are available at the system level, should you need them.
 
-The design of notifications at the system level are almost exclusively beyond your control as a designer, having been designed at the OS level.
-
-<!-- Rewrite the next sentence and improve it, it’s a little hasty. -->
+It’s also worth noting that the design of system level notifications are almost exclusively beyond your control as a designer.
 
 Just because you can present your users with notifications doesn’t mean you necessarily should with abandon. **Notifications can, if you’re not careful, prove irritating, annoying users about often trivial matters.**
 
-It’s important to consider what I call, ‘levels of discretion’ for notifications: some are discrete, subtly sliding in and sliding out, catching the user’s eye and needing no further action; others are a little more persistent, signalling a higher level of priority.
+It’s important to consider, what I call, ‘levels of discretion’ for notifications:
 
-Google’s Material Design guidelines provides an overview of a variety of different notification patterns (and their levels of priority), including:
++ some are discrete, subtly sliding in and sliding out, catching the user’s eye and needing no further action (like a well-trained butler);
++ others are a little more persistent, signalling a higher level of priority.
+
+Google’s Material Design guidelines provides an overview of **a variety of different notification patterns (and their levels of priority)**, including:
 
 + **[Snackbars](https://material.io/components/snackbars/):** Temporary notifications that provide brief messages about app processes at the bottom of the screen. (Low Priority) <!-- Don’t require user input to disappear. -->
 + **[Banners](https://material.io/components/banners/):** Persistent notifications (that need to be dismissed) that provide actions for users to address. (Medium Priority)
