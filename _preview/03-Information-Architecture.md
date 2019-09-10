@@ -561,6 +561,11 @@ I’ve focused on sign in forms because **doing so enables me to explore forms**
 
 If the user interface you’re designing includes forms – and it’s highly likely it will – **I’d strongly recommend Adam Silver’s [Form Design Patterns](https://shop.smashingmagazine.com/products/form-design-patterns-by-adam-silver)**. It’s comprehensive and – like all books published by my friends at Smashing Magazine – it’s beautifully designed and printed.
 
+<!--
+
+Look at Diana's book (pp83-88) for a useful step-by-step login form redesign. Something like this would be nice to accompany these patterns (provided as XD files…?).
+
+-->
 
 
 {% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
@@ -610,6 +615,28 @@ Ideally error checking can be handled on the client side (before submitting the 
 
 ### Notifications
 
+<!--
+
+Look at this:
+
+https://material.io/design/platform-guidance/android-notifications.html#anatomy-of-a-notification
+
+Even a simple notification pattern can be logically structured at the Micro-IA level:
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1S1g0uIqq8cRvxi60yyYj_L2X8YABU_A6%2Fas-notifications-anatomy-2.png
+
+Look at these Material Design videos on notifications at the system level. The first is subtle (an icon in the status bar). The second is more prominent with a notification peek onto the current screen.
+
+1. An icon in the status bar:
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1CfZrxDhHfWFStu9tKiqD6MQHAWpAO3CR%2Fnotifications-arrival-1.mp4
+
+2. Peek (sliding in from top, automatically sliding out):
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1R6V5oqkr0dbbstx5tvR5R_IjEg6kwT4x%2Fnotifications-arrival-2.mp4
+
+-->
+
 Notifications are useful to alert users and **draw their attention to important updates or messages**.
 
 Notifications can appear in a number of ways:
@@ -623,32 +650,46 @@ System level notifications offer a number of benefits, not least because **they�
 
 The design of notifications at the system level are almost exclusively beyond your control as a designer, having been designed at the OS level.
 
-Just because you can present your users with notifications doesn’t mean you should with abandon. **Notifications can, if you’re not careful, prove irritating, pestering users about often trivial matters. Use your judgment.**
+<!-- Rewrite the next sentence and improve it, it’s a little hasty. -->
+
+Just because you can present your users with notifications doesn’t mean you necessarily should with abandon. **Notifications can, if you’re not careful, prove irritating, annoying users about often trivial matters.**
+
+It’s important to consider what I call, ‘levels of discretion’ for notifications: some are discrete, subtly sliding in and sliding out, catching the user’s eye and needing no further action; others are a little more persistent, signalling a higher level of priority.
+
+Google’s Material Design guidelines provides an overview of a variety of different notification patterns (and their levels of priority), including:
+
++ **[Snackbars](https://material.io/components/snackbars/):** Temporary notifications that provide brief messages about app processes at the bottom of the screen. (Low Priority) <!-- Don’t require user input to disappear. -->
++ **[Banners](https://material.io/components/banners/):** Persistent notifications (that need to be dismissed) that provide actions for users to address. (Medium Priority)
++ **[Dialogs](https://material.io/components/dialogs/dialogs.html):** Notifications that appear on top of app content, providing critical information. On appearing, dialogs disable all app functionality and remain on screen until a required action has been taken, or they have been confirmed of dismissed. (High Priority)
+
+
+
+{% include figure.html url="/images/ch3/c3-s3-5-user-profile.png" alt="User Profile Cards" description="User Profile cards – as I’ve explored with the Dribbble example (above) – come in a variety of content densities, from: lightweight, with a profile photograph, a name and a handful of details; to heavyweight, with a wide range of information." %}
+
+<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
 <!--
 
-This is a little short at present. It needs more added to it.
-
-There’s a useful roundup of what not to use notifications for at UI Patterns:
-
-[ui-patterns.com/patterns/notifications](http://ui-patterns.com/patterns/notifications)
-
-Try and find some more examples of where notifications might be useful. The UI Patterns list is good for what not to do, but not so good on what to do.
+This pattern needs to change, I've covered it enough above. If anything, move the Dribbble user profile complexity up or into a separate Notist deck.
 
 -->
 
 
+### User Profile Cards
 
-{% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
+<!--
 
-<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
+I think I should change out user profiles, this is a struggle to add anything new (and if there is anything new, I’d include it above, in the Dribbble case study).
 
+I think Activity Feeds (p112 in Diana’s book) would be better. Also, these are timeline focused and I don’t have anything timeline focused at the moment.
 
-### Profile Cards
+-->
 
-This section picks up from the earlier examples, including the case study from Dribbble, and shows some different approaches towards the design of profile cards.
+As I noted when I explored the Dribbble user profile in the previous section, user profile cards come in **a variety of content densities**, from: **lightweight**, with a profile photograph, a name and a handful of details; to **heavyweight**, with a wide range of information.
 
-I’ll be including: tags, social buttons (circles?) and call-to-action buttons, that way I can talk about components and hammer the point home that these card patterns can draw on the components we’ve designed.
+The Dribbble example (explored above) was sub-divided into three distinct sections, but – in fact – if a user includes ‘Projects’ in their settings and upgrades to a Pro account, adding hiring details, a profile can quickly become extremely information dense.
+
+It’s a testament to Dribbble’s design team that – despite the complexity – the profile remains legible and parseable.
 
 
 
@@ -665,7 +706,7 @@ In an age of information overload, **establishing a clear information architectu
 
 Given that this chapter is titled ‘Information Architecture’, I think it’s important I explain what that means! Essentially, **information architecture focuses on organising and structuring information so we can improve its findability and discoverability**.
 
-**The information architecture of websites and applications is critical** because – if it's done well – it will enable users to find the information they're looking for and complete the tasks that they need to complete. Conversely, if the information architecture is ill-considered, it leads to frustrated users who will very quickly find an alternative solution.
+**The information architecture of websites and applications is critical** because – if it’s done well – it enables users to find the information they’re looking for and complete the tasks that they need to complete. Conversely, if the information architecture is ill-considered, it leads to frustrated users who will very quickly find an alternative solution.
 
 Put simply, information architecture is all about:
 
@@ -677,41 +718,32 @@ The above is true of: **parts of a page** (patterns, e.g. forms); **the page its
 
 It’s essential that we ground everything that we design, no matter how complex, with the principle of helping our users ‘find their way’.
 
-As user interface designers, **our role is to orchestrate the elements that comprise patterns and pages and impose some order on them**. We need to take different objects, components, patterns and groupings of content (words, imagery, video…) and organise everything.
+As user interface designers, **our role is to orchestrate the elements that comprise patterns and pages and impose some order on them**. We need to take different objects, components, patterns and groupings of content (words, imagery, video…) and organise them in relation to each other, establishing a clear hierarchy.
 
-This is where information architecture (IA) comes in.
+This is where information architecture comes in.
 
-_Information architecture also includes the architecture of flows, but I’ll explore that in the next chapter (Chapter 4: Getting From A → B)._
-
-Everything we design is created from content. When we design a UI, we take this content and we organise it, enabling the user to navigate it and help them to quickly and easily find their way. As we design, we need to consider the hierarchy of the content we're organising and apply that hierarchy to our patterns, pages and flows.
+Everything we design is created from content. When we design a UI, we take this content and we organise it, enabling the user to navigate it and help them to quickly and easily find their way. As we design, we need to consider the hierarchy of the content we’re organising and apply that hierarchy to our patterns, pages and flows.
 
 There’s an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are created from components and patterns.
 
 I’ll explore flows in [Chapter 4: Getting From A → B](#) so – in this chapter, I’m focusing on patterns and pages – but the overall emphasis remains the same: We need to ensure everything is clearly signposted.
-
-<!--
-
-_At this point I’ll use the supermarket metaphor that Donna Spencer has used in her book. Donna used chocolate, but I’m using ice cream. (The freezers are broken, so it’s as if this page is down for maintenance.) I can still find what I’m looking for, however… */_
-
-NNg: "Just like the [IA](https://www.nngroup.com/articles/ia-vs-navigation/) reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/), which is made up of all the page headings and subheadings, reflects the information structure of a page.
-
-Back to my words…
-
-I need to talk about clustering, labelling, etc. (Remember the ice cream metaphor.)
-
-Show a credit card example and show how everything is organised (spatially) and clearly labelled.
-
-The freezer part of the supermarket is also nice because it's a grouping of things, but it's also 'undergoing maintenance' (so, even when something isn't available – because the page content is being updated, for example – the user should be kept informed).
-
-Look in Simplenote, there's a tonne of stuff there. Not least the information architecture of cards, i.e. at a component and pattern (‘sub-page’) level.
-
--->
 
 
 ### Finding The Ice Cream
 
 This section is on wayfinding and uses the metaphor of a supermarket – full credit to Donna Spence for this idea – and uses this metaphor to explain what IA is.
 
+_At this point I’ll use the supermarket metaphor that Donna Spencer has used in her book. Donna used chocolate, but I’m using ice cream. (The freezers are broken, so it’s as if this page is down for maintenance.) I can still find what I’m looking for, however… */_
+
+<!--
+
+NNg: “Just like the [IA](https://www.nngroup.com/articles/ia-vs-navigation/) reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/), which is made up of all the page headings and subheadings, reflects the information structure of a page.
+
+-->
+
+I need to talk about clustering, labelling, etc. (Remember the ice cream metaphor.)
+
+The freezer part of the supermarket is also nice because it’s a grouping of things, but it’s also ‘undergoing maintenance’ (so, even when something isn’t available – because the page content is being updated, for example – the user should be kept informed).
 
 
 ### Wayfinding Patterns
@@ -722,7 +754,7 @@ There might also need to be a subsection on wayfinding patterns we can use, incl
 + Breadcrumb Trails (Where am I?); and
 + Shopping Cart Flows
 
-I'm working on this chapter just now (22 August) so I'm aiming to expand this section shortly.
+Essentially make the point that often users are moving through content and – just like they’d need wayfinding signage in an airport – so, too, they need it in this context.
 
 
 
@@ -830,8 +862,8 @@ There are many great publications, offline and online, that will help further un
 
 + Donna Spencer’s [A Practical Guide to Information Architecture](https://amzn.to/2IkHeRl) – whilst sadly no longer available in print – is, as its title suggests, a practical guide to information architecture. Originally published by Five Simple Steps, I’d strongly recommend buying the Kindle book, which provides a thorough overview of the principles of managing and orchestrating content.
 
+_Get rid of the following and replace it with Diana’s book. In fact her book should go first in this section._
+
 + usability.gov has an excellent overview of [Information Architecture Basics](https://www.usability.gov/what-and-why/information-architecture.html) that’s well worth reading. The site is an excellent resource that – whilst primarily focused on design for government – offers a wide range of resources that are applicable beyond design for the public sector.
 
 + Finally, Steve Krug’s [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2Xa5DS3) is a timeless book that I’d highly recommend. Whilst focused on usability, it contains a wealth of insights that are applicable when considering your overall information architecture.
-
-_/* I think I’ll replace the usability.gov link with Diana MacDonald’s [Practical UI Patterns for Design Systems](https://didoesdigital.com/project/book-practical-ui-patterns-for-design-systems/). It looks great and Apress are sending me an inspection copy. */_
