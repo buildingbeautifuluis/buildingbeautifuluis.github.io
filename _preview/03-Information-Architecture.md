@@ -494,7 +494,9 @@ With that point stressed, let’s explore some typical user interface patterns y
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-1-date-pickers.png" alt="Date Pickers" description="This is a temporary image (and it’s not mine). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-1-date-pickers.png" alt="Date Pickers" description="Depending on their context, date patterns come in many different shapes and sizes and levels of complexity." %}
+
+<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
 
 ### Date Pickers
@@ -519,11 +521,13 @@ Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date
 
 Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
 
-What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. **Despite the complexity of the information it presents, the user interface is clear**, chunked into a series of easily parsable steps.
+What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. Despite the complexity of the information it presents, **the user interface is clear, chunked into a series of easily parsable steps**.
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="This is a temporary image (it’s Cotton Bureau’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
+
+<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
 
 ### Sign-Up / Sign-In Forms
@@ -559,60 +563,88 @@ If the user interface you’re designing includes forms – and it’s highly li
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Sign In" description="This is a temporary image (and it’s not mine, it’s Netlify’s). It will be replaced by an image drawn in a similar style the components I created for Chapter 2." %}
+{% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
+
+<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
 
 ### Credit Card Forms
 
-_/* Look at Letterboxd’s credit card form. */_
-
 The web has proven **a powerful platform for digital commerce** and, as such, credit card patterns – which structure the input of users’ credit card details – are in plentiful supply.
 
-One of the wonderful aspects of working on the web is its leanings towards openness. Thanks to the web’s beginnings, **in particular its open ‘View Source’ culture**, we’ve inherited a culture of shared understanding where talented individuals share their thinking for the benefit of all.
+One of the wonderful aspects of working on the web is its leanings towards openness. Thanks to the web’s beginnings, **in particular its ‘View Source’ culture**, we’ve inherited a culture of collective understanding where talented individuals share their thinking for the benefit of all.
 
 UX Collective, which gathers **‘curated stories on user experience, usability and product design’**, offers a wealth of information on the design of all things UX +/ UI, and **Gabriel Tomescu’s [‘Anatomy of a Credit Card Form’](https://uxdesign.cc/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb) takes the ubiquitous credit card form we meet, day-in day-out, and presents an exhaustive analysis of credit card patterns**. It’s required reading should your project require payments of any kind.
 
-When designing a credit card pattern, you'll need to consider showing:
+When designing a credit card pattern, you’ll need to include the following:
 
-+ What cards are accepted?
-+ A total field, where the user can enter a total (unless it's pre-populated as the result of a preceding transaction).
++ An indication of what cards are accepted.
++ A total field, where the user can enter a total (unless it’s pre-populated as the result of a preceding transaction).
 + The name on the card.
 + A card number (which you can dynamically format, to help the user).
++ The card’s expiry date.
++ The card’s security code.
++ A ZIP or postal code.
 
-In addition to the above, it's also helpful to indicate the type of card the user is using, so they feel re-assured. It's possible to determine the type of card being used by the card number's starting number.
+In addition to the above, it’s also helpful to **indicate the type of card the user is using, so they feel re-assured that they’ve entered the correct details**. It’s possible to determine the type of card being used by the number the card starts with, as follows:
 
 + **3:** American Express, Diners Club…
 + **4:** Visa
 + **5:** MasterCard
 + **6:** Discover Card
 
-When money is changing hands, it’s important to establish a bond of trust, indicating to the users that their card details are safe and secure. UI Patterns has a helpful article on [Designing for Trust](http://ui-patterns.com/blog/Designing-for-trust) that’s worth reading so you can put your users’ minds at ease.
+As I noted in my analysis of Netlify’s Credit Card Modal Pattern, **Netlify uses this approach to change the design of the card on the fly to show the user a [Visa](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal#swUfZKe) or [MasterCard](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal#sYoOND3)**, for example.
 
+When money is changing hands, it’s important to **establish a bond of trust, indicating to the users that their card details are safe and secure**. UI Patterns has a helpful article on [Designing for Trust](http://ui-patterns.com/blog/Designing-for-trust) that’s worth reading so you can put your users’ minds at ease.
+
+Designing credit card patterns is – as you can see from this section (which is condensed) – a complicated process. In addition to the above, you’ll need to **consider providing feedback when users enter numbers incorrectly**, as they often do.
+
+Ideally error checking can be handled on the client side (before submitting the form to the server) using formulae like the [Luhn algorithm](https://www.geeksforgeeks.org/luhn-algorithm/). Put simply, it’s complicated (but when you get lost down the Luhn rabbit hole, fascinating!).
+
+
+
+{% include figure.html url="/images/ch3/c3-s3-4-notifications.png" alt="Notifications" description="Notifications are seemingly an ever-present part of daily life. Use them with caution for fear of irritating users." %}
+
+<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. This is also a temporary caption, written at 2.05 am. -->
 
 
 ### Notifications
 
-Notifications are useful to alert users and **draw their attention to important updates or messages**. There’s a useful roundup of what not to use notifications for at UI Patterns:
-
-[ui-patterns.com/patterns/notifications](http://ui-patterns.com/patterns/notifications)
-
-Try and find some more examples of where notifications might be useful. The UI Patterns list is good for what not to do, but not so good on what to do.
+Notifications are useful to alert users and **draw their attention to important updates or messages**.
 
 Notifications can appear in a number of ways:
 
 - at the system level; and
 - at the application level.
 
-System level notifications offer a number of benefits, not least because they’re persistent at the top level of the interface, i.e. your users can be made aware of notifications when the application you’re building isn’t open.
+System level notifications offer a number of benefits, not least because **they’re persistent at the top level of the interface, i.e. your users can be made aware of notifications when the application you’re building isn’t open**.
 
-Most operating systems will allow you to tie into system level notifications using SDKs (Software Development Kits) or APIs (Application Programming Interfaces). SDKs and APIs are beyond the scope of this book, but as you consider the design of your notifications, it’s worth bearing in mind that they are available.
+**Most operating systems will allow you to tie into system level notifications using SDKs (Software Development Kits) or APIs (Application Programming Interfaces).** SDKs and APIs are beyond the scope of this book, but as you consider the design of your notifications, it’s worth bearing in mind that they are available at the system level, should you need them.
 
-Just because you can present your users with notifications doesn’t mean you should with abandon. Notifications can, if you’re not careful, prove irritating, pestering users about often trivial matters. Use your judgment.
+The design of notifications at the system level are almost exclusively beyond your control as a designer, having been designed at the OS level.
+
+Just because you can present your users with notifications doesn’t mean you should with abandon. **Notifications can, if you’re not careful, prove irritating, pestering users about often trivial matters. Use your judgment.**
+
+<!--
+
+This is a little short at present. It needs more added to it.
+
+There’s a useful roundup of what not to use notifications for at UI Patterns:
+
+[ui-patterns.com/patterns/notifications](http://ui-patterns.com/patterns/notifications)
+
+Try and find some more examples of where notifications might be useful. The UI Patterns list is good for what not to do, but not so good on what to do.
+
+-->
+
+
+
+{% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
+
+<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
 
 ### Profile Cards
-
-_/* I might remove profile cards, because they are – to a degree – explored in the Dribbble case study. */_
 
 This section picks up from the earlier examples, including the case study from Dribbble, and shows some different approaches towards the design of profile cards.
 
