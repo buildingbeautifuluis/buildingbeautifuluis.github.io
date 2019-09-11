@@ -4,9 +4,7 @@ title: "Information Architecture ≠"
 layout: chapter
 opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (11 September), I’ll be releasing it section by section over the next few days.</p>
 
-<p class='text--warning'><strong>Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first.</p>
-
-<p class='text--warning'><strong>Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be. With a few early mornings and late nights, I hope to get back on track and have this chapter finished soon.</p>
+<p class='text--warning'><strong>Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first. Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns: reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -50,7 +48,7 @@ Our goal as designers is to:
 
 In order to do this, it’s important to put some thought into **how the different elements we use in an interface fit together as part of the overall system** within which they exist.
 
-To design an effective information architecture, **we need to consider the relationship of elements at a range of different levels**:
+To design an effective information architecture, **we need to consider the hierarchy of our content at a range of different levels**:
 
 + The Pattern Level
 + The Page Level; and
@@ -60,7 +58,7 @@ The components and patterns we design – the content elements that make up our 
 
 Similarly, pages will have a page-level information architecture, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
 
-At the macro-level, we also need to **consider the overall information architecture of the site or application we’re building**. We need to **ensure that we organise our information clearly**, ensuring users understand the overall structure of the site that enabled them to build a ‘mental model’ of how everything is organised.
+At the macro-level, we also need to **consider the overall information architecture of the site or application we’re building**. We need to **ensure that we organise our information clearly**, ensuring users understand the overall structure of the site that enables them to build a ‘mental model’ of how everything is organised.
 
 With an overview of this chapter covered, let’s get down to business and explore some further building blocks of user interfaces: patterns.
 
