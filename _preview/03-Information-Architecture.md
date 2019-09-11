@@ -264,46 +264,57 @@ The beauty of this approach, **building from the object up**, is that it allows 
 
 If we consider the information architecture of the patterns we build, when we put them together to form pages, our overall information architecture falls, more or less, into place. In short, it’s important to **consider the information architecture of our content at multiple levels** as we design it.
 
-Consider a typical page, like the [Curated Galleries](https://www.behance.net/galleries) page at Behance. There is:
+Consider a typical page, like the [Curated Galleries](https://www.behance.net/galleries) page at Behance (below). It’s organised at every level, featuring:
 
 1. an overall hierarchy and structure **at the page level**; and
-2. there is a specific hierarchy and structure **at the pattern level**.
+2. a specific hierarchy and structure **at the pattern level**.
 
-This hierarchy works at both: the pattern level (micro information architecture); and the page level (macro information architecture).
+This hierarchy works at both a pattern level (a micro information architecture); and the page level (a macro information architecture).
 
 
-{% include figure.html url="/images/ch3/c3-s2-2-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), it’s then drawn to the categories (2), and, finally, it’s drawn to the project samples (3)." %}
+{% include figure.html url="/images/ch3/c3-s2-2-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), it’s then drawn to the categories (2), and, finally, it’s drawn to the project thumbnails (3)." %}
 
 
 Continuing from the overall page hierarchy, our eye is drawn to **the row of thumbnails in the Graphic Design category, which follows a pattern that is repeated down [the page](https://www.behance.net/galleries)**, which includes other categories: Photography, Illustration, Interaction….
 
 At the category level, the eye is drawn to the title – Graphic Design – first, with its short overview paragraph (“The best graphic design…”), before being drawn to **the ‘Follow Gallery’ call to action button, which – in blue – catches the eye, perfect for a call to action**. The gold ‘Gr’ bookmark at the top is the least visually dominant element, satisfying a labelling function.
 
-At the pattern level, there is an equally clear hierarchy and structure. The thumbnails provided satisfy the purpose of **previewing visual content** (a content pattern), which are in turn repeated on the page as a way of **previewing a category** (a display pattern), which – in this case – focuses on the Graphic Design category.
+At the pattern level, there is an equally clear hierarchy and structure. The thumbnails provided satisfy the purpose of **previewing visual content** (a content pattern), which are in turn repeated on the page as a way of **previewing content from within a category** (a display pattern), which – in this case – focuses on the Graphic Design category.
 
-As with the components I explored in Chapter 2, where components were built out of objects, patterns are – themselves – built out of objects and components, i.e. we’re simply increasing the complexity.
+As with the components I explored in Chapter 2, where components were built out of objects, **patterns are – themselves – built out of objects and components**, we’re simply increasing the complexity.
 
 
-{% include figure.html url="/images/ch3/c3-s2-3-behance-curated-galleries-thumbnail.png" alt="Behance · Curated Galleries · Graphic Design" description="The pattern used to preview visual content has its own hierarchy and structure, which uses a ‘card’ pattern (1), that is organised by: 2. an image); 3. primary (Title (Wadowice), Studio (Studio Otwarte)) and secondary (Category (Art Direction)) content; and 4. actions components (Likes, Views, Bookmarks)." %}
+{% include figure.html url="/images/ch3/c3-s2-3-behance-curated-galleries-thumbnail.png" alt="Behance · Curated Galleries · Graphic Design" description="The pattern used to preview visual content on Behance has its own hierarchy and structure, which uses a ‘card’ pattern (1), that is organised by: 2. an image; 3. primary content (Title and Studio) and secondary content (Category); and 4. actions components (Likes, Views, Bookmarks)." %}
 
 
 The ‘card’ pattern that’s used at Behance – whilst rigidly organised at the pattern level – is **perfect for page level display**.
 
-As ‘information containers’, **cards can be used to organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects, which can also be hierarchically organised; and buttons.
+As ‘information containers’, cards – self-contained ‘units of content’ – can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects, which can also be hierarchically organised; and buttons.
 
 **One of the primary benefits of a embracing cards is their adaptability.**  Cards can be **reorganised or reflowed** depending upon screen real estate available:
 
 + in a desktop context we might lay out our cards (horizontally and vertically) in a grid; and
 + in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might vertically stack cards in a layout that users can scroll down.
 
-_/* I’m going to end this section, by showing a visual of the cards’ flexibility from a layout point of view: side-by-side: desktop, left; mobile, right. (Using the Behance page, above.) */_
+The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level information architecture.
 
 
-### Information Architecture at the Macro- and Micro-Level
+{% include figure.html url="/images/ch3/c3-s2-4-behance-curated-galleries-desktop-mobile.png" alt="Behance · Curated Galleries: Desktop and Mobile View" description="On the left, on a desktop device with a wider viewport width, the thumbnails are organised horizontally and vertically in a grid. On the right, on a mobile device with a narrower viewport width, the thumbnails are organised vertically, in a narrower grid." %}
+
+
+When we consider Behance’s desktop and mobile views (above), we can see the beauty of adopting a card pattern for the site’s thumbnail content:
+
++ in a desktop context, where there is more horizontal space, the grid is allowed to use more horizontal space (**on my external monitor, it displays six thumbnails**); and
++ in a mobile context, where there is less horizontal space, the grid is tighter (**on my iPhone XS Max, it displays two thumbnails**).
+
+In both cases – desktop and mobile – the card pattern, however, retains its own internal hierarchy and structure.
+
+
+### From Patterns to Pages
 
 _/* This section isn’t done. It’s a mess that I’m fixing now (11 September). You can, however, fast-forward to the next section, where I’ve started pulling together the ideas from above as an overall case study using Dribbble. */_
 
-_/* I think I might retitle this can call it ‘From Patterns to Pages’. Then include the micro- and macro- IA in the body of the section. Perhaps continue on with Behance to avoid confusion? That way this section acts as a bridge from patterns to pages, before I look at everything in the Dribbble case study. */_
+_/* This section will act as a bridge from patterns to pages, before I look at everything in one go, in the Dribbble case study. */_
 
 In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
 
