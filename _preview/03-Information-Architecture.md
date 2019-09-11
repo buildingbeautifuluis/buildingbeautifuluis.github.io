@@ -124,7 +124,7 @@ Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a 
 
 ### The Father of Pattern Languages
 
-Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was preceded by Alexander’s [‘The Timeless Way of Building’](https://amzn.to/2ZZDl9Y).
+Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was followed, in 1980, by Alexander’s [‘The Timeless Way of Building’](https://amzn.to/2ZZDl9Y).
 
 Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
 
@@ -289,12 +289,12 @@ As with the components I explored in Chapter 2, where components were built out 
 
 The ‘card’ pattern that’s used at Behance – whilst rigidly organised at the pattern level – is **perfect for page level display**.
 
-As ‘information containers’, cards – self-contained ‘units of content’ – can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects, which can also be hierarchically organised; and buttons.
+As ‘information containers’, cards – self-contained ‘units of content’ – can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects (which can also be hierarchically organised); and buttons.
 
-**One of the primary benefits of a embracing cards is their adaptability.**  Cards can be **reorganised or reflowed** depending upon screen real estate available:
+**One of the primary benefits of a embracing cards is their adaptability.** Cards can be **reorganised or reflowed** depending upon the screen real estate available:
 
-+ in a desktop context we might lay out our cards (horizontally and vertically) in a grid; and
-+ in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might vertically stack cards in a layout that users can scroll down.
++ in a desktop context we might lay out our cards **horizontally and vertically, in a grid**; and
++ in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might **vertically stack cards in a layout that users can scroll down**.
 
 The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level information architecture.
 
@@ -307,14 +307,18 @@ When we consider Behance’s desktop and mobile views (above), we can see the be
 + in a desktop context, where there is more horizontal space, the grid is allowed to use more horizontal space (**on my external monitor, it displays six thumbnails**); and
 + in a mobile context, where there is less horizontal space, the grid is tighter (**on my iPhone XS Max, it displays two thumbnails**).
 
-In both cases – desktop and mobile – the card pattern, however, retains its own internal hierarchy and structure.
+In both cases – desktop and mobile – the card pattern, regardless of the viewport width, retains its own internal hierarchy and structure.
 
 
 ### From Patterns to Pages
 
+<!-- I think this section could run through the structure of more patterns, using cards as a focus. These make sense because they are objects and components pulled together. -->
+
 _/* This section isn’t done. It’s a mess that I’m fixing now (11 September). You can, however, fast-forward to the next section, where I’ve started pulling together the ideas from above as an overall case study using Dribbble. */_
 
 _/* This section will act as a bridge from patterns to pages, before I look at everything in one go, in the Dribbble case study. */_
+
+
 
 In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
 
@@ -342,7 +346,17 @@ This takes a page and shows how it’s structured and organised. Again, this cou
 
 ### Case Study: Dribbble
 
-In this case study, I'm following the approach I established in Chapter 2, of **building complexity step-by-step, from the object up**.
+<!--
+
+There's useful content here:
+
+I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
+
+In particular, I'll focus on how Dribbble uses cards – a widely used pattern that's risen in popularity in no small part thanks to its standardisation in Google's Material Design language.
+
+-->
+
+In this case study, **I’ll tie together everything I’ve covered above and explore how everything comes together** in a website – [Dribbble](https://dribbble.com) – **building complexity step-by-step, from the object up**.
 
 As we’ll see, Dribbble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively simple elements including:
 
@@ -493,6 +507,8 @@ I’ll explore the following patterns and, as with Chapter 2, I’ll provide a s
 + Notifications
 + Profile Cards
 
+<!-- I think Activity Feeds (p112 in Diana’s book) would be better. Also, these are timeline focused and I don’t have anything timeline focused at the moment. -->
+
 As I’ve noted above, **patterns are incredibly useful and can save you a considerable amount of time when you’re designing a user interface**. There’s little point in reinventing the wheel, if a pattern exists, embracing it – and modifying it if you need to – saves you from doing work that’s been done before by others.
 
 With that point stressed, let’s explore some typical user interface patterns you may find useful.
@@ -569,6 +585,7 @@ Look at Diana's book (pp83-88) for a useful step-by-step login form redesign. So
 -->
 
 
+
 {% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
 
 
@@ -603,7 +620,7 @@ When money is changing hands, it’s important to **establish a bond of trust, i
 
 Designing credit card patterns is – as you can see from this section (which is condensed) – a complicated process. In addition to the above, you’ll need to **consider providing feedback when users enter numbers incorrectly**, as they often do.
 
-Ideally error checking can be handled on the client side (before submitting the form to the server) using formulae like the [Luhn algorithm](https://www.geeksforgeeks.org/luhn-algorithm/). Put simply, it’s complicated (but when you get lost down the Luhn rabbit hole, fascinating!).
+Ideally error checking can be handled on the client side (before submitting the form to the server) using formulae like the [Luhn algorithm](https://www.geeksforgeeks.org/luhn-algorithm/), which can highlight issues ***before the user submits their payment**. Put simply, it’s complicated (but when you get lost down the rabbit hole of the Luhn algorithm, it’s also fascinating!).
 
 
 
@@ -668,8 +685,6 @@ Google’s Material Design guidelines provides an overview of **a variety of dif
 ### Activity Feed Patterns
 
 <!--
-
-I think I should change out user profiles, this is a struggle to add anything new (and if there is anything new, I’d include it above, in the Dribbble case study).
 
 I think Activity Feeds (p112 in Diana’s book) would be better. Also, these are timeline focused and I don’t have anything timeline focused at the moment.
 
