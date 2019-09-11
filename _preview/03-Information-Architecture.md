@@ -258,56 +258,52 @@ Section 2: Components → Patterns → Pages
 {% include figure.html url="/images/ch3/c3-s2-1-components-patterns-pages.png" alt="Components → Patterns → Pages" description="In the last chapter, I focused on the ‘Objects → Components’ part of the equation. In this chapter, I’m focusing on the next phase of the ‘building from the object up’ approach: ‘Components → Patterns → Pages’." %}
 
 
-Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns and pages** and demonstrate how they work together as part of a greater whole.
+Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns**, demonstrating how they can work together as part of a greater whole.
 
-The beauty of this approach, **building from the object up**, is that it allows us to establish an information architecture at every level of our design’s hierarchy: Components → Patterns → Pages → Flows.
+The beauty of this approach, **building from the object up**, is that it allows us to establish an information architecture at every level of our design’s hierarchy: **Components → Patterns → Pages → Flows**.
 
 If we consider the information architecture of the patterns we build, when we put them together to form pages, our overall information architecture falls, more or less, into place. In short, it’s important to **consider the information architecture of our content at multiple levels** as we design it.
 
-Consider a typical page, like the following from [Behance](https://www.behance.net/galleries?tracking_source=Graphic%20Design). There is an overall hierarchy and structure **at the page level**, there is also a specific hierarchy and structure **at the pattern level**.
+Consider a typical page, like the [Curated Galleries](https://www.behance.net/galleries) page at Behance. There is:
+
+1. an overall hierarchy and structure **at the page level**; and
+2. there is a specific hierarchy and structure **at the pattern level**.
+
+This hierarchy works at both: the pattern level (micro information architecture); and the page level (macro information architecture).
 
 
-{% include figure.html url="/images/ch3/c3-s2-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), before being drawn to the categories (2), before finally being drawn to the three project samples (3)." %}
+{% include figure.html url="/images/ch3/c3-s2-2-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), it’s then drawn to the categories (2), and, finally, it’s drawn to the project samples (3)." %}
 
 
-If we focus in on the category patterns they also have a clear information hierarchy at the pattern level.
+Continuing from the overall page hierarchy, our eye is drawn to **the row of thumbnails in the Graphic Design category, which follows a pattern that is repeated down [the page](https://www.behance.net/galleries)**, which includes other categories: Photography, Illustration, Interaction….
 
-At the pattern level, there is an equally clear hierarchy and structure. The eye is drawn to the title – Graphic Design – first, with its short overview paragraph, before being drawn to the ‘Follow Gallery’ call to action button. The gold ‘Gr’ bookmark at the top is, whilst satisfying a function, the least visually dominant.
+At the category level, the eye is drawn to the title – Graphic Design – first, with its short overview paragraph (“The best graphic design…”), before being drawn to **the ‘Follow Gallery’ call to action button, which – in blue – catches the eye, perfect for a call to action**. The gold ‘Gr’ bookmark at the top is the least visually dominant element, satisfying a labelling function.
 
+At the pattern level, there is an equally clear hierarchy and structure. The thumbnails provided satisfy the purpose of **previewing visual content** (a content pattern), which are in turn repeated on the page as a way of **previewing a category** (a display pattern), which – in this case – focuses on the Graphic Design category.
 
-{% include figure.html url="/images/ch3/c3-s2-behance-graphic-design-box-ia.png" alt="Behance · Curated Galleries · Graphic Design" description="This image needs numbers like the previous image: 1. The ‘Graphic Design’ title and short descriptive overview; 2. The call to action button; and 3. The ‘Gr’ bookmark." %}
-
-
-The focus of this opening section should be on something along the lines of the following image, showing the construction of a pattern (out of objects and components).
+As with the components I explored in Chapter 2, where components were built out of objects, patterns are – themselves – built out of objects and components, i.e. we’re simply increasing the complexity.
 
 
-{% include figure.html url="/images/ch3/c3-s2-graphic-design-box-construction.png" alt="Behance · Curated Galleries · Graphic Design" description="The construction of the pattern itself is relatively simple: a bookmark; a title and accompanying paragraph; and a call to action button (a component)." %}
+{% include figure.html url="/images/ch3/c3-s2-3-behance-curated-galleries-thumbnail.png" alt="Behance · Curated Galleries · Graphic Design" description="The pattern used to preview visual content has its own hierarchy and structure, which uses a ‘card’ pattern (1), that is organised by: 2. an image); 3. primary (Title (Wadowice), Studio (Studio Otwarte)) and secondary (Category (Art Direction)) content; and 4. actions components (Likes, Views, Bookmarks)." %}
 
 
-There also needs to be an image that **I've drawn** so that it reflects Chapter 2.
+The ‘card’ pattern that’s used at Behance – whilst rigidly organised at the pattern level – is **perfect for page level display**.
 
+As ‘information containers’, **cards can be used to organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects, which can also be hierarchically organised; and buttons.
 
-{% include figure.html url="/images/ch2/constructing-elements.png" alt="Placeholder Image" description="In the above example, the button component is comprised of smaller, simpler objects: a plane of colour; some typography; a circle and two lines that form an arrow." %}
+**One of the primary benefits of a embracing cards is their adaptability.**  Cards can be **reorganised or reflowed** depending upon screen real estate available:
 
-
-Take the above Behance captions and move them into body copy. Expand them out a little as body copy, then shorten the captions. (The middle one is ridiculously long.)
-
-As I read this in BBEdit, I think the above (Behance) might need to be moved to the next section: ‘Information Architecture at the Macro- and Micro-Level’.
-
-This section should probably echo Chapter 2 and show the construction of some patterns (out of objects and components) so that I continue the theme. If I want something underpinning it, I could mention the design of cards, as per the scratch file content:
-
-> As an information container, cards hold all elements such as text, rich media, buttons, etc. Based on this contents, it can adapt its size to that of different devices and screens, balancing user interface and user experience.
-> 
-> Compared to traditional UI design, a simple but intuitive advantage of card UI is that it provides a more personalized user experience, making the entire interface more clear, balanced, aesthetically pleasing, simple and stylish with good usability.
-
-One of the primary benefits of a embracing cards is their adaptability.  Cards can be **reorganised** depending upon screen real estate:
-
-+ in a desktop context we might lay out our cards in a grid; and
++ in a desktop context we might lay out our cards (horizontally and vertically) in a grid; and
 + in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might vertically stack cards in a layout that users can scroll down.
 
+_/* I’m going to end this section, by showing a visual of the cards’ flexibility from a layout point of view: side-by-side: desktop, left; mobile, right. (Using the Behance page, above.) */_
 
 
 ### Information Architecture at the Macro- and Micro-Level
+
+_/* This section isn’t done. It’s a mess that I’m fixing now (11 September). You can, however, fast-forward to the next section, where I’ve started pulling together the ideas from above as an overall case study using Dribbble. */_
+
+_/* I think I might retitle this can call it ‘From Patterns to Pages’. Then include the micro- and macro- IA in the body of the section. Perhaps continue on with Behance to avoid confusion? That way this section acts as a bridge from patterns to pages, before I look at everything in the Dribbble case study. */_
 
 In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
 
@@ -317,11 +313,9 @@ _The upsides of Behance: It’s an Adobe product and Becky will appreciate that.
 
 _Another possible site I could look at, also an Adobe site, would be [Adobe Fonts](https://fonts.adobe.com/fonts), which also uses a lot of repeating patterns.
 
-
 **Micro-Level IA**
 
 This takes something like Dribbble’s shot pattern (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
-
 
 **Macro-Level IA**
 
@@ -496,8 +490,6 @@ With that point stressed, let’s explore some typical user interface patterns y
 
 {% include figure.html url="/images/ch3/c3-s3-1-date-pickers.png" alt="Date Pickers" description="Depending on their context, date patterns come in many different shapes and sizes and levels of complexity." %}
 
-<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
-
 
 ### Date Pickers
 
@@ -526,8 +518,6 @@ What’s particularly nice about Google’s approach to its date picker pattern 
 
 
 {% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
-
-<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
 
 ### Sign-Up / Sign-In Forms
@@ -570,8 +560,6 @@ Look at Diana's book (pp83-88) for a useful step-by-step login form redesign. So
 
 {% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
 
-<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
-
 
 ### Credit Card Forms
 
@@ -609,8 +597,6 @@ Ideally error checking can be handled on the client side (before submitting the 
 
 
 {% include figure.html url="/images/ch3/c3-s3-4-notifications.png" alt="Notifications" description="Notifications are now an ever-present part of daily life. Notifications can be incredibly useful, but they can equally be incredibly irritating if used too often. Use them sparingly." %}
-
-<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. This is also a temporary caption, written at 2.05 am. -->
 
 
 ### Notifications
@@ -667,16 +653,8 @@ Google’s Material Design guidelines provides an overview of **a variety of dif
 
 {% include figure.html url="/images/ch3/c3-s3-5-user-profile.png" alt="User Profile Cards" description="User Profile cards – as I’ve explored with the Dribbble example (above) – come in a variety of content densities, from: lightweight, with a profile photograph, a name and a handful of details; to heavyweight, with a wide range of information." %}
 
-<!-- This is a temporary image, it will be replaced by an image drawn in a similar style the components I created for Chapter 2. -->
 
-<!--
-
-This pattern needs to change, I've covered it enough above. If anything, move the Dribbble user profile complexity up or into a separate Notist deck.
-
--->
-
-
-### User Profile Cards
+### Activity Feed Patterns
 
 <!--
 
