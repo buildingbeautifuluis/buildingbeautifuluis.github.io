@@ -2,9 +2,11 @@
 chapter-number: "03"
 title: "Information Architecture ≠"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (6 September), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (11 September), I’ll be releasing it section by section over the next few days.</p>
 
-<p class='text--warning'><strong>Unfortunately, I had a family crisis over the last 2–3 weeks and had to pause writing.</strong> Thankfully, the family member who was very ill is doing better, so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
+<p class='text--warning'><strong>Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first.</p>
+
+<p class='text--warning'><strong>Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be. With a few early mornings and late nights, I hope to get back on track and have this chapter finished soon.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns: reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -31,11 +33,7 @@ table-of-contents:
 
 **This is a complete rebuild of Chapter 3. I’m adding to it section by section.**
 
-Unfortunately, my neatly organised schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, for obvious reasons, I’m afraid I had to pause work on the book to put family first.
-
-Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be. I'll be working this weekend and I hope to get back on track and have this chapter finished by w/c 9 September.
-
-The images in this preview are primarily draft images that I’ll be developing further, **i.e. these are not the final images.** With that disclaimer out of the way, feel free to dive in.
+Some of the images in this preview are draft images that I’ll be developing further, **i.e. these are not the final images (particularly in Section 3).** With that disclaimer out of the way, feel free to dive in.
 
 
 
