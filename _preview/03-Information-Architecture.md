@@ -2,7 +2,7 @@
 chapter-number: "03"
 title: "Information Architecture ≠"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (11 September), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (15 September), I’ll be releasing it section by section over the next few days.</p>
 
 <p class='text--warning'>Unfortunately, my schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, I had to pause writing to focus on family. Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
 
@@ -69,7 +69,7 @@ With an overview of this chapter covered, let’s get down to business and explo
 Section 1: A Pattern Language
 -----------------------------
 
-{% include figure.html url="/images/ch3/c3-s1-1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. showing clients examples of the types of patterns we propose to use before we spend time building them." %}
+{% include figure.html url="/images/ch3/c3-s1-p1-1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. showing clients examples of the types of patterns we propose to use before we spend time building them." %}
 
 
 In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
@@ -81,7 +81,7 @@ The thinking behind pattern languages pre-dates design systems, as we currently 
 Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of expired credit cards and lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
 
-{% include figure.html url="/images/ch3/c3-s1-2-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from, in this case an example of a footer pattern from Shaun Inman’s Mint website." %}
+{% include figure.html url="/images/ch3/c3-s1-p1-2-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from, in this case an example of a footer pattern from Shaun Inman’s Mint website." %}
 
 
 **Pattern Tap collected examples of user interface design patterns**, largely as applied to the web. As Smith put it:
@@ -105,7 +105,7 @@ As with my note of caution about the use of Dribbble in Chapter 2, the intention
 In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but **other pattern libraries have surfaced to take its place**.
 
 
-{% include figure.html url="/images/ch3/c3-s1-3-ui-patterns-detail.png" alt="UI Patterns (Detail)" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
+{% include figure.html url="/images/ch3/c3-s1-p1-3-ui-patterns-detail.png" alt="UI Patterns (Detail)" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
 
 
 [UI Patterns](http://ui-patterns.com) – created by Anders Toxboe, a Danish web developer – is an extensive collection of design patterns gathered together in one, centralised location. As the detail (above) shows, it collects **User Interface Design Patterns** – navigation, dealing with data, onboarding… – so that designers can explore pre-existing examples of solutions to user interface problems.
@@ -139,7 +139,7 @@ Alexander’s intention was **to codify an approach towards building** (in an ar
 From these patterns, one could build everything from a house (organising people) to a region (organising towns). ‘A Pattern Tap’ remains a central text defining architectural theory, but its impact extends far beyond the realm of architecture.
 
 
-{% include figure.html url="/images/ch3/c3-s1-4-small-work-groups.png" alt="A Pattern Language" description="Alexander’s patterns for working spaces emphasise the need for privacy: “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate." %}
+{% include figure.html url="/images/ch3/c3-s1-p2-1-small-work-groups.png" alt="A Pattern Language" description="Alexander’s patterns for working spaces emphasise the need for privacy: “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate." %}
 
 
 You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
@@ -157,7 +157,7 @@ The result is a book that is structured in a similar manner to hypertext, where 
 When you consider that Alexander’s book was published in 1977 – **a decade and a half before the birth of the web** – it’s clear that the book was far ahead of its time. Indeed, Alexander’s book would lend itself well to **a new, web-based edition that takes advantage of the extensive cross-referencing that he built into the book**.
 
 
-{% include figure.html url="/images/ch3/c3-s1-5-slate-do-you-see-a-pattern.png" alt="Slate: The Enduring Influence of Architect Christopher Alexander" description="‘Do You See a Pattern?’, published by Slate, highlights the impact Christopher Alexander’s thinking has had on software design and user interface design." %}
+{% include figure.html url="/images/ch3/c3-s1-p2-2-slate-do-you-see-a-pattern.png" alt="Slate: The Enduring Influence of Architect Christopher Alexander" description="‘Do You See a Pattern?’, published by Slate, highlights the impact Christopher Alexander’s thinking has had on software design and user interface design." %}
 
 
 Slate highlights the widespread impact of ‘A Pattern Language’ in an excellent article from 2009, titled [‘Do You See a Pattern?’](https://slate.com/culture/2009/12/the-enduring-influence-of-architect-christopher-alexander-author-of-a-pattern-language.html), which explores Alexander’s enduring influence:
@@ -197,7 +197,7 @@ These can be useful for showing clients or project partners **examples of how ty
 In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** Here is an example, analysing [Netlify’s Credit Card Modal Pattern](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal).
 
 
-{% include figure.html url="/images/ch3/c3-s1-6-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
+{% include figure.html url="/images/ch3/c3-s1-p3-1-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
 
 
 <!--
@@ -251,7 +251,7 @@ When I re-read the above, I think this should go somewhere, the problem is that 
 Section 2: Components → Patterns → Pages
 ----------------------------------------
 
-{% include figure.html url="/images/ch3/c3-s2-1-components-patterns-pages.png" alt="Components → Patterns → Pages" description="In the last chapter, I focused on the ‘Objects → Components’ part of the equation. In this chapter, I’m focusing on the next phase of the ‘building from the object up’ approach: ‘Components → Patterns → Pages’." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-1-components-patterns-pages.png" alt="Components → Patterns → Pages" description="In the last chapter, I focused on the ‘Objects → Components’ part of the equation. In this chapter, I’m focusing on the next phase of the ‘building from the object up’ approach: ‘Components → Patterns → Pages’." %}
 
 
 Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns**, demonstrating how they can work together as part of a greater whole.
@@ -260,15 +260,35 @@ The beauty of this approach, **building from the object up**, is that it allows 
 
 If we consider the information architecture of the patterns we build, when we put them together to form pages, our overall information architecture falls, more or less, into place. In short, it’s important to **consider the information architecture of our content at multiple levels** as we design it.
 
+As with the components I explored in Chapter 2, where components were built out of objects, **patterns are – themselves – built out of objects and components**, we’re simply increasing the complexity.
+
+
+{% include figure.html url="/images/ch3/c3-s2-p1-2-simple-pattern-noma.png" alt="Restaurant Recommendation Pattern" description="This pattern, though at first glance quite complex, is really quite simple. The pattern is contained in a card (1), with an image (2), an overview of the restaurant (3) and a star rating and price indication (4)." %}
+
+More copy here… with some more complex examples.
+
+<!--
+
+In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
+
+I'll add a little more complexity with an example from Apple. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
+
+-->
+
+
+### From Patterns to Pages
+
+With some patterns explored, it’s time to explore how **we can use patterns, fitting them together – like the pieces of a jigsaw – to create pages**.
+
 Consider a typical page, like the [Curated Galleries](https://www.behance.net/galleries) page at Behance (below). It’s organised at every level, featuring:
 
 1. an overall hierarchy and structure **at the page level**; and
 2. a specific hierarchy and structure **at the pattern level**.
 
-This hierarchy works at both a pattern level (a micro information architecture); and the page level (a macro information architecture).
+This hierarchy works at both: a pattern level (micro information architecture); and the page level (macro information architecture).
 
 
-{% include figure.html url="/images/ch3/c3-s2-2-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), it’s then drawn to the categories (2), and, finally, it’s drawn to the project thumbnails (3)." %}
+{% include figure.html url="/images/ch3/c3-s2-p2-1-behance-curated-galleries.png" alt="Behance · Curated Galleries" description="At the page level, Behance’s Curated Galleries page has a clear hierarchy and structure. The eye is drawn to the title first (1), it’s then drawn to the categories (2), and, finally, it’s drawn to the project thumbnails (3)." %}
 
 
 Continuing from the overall page hierarchy, our eye is drawn to **the row of thumbnails in the Graphic Design category, which follows a pattern that is repeated down [the page](https://www.behance.net/galleries)**, which includes other categories: Photography, Illustration, Interaction….
@@ -277,10 +297,8 @@ At the category level, the eye is drawn to the title – Graphic Design – firs
 
 At the pattern level, there is an equally clear hierarchy and structure. The thumbnails provided satisfy the purpose of **previewing visual content** (a content pattern), which are in turn repeated on the page as a way of **previewing content from within a category** (a display pattern), which – in this case – focuses on the Graphic Design category.
 
-As with the components I explored in Chapter 2, where components were built out of objects, **patterns are – themselves – built out of objects and components**, we’re simply increasing the complexity.
 
-
-{% include figure.html url="/images/ch3/c3-s2-3-behance-curated-galleries-thumbnail.png" alt="Behance · Curated Galleries · Graphic Design" description="The pattern used to preview visual content on Behance has its own hierarchy and structure, which uses a ‘card’ pattern (1), that is organised by: 2. an image; 3. primary content (Title and Studio) and secondary content (Category); and 4. actions components (Likes, Views, Bookmarks)." %}
+{% include figure.html url="/images/ch3/c3-s2-p2-2-behance-curated-galleries-thumbnail.png" alt="Behance · Curated Galleries · Graphic Design" description="The pattern used to preview visual content on Behance has its own hierarchy and structure, which uses a ‘card’ pattern (1), that is organised by: 2. an image; 3. primary content (Title and Studio) and secondary content (Category); and 4. actions components (Likes, Views, Bookmarks)." %}
 
 
 The ‘card’ pattern that’s used at Behance – whilst rigidly organised at the pattern level – is **perfect for page level display**.
@@ -295,7 +313,7 @@ As ‘information containers’, cards – self-contained ‘units of content’
 The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level information architecture.
 
 
-{% include figure.html url="/images/ch3/c3-s2-4-behance-curated-galleries-desktop-mobile.png" alt="Behance · Curated Galleries: Desktop and Mobile View" description="On the left, on a desktop device with a wider viewport width, the thumbnails are organised horizontally and vertically in a grid. On the right, on a mobile device with a narrower viewport width, the thumbnails are organised vertically, in a narrower grid." %}
+{% include figure.html url="/images/ch3/c3-s2-p2-3-behance-curated-galleries-desktop-mobile.png" alt="Behance · Curated Galleries: Desktop and Mobile View" description="On the left, on a desktop device with a wider viewport width, the thumbnails are organised horizontally and vertically in a grid. On the right, on a mobile device with a narrower viewport width, the thumbnails are organised vertically, in a narrower grid." %}
 
 
 When we consider Behance’s desktop and mobile views (above), we can see the beauty of adopting a card pattern for the site’s thumbnail content:
@@ -306,53 +324,11 @@ When we consider Behance’s desktop and mobile views (above), we can see the be
 In both cases – desktop and mobile – the card pattern, regardless of the viewport width, retains its own internal hierarchy and structure.
 
 
-### From Patterns to Pages
-
-<!-- I think this section could run through the structure of more patterns, using cards as a focus. These make sense because they are objects and components pulled together. -->
-
-_/* This section isn’t done. It’s a mess that I’m fixing now (11 September). You can, however, fast-forward to the next section, where I’ve started pulling together the ideas from above as an overall case study using Dribbble. */_
-
-_/* This section will act as a bridge from patterns to pages, before I look at everything in one go, in the Dribbble case study. */_
-
-
-
-In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
-
-_/* Given that this is a book commissioned by Adobe, I might use Behance as an example._
-
-_The upsides of Behance: It’s an Adobe product and Becky will appreciate that. The downsides of Behance: It might be a little too similar to Dribbble, but that might not be a bad thing as it might help to underline the fact that we see this approach used by great designers, a great deal._
-
-_Another possible site I could look at, also an Adobe site, would be [Adobe Fonts](https://fonts.adobe.com/fonts), which also uses a lot of repeating patterns.
-
-**Micro-Level IA**
-
-This takes something like Dribbble’s shot pattern (a card, **but not from Dribbble**) and shows how it’s structured. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
-
-**Macro-Level IA**
-
-This takes a page and shows how it’s structured and organised. Again, this could be Behance or Adobe Fonts. Adobe Fonts, in particular, has some lovely varying patterns used to manage the complexity of typographic samples:
-
-+ Sample of Typeface
-+ Typeface Name
-+ Foundry
-+ Number of Fonts
-+ Call to Action
-
-
-
 ### Case Study: Dribbble
 
-<!--
-
-There's useful content here:
-
-I’ll take a website, [Dribbble](https://dribbble.com), which should be familiar to you, and **I’ll explore its patterns and its pages and how they relate to each other**.
-
-In particular, I'll focus on how Dribbble uses cards – a widely used pattern that's risen in popularity in no small part thanks to its standardisation in Google's Material Design language.
-
--->
-
 In this case study, **I’ll tie together everything I’ve covered above and explore how everything comes together** in a website – [Dribbble](https://dribbble.com) – **building complexity step-by-step, from the object up**.
+
+In particular, I’ll focus on how **Dribbble uses cards**, a widely used approach, that is useful for organising complex information.
 
 As we’ll see, Dribbble’s pages – although on the surface relatively complicated – are comprised of a wide range of relatively simple elements including:
 
@@ -369,7 +345,7 @@ If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler) (
 + a shot pattern that is used multiple times on the right-hand side of the page (3: in a non-active state, and 4: in an active state).
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-profile-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘navigation pattern’; 2. a ‘profile pattern’; 3. a ‘shot pattern’; and 4. a shot pattern in an active state with metadata showing at the bottom." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-1-dribbble-profile-page.png" alt="Dribbble’s Profile Page" description="Dribbble’s profile page is comprised of a series of patterns: 1. a ‘navigation pattern’; 2. a ‘profile pattern’; 3. a ‘shot pattern’; and 4. a shot pattern in an active state with metadata showing at the bottom." %}
 
 
 Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own logical structure.
@@ -377,7 +353,7 @@ Each of these patterns has been **designed to communicate different types of inf
 This is an important point to note and it’s one that’s worth emphasising. **We can – and should – consider information architecture at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** information architecture, so too do the different patterns on the pages.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
 
 <!-- Before publication, re-screenshot this and change the URL to mrmurphy.com. -->
 
@@ -401,7 +377,7 @@ This **pattern level information architecture** groups related content – all a
 Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement over time) has gone into the design of the site’s ‘shot pattern’**. Shots are, after all, the primary focus of Dribbble.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014 (!) when I ran my design conference, Break. Sorry, Dribbble!)" %}
+{% include figure.html url="/images/ch3/c3-s2-p3-3-dribbble-shot-pattern.png" alt="Dribbble’s Shot Pattern" description="Dribbble’s shot pattern in its hover state (1) and non-hover state (2). (I’ll be changing this image with some new Dribbble shots to my account. Yikes, I last posted in 2014 (!) when I ran my design conference, Break. Sorry, Dribbble!)" %}
 
 <!-- Before publication, re-screenshot this page with some more up-to-date shots (from this book for added meta). -->
 
@@ -423,7 +399,7 @@ This shot pattern is used in a number of different locations throughout the Drib
 + The [Playoffs](https://dribbble.com/shots?list=playoffs) Pages
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-4-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
 
 
 The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of building patterns as a core part of your design process, namely: **reusability and consistency**.
@@ -440,7 +416,7 @@ If we dive a little deeper and explore Dribbble’s shot pattern in more depth, 
 4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (4).
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern has a number of ‘states’: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-5-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern has a number of ‘states’: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
 
 
 It should be obvious, after reading Chapter 2, that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the pattern.
@@ -457,7 +433,7 @@ On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot 
 When we focus on featured shots on Dribbble we see a different set of patterns. From a functional perspective, clicking on a shot preview opens it in **a modal dialog** – a dialog, or window, that appears **on top of the main window** – focusing your attention on the shot in question and presenting it at a larger size.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot.png" alt="Dribbble’s Featured Shot Pattern" description="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-6-dribbble-featured-shot.png" alt="Dribbble’s Featured Shot Pattern" description="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
 
 
 This pattern – which uses most of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: the shot details, including ‘Save’ and ‘Like’ buttons (1); the shot itself at a larger size (2); and any additional details about the shot that the designer has provided (3).
@@ -469,7 +445,7 @@ Scrolling down the page reveals additional information about the shot thanks to 
 + links to other shots by the designer in question.
 
 
-{% include figure.html url="/images/ch3/c3-s2-dribbble-featured-shot-details.png" alt="Dribbble’s Featured Shot Pattern Meta Data" description="Underneath the image, Dribbble provides a wide range of meta data about the shot (1) and links to further shots by the designer in question (2)." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-7-dribbble-featured-shot-details.png" alt="Dribbble’s Featured Shot Pattern Meta Data" description="Underneath the image, Dribbble provides a wide range of meta data about the shot (1) and links to further shots by the designer in question (2)." %}
 
 
 Hopefully this case study has demonstrated **the power of embracing user interface patterns** as a core part of your user interface design strategy. By incorporating **patterns built from objects and components** into your user interface toolbox, you reap countless benefits, including:
@@ -501,9 +477,7 @@ I’ll explore the following patterns and, as with Chapter 2, I’ll provide a s
 + Register / Sign-In Forms
 + Credit Card Forms
 + Notifications
-+ Profile Cards
-
-<!-- I think Activity Feeds (p112 in Diana’s book) would be better. Also, these are timeline focused and I don’t have anything timeline focused at the moment. -->
++ Activity Feeds
 
 As I’ve noted above, **patterns are incredibly useful and can save you a considerable amount of time when you’re designing a user interface**. There’s little point in reinventing the wheel, if a pattern exists, embracing it – and modifying it if you need to – saves you from doing work that’s been done before by others.
 
@@ -511,7 +485,7 @@ With that point stressed, let’s explore some typical user interface patterns y
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-1-date-pickers.png" alt="Date Pickers" description="Depending on their context, date patterns come in many different shapes and sizes and levels of complexity." %}
+{% include figure.html url="/images/ch3/c3-s3-p1-date-pickers.png" alt="Date Pickers" description="Depending on their context, date patterns come in many different shapes and sizes and levels of complexity." %}
 
 
 ### Date Pickers
@@ -540,7 +514,7 @@ What’s particularly nice about Google’s approach to its date picker pattern 
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
+{% include figure.html url="/images/ch3/c3-s3-p2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
 
 
 ### Sign-Up / Sign-In Forms
@@ -582,7 +556,7 @@ Look at Diana's book (pp83-88) for a useful step-by-step login form redesign. So
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
+{% include figure.html url="/images/ch3/c3-s3-p3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
 
 
 ### Credit Card Forms
@@ -620,32 +594,10 @@ Ideally error checking can be handled on the client side (before submitting the 
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-4-notifications.png" alt="Notifications" description="Notifications are now an ever-present part of daily life. Notifications can be incredibly useful, but they can equally be incredibly irritating if used too often. Use them sparingly." %}
+{% include figure.html url="/images/ch3/c3-s3-p4-notifications.png" alt="Notifications" description="Notifications are now an ever-present part of daily life. Notifications can be incredibly useful, but they can equally be incredibly irritating if used too often. Use them sparingly." %}
 
 
 ### Notifications
-
-<!--
-
-Look at this:
-
-https://material.io/design/platform-guidance/android-notifications.html#anatomy-of-a-notification
-
-Even a simple notification pattern can be logically structured at the Micro-IA level:
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1S1g0uIqq8cRvxi60yyYj_L2X8YABU_A6%2Fas-notifications-anatomy-2.png
-
-Look at these Material Design videos on notifications at the system level. The first is subtle (an icon in the status bar). The second is more prominent with a notification peek onto the current screen.
-
-1. An icon in the status bar:
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1CfZrxDhHfWFStu9tKiqD6MQHAWpAO3CR%2Fnotifications-arrival-1.mp4
-
-2. Peek (sliding in from top, automatically sliding out):
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1R6V5oqkr0dbbstx5tvR5R_IjEg6kwT4x%2Fnotifications-arrival-2.mp4
-
--->
 
 Notifications are useful to alert users and **draw their attention to important updates or messages**.
 
@@ -673,24 +625,47 @@ Google’s Material Design guidelines provides an overview of **a variety of dif
 + **[Banners](https://material.io/components/banners/):** Persistent notifications (that need to be dismissed) that provide actions for users to address. (Medium Priority)
 + **[Dialogs](https://material.io/components/dialogs/dialogs.html):** Notifications that appear on top of app content, providing critical information. On appearing, dialogs disable all app functionality and remain on screen until a required action has been taken, or they have been confirmed of dismissed. (High Priority)
 
+<!--
+
+Look at this:
+
+https://material.io/design/platform-guidance/android-notifications.html#anatomy-of-a-notification
+
+Even a simple notification pattern can be logically structured at the Micro-IA level:
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1S1g0uIqq8cRvxi60yyYj_L2X8YABU_A6%2Fas-notifications-anatomy-2.png
+
+Look at these Material Design videos on notifications at the system level. The first is subtle (an icon in the status bar). The second is more prominent with a notification peek onto the current screen.
+
+1. An icon in the status bar:
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1CfZrxDhHfWFStu9tKiqD6MQHAWpAO3CR%2Fnotifications-arrival-1.mp4
+
+2. Peek (sliding in from top, automatically sliding out):
+
+https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1R6V5oqkr0dbbstx5tvR5R_IjEg6kwT4x%2Fnotifications-arrival-2.mp4
+
+-->
 
 
-{% include figure.html url="/images/ch3/c3-s3-5-user-profile.png" alt="User Profile Cards" description="User Profile cards – as I’ve explored with the Dribbble example (above) – come in a variety of content densities, from: lightweight, with a profile photograph, a name and a handful of details; to heavyweight, with a wide range of information." %}
+
+{% include figure.html url="/images/ch3/c3-s3-p5-user-profile.png" alt="User Profile Cards" description="User Profile cards – as I’ve explored with the Dribbble example (above) – come in a variety of content densities, from: lightweight, with a profile photograph, a name and a handful of details; to heavyweight, with a wide range of information." %}
 
 
-### Activity Feed Patterns
+### Activity Feeds
+
+I’m replacing the above image shortly, for an example of an [activity feed](https://getstream.io/activity-feed-design/). I think I covered user profiles enough in the Dribbble case study. I’m working on this just now.
 
 <!--
 
 I think Activity Feeds (p112 in Diana’s book) would be better. Also, these are timeline focused and I don’t have anything timeline focused at the moment.
 
+Use this:
+
+https://getstream.io/activity-feed-design/
+
 -->
 
-As I noted when I explored the Dribbble user profile in the previous section, user profile cards come in **a variety of content densities**, from: **lightweight**, with a profile photograph, a name and a handful of details; to **heavyweight**, with a wide range of information.
-
-The Dribbble example (explored above) was sub-divided into three distinct sections, but – in fact – if a user includes ‘Projects’ in their settings and upgrades to a Pro account, adding hiring details, a profile can quickly become extremely information dense.
-
-It’s a testament to Dribbble’s design team that – despite the complexity – the profile remains legible and parseable.
 
 
 
@@ -699,7 +674,7 @@ Section 4: Information Architecture
 
 <!--
 
-Donna Spence’s Five Simple Steps book explains this well (pp3-4 are great), essentially explaining that Information Architecture is all about…
+Donna Spencer’s Five Simple Steps book explains this well (pp3-4 are great), essentially explaining that Information Architecture is all about…
 
 -->
 
