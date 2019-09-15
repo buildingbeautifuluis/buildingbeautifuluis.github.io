@@ -181,7 +181,7 @@ Alexander has created **an index of patterns which designers (architects) can co
 
 ### Many patterns form a language…
 
-Just as Alexander created a 1,171 page book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own pattern libraries, gathering examples of user interface patterns that work**.
+Just as Alexander created a book including 253 cross-referenced patterns, so too, **we – as user interface designers – can create our own pattern libraries, gathering examples of user interface patterns that work**.
 
 Put simply: We can **build our own libraries of patterns**, similar to Matthew Smith’s work with Pattern Tap. These libraries will prove incredibly valuable over time as you encounter new problems and new challenges in your user interface design.
 
@@ -265,13 +265,18 @@ As with the components I explored in Chapter 2, where components were built out 
 
 {% include figure.html url="/images/ch3/c3-s2-p1-2-simple-pattern-noma.png" alt="Restaurant Recommendation Pattern" description="This pattern, though at first glance quite complex, is really quite simple. The pattern is contained in a card (1), with an image (2), an overview of the restaurant (3) and a star rating and price indication (4)." %}
 
-More copy here… with some more complex examples.
+
+I'll expand upon this shortly, with some progressively more complex examples like the following from Apple's Apple Trade In program. Again, although this looks complex, it's really just a set of objects (a progress indicator and a button (both examples of components, as I explored in Chapter 2) and some typography.
+
+
+{% include figure.html url="/images/ch3/c3-s2-p1-3-complex-pattern-apple.png" alt="Apple Trade In · Modal Dialog" description="This pattern, whilst more complex than the first, really just levels up the complexity a little more." %}
+
+
+The example from Apple (above), levels up the complexity a little, drawing together: an icon to close the modal dialog (2); a progress indicator (3); a number of typographic elements (4, 6); a form field (5); and a call to action button (7).
 
 <!--
 
 In this section, I’ll widen the lens out and look at some other examples of sites use pattern-driven approaches. By doing so, I’ll underline how widespread the idea of embracing patterns is.
-
-I'll add a little more complexity with an example from Apple. Draw attention to the buttons and typography so that I can show how components and objects come together in these micro-level IA patterns.
 
 -->
 
