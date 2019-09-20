@@ -256,7 +256,7 @@ The restaurant listing pattern (above) is contained in a card (1), gathering tog
 
 Establishing a pattern for this content requires us to **analyse the information supplied and consider its overall structure and information architecture**.
 
-The beauty of this approach is that **this pattern can be re-used, for other restaurant listings**, resulting in a more efficient and consistent interface. We might gather together a series of restaurant listings, for example, where we re-use the pattern to build out our interface (below), gathering a group of listings.
+The beauty of this approach is that **this pattern can be re-used, for other restaurant listings**, resulting in a more consistent interface that’s efficient to design. We might gather together a series of restaurant listings, for example, where we re-use the pattern to build out our interface (below), gathering a group of listings.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p1-3-simple-pattern-restaurant-listings.png" alt="Restaurant Listings Pattern" description="By reusing the restaurant listing pattern (above), we can quickly organise a group of listings, ensuring they are clearly structured and easy to understand." %}
@@ -271,7 +271,7 @@ Whilst this might look complicated at first glance, if we **break the pattern do
 + a section where we present actions (3).
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-2-simple-pattern-noma.png" alt="Restaurant Recommendation Pattern" description="THIS ISN’T THE RIGHT IMAGE. IT WILL BE REPLACED WITH A MORE COMPLICATED PATTERN THAT I’M WORKING ON NOW." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. The pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of calls-to-action (a ‘READ MORE’ button and a button to favourite the option." %}
 
 
 We see these kinds of ‘content clusters’ in both desktop and mobile interfaces, **where information needs to me structured into organised groupings**. This pattern-driven approach is used, for example, in Apple’s [Apple Trade In](https://www.apple.com/shop/trade-in) programme page (below).
