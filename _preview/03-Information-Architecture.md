@@ -521,7 +521,9 @@ Regardless of your requirements, you’ll almost certainly need to consider:
 + how users move between different months and years; and
 + managing error states (for example, if a user enters a return date that’s **before** the departure date).
 
-Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different base, hover and error states). Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read, it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
+Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different base, hover and error states.
+
+Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read, it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
 
 Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
 
@@ -530,6 +532,8 @@ What’s particularly nice about Google’s approach to its date picker pattern 
 
 
 {% include figure.html url="/images/ch3/c3-s3-p2-sign-up-sign-in.png" alt="Sign-Up / Sign-In Forms" description="When designing Sign-Up and Sign-In forms, it’s best to keep the forms separate. In this example, clicking on the greyed out option switches the form. (Example: Cotton Bureau)" %}
+
+<!-- For the final book, this would be nice animated in AfterEffects. -->
 
 
 ### Sign-Up / Sign-In Forms
@@ -639,28 +643,6 @@ Google’s Material Design guidelines provides an overview of **a variety of dif
 + **[Snackbars](https://material.io/components/snackbars/):** Temporary notifications that provide brief messages about app processes at the bottom of the screen. (Low Priority) <!-- Don’t require user input to disappear. -->
 + **[Banners](https://material.io/components/banners/):** Persistent notifications (that need to be dismissed) that provide actions for users to address. (Medium Priority)
 + **[Dialogs](https://material.io/components/dialogs/dialogs.html):** Notifications that appear on top of app content, providing critical information. On appearing, dialogs disable all app functionality and remain on screen until a required action has been taken, or they have been confirmed of dismissed. (High Priority)
-
-<!--
-
-Look at this:
-
-https://material.io/design/platform-guidance/android-notifications.html#anatomy-of-a-notification
-
-Even a simple notification pattern can be logically structured at the Micro-IA level:
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1S1g0uIqq8cRvxi60yyYj_L2X8YABU_A6%2Fas-notifications-anatomy-2.png
-
-Look at these Material Design videos on notifications at the system level. The first is subtle (an icon in the status bar). The second is more prominent with a notification peek onto the current screen.
-
-1. An icon in the status bar:
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1CfZrxDhHfWFStu9tKiqD6MQHAWpAO3CR%2Fnotifications-arrival-1.mp4
-
-2. Peek (sliding in from top, automatically sliding out):
-
-https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1R6V5oqkr0dbbstx5tvR5R_IjEg6kwT4x%2Fnotifications-arrival-2.mp4
-
--->
 
 
 
