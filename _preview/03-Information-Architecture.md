@@ -54,7 +54,7 @@ To design an effective information architecture, **we need to consider the hiera
 + The Page Level; and
 + The Site Level *
 
-The components and patterns we design – the content elements that make up our pages – **will have their own information architecture that we need to consider at the micro-level**. As we design patterns for user interfaces we need to consider how their content is organised, hierarchically.
+The components and patterns we design – the content elements that make up our pages – **will have their own information architecture, that we need to consider at the micro-level**. As we design patterns for user interfaces, we need to consider how their content is organised, hierarchically.
 
 Similarly, pages will have a page-level information architecture, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
 
@@ -69,10 +69,10 @@ With an overview of this chapter covered, let’s get down to business and explo
 Section 1: A Pattern Language
 -----------------------------
 
-{% include figure.html url="/images/ch3/c3-s1-p1-1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. showing clients examples of the types of patterns we propose to use before we spend time building them." %}
+{% include figure.html url="/images/ch3/c3-s1-p1-1-pattern-tap-collections.png" alt="Pattern Tap > Collections (2008)" description="By drawing upon ‘pattern libraries’ – like Pattern Tap (2008) – for the patterns we need to design, we can save time in the design process by: 1. Drawing on tried and tested methods that have been proven to work; and 2. Showing clients examples of the types of patterns we propose to use before we spend time building them." %}
 
 
-In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘Components → **Patterns → Pages…**’ part of the interface equation.
+In Chapter 2 I introduced the idea of Design Systems. In this chapter I’d like to introduce **the idea of patterns and ‘pattern languages’** as I begin to explore the ‘**Patterns → Pages…**’ part of the interface equation.
 
 **A pattern language is a system for cataloguing and describing good design practice.** The term was coined in 1977 by the architect, Christopher Alexander (who I’ll return to shortly). Essentially pattern languages are used to gather **tried and tested solutions to design problems**, for example, a login pattern that’s been shown to work through thorough testing.
 
@@ -81,7 +81,7 @@ The thinking behind pattern languages pre-dates design systems, as we currently 
 Pattern languages, as they relate to user interface design, were popularised by Pattern Tap, an influential website established in 2008 by the prodigiously talented Matthew Smith, **which popularised the thinking behind pattern langauges and design patterns**. Sadly, Pattern Tap is no more, lost – as so many websites are – to the ravages of expired credit cards and lapsed domain names. You can, however, explore it via the [Wayback Machine](https://web.archive.org/web/20081102075428/http://patterntap.com/collections/).
 
 
-{% include figure.html url="/images/ch3/c3-s1-p1-2-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from, in this case an example of a footer pattern from Shaun Inman’s Mint website." %}
+{% include figure.html url="/images/ch3/c3-s1-p1-2-pattern-tap-collections-footers.png" alt="Pattern Tap > Collections > Footers (2008)" description="Pattern Tap saved you re-inventing the user interface wheel by gathering a wealth of design patterns that designers could learn from and draw inspiration from. In this case an example of a footer pattern from Shaun Inman’s Mint website." %}
 
 
 **Pattern Tap collected examples of user interface design patterns**, largely as applied to the web. As Smith put it:
@@ -102,7 +102,9 @@ Imagine you had to include a form on a website you were creating. **Pattern Tap 
 
 As with my note of caution about the use of Dribbble in Chapter 2, the intention of **Pattern Tap wasn’t to provide designs to raid for aesthetics**, it was to provide **different ways of tackling a design problem – using pre-existing patterns – that designers could learn from**.
 
-In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but **other pattern libraries have surfaced to take its place**.
+In essence, Pattern Tap was focused more on design principles – methods and approaches – and less on surface-level, aesthetic inspiration. Pattern Tap may have disappeared into the great big website graveyard in the sky, but its resources were [acquired by ZURB in 2012](https://zurb.com/blog/we-ve-acquired-pattern-tap) and it lives on – in a new form – at [ZURB Library](https://patterntap.com/patterntap), a set of resources that ZURB has been gathering since 1998.
+
+In addition to ZURB’s Pattern Tap, **other pattern libraries have surfaced to gather patterns in single, centralised locations.**.
 
 
 {% include figure.html url="/images/ch3/c3-s1-p1-3-ui-patterns-detail.png" alt="UI Patterns (Detail)" description="UI Patterns offers a wealth of solutions to commonly recurring design problems. As its founder, Anders Toxboe explains: “Design patterns are standard reference points for the experienced user interface designer.”" %}
@@ -139,12 +141,12 @@ Alexander’s intention was **to codify an approach towards building** (in an ar
 From these patterns, one could build everything from a house (organising people) to a region (organising towns). ‘A Pattern Tap’ remains a central text defining architectural theory, but its impact extends far beyond the realm of architecture.
 
 
-{% include figure.html url="/images/ch3/c3-s1-p2-1-small-work-groups.png" alt="A Pattern Language" description="Alexander’s patterns for working spaces emphasise the need for privacy: “When asked to compare five different possible layouts for offices (above), workers consistently chose those layouts in which workgroups were smallest.” Those questioned prefer the working spaces on the left, where work is more intimate." %}
+{% include figure.html url="/images/ch3/c3-s1-p2-1-alexander-patterns.png" alt="A Pattern Language" description="Alexander’s patterns include everything from patterns for Flexible Office Space (Pattern 146) to patterns to accommodate a Master and Apprentice (Pattern 83)." %}
 
 
 You might be wondering why I’ve dedicated a section of a book on **user interface design** to an **architect**. That would be a good question.
 
-I believe Alexander’s original work (even in architecture, an entirely different discipline) needs to be included, not least as **Alexander is regarded as the father of the pattern language movement in computer science**, which has influenced user interface design as we understand it today.
+I believe Alexander’s original work (even in architecture, an entirely different discipline) needs to be included because **Alexander is regarded as the father of the pattern language movement in computer science**, which has influenced user interface design as we understand it today.
 
 As the wonderfully archaic [patternlanguage.com](http://www.patternlanguage.com) explains:
 
@@ -170,7 +172,7 @@ The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pag
 
 > When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments…
 
-We could imagine similar words being used to describe the design of pages, which have to function at a practical level, but which can be embellished at a component and pattern level.
+We could imagine similar words being used to describe the design of pages, which have to function at a practical level, but which can be embellished at a pattern and component level.
 
 Hopefully, as you read this, you’ll understand the parallel.
 
@@ -189,32 +191,22 @@ There is always downtime in a studio. You can use that time to let off steam and
 
 It’s a good idea to get into the habit of **collecting examples of the different design patterns** that you either:
 
-+ create on projects, or
++ create for projects, or
 + discover during your research.
 
-These can be useful for showing clients or project partners **examples of how typical design problems are addressed**. (A series of credit card patterns if you’re developing a digital store, for example.)
+These can be useful for showing clients or project partners, using them as **examples of how typical design problems are addressed**. (A series of credit card patterns if you’re developing a digital store, for example.)
 
-In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** Here is an example, analysing [Netlify’s Credit Card Modal Pattern](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal).
+In my work, I keep collections of example patterns organised by folders. **For each pattern, I create a new Keynote slidedeck and organise all of my screenshots accompanied by comments.** Here’s an example, analysing [Netlify’s Credit Card Modal Pattern](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal).
 
 
 {% include figure.html url="/images/ch3/c3-s1-p3-1-netlify-credit-card-modal.png" alt="Netlify’s Credit Card Modal Pattern" description="An example of one of a series of pattern library slidedecks that I’ve created for my own reference in my studio. (Essentially my own Pattern Tap.)" %}
 
 
-<!--
-
-At this point, I’ll link to some of the examples I’ve collected (in my Mr Murphy Pattern Library), so I can **show** readers what I’m talking about. Show:
-
-1. Drone Deploy Sign Up Form (or) Netlify Credit Card Form
-2. App Footer Nav Bars /* What’s Apple’s term for this? */
-3. Twitter (and other) app splash screens / loaders.
-
--->
-
 By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in Chapter 2) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
 
-Before you build something (which is a time-consuming and expensive process), **it helps to find relevant examples from your library, allowing you to visualise how user interface elements might look**.
+Before you build something (which is a time-consuming and expensive process), **it helps to find relevant examples from your library, allowing you to visualise how aspects of your user interface might look**.
 
-When you build your pattern library, it’s important to **establish some conventions that you follow**. At the very least, each pattern entry should have:
+When you build your pattern library, **it’s important to establish some conventions that you follow**. At the very least, each pattern entry should have:
 
 - a clear name;
 - an image;
@@ -226,25 +218,15 @@ Applying this to the above Netlify credit card modal dialog, this might be:
 + **Name:** Netlify Credit Card Modal
 + **Image:** [Modal Screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png)
 + **Description:** Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you enter your card details on the left-hand side, the credit card updates, showing your card details on the right-hand side.
-+ **Related Patterns:** Here you might gather links to other payment forms you’ve designed for projects, or to ones you’ve discovered in your research.
++ **Related Patterns:** Here you might gather links to other payment forms you’ve designed for projects, or to others you’ve discovered in your research.
+
+<!-- It would be nice to add a link to another example here: [others you’ve discovered in your research](#). -->
 
 Every entry in your system is a single design pattern and each of your documented patterns should explain why that solution works well in the pattern’s contexts.
 
-**Using our objects and components to create patterns that we organise on pages is where things get interesting.** Essentially, we’re building a library of consistently designed elements that we’ll then combine in different ways to create the pages of our interfaces.
+**Using the objects and components, which I explored in Chapter 2, to create patterns that we organise on pages is where things get interesting.** Essentially, we’re building a library of consistently designed elements that we’ll then combine in different ways to create the pages of our interfaces.
 
 By starting from the object and working up towards components and patterns, we can build **a consistent set of user interface elements that we can then further orchestrate within pages, as I’ll explore in the next section.**
-
-<!--
-
-Something that might be worth touching upon – in the above section? or somewhere – is Brad Frost's idea of an Interface Inventory:
-
-http://bradfrost.com/blog/post/interface-inventory/
-
-It’s not the same as a pattern library and is focused on approaching **existing** elements for a redesign, but used in conjunction with a pattern library, it would allow you to tackle user interface problems from an informed position in a strategic manner.
-
-When I re-read the above, I think this should go somewhere, the problem is that this section is heavy already.
-
--->
 
 
 
