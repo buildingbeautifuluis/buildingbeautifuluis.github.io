@@ -271,7 +271,7 @@ Whilst this might look complicated at first glance, if we **break the pattern do
 + a section where we present actions (3).
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. The pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of calls-to-action (a ‘READ MORE’ button and a button to favourite the option." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of calls-to-action (a ‘READ MORE’ button and a button to favourite the option." %}
 
 
 We see these kinds of ‘content clusters’ in both desktop and mobile interfaces, **where information needs to me structured into organised groupings**. This pattern-driven approach is used, for example, in Apple’s [Apple Trade In](https://www.apple.com/shop/trade-in) programme page (below).
@@ -500,7 +500,7 @@ With that point stressed, let’s explore some typical user interface patterns y
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-p1-date-pickers.png" alt="Date Pickers" description="Depending on their context, date patterns come in many different shapes and sizes and levels of complexity." %}
+{% include figure.html url="/images/ch3/c3-s3-p1-date-pickers.png" alt="Date Pickers" description="Depending on their context, date patterns come in many different shapes and sizes, and levels of complexity." %}
 
 
 ### Date Pickers
@@ -521,7 +521,7 @@ Regardless of your requirements, you’ll almost certainly need to consider:
 + how users move between different months and years; and
 + managing error states (for example, if a user enters a return date that’s **before** the departure date).
 
-Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different states (base, hover and error states). Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read (!), it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
+Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different base, hover and error states). Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read, it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
 
 Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
 
