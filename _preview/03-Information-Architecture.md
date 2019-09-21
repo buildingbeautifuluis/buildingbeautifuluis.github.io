@@ -585,11 +585,11 @@ One of the wonderful aspects of working on the web is its leanings towards openn
 
 UX Collective, which gathers **‘curated stories on user experience, usability and product design’**, offers a wealth of information on the design of all things UX +/ UI, and **Gabriel Tomescu’s [‘Anatomy of a Credit Card Form’](https://uxdesign.cc/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb) takes the ubiquitous credit card form we meet, day-in day-out, and presents an exhaustive analysis of credit card patterns**. It’s required reading should your project require payments of any kind.
 
-When designing a credit card pattern, you’ll need to include the following:
+When designing a credit card pattern, you should include the following:
 
 + An indication of what cards are accepted.
 + The name on the card.
-+ A card number (which you can dynamically format, to help the user).
++ A card number (which you can dynamically format, with spaces between four digit groups, to help the user).
 + The card’s expiry date.
 + The card’s security, or CVV, code.
 
@@ -606,11 +606,13 @@ When money is changing hands, it’s important to **establish a bond of trust, i
 
 Designing credit card patterns is – as you can see from this section (which is condensed) – a complicated process. In addition to the above, you’ll need to **consider providing feedback when users enter numbers incorrectly**, as they often do.
 
-Ideally error checking can be handled on the client side (before submitting the form to the server) using formulae like the [Luhn algorithm](https://www.geeksforgeeks.org/luhn-algorithm/), which can highlight issues ***before the user submits their payment**. Put simply, it’s complicated (but when you get lost down the rabbit hole of the Luhn algorithm, it’s also fascinating!).
+Ideally error checking can be handled on the client side (before submitting the form to the server) using formulae like the [Luhn algorithm](https://www.geeksforgeeks.org/luhn-algorithm/), which can highlight issues **before the user submits their payment**. Put simply, it’s complicated (but when you get lost down the rabbit hole of the Luhn algorithm, it’s also fascinating!).
 
 
 
 {% include figure.html url="/images/ch3/c3-s3-p4-notifications.png" alt="Notifications" description="Notifications are now an ever-present part of daily life. Notifications can be incredibly useful, but they can equally be incredibly irritating if used too often. Use them sparingly." %}
+
+<!-- When I have some time post-publication, add a notification image in the same style I’ve been using. -->
 
 
 ### Notifications
@@ -624,53 +626,56 @@ Notifications can appear in a number of ways:
 
 System level notifications offer a number of benefits, not least because **they’re persistent at the top level of the interface, i.e. your users can be made aware of notifications when the application you’re building isn’t open**.
 
-**Most operating systems will allow you to tie into system level notifications using <span title="Software Development Kits">SDKs</span> or <span title="Application Programming Interfaces">APIs</span>.** SDKs and APIs are beyond the scope of this book, but it’s worth bearing in mind that notifications are available at the system level, should you need them.
+Most operating systems will allow you to tie into system level notifications using SDKs (Software Development Kits) or APIs (Application Programming Interfaces). SDKs and APIs are beyond the scope of this book, but **it’s worth bearing in mind that notifications are available at the system level, should you need them**.
 
-It’s also worth noting that the design of system level notifications are almost exclusively beyond your control as a designer.
+It’s also worth noting that the design of system level notifications are to a large degree beyond your control as a designer.
 
-Just because you can present your users with notifications doesn’t mean you necessarily should with abandon. **Notifications can, if you’re not careful, prove irritating, annoying users about often trivial matters.**
+Just because you can present your users with notifications doesn’t mean you necessarily should. **Notifications can, if you’re not careful, prove irritating, annoying users about often trivial matters.** Use them sparingly.
 
 It’s important to consider, what I call, ‘levels of discretion’ for notifications:
 
 + some are discrete, subtly sliding in and sliding out, catching the user’s eye and needing no further action (like a well-trained butler);
-+ others are a little more persistent, signalling a higher level of priority.
++ others are a little more persistent, requiring action, signalling a higher level of priority.
 
 Google’s Material Design guidelines provides an overview of **a variety of different notification patterns (and their levels of priority)**, including:
 
-+ **[Snackbars](https://material.io/components/snackbars/):** Temporary notifications that provide brief messages about app processes at the bottom of the screen. (Low Priority) <!-- Don’t require user input to disappear. -->
++ **[Snackbars](https://material.io/components/snackbars/):** Temporary notifications that provide brief messages about app processes at the bottom of the screen. (Low Priority)
 + **[Banners](https://material.io/components/banners/):** Persistent notifications (that need to be dismissed) that provide actions for users to address. (Medium Priority)
 + **[Dialogs](https://material.io/components/dialogs/dialogs.html):** Notifications that appear on top of app content, providing critical information. On appearing, dialogs disable all app functionality and remain on screen until a required action has been taken, or they have been confirmed of dismissed. (High Priority)
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-p5-user-profile.png" alt="User Profile Cards" description="User Profile cards – as I’ve explored with the Dribbble example (above) – come in a variety of content densities, from: lightweight, with a profile photograph, a name and a handful of details; to heavyweight, with a wide range of information." %}
+{% include figure.html url="/images/ch3/c3-s3-p5-activity-feeds.png" alt="Activity Feeds" description="Activity feeds are ideal for displaying dynamic information that is constantly changing. If you’ve used any form of social media – Twitter, Instagram… – you’ve used an activity feed." %}
 
 
 ### Activity Feeds
 
-I’m replacing the above image shortly, for an example of an [activity feed](https://getstream.io/activity-feed-design/). I think I covered user profiles enough in the Dribbble case study. I’m working on this just now.
+Activity feeds are ideal for displaying dynamic information that’s constantly changing. If you’ve used any form of social media – Twitter, Instagram, Facebook… – you’ll have used an activity feed.
 
-<!--
+At their heart, feeds are lists of items that can be organised and grouped by almost any parameter, for example:
 
-I think Activity Feeds (p112 in Diana’s book) would be better. Also, these are timeline focused and I don’t have anything timeline focused at the moment.
++ time
++ popularity
++ frequency
++ relevance
++ …
 
-Use this:
+Feeds can be simple, like those used in social media timelines, or they can be used to handle more complex information like upcoming flight departure times at an airport.
 
-https://getstream.io/activity-feed-design/
+Feeds allow users to personalised their user experience, allowing users to connect with others, for example, or follow specific topics that they are interested in.
 
--->
+Stream, a provider of scalable feed APIs, has created an in-depth overview of feeds – [The Ultimate Guide to Activity Feed Design](https://getstream.io/activity-feed-design/) – which is well worth bookmarking and reading should you need to consider the design of activity feeds in a user interface.
 
+<!-- The Activity Feeds content is very short because I wrote it late one night in Donegal. Add more to it when I have more energy. -->
+
+
+
+**I’VE DONE UP TO HERE. THE NEXT SECTION IS A MESS, BUT I HAVE CONTENT ON MY IPAD FOR IT.**
 
 
 
 Section 4: Information Architecture
 -----------------------------------
-
-<!--
-
-Donna Spencer’s Five Simple Steps book explains this well (pp3-4 are great), essentially explaining that Information Architecture is all about…
-
--->
 
 In an age of information overload, **establishing a clear information architecture – so that we ensure our users can find their way – is more critical than ever**.
 
@@ -731,15 +736,12 @@ Essentially make the point that often users are moving through content and – j
 Section 5: Iconic Layouts, Blockframes and Wireframes
 -----------------------------------------------------
 
-<!--
+{% include figure.html url="/images/ch3/c3-temp-sketch-pre-iconic.png" alt="Temporary Image" description="Before we use a tool like XD to build higher fidelity deliverables, it’s important to get our thinking right through a process of sketching interfaces. This is the lowest form of fidelity in the user interface (and it’s also the fastest, to it’s easier to discard ideas that don’t necessarily work)." %}
 
-![Sketching Interfaces](images/ch3/c3-temp-sketch-pre-iconic.png)
 
-**CAPTION: Before we use a tool like XD to build higher fidelity deliverables, it’s important to get our thinking right through a process of sketching interfaces. This is the lowest form of fidelity in the user interface (and it’s also the fastest, to it’s easier to discard ideas that don’t necessarily work).**
+**In the final section, I'll explore the process of creating design deliverables at the page level.** I'll stress the need to develop your user interface at a range of fidelities (fast, using sketches → slow, using mockups.
 
--->
-
-**In the final section, I'll explore the process of creating design deliverables at the page level. I'll stress the need to develop your user interface at a range of fidelities (fast (sketches) → slow (mockups)). I'll explore a typical design process that includes:
+I'll explore a typical design process that includes:
 
 + Sketching Interfaces
 + Creating Low Fidelity 'Iconic Layouts'
