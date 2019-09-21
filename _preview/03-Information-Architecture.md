@@ -2,7 +2,7 @@
 chapter-number: "03"
 title: "Information Architecture ≠"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (15 September), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (21 September), I’ll be releasing it section by section over the next few days.</p>
 
 <p class='text--warning'>Unfortunately, my schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, I had to pause writing to focus on family. Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
 
@@ -10,7 +10,7 @@ opening-text: "<p class='text--warning'><strong>This is draft content.</strong> 
 
 <p>Once I’ve explored patterns, <strong>I’ll tie everything together</strong> to consider how <strong>we can use patterns, alongside components and objects, to build pages</strong>. With patterns and pages covered, I’ll stress the need to consider information architecture, <strong>so that we ensure our users can find their way to what they’re looking for</strong>.</p>
 
-<p>Lastly, I’ll introduce a number of methods – iconic layouts, blockframes and wireframes – at different levels of fidelity, which are <strong>useful  at different stages of the design process</strong> and which will pave the way for Chapter 4, <strong>where I explore user flows and getting from A → B</strong>.</p>"
+<p>Lastly, I’ll introduce a number of methods – iconic layouts, blockframes and wireframes – at different levels of fidelity, which are <strong>useful at different stages of the design process</strong> and which will pave the way for Chapter 4, <strong>where I explore user flows and getting from A → B</strong>.</p>"
 
 table-of-contents:
   - section: "1"
@@ -27,18 +27,10 @@ table-of-contents:
 
 
 
-### Draft Content Notes
-
-**This is a complete rebuild of Chapter 3. I’m adding to it section by section.**
-
-Some of the images in this preview are draft images that I’ll be developing further, **i.e. these are not the final images (particularly in Section 3).** With that disclaimer out of the way, feel free to dive in.
-
-
-
 Overview
 --------
 
-When we design an interface, it’s important to put some thought into our overall information architecture (IA). Information architecture is focused on **organising, structuring and labelling content in a way that eases users through the overall information presented**.
+When we design an interface, it’s important to put some thought into our overall information architecture. Information architecture is focused on **organising, structuring and labelling content in a way that eases users through the overall information presented**.
 
 Our goal as designers is to:
 
@@ -48,15 +40,15 @@ Our goal as designers is to:
 
 In order to do this, it’s important to put some thought into **how the different elements we use in an interface fit together as part of the overall system** within which they exist.
 
-To design an effective information architecture, **we need to consider the hierarchy of our content at a range of different levels**:
+To design an effective information architecture, **we need to consider the structure and hierarchy of our content at a range of different levels**:
 
 + The Pattern Level
 + The Page Level; and
 + The Site Level *
 
-The components and patterns we design – the content elements that make up our pages – **will have their own information architecture, that we need to consider at the micro-level**. As we design patterns for user interfaces, we need to consider how their content is organised, hierarchically.
+The components and patterns we design – the content elements that make up our pages – **will have their own structure and hierarchy, that we need to consider at the micro-level**. As we design patterns for user interfaces, we need to consider how their content is organised, logically.
 
-Similarly, pages will have a page-level information architecture, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
+Similarly, pages will have a page-level structure and hierarchy, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
 
 At the macro-level, we also need to **consider the overall information architecture of the site or application we’re building**. We need to **ensure that we organise our information clearly**, ensuring users understand the overall structure of the site that enables them to build a ‘mental model’ of how everything is organised.
 
@@ -124,7 +116,7 @@ Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a 
 
 Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was followed, in 1980, by Alexander’s [‘The Timeless Way of Building’](https://amzn.to/2ZZDl9Y).
 
-Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
+Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**.” The books were the result of eight years of practice and thought. 
 
 Alexander was careful to stress the book’s title ‘**A** Pattern Language’, not ‘**The** Pattern Language’, stating: “I have called it ‘A Pattern Language’ with the emphasis on the word ‘A’.”
 
@@ -166,11 +158,11 @@ Slate highlights the widespread impact of ‘A Pattern Language’ in an excelle
 
 > Alexander’s ideas have taken root in unexpected places. His early books, especially [‘Notes on the Synthesis of Form’](https://amzn.to/33bC2aO) and [‘A Pattern Language’](https://amzn.to/2M7M9Za), influenced computer scientists, who found useful parallels between building design and software design.
 
-If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages! – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
+If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
 
 The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander’s sequencing, designed to meet the needs of architecture, moves from the large to the small:
 
-> When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments…
+> When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments.
 
 We could imagine similar words being used to describe the design of pages, which have to function at a practical level, but which can be embellished at a pattern and component level.
 
@@ -187,7 +179,7 @@ Just as Alexander created a book including 253 cross-referenced patterns, so too
 
 Put simply: We can **build our own libraries of patterns**, similar to Matthew Smith’s work with Pattern Tap. These libraries will prove incredibly valuable over time as you encounter new problems and new challenges in your user interface design.
 
-There is always downtime in a studio. You can use that time to let off steam and play table tennis or fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
+There is always downtime in a studio. You can use that time to let off steam and play <span title="Hello, Little Thunder!">table tennis</span> or fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
 
 It’s a good idea to get into the habit of **collecting examples of the different design patterns** that you either:
 
@@ -204,7 +196,7 @@ In my work, I keep collections of example patterns organised by folders. **For e
 
 By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in Chapter 2) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
 
-Before you build something (which is a time-consuming and expensive process), **it helps to find relevant examples from your library, allowing you to visualise how aspects of your user interface might look**.
+Before you build something, which is a time-consuming and expensive process, **it helps to find relevant examples from your library, allowing you to visualise how aspects of your user interface might look**.
 
 When you build your pattern library, **it’s important to establish some conventions that you follow**. At the very least, each pattern entry should have:
 
@@ -216,7 +208,7 @@ When you build your pattern library, **it’s important to establish some conven
 Applying this to the above Netlify credit card modal dialog, this might be:
 
 + **Name:** Netlify Credit Card Modal
-+ **Image:** [Modal Screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png)
++ **Image:** [Modal Screenshot](https://www.dropbox.com/s/sjan1yen583o0zs/netlify-credit-card-modal.png?dl=0)
 + **Description:** Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you enter your card details on the left-hand side, the credit card updates, showing your card details on the right-hand side.
 + **Related Patterns:** Here you might gather links to other payment forms you’ve designed for projects, or to others you’ve discovered in your research.
 
@@ -238,9 +230,9 @@ Section 2: Components → Patterns → Pages
 
 Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns**, demonstrating how they can work together as part of a greater whole.
 
-The beauty of this approach, **building from the object up**, is that it allows us to establish an information architecture at every level of our design’s hierarchy: **Components → Patterns → Pages → Flows**.
+The beauty of this approach, **building from the object up**, is that it allows us to establish a structure and hierarchy at every level of our design: **Components → Patterns → Pages → Flows**.
 
-If we **consider the information architecture of the patterns we build**, when we subsequently put these patterns together to form pages, our overall information architecture falls more or less into place. In short, it’s important to **consider the information architecture of our content at multiple levels as we design it**.
+If we **consider the structure and hierarchy of the patterns we build**, when we subsequently put these patterns together to form pages, our overall structure and hierarchy falls more or less into place. In short, it’s important to **consider the structure and hierarchy of our content at multiple levels as we design it**.
 
 As with the components I explored in Chapter 2, where components were built out of objects, **patterns are – themselves – built out of objects and components**, we’re simply increasing the complexity.
 
@@ -254,7 +246,10 @@ The restaurant listing pattern (above) is contained in a card (1), gathering tog
 + an overview of the restaurant (3); and
 + a star rating and a price guide (4).
 
-Establishing a pattern for this content requires us to **analyse the information supplied and consider its overall structure and information architecture**.
+Establishing a pattern for this content requires us to **analyse the information supplied and consider its overall structure and hierarchy.** For example, the overview of the restaurant – its name and the brief description (3) – are ordered logically with:
+
++ a heading (noma), which is larger and in blue; and
++ a brief description (Without question…), which is smaller and in a lighter grey.
 
 The beauty of this approach is that **this pattern can be re-used, for other restaurant listings**, resulting in a more consistent interface that’s efficient to design. We might gather together a series of restaurant listings, for example, where we re-use the pattern to build out our interface (below), gathering a group of listings.
 
@@ -262,7 +257,7 @@ The beauty of this approach is that **this pattern can be re-used, for other res
 {% include figure.html url="/images/ch3/c3-s2-p1-3-simple-pattern-restaurant-listings.png" alt="Restaurant Listings Pattern" description="By reusing the restaurant listing pattern (above), we can quickly organise a group of listings, ensuring they are clearly structured and easy to understand." %}
 
 
-The pattern above is relatively simple. Should our design require a little more detail, **we can use the same organising principles to create a more complex pattern** (below), we’re simply levelling up the complexity once again.
+The pattern above is relatively simple. Should our design require a little more detail, **we can use the same organising principles to create a more complex pattern** (below). We’re simply levelling up the complexity once again.
 
 Whilst this might look complicated at first glance, if we **break the pattern down into its constituent parts we can see it’s relatively simple**, comprising three content sub-sections:
 
@@ -271,7 +266,7 @@ Whilst this might look complicated at first glance, if we **break the pattern do
 + a section where we present actions (3).
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of calls-to-action (a ‘READ MORE’ button and a button to favourite the option." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of call-to-action buttons." %}
 
 
 We see these kinds of ‘content clusters’ in both desktop and mobile interfaces, **where information needs to me structured into organised groupings**. This pattern-driven approach is used, for example, in Apple’s [Apple Trade In](https://www.apple.com/shop/trade-in) programme page (below).
@@ -517,17 +512,17 @@ As I’ve stressed throughout this book, **users have mental models of how these
 
 Regardless of your requirements, you’ll almost certainly need to consider:
 
-+ displaying the current day’s date in a clear and obvious manner;
-+ how users move between different months and years; and
-+ managing error states (for example, if a user enters a return date that’s **before** the departure date).
++ displaying **the current day’s date** in a clear and obvious manner;
++ how users move between **different months and years**; and
++ **managing error states** (for example, if a user enters a return date that’s before the departure date).
 
-Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different base, hover and error states.
+Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions and visual approaches for date pickers. Harpal Singh’s, in particular, is worth looking at for [the consideration he gives to different base, hover and error states](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component).
 
 Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read, it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
 
-Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
+In the wild, Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
 
-What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. Despite the complexity of the information it presents, **the user interface is clear, chunked into a series of easily parsable steps**.
+What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. Despite the complexity of the information it presents, **the user interface is clear, grouped into a series of easily understandable steps**.
 
 
 
@@ -538,7 +533,7 @@ What’s particularly nice about Google’s approach to its date picker pattern 
 
 ### Sign-Up / Sign-In Forms
 
-If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service, **you’ll need to consider a Sign-Up / Sign-In forms for users to sign up for your product or service, or sign into it**.
+If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service where users will have an account, **you’ll need to consider Sign-Up / Sign-In forms for users to sign up for your product or service, or sign into it**.
 
 When a user first encounters a SaaS (Software as a Service) product, they’ll often be **asked to register for an account**. This allows information relevant to the user to be stored for their return, or items added to a shopping cart to be saved for later.
 

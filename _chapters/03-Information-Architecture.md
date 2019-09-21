@@ -1,7 +1,7 @@
 ---
 chapter-number: "03"
 title: "Information Architecture"
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (15 September), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (21 September), I’ll be releasing it section by section over the next few days.</p>
 
 <p class='text--warning'>Unfortunately, my schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, I had to pause writing to focus on family. Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
 
