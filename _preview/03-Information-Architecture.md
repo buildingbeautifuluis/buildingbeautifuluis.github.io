@@ -249,7 +249,7 @@ The restaurant listing pattern (above) is contained in a card (1), gathering tog
 Establishing a pattern for this content requires us to **analyse the information supplied and consider its overall structure and hierarchy.** For example, the overview of the restaurant – its name and the brief description (3) – are ordered logically with:
 
 + a heading (noma), which is larger and in blue; and
-+ a brief description (Without question…), which is smaller and in a lighter grey.
++ a brief description (“Without question…”), which is smaller and in a lighter grey.
 
 The beauty of this approach is that **this pattern can be re-used, for other restaurant listings**, resulting in a more consistent interface that’s efficient to design. We might gather together a series of restaurant listings, for example, where we re-use the pattern to build out our interface (below), gathering a group of listings.
 
@@ -266,7 +266,7 @@ Whilst this might look complicated at first glance, if we **break the pattern do
 + a section where we present actions (3).
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of call-to-action buttons." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of call-to-action buttons (Read More and Add to Favourites)." %}
 
 
 We see these kinds of ‘content clusters’ in both desktop and mobile interfaces, **where information needs to me structured into organised groupings**. This pattern-driven approach is used, for example, in Apple’s [Apple Trade In](https://www.apple.com/shop/trade-in) programme page (below).
@@ -276,7 +276,7 @@ Although the user is required to provide a great deal of information (including:
 The result is that users are taken step-by-step through everything they need to do, in a clearly considered user flow.
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-5-complex-pattern-apple.png" alt="Apple Trade In · Modal Dialog" description="This pattern, whilst more complex than the earlier patterns, really just levels up the complexity further." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-5-complex-pattern-apple.png" alt="Apple Trade In · Modal Dialog" description="This pattern (one of a series of modal dialogs in a sequence), whilst more complex than the earlier patterns, really just levels up the complexity further." %}
 
 
 This example, from Apple, levels up the complexity further, drawing together a number of elements, including:
@@ -297,8 +297,8 @@ With some patterns explored, it’s time to explore how **we can use patterns �
 
 Consider a typical page, like the [Curated Galleries](https://www.behance.net/galleries) page at Behance (below). It’s organised at every level, featuring:
 
-1. an overall hierarchy and structure **at the page level** (micro information architecture); and
-2. a specific hierarchy and structure **at the pattern level** (macro information architecture).
+1. an overall hierarchy and structure **at the page level**; and
+2. a specific hierarchy and structure **at the pattern level**.
 
 At an overall page hierarchy, our eye is drawn to the title: Curated Galleries. Its size on the page and the weight of the type used catches our eye, signalling the page we’re on.
 
@@ -318,14 +318,14 @@ At the pattern level (below), there is an equally clear hierarchy and structure.
 
 The ‘card’ pattern that’s used at Behance – carefully organised at the pattern level – is **perfect for page level display**.
 
-As ‘information containers’, cards – self-contained ‘units of content’ – can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects (which can also be hierarchically organised); and buttons.
+As ‘information containers’ – self-contained units of content – cards can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects (which can also be hierarchically organised); and buttons.
 
-**One of the primary benefits of a embracing cards is their adaptability.** Cards can be **reorganised or reflowed** depending upon the screen real estate available:
+**One of the primary benefits of embracing cards is their adaptability.** Cards can be **reorganised or reflowed** depending upon the screen real estate available:
 
 + in a desktop context we might lay out our cards **horizontally and vertically, in a grid**; and
 + in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might **vertically stack cards in a layout that users can scroll down**.
 
-The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level information architecture.
+The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level structure and hierarchy.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p2-3-behance-curated-galleries-desktop-mobile.png" alt="Behance · Curated Galleries: Desktop and Mobile View" description="On the left, on a desktop device with a wider viewport width, the thumbnails are organised horizontally and vertically in a grid. On the right, on a mobile device with a narrower viewport width, the thumbnails are organised vertically, in a narrower grid." %}
@@ -365,7 +365,7 @@ If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler) (
 
 Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own logical structure.
 
-This is an important point to note and it’s one that’s worth emphasising. **We can – and should – consider information architecture at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** information architecture, so too do the different patterns on the pages.
+This is an important point to note and it’s one that’s worth emphasising. **We can – and should – consider structure and hierarchy at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** structure and hierarchy, so too do the different patterns on the pages.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p3-2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
@@ -373,21 +373,21 @@ This is an important point to note and it’s one that’s worth emphasising. **
 <!-- Before publication, re-screenshot this and change the URL to mrmurphy.com. -->
 
 
-If we focus in one one of these patterns (above), the ‘profile pattern’ communicates information about the user in question. This information is divided into three sub-sections or groupings of content: ‘profile’ (1), ‘skills’ (2) and ‘elsewhere’ (3). **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
+If we focus in one one of these patterns (above), the profile pattern communicates information about the user in question. This information is divided into three sub-sections or groupings of content: ‘profile’ (1), ‘skills’ (2) and ‘elsewhere’ (3). **So – even at the pattern level – we can consider our content’s structure and hierarchy ensuring everything is logically organised.**
 
-Looking at the above profile pattern (my @fehler profile) we see the information is organised into three logically organised sections:
+Looking at the above profile pattern (my [@fehler](https://dribbble.com/fehler) profile) we see the information is organised into three sections:
 
 + **Profile**
   + **The User’s Name:** Christopher Murphy
   + **The User’s Location:** Belfast
-  + **The User’s Biography:** A designer, writer and speaker… etc..
+  + **The User’s Biography:** A designer, writer and speaker…
 + **Skills**
-  + content design, content strategy, design, etc..
+  + content design, content strategy, design…
 + **Elsewhere**
   + dev.mrmurphy.com
   + Twitter
 
-This **pattern level information architecture** groups related content – all about the user – into one, carefully organised space.
+This **pattern level structure and hierarchy** groups related content – all about the user – into one, carefully organised space.
 
 Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement over time) has gone into the design of the site’s ‘shot pattern’**. Shots are, after all, the primary focus of Dribbble.
 
@@ -397,7 +397,7 @@ Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise 
 <!-- Before publication, re-screenshot this page with some more up-to-date shots (from this book for added meta). -->
 
 
-Dribbble’s shot pattern, like the profile pattern, has its own information architecture that communicates information about the shot in question:
+Dribbble’s shot pattern, like the profile pattern, has its own structure and hierarchy that communicates information about the shot in question:
 
 + **The Shot’s Title:** Break Badges [Sketch]
 + **The Shot’s Upload Date:** August 23, 2014
@@ -417,17 +417,17 @@ This shot pattern is used in a number of different locations throughout the Drib
 {% include figure.html url="/images/ch3/c3-s2-p3-4-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
 
 
-The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of building patterns as a core part of your design process, namely: **reusability and consistency**.
+The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important benefit of building patterns as a core part of your design process, namely: **reusability and consistency**.
 
 **The more you embrace reusability** and the less you reinvent the wheel, **the more consistent your user interfaces are and the quicker they are to build**.
 
 Patterns used this way are a little like variables in programming languages: **make a change to a variable and that change cascades out, taking care of the bigger picture**.
 
-If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that **the pattern has a number of possible states**:
+If we dive a little deeper and explore Dribbble’s shot pattern in more depth (below), we see that **the pattern has a number of possible states**:
 
 1. a non-hover state that showcases the shot alone (1);
 2. a hover state that reveals metadata about the shot (2);
-3. a hover state that highlights when a user has liked a shot (3) (note: the user might also have saved a shot and not liked it, but this is unlikely); and
+3. a hover state that highlights when a user has liked a shot (3) (the user might also have saved a shot and not liked it, but it’s unlikely); and
 4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (4).
 
 
@@ -438,21 +438,25 @@ It should be obvious, after reading Chapter 2, that the ‘Saved’ and ‘Liked
 
 By embracing a pattern-driven approach, **Dribbble can re-use these components and patterns elsewhere on the site**.
 
-On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
+On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – **reused at a smaller size** – to showcase the work of different design teams using the service.
 
 When we focus on featured shots on Dribbble (below) we see **a different pattern, which presents more detailed information**. From a functional perspective, clicking on a shot preview opens it in **a modal dialog** – a dialog, or window, that appears **on top of the main window** – focusing your attention on the shot in question and presenting it at a larger size.
 
 
-{% include figure.html url="/images/ch3/c3-s2-p3-6-dribbble-featured-shot.png" alt="Dribbble’s Featured Shot Pattern" description="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-6-dribbble-featured-shot.png" alt="Dribbble’s Featured Shot Pattern" description="Clicking on an image preview on Dribbble opens it in a modal dialog (at larger viewport sizes), focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information about the shot provided by its designer." %}
 
 
-This pattern – which uses more of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: the shot details, including metadata on the left, and ‘Save’ and ‘Like’ buttons on the right (1); the shot itself at a larger size (2); and any additional details about the shot that the designer has provided (3).
+This pattern – which uses more of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: 
 
-Scrolling down the page reveals **additional information about the shot** (below) thanks to the use of a number of other patterns. These include:
++ the shot details, including metadata on the left, and ‘Save’ and ‘Like’ buttons on the right (1);
++ the shot itself at a larger size (2); and
++ any additional details about the shot that the designer has provided (3).
+
+Scrolling down the page (below) reveals **additional information about the shot** thanks to the use of a number of other patterns. These include:
 
 + **a description of the shot**, with users’ responses beneath it;
-+ **supplementary information about the shot** including: tags, the shot’s colour palette, the number of times the shot has been viewed, and other details; and
-+ **links to other shots**, by the designer in question.
++ **supplementary information about the shot** (1) including: tags, the shot’s colour palette, the number of times the shot has been viewed, and other details; and
++ **links to other shots** (2), by the designer in question.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p3-7-dribbble-featured-shot-details.png" alt="Dribbble’s Featured Shot Pattern Meta Data" description="Underneath the image, Dribbble provides a wide range of metadata about the shot (1) and links to further shots by the designer in question (2)." %}
@@ -484,7 +488,7 @@ As with the previous chapter, **this is not an exhaustive list, rather it’s in
 I’ll explore the following patterns and, as with Chapter 2, I’ll provide a series of XD artboards that you can also explore further.
 
 + Date Pickers
-+ Register / Sign-In Forms
++ Sign Up / Sign In Forms
 + Credit Card Forms
 + Notifications
 + Activity Feeds
@@ -516,7 +520,7 @@ Regardless of your requirements, you’ll almost certainly need to consider:
 + how users move between **different months and years**; and
 + **managing error states** (for example, if a user enters a return date that’s before the departure date).
 
-Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions and visual approaches for date pickers. Harpal Singh’s, in particular, is worth looking at for [the consideration he gives to different base, hover and error states](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component).
+Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions and visual approaches for date pickers. Harpal Singh’s, in particular, is worth looking at for the consideration he gives to [different base, hover and error states](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component).
 
 Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read, it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
 
@@ -531,17 +535,17 @@ What’s particularly nice about Google’s approach to its date picker pattern 
 <!-- For the final book, this would be nice animated in AfterEffects. -->
 
 
-### Sign-Up / Sign-In Forms
+### Sign Up / Sign In Forms
 
-If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service where users will have an account, **you’ll need to consider Sign-Up / Sign-In forms for users to sign up for your product or service, or sign into it**.
+If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service where users will have an account, **you’ll need to consider Sign Up / Sign In forms for users to sign up for your product or service, or sign into it**.
 
 When a user first encounters a SaaS (Software as a Service) product, they’ll often be **asked to register for an account**. This allows information relevant to the user to be stored for their return, or items added to a shopping cart to be saved for later.
 
 This will often involve a round trip to an email client for your users to confirm they are who they say they are (something you’ll also need to consider).
 
-Once a user has registered, they’ll need to sign-in to access their account. **If signing in is important to the application you’re building, it’s essential to ensure that the sign-in form is clearly signposted.**
+Once a user has registered, they’ll need to sign in to access their account. **If signing in is important to the application you’re building, it’s essential to ensure that the sign in form is clearly signposted.**
 
-Sign-Up and Sign-In forms at the very least require two pieces of data:
+Sign Up and Sign In forms at the very least require two pieces of data:
 
 + a username; and
 + a password.
@@ -550,11 +554,11 @@ Some forms ask for more information, but **as a rule of thumb it’s best to kee
 
 If your goal is for users to sign up for an account, you want to **remove as much friction as possible** and removing form fields is a good way to do this. As a user becomes more embedded, using your application more frequently, **you can ask for additional information you might need**.
 
-In addition to the design of the core sign-up and sign-in forms, **there’s a need to consider what happens should users forget their registration details**.
+In addition to the design of the core sign up and sign in forms, **there’s a need to consider what happens should users forget their registration details**.
 
 There’s nothing more frustrating than an application that doesn’t allow you to recover (or reset) your password should you have forgotten or lost it.
 
-It might be tempting to kill two birds with one stone and present users with both the registration and sign-in forms in two forms side-by-side. **This often leads to confusion**, however, where a user tries to register by using the sign-in form (or vice-versa).
+It might be tempting to kill two birds with one stone and present users with both the sign up and sign in forms side-by-side. **This often leads to confusion**, however, where a user tries to register by using the sign in form (or vice-versa).
 
 A better approach is to **present the user with one form, with a clearly signposted link to the other form**. In the above example, clicking on the greyed out option takes the user to the form they’re not currently on, enabling them to switch easily.
 
@@ -570,7 +574,7 @@ Look at Diana's book (pp83-88) for a useful step-by-step login form redesign. So
 
 
 
-{% include figure.html url="/images/ch3/c3-s3-p3-credit-card-form.png" alt="Credit Card Forms" description="Patterns for credit card are, by nature, complicated. As a rule of thumb, it helps to: 1. Show the cards that are accepted up front; provide formatting advice where needed (MM/YY); 3. offer help, in this case should a user be unclear on what a security code is; and 4. ensure payment call to action buttons are clearly signalled. (Example: Gabriel Tomescu for UX Collective)" %}
+{% include figure.html url="/images/ch3/c3-s3-p3-credit-card-form.png" alt="Credit Card Forms" description="When designing credit card form patterns, it helps to: show the cards that are accepted up-front; provide formatting advice where needed (MM/YYYY); offer help, in this case should a user be unclear on what a security code is; and ensure payment call to action buttons are clearly signalled." %}
 
 
 ### Credit Card Forms
@@ -584,12 +588,10 @@ UX Collective, which gathers **‘curated stories on user experience, usability 
 When designing a credit card pattern, you’ll need to include the following:
 
 + An indication of what cards are accepted.
-+ A total field, where the user can enter a total (unless it’s pre-populated as the result of a preceding transaction).
 + The name on the card.
 + A card number (which you can dynamically format, to help the user).
 + The card’s expiry date.
-+ The card’s security code.
-+ A ZIP or postal code.
++ The card’s security, or CVV, code.
 
 In addition to the above, it’s also helpful to **indicate the type of card the user is using, so they feel re-assured that they’ve entered the correct details**. It’s possible to determine the type of card being used by the number the card starts with, as follows:
 
