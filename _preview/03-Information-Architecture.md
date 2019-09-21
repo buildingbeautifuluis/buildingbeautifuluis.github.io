@@ -670,7 +670,7 @@ Stream, a provider of scalable feed APIs, has created an in-depth overview of fe
 
 
 
-**I’VE DONE UP TO HERE. THE NEXT SECTION IS A MESS, BUT I HAVE CONTENT ON MY IPAD FOR IT.**
+**I’ve done up to here. The next section is a mess, but I have content on my iPad for it.**
 
 
 
