@@ -677,64 +677,185 @@ Stream, a provider of scalable feed APIs, has created an in-depth overview of fe
 Section 4: Information Architecture
 -----------------------------------
 
-In an age of information overload, **establishing a clear information architecture – so that we ensure our users can find their way – is more critical than ever**.
-
-Given that this chapter is titled ‘Information Architecture’, I think it’s important I explain what that means! Essentially, **information architecture focuses on organising and structuring information so we can improve its findability and discoverability**.
-
-**The information architecture of websites and applications is critical** because – if it’s done well – it enables users to find the information they’re looking for and complete the tasks that they need to complete. Conversely, if the information architecture is ill-considered, it leads to frustrated users who will very quickly find an alternative solution.
-
-Put simply, information architecture is all about:
-
-1. organising content or objects;
-2. describing it clearly; and
-3. providing ways for users to get to it.
-
-The above is true of: **parts of a page** (patterns, e.g. forms); **the page itself**; and **the page in relation to other pages**.
-
-It’s essential that we ground everything that we design, no matter how complex, with the principle of helping our users ‘find their way’.
-
-As user interface designers, **our role is to orchestrate the elements that comprise patterns and pages and impose some order on them**. We need to take different objects, components, patterns and groupings of content (words, imagery, video…) and organise them in relation to each other, establishing a clear hierarchy.
-
-This is where information architecture comes in.
-
-Everything we design is created from content. When we design a UI, we take this content and we organise it, enabling the user to navigate it and help them to quickly and easily find their way. As we design, we need to consider the hierarchy of the content we’re organising and apply that hierarchy to our patterns, pages and flows.
-
-There’s an information architecture at each of these resolutions: patterns will have their own information architecture, as will pages, which are created from components and patterns.
-
-I’ll explore flows in [Chapter 4: Getting From A → B](#) so – in this chapter, I’m focusing on patterns and pages – but the overall emphasis remains the same: We need to ensure everything is clearly signposted.
-
-
-### Finding The Ice Cream
-
-This section is on wayfinding and uses the metaphor of a supermarket – full credit to Donna Spence for this idea – and uses this metaphor to explain what IA is.
-
-_At this point I’ll use the supermarket metaphor that Donna Spencer has used in her book. Donna used chocolate, but I’m using ice cream. (The freezers are broken, so it’s as if this page is down for maintenance.) I can still find what I’m looking for, however… */_
-
 <!--
 
-NNg: “Just like the [IA](https://www.nngroup.com/articles/ia-vs-navigation/) reflects the information structure of a website, the  [mini-IA](https://www.nngroup.com/articles/mini-ia-structuring-information/), which is made up of all the page headings and subheadings, reflects the information structure of a page.
+Section introduction image? Find something on blog posts and redraw it. Probably something like a flow chart (like the one I shared with Gaby). Redraw that? This could be the ice cream image until I find something better.
 
 -->
 
-I need to talk about clustering, labelling, etc. (Remember the ice cream metaphor.)
+In an age of information overload, **establishing a clear information architecture – so that we ensure our users can find their way to what they’re looking for – is more critical than ever**.
 
-The freezer part of the supermarket is also nice because it’s a grouping of things, but it’s also ‘undergoing maintenance’ (so, even when something isn’t available – because the page content is being updated, for example – the user should be kept informed).
+Given that this chapter is titled ‘Information Architecture’, I think it’s important I explain what that means. Essentially, **information architecture focuses on organising, structuring and labelling information so we can improve its findability and discoverability**.
+
+**The information architecture of websites and applications is critical.** If it’s done well, it enables users to **complete the tasks that they need to complete**. Conversely, if it’s ill-considered, it **leads to frustrated users who will very quickly find an alternative solution**.
+
+In [The Difference Between Information Architecture and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/), Nielsen Norman Group argue:
+
+> Information architecture is not part of the on-screen user interface, rather information architecture informs [the] user interface. The information architecture is documented in spreadsheets and diagrams, not in wireframes, [mockups] or prototypes.  
+
+The reference to spreadsheets and diagrams should signal that we’re moving into different territory, beyond patterns and pages, to **focus on the big picture and how everything fits together, conceptually**. Nielsen Norman Group define information architecture as having two main components:
+
+* identification and definition of**site content and functionality**; and
+* the underlying organisation, structure and nomenclature that define the **relationships** between a site’s content and / or functionality.
+
+Expanding upon this, Louis Rosenfeld and Peter Morville, in their book ‘Information Architecture for the World Wide Web’, identify **four main components of information architecture:**
+
++ organisation systems;
++ labeling systems;
++ navigation systems; and
++ searching systems.
+
+As Morville, helpfully explains: **“What architects do for buildings, information architects do for websites, applications and interactive services.”**
+
+The building analogy is a useful one. When you arrive at any new building, **signage (the navigation system) usually points you in the right direction**. This signage will prove more effective if it’s **logically labelled (the labelling system)*+ and **the layout of the building (the organisation system) has been carefully considered.**
+
+Whether we’re designing a website or an application, **we need to put some thought into these systems**. Do so and we’ll help our users.
+
+IMAGE HERE: A site map of some description. I could use mrmurphy.com for now and change it later.
+
+Everything we design is created from content. When we design a user interface, we take this content and we organise it, **enabling the user to navigate it and help them to quickly and easily find their way**.
+
+There are a number of approaches you can use to take the content you need to organise, and structure it. These include undertaking:
+
++ content inventories;
++ content audits;
++ clustering exercises;
++ taxonomy development; and
++ metadata identification.
+
+Content inventories involve **examining a website or an application’s existing (or proposed) content to locate and identify existing content**. If you’re working on a new project, it’s helpful to undertake some competitor benchmarking, exploring your competitors’ content and learning from it, to inform content creation.
+
+A content audit involves **evaluating the content you’ve identified during your content inventory exercise**. At this stage, you’re interested in appraising the usefulness, accuracy, tone of voice and effectiveness of the content.
+
+Clustering exercises involve **identifying clusters of content that sit well together in logical groupings**. One way to do this is to undertake a [card sorting]() exercise, exploring how users group information informed by their existing mental models.
+
+Taxonomy exercises involve **defining a set of standardised naming conventions for the content you’ve clustered**. Again, it helps to undertake some research with users to establish how they approach naming content clusters. Unless you’re designing for a specialist audience, it’s best to aim for clear and concise language.
+
+Lastly, it’s important to define useful metadata that can help you **establish connections between different content clusters**. This can be used to collect lists of related resources and develop other useful navigation elements.
+
+As we design, we need to **consider the information architecture, structure and hierarchy of the content we’re organising and apply it to our patterns, pages and flows**, considering it at each level:
+
++ flows, where we organise pages into content the user will see sequentially, will have a macro-level information architecture that takes into account the overall structure;
++ pages will have their own micro-level information architecture (as I’ll explore shortly); and
++ patterns will have their own structure and hierarchy.
+
+I’ll explore flows in [Chapter 4: Getting From A → B](#) – in this chapter, I’m focusing on patterns and pages – but the overall emphasis remains the same: **We need to ensure everything is clearly signposted.**
 
 
-### Wayfinding Patterns
+### Finding the ice cream…
 
-There might also need to be a subsection on wayfinding patterns we can use, including:
+Donna Spencer’s excellent book – A Practical Guide to Information Architecture, for Five Simple Steps (now, sadly, out of print) – used **the analogy of finding sweets in a supermarket** to explain information architecture at a high level. It was one of the most helpful explanations I’ve read, so I’m going to borrow it and put my own spin on it.
 
-+ Navigation Patterns (Top, Footer);
-+ Breadcrumb Trails (Where am I?); and
-+ Shopping Cart Flows
+Spencer’s book – whilst sadly no longer available in print – is, as its title suggests, a practical guide to information architecture. Originally published by Five Simple Steps, I’d strongly recommend buying the [Kindle](https://amzn.to/2IkHeRl) book, which provides a thorough overview of the principles of managing and orchestrating content.
 
-Essentially make the point that often users are moving through content and – just like they’d need wayfinding signage in an airport – so, too, they need it in this context.
+Whilst I’m partial to sweets (perhaps a little too partial) my real love is ice cream.
+
+When I’m looking for ice cream in my local Co-Op, **I know exactly where to find it**. That’s a sign that I buy a little too much Ben & Jerry’s for my own good, but imagine I popped by my Co-Op on a Monday evening after work only to discover it had been overhauled over the weekend. **The entire supermarket layout was new and everything was in a different place.**
+
+**How would I find the ice cream?**
+
+The good news is that, **in a supermarket, everything is organised logically**. As I enter the Co-Op, I see that vegetables and fresh fruit are organised immediately to the right of me. If I’m looking for fresh goods, I can find them all gathered together in this section. But where’s the ice cream?
+
+Ice cream is sweet, so it might be organised with the sweets, but it’s frozen so I’d expect it to be organised with other frozen goods in the frozen section. Sure enough, when I find the frozen section at the back of the Co-Op, there’s the ice cream and I’m all set to add some [Karamel Sutra Core](https://www.benjerry.com/flavors/karamel-sutra-core) to my basket. **Win.**
+
+Put simply, information architecture is all about:
+
++ organising content or objects;
++ describing it clearly; and
++ providing clearly defined pathways for users to get to it.
+
+The above is true of: **parts of a page**, **the page itself** and **the page in relation to other pages**. It’s essential that we ground everything that we design, no matter how simple or complex, with the principle of helping our users ‘find their way’.
+
+We see this principle followed on the web and in native applications. By grouping everything together logically, designers make it easier to find what users are looking for.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-1-hard-graft.png" alt="Hard Graft > Device cases > iPad" description="Hard Graft’s online store is organised by categories. If I’m looking for a new iPad case, I can find it under: Devices > iPad." %}
+
+
+If I’m looking for an iPad case on the [Hard Graft](https://www.hardgraft.com) website (above), I can find them because **they’re organised  in an iPad section, under Device Cases**:
+
+	Hard Graft > Device Cases > iPad
+
+Amazon adopts the same approach. When you’re looking for something in [The Everything Store](https://amzn.to/352pgMD), that lists almost all the items you could ever imagine buying, **organisation is critical**. Yes, most interactions on Amazon are driven by search, but that doesn’t mean its items aren’t also categorised.
+
+At a high level, Amazon (below) organises everything logically under a ’Shop by Category’ heading available in the sidebar accessed via a hamburger icon. I strongly suspect **a combination of looking at user data** (what are users looking for most?) **and cold, hard business decisions** (how can we promote Amazon’s products first?) **is why this menu is organised the way it is**.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-2-amazon.png" alt="Amazon > Shop By Category" description="Although Amazon primarily uses search as a means of finding products, everything is also organised into clearly considered categories." %}
+
+
+After a sub-grouping of Amazon’s own products (Prime Video, Amazon Music, Echo & Alexa…)  there’s a further sub-grouping listing everything else organised logically:
+
++ Books & Audible
++ Movies, TV, Music & Games
++ Electronics & Computers
++ …
+
+As I noted above, **the order of this list is probably driven by search data** (of which Amazon has a vast quantity). I suspect books are listed first, because they are still the most searched for item.
+
+This point is worth underlining. When you’re designing a new digital product, you probably won’t have much data to draw from, so **your decisions about how to organise everything will probably be drawn from a combination of user research (focus groups, perhaps) and instinct**. If you’re undertaking a redesign, however, **it’s worth looking at existing data and identifying what’s important to most users**.
+
+Again, **how you organise everything and impose an overall information architecture will be driven by mental models**. If users are looking for a [portable power bank](https://amzn.to/2ABcNBW) they expect it to be organised somewhere in the Electronics & Computers category, not in the Books & Audible category.
+
+The bottom line: As you design your user interface, **put some thought into how users find the ice cream** (metaphorically, of course). Do that and they’ll thank you.
+
+
+### Part 3: Site-Level and Page-Level Navigation
+
+Information architecture applies at a range of levels: **beyond the site-level** (considering macro-level information architecture), **we can also structure it at the page-level, especially when pages are information dense** (considering micro-level information architecture).
+
+When you have a lot of information at the page level, there are a number of different approaches to presenting it:
+
+* You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
+
+* Alternatively, a better approach is to **consider the page at an information architecture micro-level, where content is divided into logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
+
+The second of these approaches **gives users a better chance of making their way through the content provided without being overwhelmed**. By establishing a page-level structuring scheme as the foundation for a page-level navigation system, we give users a better chance of finding what they’re looking for.
+
+As Morville puts it:
+
+> The purpose of your information architecture is to help users understand where they are, what they’ve found, what’s around, and what to expect.  
+
+GOV.UK adopts both of these approaches, which is one reason (of many) that the site has won so many awards.
+
+At an aesthetic level the site might appear a little plain, but what’s important is the way the information – of which there is a great deal – is organised and designed to help users.
+
+/* MACRO-SCREENSHOT */
+
+At the site-level, GOV.UK is clearly organised. CHECK MY OLD CONTENT, I THINK I HAVE SOME I CAN USE HERE.
+
+/* MICRO-SCREENSHOT */
+
+See above, I have content.
+
+
+<!-- CLOSING SENTENCE -->
+
+With **the theory of information architecture covered** and **some patterns and pages explored**, its time to dive a little deeper into organising everything at the page level and identify some strategies for designing pages that communicate their content clearly.
 
 
 
 Section 5: Iconic Layouts, Blockframes and Wireframes
 -----------------------------------------------------
+
+<!--
+
+This is all about getting everything organised at the page level. Show the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place.
+
+I’ll use these as the basis of UI Kits that I can include in the downloadables.
+
+With that high level mapped out, talk about levels of fidelity, showing the diagram (sketch → mockup).
+
+- Sketches
+- Iconic Layouts
+- Blockframes
+- Wireframes (w/ Annotations)
+- Mockups
+- Prototypes *
+
+\* Introduce prototypes, but don’t make them. They’ll be the backbone of the next chapter, when I look at flows, explaining that we can use tools like XD to link together screens to provide a more immersive experience.
+
+-->
 
 {% include figure.html url="/images/ch3/c3-temp-sketch-pre-iconic.png" alt="Temporary Image" description="Before we use a tool like XD to build higher fidelity deliverables, it’s important to get our thinking right through a process of sketching interfaces. This is the lowest form of fidelity in the user interface (and it’s also the fastest, to it’s easier to discard ideas that don’t necessarily work)." %}
 
@@ -839,3 +960,9 @@ _Get rid of the following and replace it with Diana’s book. In fact her book s
 + usability.gov has an excellent overview of [Information Architecture Basics](https://www.usability.gov/what-and-why/information-architecture.html) that’s well worth reading. The site is an excellent resource that – whilst primarily focused on design for government – offers a wide range of resources that are applicable beyond design for the public sector.
 
 + Finally, Steve Krug’s [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2Xa5DS3) is a timeless book that I’d highly recommend. Whilst focused on usability, it contains a wealth of insights that are applicable when considering your overall information architecture.
+
+<!--
+
+In a medium that’s evolving rapidly, definitions evolve over time. If you’re interested in a more in-depth exploration of what information architecture is – and isn’t – I’d recommend reading Nathaniel Davis’s [‘Framing the Practice of Information Architecture’](URL). (As a bonus, you’ll also learn all about Louis Rosenfeld and Peter Morville’s ‘information architecture iceberg’ and Davis’s variation on it.)
+
+-->
