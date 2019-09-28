@@ -673,7 +673,7 @@ Stream, a provider of scalable feed APIs, has created an in-depth overview of fe
 Section 4: Information Architecture
 -----------------------------------
 
-{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Information Architecture" description="This is probably something like a flow chart (like the one I shared with Gaby for mrmurphy.com). Alternatively, it could be the ice cream image until I find something more appropriate." %}
+{% include figure.html url="/images/ch3/c3-s4-p1-1-site-page-level.png" alt="Information Architecture at Site- and Page-Level" description="Information architecture focuses on organising, structuring and labelling information so we can improve its findability and discoverability: on the left, at the site-level; and on the right, at the page-level." %}
 
 
 In an age of information overload, **establishing a clear information architecture – so that we ensure our users can find their way to what they’re looking for – is more critical than ever**.
@@ -705,7 +705,7 @@ The building analogy is a useful one. When you arrive at any new building, **sig
 Whether we’re designing a website or an application, **we need to put some thought into these systems**. Do so and we’ll help our users.
 
 
-{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Information Architecture" description="This is probably a site map of some description. I could use mrmurphy.com for now and change it later." %}
+{% include figure.html url="/images/ch3/c3-s4-p1-2-site-level-architecture.png" alt="Information Architecture" description="As I’ll explore in Chapter 4, site maps are useful for establishing an overall information architecture." %}
 
 
 Everything we design is created from content. When we design a user interface, we take this content and we organise it, **enabling the user to navigate it and help them to quickly and easily find their way**.
@@ -820,7 +820,7 @@ As Peter Morville puts it:
 
 > The purpose of your information architecture is to help users understand where they are, what they’ve found, what’s around, and what to expect.  
 
-GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
+I touched on GOV.UK in Chapter 2, when I introduce design systems. GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
 
 
 {% include figure.html url="/images/ch3/c3-s4-p2-4-gov-uk.gif" alt="GOV.UK Information Architecture" description="GOV.UK’s overall, macro-level information architecture is clear, enabling the user to find what they’re looking for quickly and helping them to build a mental model of the site’s structure." %}
@@ -837,7 +837,7 @@ The design might look simple, but it’s this seeming simplicity that lies at th
 This clear organisation **permeates down to the page-level design**, considering micro-level information architecture (below).
 
 
-{% include figure.html url="/images/ch3/c3-s4-p2-5-gov-uk.png" alt="GOV.UK Page-Level Information Architecture" description="GOV.UK’s page-level, micro-level information architecture is also clearly considered, with: 1. breadcrumb navigation, enabling the user to see where they are, contextually; 2. a clear title; 3. a contents list, allowing the user to quickly navigate where they need to; 4. an overview; and 5. links to related content." %}
+{% include figure.html url="/images/ch3/c3-s4-p2-5-gov-uk.png" alt="GOV.UK Page-Level Information Architecture" description="GOV.UK’s page-level, micro-level information architecture is also clearly considered, with: 1. breadcrumb navigation, enabling the user to see where they are contextually; 2. a clear title; 3. a table of contents, allowing the user to quickly jump to the section they need to; 4. an overview; and 5. links to related content." %}
 
 
 At a micro-level, **GOV.UK’s pages are clearly organised with prominent, but understated branding** at the top of the page. A breadcrumb trail underneath the branding (1) provides users with a clear sense of where the user is in the overall information architecture:

@@ -29,7 +29,7 @@ table-of-contents:
 Overview
 --------
 
-When we design an interface, it’s important to put some thought into our overall information architecture (IA). Information architecture is focused on **organising, structuring and labelling content in a way that eases users through the overall information presented**.
+When we design an interface, it’s important to put some thought into our overall information architecture. Information architecture is focused on **organising, structuring and labelling content in a way that eases users through the overall information presented**.
 
 Our goal as designers is to:
 
@@ -39,15 +39,15 @@ Our goal as designers is to:
 
 In order to do this, it’s important to put some thought into **how the different elements we use in an interface fit together as part of the overall system** within which they exist.
 
-To design an effective information architecture, **we need to consider the hierarchy of our content at a range of different levels**:
+To design an effective information architecture, **we need to consider the structure and hierarchy of our content at a range of different levels**:
 
 + The Pattern Level
 + The Page Level; and
 + The Site Level *
 
-The components and patterns we design – the content elements that make up our pages – **will have their own information architecture, that we need to consider at the micro-level**. As we design patterns for user interfaces, we need to consider how their content is organised, hierarchically.
+The components and patterns we design – the content elements that make up our pages – **will have their own structure and hierarchy, that we need to consider at the micro-level**. As we design patterns for user interfaces, we need to consider how their content is organised, logically.
 
-Similarly, pages will have a page-level information architecture, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
+Similarly, pages will have a page-level structure and hierarchy, that relates to the context in which they’re consumed, for example, in a browser in a desktop or a mobile context. **How pages are laid out, with a considered hierarchy, will help users achieve their goals.**
 
 At the macro-level, we also need to **consider the overall information architecture of the site or application we’re building**. We need to **ensure that we organise our information clearly**, ensuring users understand the overall structure of the site that enables them to build a ‘mental model’ of how everything is organised.
 
@@ -115,7 +115,7 @@ Where UI Patterns differs to Pattern Tap is Toxboe’s approach, which adopts a 
 
 Long before Pattern Tap existed there was Christopher Alexander’s 1977 book [‘A Pattern Language: Towns, Buildings, Constructions’](https://amzn.to/2JVf2UI). **Few have read the book, but Alexander’s thinking has certainly shaped where we are today.** One of two books – “two halves of a single work” – ‘A Pattern Language’ was followed, in 1980, by Alexander’s [‘The Timeless Way of Building’](https://amzn.to/2ZZDl9Y).
 
-Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**,” and were the result of eight years of practice and thought. 
+Together, these books provided, “**a language**, for building and planning,” and, “the theory **and instructions for the use of that language**.” The books were the result of eight years of practice and thought. 
 
 Alexander was careful to stress the book’s title ‘**A** Pattern Language’, not ‘**The** Pattern Language’, stating: “I have called it ‘A Pattern Language’ with the emphasis on the word ‘A’.”
 
@@ -157,11 +157,11 @@ Slate highlights the widespread impact of ‘A Pattern Language’ in an excelle
 
 > Alexander’s ideas have taken root in unexpected places. His early books, especially [‘Notes on the Synthesis of Form’](https://amzn.to/33bC2aO) and [‘A Pattern Language’](https://amzn.to/2M7M9Za), influenced computer scientists, who found useful parallels between building design and software design.
 
-If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages! – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
+If you read Alexander’s book – and it’s by no means a brisk read at 1,171 pages – **the parallels between his methodology and that of user interface pattern libraries**, like Pattern Tap and UI Patterns, become clear.
 
 The methodology I explored in Chapter 2 – **Objects, Components, Patterns, Pages and Flows** – where we use simple things to build complicated things is not unlike Alexander’s methodology. The only difference is that Alexander’s sequencing, designed to meet the needs of architecture, moves from the large to the small:
 
-> When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments…
+> When we use the network of a language, we always use it as a **sequence**, going through the patterns, moving always from the larger patterns to the smaller, always from the ones which create structures, to the ones which then embellish those structures, and then to those which embellish the embellishments.
 
 We could imagine similar words being used to describe the design of pages, which have to function at a practical level, but which can be embellished at a pattern and component level.
 
@@ -178,7 +178,7 @@ Just as Alexander created a book including 253 cross-referenced patterns, so too
 
 Put simply: We can **build our own libraries of patterns**, similar to Matthew Smith’s work with Pattern Tap. These libraries will prove incredibly valuable over time as you encounter new problems and new challenges in your user interface design.
 
-There is always downtime in a studio. You can use that time to let off steam and play table tennis or fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
+There is always downtime in a studio. You can use that time to let off steam and play <span title="Hello, Little Thunder!">table tennis</span> or fussball, but you can also **put that time to good use, by gathering examples of patterns ‘in the wild’** that you can return to when you embark upon new projects.
 
 It’s a good idea to get into the habit of **collecting examples of the different design patterns** that you either:
 
@@ -195,7 +195,7 @@ In my work, I keep collections of example patterns organised by folders. **For e
 
 By building a collection of design patterns and noting how and why they work, **you can accelerate your design process considerably**. Even better, through careful analysis of others’ work (as I recommended in Chapter 2) you can begin to ‘see through the eyes’ of other designers and begin to think like they think.
 
-Before you build something (which is a time-consuming and expensive process), **it helps to find relevant examples from your library, allowing you to visualise how aspects of your user interface might look**.
+Before you build something, which is a time-consuming and expensive process, **it helps to find relevant examples from your library, allowing you to visualise how aspects of your user interface might look**.
 
 When you build your pattern library, **it’s important to establish some conventions that you follow**. At the very least, each pattern entry should have:
 
@@ -207,7 +207,7 @@ When you build your pattern library, **it’s important to establish some conven
 Applying this to the above Netlify credit card modal dialog, this might be:
 
 + **Name:** Netlify Credit Card Modal
-+ **Image:** [Modal Screenshot](https://github.com/buildingbeautifuluis/buildingbeautifuluis.github.io/blob/master/images/ch3/c3-temp-netlify-credit-card-modal.png)
++ **Image:** [Modal Screenshot](https://www.dropbox.com/s/sjan1yen583o0zs/netlify-credit-card-modal.png?dl=0)
 + **Description:** Netlify’s credit card modal is a lovely example of a **delightful interaction pattern** for entering credit card details. As you enter your card details on the left-hand side, the credit card updates, showing your card details on the right-hand side.
 + **Related Patterns:** Here you might gather links to other payment forms you’ve designed for projects, or to others you’ve discovered in your research.
 
@@ -229,9 +229,9 @@ Section 2: Components → Patterns → Pages
 
 Having explored the benefits of pattern languages, and provided some history about their origins, in this section **I’ll dive deeper and explore some examples of patterns**, demonstrating how they can work together as part of a greater whole.
 
-The beauty of this approach, **building from the object up**, is that it allows us to establish an information architecture at every level of our design’s hierarchy: **Components → Patterns → Pages → Flows**.
+The beauty of this approach, **building from the object up**, is that it allows us to establish a structure and hierarchy at every level of our design: **Components → Patterns → Pages → Flows**.
 
-If we **consider the information architecture of the patterns we build**, when we subsequently put these patterns together to form pages, our overall information architecture falls more or less into place. In short, it’s important to **consider the information architecture of our content at multiple levels as we design it**.
+If we **consider the structure and hierarchy of the patterns we build**, when we subsequently put these patterns together to form pages, our overall structure and hierarchy falls more or less into place. In short, it’s important to **consider the structure and hierarchy of our content at multiple levels as we design it**.
 
 As with the components I explored in Chapter 2, where components were built out of objects, **patterns are – themselves – built out of objects and components**, we’re simply increasing the complexity.
 
@@ -245,7 +245,10 @@ The restaurant listing pattern (above) is contained in a card (1), gathering tog
 + an overview of the restaurant (3); and
 + a star rating and a price guide (4).
 
-Establishing a pattern for this content requires us to **analyse the information supplied and consider its overall structure and information architecture**.
+Establishing a pattern for this content requires us to **analyse the information supplied and consider its overall structure and hierarchy.** For example, the overview of the restaurant – its name and the brief description (3) – are ordered logically with:
+
++ a heading (noma), which is larger and in blue; and
++ a brief description (“Without question…”), which is smaller and in a lighter grey.
 
 The beauty of this approach is that **this pattern can be re-used, for other restaurant listings**, resulting in a more consistent interface that’s efficient to design. We might gather together a series of restaurant listings, for example, where we re-use the pattern to build out our interface (below), gathering a group of listings.
 
@@ -253,7 +256,7 @@ The beauty of this approach is that **this pattern can be re-used, for other res
 {% include figure.html url="/images/ch3/c3-s2-p1-3-simple-pattern-restaurant-listings.png" alt="Restaurant Listings Pattern" description="By reusing the restaurant listing pattern (above), we can quickly organise a group of listings, ensuring they are clearly structured and easy to understand." %}
 
 
-The pattern above is relatively simple. Should our design require a little more detail, **we can use the same organising principles to create a more complex pattern** (below), we’re simply levelling up the complexity once again.
+The pattern above is relatively simple. Should our design require a little more detail, **we can use the same organising principles to create a more complex pattern** (below). We’re simply levelling up the complexity once again.
 
 Whilst this might look complicated at first glance, if we **break the pattern down into its constituent parts we can see it’s relatively simple**, comprising three content sub-sections:
 
@@ -262,7 +265,7 @@ Whilst this might look complicated at first glance, if we **break the pattern do
 + a section where we present actions (3).
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of calls-to-action (a ‘READ MORE’ button and a button to favourite the option." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-4-complex-pattern-noma.png" alt="Restaurant Recommendation Pattern (Complex)" description="We might provide an alternative, richer pattern if we’d like to include actions. This pattern includes: 1. a more generous preview image; 2. some supporting text; and 3. a couple of call-to-action buttons (Read More and Add to Favourites)." %}
 
 
 We see these kinds of ‘content clusters’ in both desktop and mobile interfaces, **where information needs to me structured into organised groupings**. This pattern-driven approach is used, for example, in Apple’s [Apple Trade In](https://www.apple.com/shop/trade-in) programme page (below).
@@ -272,7 +275,7 @@ Although the user is required to provide a great deal of information (including:
 The result is that users are taken step-by-step through everything they need to do, in a clearly considered user flow.
 
 
-{% include figure.html url="/images/ch3/c3-s2-p1-5-complex-pattern-apple.png" alt="Apple Trade In · Modal Dialog" description="This pattern, whilst more complex than the earlier patterns, really just levels up the complexity further." %}
+{% include figure.html url="/images/ch3/c3-s2-p1-5-complex-pattern-apple.png" alt="Apple Trade In · Modal Dialog" description="This pattern (one of a series of modal dialogs in a sequence), whilst more complex than the earlier patterns, really just levels up the complexity further." %}
 
 
 This example, from Apple, levels up the complexity further, drawing together a number of elements, including:
@@ -293,8 +296,8 @@ With some patterns explored, it’s time to explore how **we can use patterns �
 
 Consider a typical page, like the [Curated Galleries](https://www.behance.net/galleries) page at Behance (below). It’s organised at every level, featuring:
 
-1. an overall hierarchy and structure **at the page level** (micro information architecture); and
-2. a specific hierarchy and structure **at the pattern level** (macro information architecture).
+1. an overall hierarchy and structure **at the page level**; and
+2. a specific hierarchy and structure **at the pattern level**.
 
 At an overall page hierarchy, our eye is drawn to the title: Curated Galleries. Its size on the page and the weight of the type used catches our eye, signalling the page we’re on.
 
@@ -314,14 +317,14 @@ At the pattern level (below), there is an equally clear hierarchy and structure.
 
 The ‘card’ pattern that’s used at Behance – carefully organised at the pattern level – is **perfect for page level display**.
 
-As ‘information containers’, cards – self-contained ‘units of content’ – can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects (which can also be hierarchically organised); and buttons.
+As ‘information containers’ – self-contained units of content – cards can be used to **organise a range of different objects and components**, including: imagery or rich media (video, for example); text objects (which can also be hierarchically organised); and buttons.
 
-**One of the primary benefits of a embracing cards is their adaptability.** Cards can be **reorganised or reflowed** depending upon the screen real estate available:
+**One of the primary benefits of embracing cards is their adaptability.** Cards can be **reorganised or reflowed** depending upon the screen real estate available:
 
 + in a desktop context we might lay out our cards **horizontally and vertically, in a grid**; and
 + in a mobile environment – on a tablet or a smartphone, where space is at a premium – we might **vertically stack cards in a layout that users can scroll down**.
 
-The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level information architecture.
+The beauty of card patterns like this is that **they’re perfect when it comes to design, especially responsive web design (RWD), because the cards can reflow at narrower viewport widths**, whilst still retaining their pattern level structure and hierarchy.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p2-3-behance-curated-galleries-desktop-mobile.png" alt="Behance · Curated Galleries: Desktop and Mobile View" description="On the left, on a desktop device with a wider viewport width, the thumbnails are organised horizontally and vertically in a grid. On the right, on a mobile device with a narrower viewport width, the thumbnails are organised vertically, in a narrower grid." %}
@@ -361,7 +364,7 @@ If we look at one of Dribbble’s [profile pages](https://dribbble.com/fehler) (
 
 Each of these patterns has been **designed to communicate different types of information** and, when we look at each of these patterns in turn, we see that they each have their own logical structure.
 
-This is an important point to note and it’s one that’s worth emphasising. **We can – and should – consider information architecture at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** information architecture, so too do the different patterns on the pages.
+This is an important point to note and it’s one that’s worth emphasising. **We can – and should – consider structure and hierarchy at multiple levels, including the pattern- and the page-level.** So, just as Dribbble’s profile page has a considered **overall** structure and hierarchy, so too do the different patterns on the pages.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p3-2-dribbble-profile-pattern.png" alt="Dribbble’s Profile Pattern" description="Dribbble’s profile pattern is divided into three sub-sections: profile, skills and elsewhere, i.e. this pattern has its own information architecture." %}
@@ -369,21 +372,21 @@ This is an important point to note and it’s one that’s worth emphasising. **
 <!-- Before publication, re-screenshot this and change the URL to mrmurphy.com. -->
 
 
-If we focus in one one of these patterns (above), the ‘profile pattern’ communicates information about the user in question. This information is divided into three sub-sections or groupings of content: ‘profile’ (1), ‘skills’ (2) and ‘elsewhere’ (3). **So – even at the pattern level – we can consider our content’s information architecture ensuring everything is logically structured.**
+If we focus in one one of these patterns (above), the profile pattern communicates information about the user in question. This information is divided into three sub-sections or groupings of content: ‘profile’ (1), ‘skills’ (2) and ‘elsewhere’ (3). **So – even at the pattern level – we can consider our content’s structure and hierarchy ensuring everything is logically organised.**
 
-Looking at the above profile pattern (my @fehler profile) we see the information is organised into three logically organised sections:
+Looking at the above profile pattern (my [@fehler](https://dribbble.com/fehler) profile) we see the information is organised into three sections:
 
 + **Profile**
   + **The User’s Name:** Christopher Murphy
   + **The User’s Location:** Belfast
-  + **The User’s Biography:** A designer, writer and speaker… etc..
+  + **The User’s Biography:** A designer, writer and speaker…
 + **Skills**
-  + content design, content strategy, design, etc..
+  + content design, content strategy, design…
 + **Elsewhere**
   + dev.mrmurphy.com
   + Twitter
 
-This **pattern level information architecture** groups related content – all about the user – into one, carefully organised space.
+This **pattern level structure and hierarchy** groups related content – all about the user – into one, carefully organised space.
 
 Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise to see a great deal of care and attention (not to mention distillation and refinement over time) has gone into the design of the site’s ‘shot pattern’**. Shots are, after all, the primary focus of Dribbble.
 
@@ -393,7 +396,7 @@ Dribbble wouldn’t be Dribbble without its ‘shots’ so **it’s no surprise 
 <!-- Before publication, re-screenshot this page with some more up-to-date shots (from this book for added meta). -->
 
 
-Dribbble’s shot pattern, like the profile pattern, has its own information architecture that communicates information about the shot in question:
+Dribbble’s shot pattern, like the profile pattern, has its own structure and hierarchy that communicates information about the shot in question:
 
 + **The Shot’s Title:** Break Badges [Sketch]
 + **The Shot’s Upload Date:** August 23, 2014
@@ -413,17 +416,17 @@ This shot pattern is used in a number of different locations throughout the Drib
 {% include figure.html url="/images/ch3/c3-s2-p3-4-dribbble-shot-pattern-reused.gif" alt="Dribbble’s Shot Pattern, Reused" description="Dribbble’s shot pattern is used in multiple locations throughout the website underlining another benefit of embracing design patterns: reusability." %}
 
 
-The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important, benefit of building patterns as a core part of your design process, namely: **reusability and consistency**.
+The re-use of this pattern in so many different areas of Dribbble’s website underlines a further, important benefit of building patterns as a core part of your design process, namely: **reusability and consistency**.
 
 **The more you embrace reusability** and the less you reinvent the wheel, **the more consistent your user interfaces are and the quicker they are to build**.
 
 Patterns used this way are a little like variables in programming languages: **make a change to a variable and that change cascades out, taking care of the bigger picture**.
 
-If we dive a little deeper and explore Dribbble’s shot pattern in more depth, we see that **the pattern has a number of possible states**:
+If we dive a little deeper and explore Dribbble’s shot pattern in more depth (below), we see that **the pattern has a number of possible states**:
 
 1. a non-hover state that showcases the shot alone (1);
 2. a hover state that reveals metadata about the shot (2);
-3. a hover state that highlights when a user has liked a shot (3) (note: the user might also have saved a shot and not liked it, but this is unlikely); and
+3. a hover state that highlights when a user has liked a shot (3) (the user might also have saved a shot and not liked it, but it’s unlikely); and
 4. a hover state that highlights when a user has liked a shot and saved it to one of their buckets (4).
 
 
@@ -434,21 +437,25 @@ It should be obvious, after reading Chapter 2, that the ‘Saved’ and ‘Liked
 
 By embracing a pattern-driven approach, **Dribbble can re-use these components and patterns elsewhere on the site**.
 
-On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – at a smaller size – to showcase the work of different design teams using the service.
+On Dribbble’s [Home](https://dribbble.com) page, for example, we see the shot pattern re-used multiple times to show the latest shots that have been uploaded. On the [Teams](https://dribbble.com/teams) page, we see the same pattern – **reused at a smaller size** – to showcase the work of different design teams using the service.
 
 When we focus on featured shots on Dribbble (below) we see **a different pattern, which presents more detailed information**. From a functional perspective, clicking on a shot preview opens it in **a modal dialog** – a dialog, or window, that appears **on top of the main window** – focusing your attention on the shot in question and presenting it at a larger size.
 
 
-{% include figure.html url="/images/ch3/c3-s2-p3-6-dribbble-featured-shot.png" alt="Dribbble’s Featured Shot Pattern" description="Clicking on an image on Dribbble opens it in a modal dialog, focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information on the shot provided by its designer." %}
+{% include figure.html url="/images/ch3/c3-s2-p3-6-dribbble-featured-shot.png" alt="Dribbble’s Featured Shot Pattern" description="Clicking on an image preview on Dribbble opens it in a modal dialog (at larger viewport sizes), focusing your attention by providing: 1. the details of shot; 2. a larger image of the shot in question; and 3. supplementary information about the shot provided by its designer." %}
 
 
-This pattern – which uses more of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: the shot details, including metadata on the left, and ‘Save’ and ‘Like’ buttons on the right (1); the shot itself at a larger size (2); and any additional details about the shot that the designer has provided (3).
+This pattern – which uses more of the viewport – **allows the information to breathe a little more**, thanks to the extra screen real estate used. It also provides: 
 
-Scrolling down the page reveals **additional information about the shot** (below) thanks to the use of a number of other patterns. These include:
++ the shot details, including metadata on the left, and ‘Save’ and ‘Like’ buttons on the right (1);
++ the shot itself at a larger size (2); and
++ any additional details about the shot that the designer has provided (3).
+
+Scrolling down the page (below) reveals **additional information about the shot** thanks to the use of a number of other patterns. These include:
 
 + **a description of the shot**, with users’ responses beneath it;
-+ **supplementary information about the shot** including: tags, the shot’s colour palette, the number of times the shot has been viewed, and other details; and
-+ **links to other shots**, by the designer in question.
++ **supplementary information about the shot** (1) including: tags, the shot’s colour palette, the number of times the shot has been viewed, and other details; and
++ **links to other shots** (2), by the designer in question.
 
 
 {% include figure.html url="/images/ch3/c3-s2-p3-7-dribbble-featured-shot-details.png" alt="Dribbble’s Featured Shot Pattern Meta Data" description="Underneath the image, Dribbble provides a wide range of metadata about the shot (1) and links to further shots by the designer in question (2)." %}
@@ -480,7 +487,7 @@ As with the previous chapter, **this is not an exhaustive list, rather it’s in
 I’ll explore the following patterns and, as with Chapter 2, I’ll provide a series of XD artboards that you can also explore further.
 
 + Date Pickers
-+ Register / Sign-In Forms
++ Sign Up / Sign In Forms
 + Credit Card Forms
 + Notifications
 + Activity Feeds
@@ -508,17 +515,17 @@ As I’ve stressed throughout this book, **users have mental models of how these
 
 Regardless of your requirements, you’ll almost certainly need to consider:
 
-+ displaying the current day’s date in a clear and obvious manner;
-+ how users move between different months and years; and
-+ managing error states (for example, if a user enters a return date that’s **before** the departure date).
++ displaying **the current day’s date** in a clear and obvious manner;
++ how users move between **different months and years**; and
++ **managing error states** (for example, if a user enters a return date that’s before the departure date).
 
-Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions – and aesthetics – for date pickers. Harpal Singh’s [date picker](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component), in particular, is worth looking at for the consideration he gives to different base, hover and error states.
+Searching on Dribbble for [‘date picker’](https://dribbble.com/search?q=date+picker) returns a wealth of different solutions and visual approaches for date pickers. Harpal Singh’s, in particular, is worth looking at for the consideration he gives to [different base, hover and error states](https://dribbble.com/shots/3397410-Date-Picker-Calendar-Component).
 
 Finally, Vitaly Friedman – Smashing Magazine’s founder – has written an exhaustive and very in-depth overview of date pickers, [Designing the Perfect Date and Time Picker](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/). A 40 minute read, it’s well worth setting aside some time to work your way through. Never one for half measures, Friedman considers every eventuality.
 
-Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
+In the wild, Google Flights’ date picker is a great example of a date picker that’s **beautifully designed, intuitive and easy to use**. As I did with the Netlify Credit Card Modal (highlighted above), I’ve included an analysis of it in my [pattern library](https://noti.st/mrmurphy/Zy3ib6/pattern-library-google-flights-date-picker).
 
-What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. Despite the complexity of the information it presents, **the user interface is clear, chunked into a series of easily parsable steps**.
+What’s particularly nice about Google’s approach to its date picker pattern is its relative ease of use. Despite the complexity of the information it presents, **the user interface is clear, grouped into a series of easily understandable steps**.
 
 
 
@@ -527,17 +534,17 @@ What’s particularly nice about Google’s approach to its date picker pattern 
 <!-- For the final book, this would be nice animated in AfterEffects. -->
 
 
-### Sign-Up / Sign-In Forms
+### Sign Up / Sign In Forms
 
-If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service, **you’ll need to consider a Sign-Up / Sign-In forms for users to sign up for your product or service, or sign into it**.
+If you’re designing a piece of software (especially a piece of web-based software) or building some form of community-focused service where users will have an account, **you’ll need to consider Sign Up / Sign In forms for users to sign up for your product or service, or sign into it**.
 
 When a user first encounters a SaaS (Software as a Service) product, they’ll often be **asked to register for an account**. This allows information relevant to the user to be stored for their return, or items added to a shopping cart to be saved for later.
 
 This will often involve a round trip to an email client for your users to confirm they are who they say they are (something you’ll also need to consider).
 
-Once a user has registered, they’ll need to sign-in to access their account. **If signing in is important to the application you’re building, it’s essential to ensure that the sign-in form is clearly signposted.**
+Once a user has registered, they’ll need to sign in to access their account. **If signing in is important to the application you’re building, it’s essential to ensure that the sign in form is clearly signposted.**
 
-Sign-Up and Sign-In forms at the very least require two pieces of data:
+Sign Up and Sign In forms at the very least require two pieces of data:
 
 + a username; and
 + a password.
@@ -546,11 +553,11 @@ Some forms ask for more information, but **as a rule of thumb it’s best to kee
 
 If your goal is for users to sign up for an account, you want to **remove as much friction as possible** and removing form fields is a good way to do this. As a user becomes more embedded, using your application more frequently, **you can ask for additional information you might need**.
 
-In addition to the design of the core sign-up and sign-in forms, **there’s a need to consider what happens should users forget their registration details**.
+In addition to the design of the core sign up and sign in forms, **there’s a need to consider what happens should users forget their registration details**.
 
 There’s nothing more frustrating than an application that doesn’t allow you to recover (or reset) your password should you have forgotten or lost it.
 
-It might be tempting to kill two birds with one stone and present users with both the registration and sign-in forms in two forms side-by-side. **This often leads to confusion**, however, where a user tries to register by using the sign-in form (or vice-versa).
+It might be tempting to kill two birds with one stone and present users with both the sign up and sign in forms side-by-side. **This often leads to confusion**, however, where a user tries to register by using the sign in form (or vice-versa).
 
 A better approach is to **present the user with one form, with a clearly signposted link to the other form**. In the above example, clicking on the greyed out option takes the user to the form they’re not currently on, enabling them to switch easily.
 
@@ -566,22 +573,330 @@ Look at Diana's book (pp83-88) for a useful step-by-step login form redesign. So
 
 
 
+{% include figure.html url="/images/ch3/c3-s3-p3-credit-card-form.png" alt="Credit Card Forms" description="When designing credit card form patterns, it helps to: show the cards that are accepted up-front; provide formatting advice where needed (MM/YYYY); offer help, in this case should a user be unclear on what a security code is; and ensure payment call to action buttons are clearly signalled." %}
+
+
+### Credit Card Forms
+
+The web has proven **a powerful platform for digital commerce** and, as such, credit card patterns – which structure the input of users’ credit card details – are in plentiful supply.
+
+One of the wonderful aspects of working on the web is its leanings towards openness. Thanks to the web’s beginnings, **in particular its ‘View Source’ culture**, we’ve inherited a culture of collective understanding where talented individuals share their thinking for the benefit of all.
+
+UX Collective, which gathers **‘curated stories on user experience, usability and product design’**, offers a wealth of information on the design of all things UX +/ UI, and **Gabriel Tomescu’s [‘Anatomy of a Credit Card Form’](https://uxdesign.cc/the-anatomy-of-a-credit-card-payment-form-32ec0e5708bb) takes the ubiquitous credit card form we meet, day-in day-out, and presents an exhaustive analysis of credit card patterns**. It’s required reading should your project require payments of any kind.
+
+When designing a credit card pattern, you should include the following:
+
++ An indication of what cards are accepted.
++ The name on the card.
++ A card number (which you can dynamically format, with spaces between four digit groups, to help the user).
++ The card’s expiry date.
++ The card’s security, or CVV, code.
+
+In addition to the above, it’s also helpful to **indicate the type of card the user is using, so they feel re-assured that they’ve entered the correct details**. It’s possible to determine the type of card being used by the number the card starts with, as follows:
+
++ **3:** American Express, Diners Club…
++ **4:** Visa
++ **5:** MasterCard
++ **6:** Discover Card
+
+As I noted in my analysis of Netlify’s Credit Card Modal Pattern, **Netlify uses this approach to change the design of the card on the fly to show the user a [Visa](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal#swUfZKe) or [MasterCard](https://noti.st/mrmurphy/SQzORm/pattern-library-netlify-credit-card-modal#sYoOND3)**, for example.
+
+When money is changing hands, it’s important to **establish a bond of trust, indicating to the users that their card details are safe and secure**. UI Patterns has a helpful article on [Designing for Trust](http://ui-patterns.com/blog/Designing-for-trust) that’s worth reading so you can put your users’ minds at ease.
+
+Designing credit card patterns is – as you can see from this section (which is condensed) – a complicated process. In addition to the above, you’ll need to **consider providing feedback when users enter numbers incorrectly**, as they often do.
+
+Ideally error checking can be handled on the client side (before submitting the form to the server) using formulae like the [Luhn algorithm](https://www.geeksforgeeks.org/luhn-algorithm/), which can highlight issues **before the user submits their payment**. Put simply, it’s complicated (but when you get lost down the rabbit hole of the Luhn algorithm, it’s also fascinating!).
+
+
+
+{% include figure.html url="/images/ch3/c3-s3-p4-notifications.png" alt="Notifications" description="Notifications are now an ever-present part of daily life. Notifications can be incredibly useful, but they can equally be incredibly irritating if used too often. Use them sparingly." %}
+
+<!-- When I have some time post-publication, add a notification image in the same style I’ve been using. -->
+
+
+### Notifications
+
+Notifications are useful to alert users and **draw their attention to important updates or messages**.
+
+Notifications can appear in a number of ways:
+
+- at the system level; and
+- at the application level.
+
+System level notifications offer a number of benefits, not least because **they’re persistent at the top level of the interface, i.e. your users can be made aware of notifications when the application you’re building isn’t open**.
+
+Most operating systems will allow you to tie into system level notifications using SDKs (Software Development Kits) or APIs (Application Programming Interfaces). SDKs and APIs are beyond the scope of this book, but **it’s worth bearing in mind that notifications are available at the system level, should you need them**.
+
+It’s also worth noting that the design of system level notifications are to a large degree beyond your control as a designer.
+
+Just because you can present your users with notifications doesn’t mean you necessarily should. **Notifications can, if you’re not careful, prove irritating, annoying users about often trivial matters.** Use them sparingly.
+
+It’s important to consider, what I call, ‘levels of discretion’ for notifications:
+
++ some are discrete, subtly sliding in and sliding out, catching the user’s eye and needing no further action (like a well-trained butler);
++ others are a little more persistent, requiring action, signalling a higher level of priority.
+
+Google’s Material Design guidelines provides an overview of **a variety of different notification patterns (and their levels of priority)**, including:
+
++ **[Snackbars](https://material.io/components/snackbars/):** Temporary notifications that provide brief messages about app processes at the bottom of the screen. (Low Priority)
++ **[Banners](https://material.io/components/banners/):** Persistent notifications (that need to be dismissed) that provide actions for users to address. (Medium Priority)
++ **[Dialogs](https://material.io/components/dialogs/dialogs.html):** Notifications that appear on top of app content, providing critical information. On appearing, dialogs disable all app functionality and remain on screen until a required action has been taken, or they have been confirmed of dismissed. (High Priority)
+
+
+
+{% include figure.html url="/images/ch3/c3-s3-p5-activity-feeds.png" alt="Activity Feeds" description="Activity feeds are ideal for displaying dynamic information that is constantly changing. If you’ve used any form of social media – Twitter, Instagram… – you’ve used an activity feed." %}
+
+
+### Activity Feeds
+
+Activity feeds are ideal for displaying dynamic information that’s constantly changing. If you’ve used any form of social media – Twitter, Instagram, Facebook… – you’ll have used an activity feed.
+
+At their heart, feeds are lists of items that can be organised and grouped by almost any parameter, for example:
+
++ time
++ popularity
++ frequency
++ relevance
++ …
+
+Feeds can be simple, like those used in social media timelines, or they can be used to handle more complex information like upcoming flight departure times at an airport.
+
+Feeds allow users to personalised their user experience, allowing users to connect with others, for example, or follow specific topics that they are interested in.
+
+Stream, a provider of scalable feed APIs, has created an in-depth overview of feeds – [The Ultimate Guide to Activity Feed Design](https://getstream.io/activity-feed-design/) – which is well worth bookmarking and reading should you need to consider the design of activity feeds in a user interface.
+
+<!-- The Activity Feeds content is very short because I wrote it late one night in Donegal. Add more to it when I have more energy. -->
+
+
+
 Section 4: Information Architecture
 -----------------------------------
 
-Coming soon. (I'm working on it [20 September, 2019].)
+{% include figure.html url="/images/ch3/c3-s4-p1-1-site-page-level.png" alt="Information Architecture at Site- and Page-Level" description="Information architecture focuses on organising, structuring and labelling information so we can improve its findability and discoverability: on the left, at the site-level; and on the right, at the page-level." %}
+
+
+In an age of information overload, **establishing a clear information architecture – so that we ensure our users can find their way to what they’re looking for – is more critical than ever**.
+
+Given that this chapter is titled ‘Information Architecture’, I think it’s important I explain what that means. Essentially, **information architecture focuses on organising, structuring and labelling information so we can improve its findability and discoverability**.
+
+**The information architecture of websites and applications is critical.** If it’s done well, it enables users to **complete the tasks that they need to complete**. Conversely, if it’s ill-considered, it **leads to frustrated users who will very quickly find an alternative solution**.
+
+In [The Difference Between Information Architecture and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/), Nielsen Norman Group argue:
+
+> Information architecture is not part of the on-screen user interface, rather information architecture informs [the] user interface. The information architecture is documented in spreadsheets and diagrams, not in wireframes, [mockups] or prototypes.  
+
+The reference to spreadsheets and diagrams should signal that we’re moving into different territory, beyond patterns and pages, to **focus on the big picture and how everything fits together, conceptually**. Nielsen Norman Group define information architecture as having two main components:
+
++ identification and definition of **site content and functionality**; and
++ the underlying organisation, structure and nomenclature that define the **relationships** between a site’s content and / or functionality.
+
+Expanding upon this, Louis Rosenfeld and Peter Morville, in their book [Information Architecture: For the Web and Beyond](https://amzn.to/2n6BAdy), identify **four main components of information architecture:**
+
++ organisation systems;
++ labelling systems;
++ navigation systems; and
++ searching systems.
+
+As Morville, helpfully explains: **“What architects do for buildings, information architects do for websites, applications and interactive services.”**
+
+The building analogy is a useful one. When you arrive at any new building, **signage (the navigation system) usually points you in the right direction**. This signage will prove more effective if it’s **logically labelled (with a labelling system)** and **the layout of the building (its organisation system) has been carefully considered.**
+
+Whether we’re designing a website or an application, **we need to put some thought into these systems**. Do so and we’ll help our users.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p1-2-site-level-architecture.png" alt="Information Architecture" description="As I’ll explore in Chapter 4, site maps are useful for establishing an overall information architecture." %}
+
+
+Everything we design is created from content. When we design a user interface, we take this content and we organise it, **enabling the user to navigate it and help them to quickly and easily find their way**.
+
+There are a number of approaches you can use to take the content you need to organise, and structure it. These include undertaking:
+
++ content inventories;
++ content audits;
++ clustering exercises;
++ taxonomy development; and
++ metadata identification.
+
+Content inventories involve **examining a website or an application’s existing (or proposed) content to locate and identify existing content**. If you’re working on a new project, it’s helpful to undertake some competitor benchmarking, exploring your competitors’ content and learning from it, to inform your own content creation.
+
+A content audit involves **evaluating the content you’ve identified during your content inventory exercise**. At this stage, you’re focused on appraising the usefulness, accuracy and effectiveness of the content. It also helps to look at the content’s [voice and tone](https://styleguide.mailchimp.com/voice-and-tone/) and consider how content is used to communicate from a brand perspective.
+
+Clustering exercises involve **identifying clusters of content that sit well together in logical groupings**. One way to do this is to undertake a [card sorting](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html) exercise, exploring how users group information informed by their existing mental models. This can be helpful for establishing labelling systems.
+
+Taxonomy exercises involve **defining a set of standardised naming conventions for the content you’ve clustered**. Again, it helps to undertake some research with users to establish how they approach naming content clusters. Unless you’re designing for a specialist audience, it’s best to aim for clear, concise and easy to understand language.
+
+Lastly, it’s important to define useful metadata that can help you **establish connections between different content clusters**. This can be used to collect lists of related resources and develop other useful navigation elements.
+
+As we design, we need to **consider the information architecture, structure and hierarchy of the content we’re organising and apply it to our patterns, pages and flows**, considering it at each level:
+
++ patterns will have their own structure and hierarchy (as I’ve explored above);
++ pages will have their own micro-level information architecture (as I’ll explore shortly); and
++ flows, where we organise pages into content the user will see sequentially, will have a macro-level information architecture that takes into account the overall structure.
+
+I’ll explore flows in [Chapter 4: Getting From A → B](#) – in this chapter, I’m focusing on patterns and pages – but the overall emphasis remains the same: **We need to ensure everything is clearly signposted.**
+
+
+### Finding the ice cream…
+
+Donna Spencer’s excellent book – A Practical Guide to Information Architecture, for Five Simple Steps – used **the analogy of finding sweets in a supermarket** to explain information architecture at a high level. It was one of the most helpful explanations I’ve read, so I’m going to borrow it and put my own spin on it.
+
+Spencer’s book – whilst sadly no longer available in print – is, as its title suggests, a practical guide to information architecture. It might no longer be available in print, but there is a Kindle edition, and [I’d strongly recommend buying a copy](https://amzn.to/2IkHeRl) because it provides a thorough overview of the principles of managing and orchestrating content, written in a clear and easy to read manner.
+
+Whilst I’m partial to sweets (perhaps a little too partial) my real love is ice cream.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-1-ice-cream.jpg" alt="Ice Cream" description="I’m partial to ice cream – perhaps a little too partial – so it’s a win in my book when I can find it easily in my local Co-Op." %}
+
+
+When I’m looking for ice cream in my local Co-Op, **I know exactly where to find it**. That’s a sign that I buy a little too much Ben & Jerry’s for my own good, but it also underlines how well-organised the Co-Op is. **Everything is easy to find, enabling me to complete my (rather unhealthy) task easily.**
+
+Imagine I popped by my Co-Op on a Monday evening after work, however, only to discover **it had been overhauled and refitted over the weekend**. The entire supermarket layout was new and **everything was in a different place**.
+
+**How would I find the ice cream?**
+
+The good news is that, **in a supermarket, everything is organised logically and grouped in a way that echoes my mental model**. As I enter the Co-Op, I see that fresh fruit and vegetables are now organised immediately to the right of me. If I’m looking for fresh goods, I can find them all gathered together in this section. But where’s the ice cream?
+
+Ice cream is sweet, so it might be organised with the sweets (bars of chocolate and other items of confectionary), but it’s frozen so I’d expect it to be organised with other frozen goods in the frozen section. Sure enough, when I find the frozen section at the back of the Co-Op, there’s the ice cream and I’m all set to add some [Karamel Sutra Core](https://www.benjerry.com/flavors/karamel-sutra-core) to my basket. I’m a happy customer!
+
+Put simply, information architecture is all about:
+
++ organising content or objects;
++ describing it clearly; and
++ providing clearly defined pathways for users to get to it.
+
+The above is true of: **the page in relation to other pages**, **the page itself** and **parts of a page**. It’s essential that we ground everything that we design, no matter how simple or complex, with the principle of helping our users ‘find their way’.
+
+We see this principle followed on the web and in native applications. By grouping everything together logically, designers make it easier to find what users are looking for.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-2-hard-graft.png" alt="Hard Graft > Device Cases > iPad" description="Hard Graft’s online store is organised by categories. If I’m looking for a new iPad case, I can quickly and easily find it under: Device Cases > iPad (1)." %}
+
+
+If I’m looking for an iPad case on the [Hard Graft](https://www.hardgraft.com) website (above), I can find them because **they’re organised in an iPad section, under Device Cases**:
+
+	Hard Graft > Device Cases > iPad
+
+Amazon adopts the same approach. When you’re looking for something in [The Everything Store](https://amzn.to/352pgMD), that lists almost all the items you could ever imagine buying, **organisation is critical**. Yes, most interactions on Amazon are driven by search, but that doesn’t mean its items aren’t also categorised.
+
+At a high level, Amazon (below) organises everything logically under a ‘Shop by Category’ heading available in the sidebar accessed via a hamburger menu icon. I strongly suspect **a combination of looking at user data **(what are users looking for most?) **and cold, hard business decisions** (how can we promote Amazon’s products first?) **is why this menu is organised and ordered the way it is**.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-3-amazon.png" alt="Amazon > Shop By Category" description="Although Amazon primarily uses search as a means of finding products, everything is also organised into clearly considered categories. It’s ‘Shop by Category’ menu lists Amazon’s items first (1), then other categories (2)." %}
+
+
+After a sub-grouping of Amazon’s own products (Prime Video, Amazon Music, Echo & Alexa…) there’s a further sub-grouping listing everything else, organised into logical groupings:
+
++ Books & Audible
++ Movies, TV, Music & Games
++ Electronics & Computers
++ …
+
+As I noted above, **the order of this list is probably driven by search data** (of which Amazon has vast quantities). I suspect books are listed first, because they are still the most searched for item.
+
+This point is worth underlining. When you’re designing a new digital product, you probably won’t have much data to draw from, so **your decisions about how to organise everything will probably be drawn from a combination of user research (focus groups, perhaps) and instinct**. If you’re undertaking a redesign, however, **it’s worth looking at existing data and identifying what’s important to most users**.
+
+Again, **how you organise everything and impose an overall information architecture will be driven by mental models**. If users are looking for a [portable power bank](https://amzn.to/2ABcNBW) they expect it to be organised somewhere in the Electronics & Computers category, not in the Books & Audible category.
+
+The bottom line: As you design your user interface, **put some thought into how users find the ice cream** (metaphorically, of course). Do that and they’ll thank you.
+
+
+### Part 3: Site-Level and Page-Level Navigation
+
+Information architecture applies at a range of levels, at both the site-level and the page-level (especially when pages are complicated with a lot of information). When designing a user interface, we need to consider the information architecture at:
+
++ **the application- or site-level**, considering macro-level information architecture and site-wide navigation; and
++ **the page-level**, especially when pages are information dense, considering micro-level information architecture and on-page navigation.
+
+When you have a lot of information at the page level, there are a number of different approaches to presenting it:
+
+* You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
+
+* Alternatively, a better approach is to **consider the page at an information architecture micro-level**, where content is divided into **logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
+
+The second of these approaches **gives users a better chance of making their way through the content provided without being overwhelmed**. By establishing a page-level structuring scheme as the foundation for a page-level navigation system, we give users a better chance of finding what they’re looking for.
+
+As Peter Morville puts it:
+
+> The purpose of your information architecture is to help users understand where they are, what they’ve found, what’s around, and what to expect.  
+
+I touched on GOV.UK in Chapter 2, when I introduce design systems. GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-4-gov-uk.gif" alt="GOV.UK Information Architecture" description="GOV.UK’s overall, macro-level information architecture is clear, enabling the user to find what they’re looking for quickly and helping them to build a mental model of the site’s structure." %}
+
+
+The overall information architecture is focused on the user’s needs and its clear, **user-centred design** is one of the many reasons that the site has won so many awards, not least a coveted D&AD Black Pencil (which are awarded only infrequently).
+
+From an aesthetic point of view, the site might appear a little unadorned, but – in this context – **what’s important is the way the information**, of which there is a great deal, **is organised and designed to help users**.
+
+The design might look simple, but it’s this seeming simplicity that lies at the heart of the design’s success. This focus on **creating a user interface that is uncluttered and highly functional** is encapsulated in GOV.UK’s Government Design Principles, specifically Principle 4:
+
++ Do the hard work to make it simple.
+
+This clear organisation **permeates down to the page-level design**, considering micro-level information architecture (below).
+
+
+{% include figure.html url="/images/ch3/c3-s4-p2-5-gov-uk.png" alt="GOV.UK Page-Level Information Architecture" description="GOV.UK’s page-level, micro-level information architecture is also clearly considered, with: 1. breadcrumb navigation, enabling the user to see where they are contextually; 2. a clear title; 3. a table of contents, allowing the user to quickly jump to the section they need to; 4. an overview; and 5. links to related content." %}
+
+
+At a micro-level, **GOV.UK’s pages are clearly organised with prominent, but understated branding** at the top of the page. A breadcrumb trail underneath the branding (1) provides users with a clear sense of where the user is in the overall information architecture:
+
+	Home > Money and Tax > Income Tax
+
+The interface is clearly focused on the [‘job to be done’](https://www.nngroup.com/articles/personas-jobs-be-done/), in this case finding out about how to claim tax relief for work-related expenses (2). A ‘Contents’ list at the top of the content (3) allows users to jump to the section’s they’re looking for, quickly and easily. In the main content, an ‘Overview’ summarises the page content (4) and links to related content are provided (5).
+
+At GOV.UK users have a clear mental model of the site that they’re using because the information architecture is clearly articulated through:
+
++ the site’s **simple, yet clearly organised structure**;
++ the use of **breadcrumb navigation, which provides a clear sense of where a user is** within the site; and
++ the **clear use of language, coupled with an uncluttered design**.
+
+It might be tempting to look at this design and imagine ways in which we could add to the interface – perhaps using animation or other ‘enhancements’ – but this would be missing the point, which is to **start with user needs and enable users to satisfy these needs as quickly as possible**.
+
+With **the theory of information architecture covered** and **some patterns and pages explored**, its time to dive a little deeper into organising everything at the page level and identify some strategies for designing pages that communicate their content clearly.
 
 
 
 Section 5: Iconic Layouts, Blockframes and Wireframes
 -----------------------------------------------------
 
-Coming soon. (I'm working on it [20 September, 2019].)
+Coming soon. (I’m working on it today: Saturday, 28 September, 2019.)
+
+
+
+
+<!--
+
+Closing Thoughts
+----------------
+
+THESE TWO PARAGRAPHS NEED TO BE REWRITTEN:
+
+All being well, this chapter has introduced you to the core principals of **how to build consistently designed user interface elements** that will act as the foundation of your UI.
+
+In the next chapter – [Chapter 3: Information Architecture](https://github.com/buildingbeautifuluis/bbuis/blob/master/03-Chapter-3-Information-Architecture.md) – I’ll introduce the idea of using these elements as the basis for constructing components and pages, so that you can further develop your understanding of user interface design. 🎉
+
+
+### So, what did we learn?
+
+After reading Chapter 3, you should understand that:
+
+1. By developing an understanding of user interface design patterns we can design user interfaces **more efficiently and consistently**.
+
+2. We’ve levelled up the complexity, to explore **patterns and pages**, so we now understand four of the five elements of the ‘Objects → Components → Patterns → Pages → Flows’ equation.
+
+3. We understand that there are 'levels of fidelity' in the user interface design process and we've started exploring some of these, including: iconic layouts, blockframes and wireframes.
+
+Lastly, I’ve introduced you to some typical patterns you’ll encounter when you begin to design user interaces: date pickers, sign up / sign in forms, credit card forms, notifications and activity feeds.
+
+-->
 
 
 
 Further Reading
 ---------------
+
+<!-- THESE NEED TO BE UPDATED TO INCLUDE DIANA'S BOOK. -->
 
 There are many great publications, offline and online, that will help further underpin your understanding of information architecture. I’ve included a few below to start you on your journey.
 
