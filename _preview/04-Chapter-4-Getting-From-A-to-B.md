@@ -41,7 +41,7 @@ Overview goes here.
 Section 1: Considering User Flows
 ---------------------------------
 
-Content here.
+Do I also talk about customer journeys here? Or is that too UX focus (as, in the truest sense, it includes all touchpoints and discovery via offline channels, e.g. Twitter, etc.).
 
 
 
@@ -50,12 +50,20 @@ Section 2: Choices and Branches
 
 Content here.
 
+Show an example where a user is arriving at an application with and without sign-in details.
+
 
 
 Section 3: Page-to-Page and State-to-State
 ------------------------------------------
 
 Content here.
+
+Somewhere (here?) I need to talk about the fact that we aren't always moving from one discrete page to another. Often – and this is increasingly the case – users take actions **within** an element on a page.
+
+For example, Apple's Apple Trade In process – which I showed in Chapter 3 – takes users through a series of screens that dynamically refresh **within the same on-screen modal dialog**. It might be subtle, but this is a different flow to a multi-page flow.
+
+In the Apple Trade In case, the user isn't moving from one page to another, rather the content of the modal dialog is changing, depending upon where the user is during the process of adding the required information.
 
 
 
@@ -64,12 +72,16 @@ Section 4: Onboarding Users
 
 Content here.
 
+When a user downloads an application for the first time it helps to provide them with 
+
 
 
 Section 5: Empty States
 -----------------------
 
 Content here.
+
+Imagine a scenario where
 
 
 
