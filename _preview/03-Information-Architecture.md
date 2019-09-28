@@ -873,7 +873,7 @@ Design is a process that ideally moves from low-fidelity to high-fidelity. **Mov
 
 The danger of starting with high-fidelity mockups is that you **invest a great deal of time and energy creating something that may not work** at a practical and functional level. In studios, no matter how large or small, **time is money and time is valuable**.
 
-A far better approach is to **start at the lower fidelity end of the spectrum where you can work quickly**, getting the broad brushstrokes in place. **With that done**, and – ideally – some user testing (no matter how informal) undertaken and your thinking tested, **move towards higher fidelity outcomes**.
+A far better approach is to **start at the lower fidelity end of the spectrum where you can work quickly**, getting the broad brushstrokes in place. **With that done**, and – ideally – some user testing undertaken (no matter how informal) and your thinking tested, **move towards higher fidelity outcomes**.
 
 A typical design process will include the following stages:
 
@@ -909,11 +909,11 @@ That can be a costly mistake, leading to high-fidelity outcomes that suffer from
 {% include figure.html url="/images/ch3/c3-s5-p1-3-sketching-interfaces.png" alt="Sketching Interfaces" description="Learning to sketch interfaces results in a faster design process. It enables you to capture your thinking quickly and it’s considerably less time-consuming than moving straight to a screen." %}
 
 
-Sketching interfaces **isn’t about being a renaissance master**, like Leonardo da Vinci, **it’s about communicating your thinking** in the most efficient way possible.
+Sketching interfaces **isn’t about being a renaissance master**, like Leonardo da Vinci, **it’s about communicating your thinking** in the most efficient way possible (above).
 
 As Jason Santa Maria explains in his article [Pretty Sketchy](http://v4.jasonsantamaria.com/articles/pretty-sketchy/): “Sketchbooks are **not** about being a good artist, **they’re about being a good thinker**.” Jared Spool reiterates this point, stating: “The effectiveness of the communication matters more than the neatness of the artwork.”
 
-**I recommend limiting your palette to [a handful of finepoint gel pens](https://amzn.to/2ntaEoq)** in different colours **and some brush pens for adding highlights**. I swear by the [Tombow ABT N75 Dual Brush Pen](https://amzn.to/2muNjTk), it helps to lift my sketches. If you can afford a set of these, even better: Tombow have a [set of six brush pens](https://amzn.to/2mDkNPa), which provides six blendable colours.
+**I recommend limiting your palette to a handful of finepoint gel pens** in different colours **and some brush pens for adding highlights**. For details, I recommend [Pilot G-Tec-C4 Gel Microtip Rollerball Pens](https://amzn.to/2nyfXmI). For the broader brushstrokes, I swear by the [Tombow ABT N75 Dual Brush Pen](https://amzn.to/2muNjTk) (which can elevate any drawing!). If you can afford a set of these, even better: Tombow have a [set of six brush pens](https://amzn.to/2mDkNPa), which provides six blendable colours.
 
 With our content mapped out – and some sketches developed – we can start to focus on getting everything organised at the **page level**, considering the overall structure and hierarchy of our pages by using iconic layouts and blockframes.
 
