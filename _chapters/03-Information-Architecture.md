@@ -819,7 +819,7 @@ As Peter Morville puts it:
 
 > The purpose of your information architecture is to help users understand where they are, what they’ve found, what’s around, and what to expect.  
 
-I touched on GOV.UK in Chapter 2, when I introduce design systems. GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
+I touched on GOV.UK in Chapter 2, when I introduced design systems. GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
 
 
 {% include figure.html url="/images/ch3/c3-s4-p2-4-gov-uk.gif" alt="GOV.UK Information Architecture" description="GOV.UK’s overall, macro-level information architecture is clear, enabling the user to find what they’re looking for quickly and helping them to build a mental model of the site’s structure." %}

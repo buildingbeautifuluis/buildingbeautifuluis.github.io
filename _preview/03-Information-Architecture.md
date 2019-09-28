@@ -820,7 +820,7 @@ As Peter Morville puts it:
 
 > The purpose of your information architecture is to help users understand where they are, what they’ve found, what’s around, and what to expect.  
 
-I touched on GOV.UK in Chapter 2, when I introduce design systems. GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
+I touched on GOV.UK in Chapter 2, when I introduced design systems. GOV.UK (below) is a great example of a website with **a clear information architecture**, where a great deal of important information is ordered systematically.
 
 
 {% include figure.html url="/images/ch3/c3-s4-p2-4-gov-uk.gif" alt="GOV.UK Information Architecture" description="GOV.UK’s overall, macro-level information architecture is clear, enabling the user to find what they’re looking for quickly and helping them to build a mental model of the site’s structure." %}
@@ -844,7 +844,7 @@ At a micro-level, **GOV.UK’s pages are clearly organised with prominent, but u
 
 	Home > Money and Tax > Income Tax
 
-The interface is clearly focused on the [‘job to be done’](https://www.nngroup.com/articles/personas-jobs-be-done/), in this case finding out about how to claim tax relief for work-related expenses (2). A ‘Contents’ list at the top of the content (3) allows users to jump to the section’s they’re looking for, quickly and easily. In the main content, an ‘Overview’ summarises the page content (4) and links to related content are provided (5).
+The interface is clearly focused on the [‘job to be done’](https://www.nngroup.com/articles/personas-jobs-be-done/), in this case finding out about how to claim tax relief for work-related expenses (2). A ‘Contents’ list at the top of the content (3) allows users to jump to the sections they’re looking for, quickly and easily. In the main content, an ‘Overview’ summarises the page content (4) and links to related content are provided (5).
 
 At GOV.UK users have a clear mental model of the site that they’re using because the information architecture is clearly articulated through:
 
@@ -858,72 +858,71 @@ With **the theory of information architecture covered** and **some patterns and 
 
 
 
-Section 5: Iconic Layouts, Blockframes and Wireframes
------------------------------------------------------
+Section 5: Moving From Low- to High-Fidelity
+--------------------------------------------
 
-<!--
-
-This is all about getting everything organised at the page level. Show the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place.
-
-I’ll use these as the basis of UI Kits that I can include in the downloadables.
-
-With that high level mapped out, talk about levels of fidelity, showing the diagram (sketch → mockup).
-
-- Sketches
-- Iconic Layouts
-- Blockframes
-- Wireframes (w/ Annotations)
-- Mockups
-- Prototypes *
-
-\* Introduce prototypes, but don’t make them. They’ll be the backbone of the next chapter, when I look at flows, explaining that we can use tools like XD to link together screens to provide a more immersive experience.
-
--->
-
-{% include figure.html url="/images/ch3/c3-temp-sketch-pre-iconic.png" alt="Temporary Image" description="Before we use a tool like XD to build higher fidelity deliverables, it’s important to get our thinking right through a process of sketching interfaces. This is the lowest form of fidelity in the user interface (and it’s also the fastest, to it’s easier to discard ideas that don’t necessarily work)." %}
+{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="Design is a process that ideally moves from low-fidelity deliverables (sketches, iconic layouts and blockframes), which are faster to create, to high-fidelity deliverables (wireframes, mockups and prototypes), which are slower to create." %}
 
 
-**In the final section, I'll explore the process of creating design deliverables at the page level.** I'll stress the need to develop your user interface at a range of fidelities (fast, using sketches → slow, using mockups.
+**In the final section of this chapter, I’ll explore the process of creating design deliverables at the page level,** stressing the need to develop your user interface at a range of fidelities, including:
 
-I'll explore a typical design process that includes:
++ **low-fidelity deliverables** (sketches, iconic layouts and blockframes) that are faster to create; and
++ **high-fidelity deliverables** (wireframes, mockups and prototypes) that are slower to create.
 
-+ Sketching Interfaces
-+ Creating Low Fidelity 'Iconic Layouts'
-+ Exploring Blockframes
-+ Increasing Fidelity by Creating Wireframes
+Design is a process that ideally moves from low-fidelity to high-fidelity. **Moving directly to high-fidelity mockups – with all the aesthetics pinned down (theoretically) – at the start of a project is incredibly inefficient.** A better approach is to move through **levels of fidelity**, testing your thinking as you progress.
 
-This would allow me to talk about mapping out pages at an iconic, birds' eye (high-level) before I move on to cover flows in Chapter 4, where we consider how we connect these pages together.
+The danger of starting with high-fidelity mockups is that you **invest a great deal of time and energy creating something that may not work** at a practical and functional level. In studios, no matter how large or small, **time is money and time is valuable**.
 
+A far better approach is to **start at the lower fidelity end of the spectrum where you can work quickly**, getting the broad brushstrokes in place. **With that done**, and – ideally – some user testing (no matter how informal) undertaken and your thinking tested, **move towards higher fidelity outcomes**.
 
-### Sketching Interfaces + Iconic Layouts
+A typical design process will include the following stages:
 
-_/* Oops, look below, and merge the second iconic layouts section here. */_
++ **sketching thumbnails** to capture initial ideas;
++ creating low fidelity **iconic layouts and blockframes** to block out visual hierarchy;
++ **developing wireframes** to map out flows;
++ moving to high fidelity and **designing mockups** to establish an overall aesthetic; and
++ building an **immersive prototype**, using a tool like XD. *
 
-This section will look at the process of mapping out your thinking and stress the fundamental need to **think through paper**.
+\* Although I’m introducing prototypes, so that I can map out the design process, I’ll focus on them in the following chapter, when I look explore flows and getting from A to B.
 
-When I work with learners – students at Belfast School of Art or participants in my [workshops](#) – they frequently have one thing in common: They rush to start designing on a computer far, far too quickly.
+At every stage of this process **we’re increasing the fidelity and moving closer to a finished outcome**.
 
-Paper is a critical design tool.
+**At the first phase of the process** – with some form of content inventory and audit undertaken – **we’re focused on a bird’s eye view, at a high level**. At this point we can begin to start mapping out our content, considering how best to organise it.
 
-**SHOW KHOI VINH'S CHART, REDRAW** <!-- This could be the excuse I need to contact Khoi? -->
-
-These are microlayouts, they’re at a level of fidelity that you can get a feel for the overall look and feel of a page, but they’re not so detailed that they absorb too much time before you explore user flows. At the end of the introductory text, stress that I’ll explore the layout of pages in more detail in [Chapter 6: Designing Desktop Interfaces], where I’ll cover:
-
-+ The Importance of a Clear Visual Hierarchy
-+ Typography at the Page Level
-+ Composition and Grid Systems
-
-If you want to get a more in-depth view, you might want to take a round trip to [Chapter 6: Designing Desktop Interfaces](#) and return here, before we move on to [Chapter 4: Getting From A → B](#), where I’ll explore user flows and overall site and application structure.
+You might be tempted to fire up your software of choice at this point, but I’d strongly suggest an alternative approach: **Starting with paper.**
 
 
-### Iconic Layouts
+{% include figure.html url="/images/ch3/c3-s5-p1-2-design-tools-survey.png" alt="In 2015, 64% of designers surveyed by Khoi Vinh used sketching to kick off their design process." description="In 2015, 64% of designers surveyed in Khoi Vinh’s Design Tools Survey, used sketching to kick off their design process." %}
 
-This kicks off with revisiting April Grieman’s iconic layouts for Vitra magazine. They struck me as interesting at the time (19XX). They very much pre-dated the web, but they looked similar to the kinds of low level iconic layouts I would use in a project to map out flows…
 
-1. Show an example, by Grieman.
-2. Show my Camper / Glyph sketches.
+Although it’s a little old, Khoi Vinh’s 2015 [Design Tools Survey](http://tools.subtraction.com/brainstorming.html) revealed that – during the brainstorming phase – 64% of designers start with paper. Vinh described the results for brainstorming as follows:
 
-The idea for 'Iconic Layouts' is drawn from April Grieman's 1990 book 'Hybrid Imagery: The Fusion of Technology and Graphic Design'. The world has moved on a great deal since 1990, but one idea that Grieman explored has stuck with me over three decades later…
+> In arguably the most important of the categories surveyed, participants voted overwhelmingly for the lowest fidelity tools: simple pencil and paper.
+
+The landscape has, of course, moved on considerably since 2015, but I would argue – based on the many studios I work with and my own work as a UX +/ UI designer – that **paper remains an essential design tool**, and developing an ability to **think through paper** is critical.
+
+When I work with students at Belfast School of Art, or professionals in my workshops, they frequently have one thing in common: **They rush to start designing on a computer far, far too quickly.**
+
+That can be a costly mistake, leading to high-fidelity outcomes that suffer from fundamental functionality issues. **A better approach is to start with paper to capture your thinking.** Paper is a low-fidelity tool that’s stood the test of time and I’d strongly encourage you to develop your skills in this area.
+
+
+{% include figure.html url="/images/ch3/c3-s5-p1-3-sketching-interfaces.png" alt="Sketching Interfaces" description="Learning to sketch interfaces results in a faster design process. It enables you to capture your thinking quickly and it’s considerably less time-consuming than moving straight to a screen." %}
+
+
+Sketching interfaces **isn’t about being a renaissance master**, like Leonardo da Vinci, **it’s about communicating your thinking** in the most efficient way possible.
+
+As Jason Santa Maria explains in his article [Pretty Sketchy](http://v4.jasonsantamaria.com/articles/pretty-sketchy/): “Sketchbooks are **not** about being a good artist, **they’re about being a good thinker**.” Jared Spool reiterates this point, stating: “The effectiveness of the communication matters more than the neatness of the artwork.”
+
+**I recommend limiting your palette to [a handful of finepoint gel pens](https://amzn.to/2ntaEoq)** in different colours **and some brush pens for adding highlights**. I swear by the [Tombow ABT N75 Dual Brush Pen](https://amzn.to/2muNjTk), it helps to lift my sketches. If you can afford a set of these, even better: Tombow have a [set of six brush pens](https://amzn.to/2mDkNPa), which provides six blendable colours.
+
+With our content mapped out – and some sketches developed – we can start to focus on getting everything organised at the **page level**, considering the overall structure and hierarchy of our pages by using iconic layouts and blockframes.
+
+
+### Iconic Layouts and Blockframes <!-- Part 2 -->
+
+/* This kicks off with revisiting April Grieman’s iconic layouts for Vitra magazine. They struck me as interesting at the time (19XX). They very much pre-dated the web, but they looked similar to the kinds of low level iconic layouts I would use in a project to map out flows… */
+
+The idea for 'Iconic Layouts' is drawn from April Grieman's 1990 book ['Hybrid Imagery: The Fusion of Technology and Graphic Design'](). The world has moved on a great deal since 1990, but one idea that Grieman explored has stuck with me over three decades later…
 
 Grieman referred to her initial digital sketches – for Workspirit Magazine (a publication for Swiss furniture manufacturer Vitra) – as the 'iconic' first stage. As she put it:
 
@@ -932,14 +931,30 @@ Grieman referred to her initial digital sketches – for Workspirit Magazine (a 
 
 ![Workspirit Magazine · Placeholder Image](images/section-opening-placeholder-image.png)
 
-**CAPTION: Grieman's overall page printouts reminded me of the iconic layouts I often sketch at the initial paper prototyping phase of a project.**
+**CAPTION: Grieman's thumbnail page printouts reminded me of the iconic layouts I often sketch at the initial paper prototyping phase of a project. These low fidelity, iconic page layouts help to establish the overall visual structure and hierarchy.**
 
 
 I've used this approach ever since. By creating 'iconic' layouts – very small layouts, focused on scale, color and tone, the hierarchy of pages can be grasped at a high level (a birds' eye view).
 
 This approach allows you to establish page layouts and get a feel for their flows.
 
-/* Insert blockframes here? YES? NO? READ TOMORROW. */
+These are microlayouts, they’re at a level of fidelity that you can get a feel for the overall look and feel of a page, but they’re not so detailed that they absorb too much time before you explore user flows.
+
+This is all about getting everything organised at the page level, **at a high level**. Show the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place.
+
+There are a number of UI Kits you can use to ensure this phase is more efficient. UX Kits, for example, have a [UI Wireflows Kit](https://uxkits.com/products/ui-wireflows) that saves you having to redraw iconic page layouts. (If you’re learning, however, I’d suggest recreating these kinds of deliverables yourself. Doing so will develop your user interface drawing skills.)
+
+/* Redraw the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place, thinking about visual hierarchy. */
+
+Mention that there are lots of UI Kits that you can use to get the ball rolling quickly. XD offers its own equivalent (where is this?).
+
+There are also a wealth of third party offerings, including:
+
++ [UX Kits](https://uxkits.com)
++ [UI + UX Assets](https://uiuxassets.com/)
++ …
+
+I’ve also created a series of iconic layouts that I’ve included in the downloadables for this chapter.
 
 If I put blockframes in here, I need to emphasise their role. They're not about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
 
@@ -948,6 +963,15 @@ Expand on this by referencing the Medium article:
 https://medium.com/ux-power-tools/blockframing-and-31-free-sketch-ready-layouts-using-auto-layout-by-anima-app-1be039007ecf
 
 By Jon Moore. (Also give Jon Moore credit for his UX Power Tools downloadables.)
+
+
+### Wireframes and Mockups <!-- Part 3 -->
+
+This is all about increasing fidelity…
+
+Wireframes are useful for communicating the functional aspects of a series of pages. When creating wireframes, it's important to include annotations, guidelines for others involved in the design process.
+
+
 
 
 
