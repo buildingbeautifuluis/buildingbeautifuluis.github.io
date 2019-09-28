@@ -22,7 +22,7 @@ table-of-contents:
   - section: "4"
     section-title: "Information Architecture"
   - section: "5"
-    section-title: "Iconic Layouts, Blockframes and Wireframes"
+    section-title: "Moving From Low- to High-Fidelity"
 ---
 
 
