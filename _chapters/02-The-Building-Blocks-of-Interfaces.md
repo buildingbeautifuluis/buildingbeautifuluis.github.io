@@ -20,22 +20,6 @@ table-of-contents:
 
 
 
-<!--
-
-This chapter is at the editing stage. I’m currently gathering some feedback on my naming conventions from a number of supersmart friends.
-
-If you’re interested in reading it and [offering me some feedback](mailto:christopher@mrmurphy.com) I’d very much appreciate it. I’ve added a [Notes for Feedback](https://github.com/buildingbeautifuluis/bbuis/blob/master/99-Feedback.md) document, which provide context on the particular problem I’m grappling with. If you have thoughts on the matter, I’d love to hear from you.
-
-As I’ve noted in the [overview](https://github.com/buildingbeautifuluis/bbuis/blob/master/00-Overview.md), this is a work in progress and I’m sharing it here in draft form. The book isn’t finished, but I hope the draft content I’m providing has some value as I finalise the chapters.
-
-The references to supporting files will need to be removed if we can’t agree a non-exclusive license for Adobe. This additional content is 100% developed by me and is outside the scope of the SoW, which is for a book and a glossary.
-
-I’d like to grant Adobe a non-exclusive license as it will raise the profile of the book, but this 100% depends on licensing and IP agreements.
-
--->
-
-
-
 Overview
 --------
 
@@ -54,11 +38,13 @@ With the overview of Chapters 2-4 mapped out, let’s get down to business and e
 Section 1: Interfaces Are Like LEGO
 -----------------------------------
 
-{% include figure.html url="/images/ch2/lego.jpg" alt="LEGO" description="With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic components – buttons, toggles and tags, for example – we can build any UI we desire." %}
+{% include figure.html url="/images/ch2/lego.jpg" alt="LEGO" description="With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic components – buttons, toggles and tags, for example – we can build any UI we desire. [Photograph by Iker Urteaga on Unsplash.]" %}
 
-<!-- ![LEGO](images/ch2/lego.jpg)
+<!--
 
-**CAPTION: With a mountain of LEGO bricks, we can build virtually anything. We’re limited only by our imagination. User interfaces are the same: Once we’ve created some basic components – buttons, toggles and tags, for example – we can build any UI we desire.** [Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com).] -->
+[Photograph by [Iker Urteaga](https://unsplash.com/@iurte) on [Unsplash](https://unsplash.com).]
+
+-->
 
 
 When you’re starting on your journey as a user interface designer **it can be intimidating trying to work out how different interfaces are built**.

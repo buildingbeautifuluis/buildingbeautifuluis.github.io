@@ -918,27 +918,29 @@ I recommend **limiting your palette to a handful of finepoint gel pens** in diff
 With our content mapped out – and some sketches developed – we can start to focus on getting everything organised at the **page level**, considering the overall structure and hierarchy of our pages by using iconic layouts and blockframes.
 
 
-### Iconic Layouts and Blockframes <!-- Part 2 -->
+### Iconic Layouts and Blockframes
 
-With some thumbnails in hand, it’s time to move to the computer to start to impose a little refinement to our thinking, using: **iconic layouts and blockframes** They’re a first pass on a computer, but at a low level of detail.
+With some thumbnails in hand, it’s time to move to the computer to start adding a little refinement to our deliverables, using: **iconic layouts and blockframes.** They’re a first pass on a computer, but at a low level of detail.
 
-The idea for ‘iconic layouts’ is drawn from April Grieman’s 1990 book [‘Hybrid Imagery: The Fusion of Technology and Graphic Design’](https://amzn.to/2lVlfIh). The world has moved on a great deal since 1990, but one idea that Greiman embraced has stuck with me over three decades later.
+The idea for ‘iconic layouts’ is drawn from April Grieman’s 1990 book [Hybrid Imagery: The Fusion of Technology and Graphic Design](https://amzn.to/2lVlfIh). The world has moved on a great deal since 1990, but one idea that Greiman embraced has stuck with me over three decades later.
 
 Greiman referred to her initial digital sketches – for Workspirit Magazine, a publication for Swiss furniture manufacturer Vitra – as the ‘iconic’ first stage. As she put it:
 
 > A surprise in producing [the] initial miniature version was that I could see the whole magazine as a kind of ‘iconic texture’, **free from detail**.
 
-The key insight in Greiman's thinking is: **Free from detail.** By focusing on pages at an iconic level of abstraction, Greiman was able to **get a feel for the overall visual flow of the magazine she was designing it**. As user interface designers, we might not be designing magazines, but **we are designing sequences of pages**, and I think we can learn from this methodology.
+By focusing on pages at an iconic level of abstraction – **free from distracting details** – Greiman was able to **get a feel for the overall visual flow of the magazine while she was designing it**.
 
-Although Greiman’s work on this particular project pre-dated the web, this approach – of using iconic textures free from detail – reminded me of the kinds of **low level iconic layouts I use in projects to map out hierarchy and flows at a high level** before moving to wireframes and mockups.
+As user interface designers, we might not be designing magazines, but **we are designing sequences of pages**, and I think we can learn from this methodology.
+
+Although Greiman’s work on this particular project pre-dated the web, this approach reminded me of the kinds of **low level iconic layouts I use in projects to map out visual hierarchy and flows at a high level** before moving to wireframes and mockups.
 
 
-{% include figure.html url="/images/ch3/c3-s5-p2-1-iconic-layouts.png" alt="Workspirit Magazine" description="Greiman’s thumbnail page printouts reminded me of the iconic layouts I often sketch – or quickly develop on a computer, based on sketches – during the initial prototyping phase of a project. These low fidelity, iconic layouts help to establish the overall visual structure and hierarchy." %}
+{% include figure.html url="/images/ch3/c3-s5-p2-1-iconic-layouts.png" alt="Workspirit Magazine" description="Greiman’s thumbnail page printouts reminded me of the iconic layouts I often sketch – or quickly develop on a computer, based on sketches – during the initial prototyping phase of a project. These low fidelity, iconic layouts help to establish the overall visual hierarchy and structure. [Photograph by April Greiman.]" %}
 
 
-I’ve used this approach ever since. By creating iconic layouts – very small layouts, focused on: relative scale, tone and colour – the hierarchy of pages can be grasped at a high level. This approach allows you to **explore different layouts and get a feel for their overall visual structure and hierarchy**.
+I’ve used this approach ever since. By creating iconic layouts – very small layouts, focused on: relative scale, tone and, occasionally, colour – the hierarchy of pages can be grasped at a high level. This approach allows you to **explore different layouts and get a feel for their overall visual hierarchy and structure**.
 
-These are micro-layouts – they’re at a level of fidelity that you can get a feel for the overall look and feel of a page – but **they’re not so detailed that they absorb too much time** before you start to develop more refined mockups.
+These are micro-layouts – they’re at a level of fidelity that you can get a feel for the overall look and feel of a page – but **they’re not so detailed that they absorb too much time,** before you start to develop more refined mockups.
 
 There are a number of UI Kits you can use to **ensure this phase is more efficient (saving you redrawing everything)**. UX Kits, for example, have a [UI Wireflows Kit](https://uxkits.com/products/ui-wireflows) that saves you having to redraw iconic page layouts. $29–39 is a small price to pay for the time it will save you redrawing these different assets.
 
@@ -948,36 +950,29 @@ There are a number of UI Kits you can use to **ensure this phase is more efficie
 {% include figure.html url="/images/ch3/c3-s5-p2-2-ux-kits.png" alt="UX Kits · UI Wireflows Kit" description="UX Kits’s UI Wireflows Kit includes 120 miniature wireframes that you can use to map out user interfaces at a high level of abstraction. $29–39 is a small price to pay for the time it will save you redrawing these different assets." %}
 
 
-<!--
+Although they might look visually similar, blockframes are slightly different to iconic layouts. Blockframes are **low level representations of pages, with the detail dramatically reduced**, which are especially useful when you’re revisiting the design of **an existing product**.
 
-Scratch text: greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place, thinking about visual hierarchy.
+By reducing the detail you show with blockframes, you can **save a great deal of time creating deliverables as you rethink aspects of pages or flows**, when you’re revisiting a particular aspect of a website or application.
 
--->
+Jon Moore has written an excellent introduction to blockframes in [a lengthy post on Medium with lots of examples](https://medium.com/ux-power-tools/blockframing-and-31-free-sketch-ready-layouts-using-auto-layout-by-anima-app-1be039007ecf). As Moore puts it:
 
-Although they might look visually similar, blockframes are slightly different to iconic layouts. Blockframes are low level representatives of pages, with the detail dramatically reduced, which are especially useful when you’re revisiting the design of **an existing product**.
+> Using a blockframe, [you can] describe entire areas of content instead of getting caught up in the details. This equips [you] with more than enough information to convey an idea or begin to tell a story.  
 
-By reducing the detail you show with blockframes, you can save a great deal of time creating deliverables as you rethink aspects of pages or flows, when you’re revisiting a particular aspect of a website or application.
 
-Jon Moore has written an excellent introduction to blockframes in [a lengthy TK lengthy? post on Medium](https://medium.com/ux-power-tools/blockframing-and-31-free-sketch-ready-layouts-using-auto-layout-by-anima-app-1be039007ecf). As he puts it:
+{% include figure.html url="/images/ch3/c3-s5-p2-3-dribbble.gif" alt="Dribbble Blockframe" description="Taking Dribbble’s profile page – that I explored earlier in the Dribbble case study – we can see that, even at a reduced level of detail, this is still recognisably a page from Dribbble." %}
 
-This is not the right Jon Moore quote:
 
-> Blockframes give you a visually compelling way to indicate UI without actually having to show it. This obviously helps when you don’t really have a UI (like Stripe), but also when you integrate with other products and don’t want to give the wrong impression. More importantly, blockframe heroes keep the attention away from UI details and on the copy and concepts behind a product.  
+By reducing the fidelity of your deliverables using blockframes (above), you can map out the elements of a revised interface quickly, safe in the knowledge that your client is already familiar with the overall look and feel of the interface.
 
-Show Dribbble before / after. Animated GIF. SHOW A PICTURE: REDRAW DRIBBBLE (BUT ADD LINES FOR TEXT)
-
-By reducing the fidelity of your deliverables using block frames, you can map out the elements of a revised interface quickly, safe in the knowledge that your client is already familiar with the overall look and feel of the interface.
-
-I need to emphasise that blockframes aren't about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
+Blockframes are also a useful deliverable when you're considering how pages will reflow at different viewport sizes. With the essential details in place, you can quickly map out different viewport sizes at a block level.
 
 <!--
 
-This is all about getting everything organised at the page level, **at a high level**. Show the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place.
+During editing…
+
+Should I emphasise that blockframes aren't about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
 
 -->
-
-
-
 
 
 ### Wireframes and Mockups <!-- Part 3 -->
