@@ -2,9 +2,7 @@
 chapter-number: "03"
 title: "Information Architecture ≠"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (21 September), I’ll be releasing it section by section over the next few days.</p>
-
-<p class='text--warning'>Unfortunately, my schedule hit a huge detour over the last 2-3 weeks. My father-in-law ended up in hospital after having a stroke and, I had to pause writing to focus on family. Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
+opening-text: "<p class='text--warning'><strong>As I noted in the book’s overview, this is a work in progress and I’m sharing it here in draft form.</strong> The overall book isn’t finished, but I hope the chapters I’m publishing have some value as I finalise work on the book.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns: reusable solutions to user interface problems that occur frequently</strong>.</p>
 
@@ -288,7 +286,7 @@ This example, from Apple, levels up the complexity further, drawing together a n
 + a form field (5); and
 + a call to action button (7).
 
-This pattern, coupled with a clearly considered user flow (which I’ll explore in more detail in [Chapter 4: Getting From A → B](#)), eases the process considerably.
+This pattern, coupled with a clearly considered user flow (which I’ll explore in more detail in ‘Chapter 4: Getting From A → B’ (Coming soon, I hope!)), eases the process considerably.
 
 
 ### From Patterns to Pages
@@ -434,7 +432,7 @@ If we dive a little deeper and explore Dribbble’s shot pattern in more depth (
 {% include figure.html url="/images/ch3/c3-s2-p3-5-dribbble-shots-states.png" alt="Dribbble’s Shot Pattern’s Different States" description="Dribbble’s shot pattern has a number of ‘states’: 1. without the metadata showing; and 2–4. with the metadata showing a user’s interactions with a shot." %}
 
 
-It should be obvious, after reading Chapter 2, that the ‘Saved’ and ‘Liked’ buttons are examples of **button components** used as a part of the pattern.
+It should be obvious, after reading Chapter 2, that the Saved and Liked buttons are examples of **button components** used as a part of the pattern.
 
 By embracing a pattern-driven approach, **Dribbble can re-use these components and patterns elsewhere on the site**.
 
@@ -746,7 +744,7 @@ Spencer’s book – whilst sadly no longer available in print – is, as its ti
 Whilst I’m partial to sweets (perhaps a little too partial) my real love is ice cream.
 
 
-{% include figure.html url="/images/ch3/c3-s4-p2-1-ice-cream.jpg" alt="Ice Cream" description="I’m partial to ice cream – perhaps a little too partial – so it’s a win in my book when I can find it easily in my local Co-Op." %}
+{% include figure.html url="/images/ch3/c3-s4-p2-1-ice-cream.jpg" alt="Ice Cream" description="I’m partial to ice cream – perhaps a little too partial – so it’s a win in my book when I can find ice cream easily in my local Co-Op. [Photograph by Christiann Koepke on Unsplash.]" %}
 
 
 When I’m looking for ice cream in my local Co-Op, **I know exactly where to find it**. That’s a sign that I buy a little too much Ben & Jerry’s for my own good, but it also underlines how well-organised the Co-Op is. **Everything is easy to find, enabling me to complete my (rather unhealthy) task easily.**
@@ -779,7 +777,7 @@ If I’m looking for an iPad case on the [Hard Graft](https://www.hardgraft.com)
 
 Amazon adopts the same approach. When you’re looking for something in [The Everything Store](https://amzn.to/352pgMD), that lists almost all the items you could ever imagine buying, **organisation is critical**. Yes, most interactions on Amazon are driven by search, but that doesn’t mean its items aren’t also categorised.
 
-At a high level, Amazon (below) organises everything logically under a ‘Shop by Category’ heading available in the sidebar accessed via a hamburger menu icon. I strongly suspect **a combination of looking at user data **(what are users looking for most?) **and cold, hard business decisions** (how can we promote Amazon’s products first?) **is why this menu is organised and ordered the way it is**.
+At a high level, Amazon (below) organises everything logically under a ‘Shop by Category’ heading available in the sidebar accessed via a hamburger menu icon. I strongly suspect **a combination of looking at user data** (what are users looking for most?) **and cold, hard business decisions** (how can we promote Amazon’s products first?) **is why this menu is organised and ordered the way it is**.
 
 
 {% include figure.html url="/images/ch3/c3-s4-p2-3-amazon.png" alt="Amazon > Shop By Category" description="Although Amazon primarily uses search as a means of finding products, everything is also organised into clearly considered categories. It’s ‘Shop by Category’ menu lists Amazon’s items first (1), then other categories (2)." %}
@@ -811,7 +809,6 @@ Information architecture applies at a range of levels, at both the site-level an
 When you have a lot of information at the page level, there are a number of different approaches to presenting it:
 
 + You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
-
 + Alternatively, a better approach is to **consider the page at an information architecture micro-level**, where content is divided into **logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
 
 The second of these approaches **gives users a better chance of making their way through the content provided without being overwhelmed**. By establishing a page-level structuring scheme as the foundation for a page-level navigation system, we give users a better chance of finding what they’re looking for.
@@ -861,8 +858,12 @@ With **the theory of information architecture covered** and **some patterns and 
 Section 5: Moving From Low- to High-Fidelity
 --------------------------------------------
 
-{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="Design is a process that ideally moves from low-fidelity deliverables (sketches, iconic layouts and blockframes), which are faster to create, to high-fidelity deliverables (wireframes, mockups and prototypes), which are slower to create." %}
+{% include figure.html url="/images/ch3/c3-s5-p1-1-levels-of-fidelity.png" alt="Levels of Fidelity" description="Design is a process that ideally moves from low-fidelity deliverables (sketches, iconic layouts and blockframes), which are faster to create, to high-fidelity deliverables (wireframes, mockups and prototypes), which are slower to create. (This is a placeholder image, I’ll be remaking something of my own.)" %}
 
+
+Before I kick off the final section of this chapter, it’s worth mentioning that in this section, **I’m providing a comprehensive overview of a variety of different stages of a typical design process**.
+
+Every studio is different and many won’t use **all of these processes**, preferring one method over another. I think it’s worth highlighting all of these approaches, however, so that your understanding is well-rounded. With that note of caution sounded, **let’s dive in**.
 
 **In the final section of this chapter, I’ll explore the process of creating design deliverables at the page level,** stressing the need to develop your user interface at a range of fidelities, including:
 
@@ -883,7 +884,7 @@ A typical design process will include the following stages:
 + moving to high fidelity and **designing mockups** to establish an overall aesthetic; and
 + building an **immersive prototype**, using a tool like XD. *
 
-\ * Although I’m introducing prototypes in this section, so that I can map out the design process, I’ll focus on them in the following chapter, when I explore flows and getting from A → B.
+\* Although I’m introducing prototypes in this section, so that I can map out the design process, I’ll focus on them in the following chapter, when I explore flows and getting from A → B.
 
 At every stage of this process **we’re increasing the fidelity and moving closer to a finished outcome**.
 
@@ -895,13 +896,13 @@ You might be tempted to fire up your software tool of choice at this point, but 
 {% include figure.html url="/images/ch3/c3-s5-p1-2-design-tools-survey.png" alt="In 2015, 64% of designers surveyed by Khoi Vinh used sketching to kick off their design process." description="In 2015, 64% of designers surveyed in Khoi Vinh’s Design Tools Survey, used sketching to kick off their design process." %}
 
 
-Although it’s a little old, Khoi Vinh’s 2015 [Design Tools Survey](http://tools.subtraction.com/brainstorming.html) revealed that, during the brainstorming phase, 64% of designers start with paper. Vinh described the results for brainstorming as follows:
+Although it’s a little old, Khoi Vinh’s 2015 [Design Tools Survey](http://tools.subtraction.com/brainstorming.html) revealed that, during the brainstorming phase, **64% of designers start with paper**. Vinh described the results as follows:
 
-> In arguably the most important of the categories surveyed, participants voted overwhelmingly for the lowest fidelity tools: simple pencil and paper.
+> In arguably the most important of the categories surveyed, **participants voted overwhelmingly for the lowest fidelity tools**: simple pencil and paper.
 
 The landscape has, of course, moved on considerably since 2015, but I would argue – based on the many studios I work with and my own work as a UX +/ UI designer – that **paper remains an essential design tool**, and developing an ability to **think through paper** is critical.
 
-When I work with students at Belfast School of Art, or professionals in my workshops, they frequently have one thing in common: **They rush to start designing on a computer far, far too quickly.**
+When I work with students at Belfast School of Art, or professionals in my workshops, they often have one thing in common: **They rush to start designing on a computer far, far too quickly.**
 
 That can be a costly mistake, leading to high-fidelity outcomes that suffer from fundamental functionality issues. **A better approach is to start with paper to capture your thinking.** Paper is a low-fidelity tool that’s stood the test of time and I’d strongly encourage you to develop your skills in this area.
 
@@ -966,36 +967,28 @@ By reducing the fidelity of your deliverables using blockframes (above), **you c
 
 Blockframes are also **a useful deliverable when you’re considering how pages will reflow at different viewport sizes**. With the essential details in place, you can quickly map out different viewport sizes at a block level.
 
-<!--
-
-During editing…
-
-Should I emphasise that blockframes aren't about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
-
--->
-
 
 ### Wireframes and Mockups
 
-With the overall visual hierarchy of our pages blocked out, *it’s time to level up the fidelity and build some wireframes and mockups and move closer to a finished outcome*.
+With the overall visual hierarchy of our pages blocked out, **it’s time to level up the fidelity and build some wireframes and mockups and move closer to a finished outcome**.
 
-*Wireframes are like skeletons*, on which you later hang your visual aesthetics. They’re *focused on the underlying structure and how everything fits together*, at both a page level and, in flows, at a site level.
+**Wireframes are like skeletons**, on which you later hang your visual aesthetics. They’re **focused on the underlying structure and how everything fits together**, at both a page level and, in flows, at a site level.
 
 Unlike mockups – which provide visual details: typographic choices, colour palettes, data representations, imagery… – wireframes are **design placeholders**, indicating where elements are situated, without getting lost in detail.
 
-Wireframes are *important for getting the fundamental functional structure in place* before visual design is integrated to create mockups at a higher level of fidelity.
+Wireframes are **important for getting the fundamental functional structure in place** before visual design is integrated to create mockups at a higher level of fidelity.
 
 
 {% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="This will be a wireframe for mrmurphy.com, showing some of the early stages of the design as we were mapping out content." %}
 
 
-Wireframes can also be used to test initial functionality, by linking them together in an immersive prototype, using a tool like XD. *This can be useful to get a feel for how functionality works, before embarking upon more realistic prototypes using mockups.*
+Wireframes can also be used to test initial functionality, by linking them together in an immersive prototype, using a tool like XD. **This can be useful to get a feel for how functionality works, before embarking upon more realistic prototypes using mockups.**
 
 When creating wireframes, **it’s important to include annotations** – guidelines for others involved in the design process – to ensure that your ideas are communicated clearly. Coupled with annotations, wireframes are useful for briefing other team members and, to a degree, clients and other stakeholders.
 
 **The highest fidelity we need to consider are mockups.** These are highly detailed deliverables that marry our visual design with the layouts that we’ve created up to this point.
 
-**Mockups take the visual designer’s overall visual aesthetic and apply it to the creation of high-fidelity outcomes.** (It’s worth noting that the visual designer might be you! This will depend upon the size of the studio you’re working in.)
+**Mockups take the visual designer’s overall visual aesthetic and apply it to the creation of high-fidelity outcomes.** (It’s worth noting that the visual designer in question, might be you! This will depend upon the size of the studio you’re working in.)
 
 
 {% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="This will be a mockup for mrmurphy.com, showing some of the early visuals that we didn’t use." %}
@@ -1003,7 +996,7 @@ When creating wireframes, **it’s important to include annotations** – guidel
 
 In the past, it was commonplace to design mockups for initial client presentations, but as our processes have evolved to encompass more efficient and realistic methodologies, **mockups are often created at the end of the process**.
 
-With mockups, you’re communicating your visual aesthetic, including:
+With mockups, **you’re communicating your visual aesthetic**, including:
 
 + Typographic Choices
 + Data Representations (Charts, Information Graphics)
@@ -1012,7 +1005,9 @@ With mockups, you’re communicating your visual aesthetic, including:
 + Video
 + …
 
-Mockups are time-consuming to create, which is why it's worth following a process like the one outlined in this section. That said, mockups are incredibly useful for communicating with clients.
+**Mockups are time-consuming to create, which is why it’s worth following a process like the one outlined in this section.** That said, mockups are incredibly useful for communicating with clients.
+
+Depending upon the clients or stakeholders you’re working with, they won’t always have the ability to imagine what a finished outcomes might look like when you show them lower fidelity deliverables. As such, **mockups – as the closest representation to the finished article – are a useful tool** for reaching the all-important sign off. 
 
 As we close this chapter, it’s worth mentioning that I haven’t touched on grid systems, but I will in ‘Chapter 6: Designing Desktop Interfaces’ (coming soon, I hope!), when I dive a little deeper into composition, with an emphasis on designing grid systems for desktop (and mobile) deliverables.
 
@@ -1031,9 +1026,7 @@ In the next chapter – Chapter 4: Getting From A → B (coming soon, I hope!) �
 After reading Chapter 3, you should understand that:
 
 1. By developing an understanding of user interface design patterns we can design user interfaces **more efficiently and consistently**.
-
 2. We’ve levelled up the complexity, to explore **patterns and pages**, so we now understand four of the five elements of the ‘Objects → Components → Patterns → Pages → Flows’ equation.
-
 3. We understand that there are 'levels of fidelity' in the user interface design process and we've started exploring some of these, including: iconic layouts, blockframes and wireframes.
 
 Lastly, I’ve introduced you to some typical patterns you’ll encounter when you begin to design user interaces: date pickers, sign up / sign in forms, credit card forms, notifications and activity feeds.
@@ -1048,11 +1041,7 @@ Further Reading
 There are many great publications, offline and online, that will help further underpin your understanding of information architecture. I’ve included a few below to start you on your journey.
 
 + Donna Spencer’s ‘A Practical Guide to Information Architecture’ – whilst sadly no longer available in print – is, as its title suggests, a helpful primer on information architecture. Originally published by Five Simple Steps, [I’d strongly recommend buying the Kindle book](https://amzn.to/2IkHeRl), which provides a thorough overview of the principles of managing and orchestrating content.
-
 + In a medium that’s evolving rapidly, definitions evolve over time. If you’re interested in a more in-depth exploration of what information architecture is – and isn’t – I’d recommend reading Nathaniel Davis’s [Framing the Practice of Information Architecture](https://www.uxmatters.com/mt/archives/2011/09/framing-the-practice-of-information-architecture.php). As a bonus, you’ll also learn all about Louis Rosenfeld and Peter Morville’s ‘information architecture iceberg’ and Davis’s variation on that iceberg of information.
-
-_Get rid of the following and replace it with Diana’s book. In fact her book should go first in this section._
-
 + Finally, Diana MacDonald’s [Practical UI Patterns for Design Systems](https://www.amazon.co.uk/gp/product/1484249372/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=mrmurphyltd.-21&linkId=7f506d2c3201942c12b77095f9d3abd9&language=en_GB) is an excellent – and newly published – book on the importance of understanding UI patterns. It explores design patterns in depth and it’s a book I’d highly recommend.
 
 <!-- Weird issue with the short link, that isn’t so short. Revisit in case Amazon’s link shortener was broken when I wrote this. -->
