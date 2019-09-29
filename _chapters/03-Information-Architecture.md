@@ -800,7 +800,7 @@ Again, **how you organise everything and impose an overall information architect
 The bottom line: As you design your user interface, **put some thought into how users find the ice cream** (metaphorically, of course). Do that and they’ll thank you.
 
 
-### Part 3: Site-Level and Page-Level Navigation
+### Site- and Page-Level Navigation
 
 Information architecture applies at a range of levels, at both the site-level and the page-level (especially when pages are complicated with a lot of information). When designing a user interface, we need to consider the information architecture at:
 
@@ -809,9 +809,9 @@ Information architecture applies at a range of levels, at both the site-level an
 
 When you have a lot of information at the page level, there are a number of different approaches to presenting it:
 
-* You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
++ You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
 
-* Alternatively, a better approach is to **consider the page at an information architecture micro-level**, where content is divided into **logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
++ Alternatively, a better approach is to **consider the page at an information architecture micro-level**, where content is divided into **logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
 
 The second of these approaches **gives users a better chance of making their way through the content provided without being overwhelmed**. By establishing a page-level structuring scheme as the foundation for a page-level navigation system, we give users a better chance of finding what they’re looking for.
 
@@ -843,7 +843,7 @@ At a micro-level, **GOV.UK’s pages are clearly organised with prominent, but u
 
 	Home > Money and Tax > Income Tax
 
-The interface is clearly focused on the [‘job to be done’](https://www.nngroup.com/articles/personas-jobs-be-done/), in this case finding out about how to claim tax relief for work-related expenses (2). A ‘Contents’ list at the top of the content (3) allows users to jump to the section’s they’re looking for, quickly and easily. In the main content, an ‘Overview’ summarises the page content (4) and links to related content are provided (5).
+The interface is clearly focused on the [‘job to be done’](https://www.nngroup.com/articles/personas-jobs-be-done/), in this case finding out about how to claim tax relief for work-related expenses (2). A ‘Contents’ list at the top of the content (3) allows users to jump to the sections they’re looking for, quickly and easily. In the main content, an ‘Overview’ summarises the page content (4) and links to related content are provided (5).
 
 At GOV.UK users have a clear mental model of the site that they’re using because the information architecture is clearly articulated through:
 

@@ -801,7 +801,7 @@ Again, **how you organise everything and impose an overall information architect
 The bottom line: As you design your user interface, **put some thought into how users find the ice cream** (metaphorically, of course). Do that and they’ll thank you.
 
 
-### Part 3: Site-Level and Page-Level Navigation
+### Site- and Page-Level Navigation
 
 Information architecture applies at a range of levels, at both the site-level and the page-level (especially when pages are complicated with a lot of information). When designing a user interface, we need to consider the information architecture at:
 
@@ -810,9 +810,9 @@ Information architecture applies at a range of levels, at both the site-level an
 
 When you have a lot of information at the page level, there are a number of different approaches to presenting it:
 
-* You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
++ You might present it as one long page, which might be tempting, but **the danger of this approach is that users can suffer from ‘intake fatigue’, where the volume of information overwhelms them**.
 
-* Alternatively, a better approach is to **consider the page at an information architecture micro-level**, where content is divided into **logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
++ Alternatively, a better approach is to **consider the page at an information architecture micro-level**, where content is divided into **logical groupings, which can be used to create page-level navigation**. This gives users direct access to sub-topics of interest, it also provides users with a better understanding of how the overall content is organised.
 
 The second of these approaches **gives users a better chance of making their way through the content provided without being overwhelmed**. By establishing a page-level structuring scheme as the foundation for a page-level navigation system, we give users a better chance of finding what they’re looking for.
 
