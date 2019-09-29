@@ -1,7 +1,9 @@
 ---
 chapter-number: "02"
 title: "The Building Blocks of Interfaces"
-opening-text: "<p>In this chapter <strong>I’ll introduce the fundamental building blocks that interfaces are made from</strong>: Objects, Components, Patterns, Pages and Flows. <strong>I’ll break apart a series of interface elements</strong> – which I’ll also provide as swipe files for reference – <strong>and I’ll analyse how everything we use in an interface is constructed from simple building blocks, or objects</strong>.</p>
+opening-text: "<p class='text--warning'><strong>As I noted in the book’s overview, this is a work in progress and I’m sharing it here in draft form.</strong> The overall book isn’t finished, but I hope the chapters I’m publishing have some value as I finalise work on the book.</p>
+
+<p>In this chapter <strong>I’ll introduce the fundamental building blocks that interfaces are made from</strong>: Objects, Components, Patterns, Pages and Flows. <strong>I’ll break apart a series of interface elements</strong> – which I’ll also provide as swipe files for reference – <strong>and I’ll analyse how everything we use in an interface is constructed from simple building blocks, or objects</strong>.</p>
 
 <p>I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany this chapter (and many of the other chapters). <strong>These supporting files walk through the process for more visual learners and can be used alongside the book.</strong></p>"
 

@@ -1,7 +1,9 @@
 ---
 chapter-number: "01"
 title: "Designing Interfaces"
-opening-text: "<p>In this chapter <strong>I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design</strong> – drawing from principles of human-computer interaction (HCI) – so that <strong>the lessons we’ve learned from the history of UI design aren’t lost</strong>.</p>
+opening-text: "<p class='text--warning'><strong>As I noted in the book’s overview, this is a work in progress and I’m sharing it here in draft form.</strong> The overall book isn’t finished, but I hope the chapters I’m publishing have some value as I finalise work on the book.</p>
+
+<p>In this chapter <strong>I’ll explore how we arrived at where we are today. I’ll provide a brief history of user interface design</strong> – drawing from principles of human-computer interaction (HCI) – so that <strong>the lessons we’ve learned from the history of UI design aren’t lost</strong>.</p>
 
 <p>I’ll also stress <strong>the importance of understanding metaphors and mental models</strong>, which underpin UI design. Lastly, <strong>I’ll detail a number of current user interface design systems</strong>, including: Apple’s Human Interface Guidelines; Google’s Material Design and IBM’s Living Language.</p>"
 
