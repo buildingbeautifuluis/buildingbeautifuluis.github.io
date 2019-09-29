@@ -962,9 +962,9 @@ Jon Moore has written an excellent introduction to blockframes in [a lengthy pos
 {% include figure.html url="/images/ch3/c3-s5-p2-3-dribbble.gif" alt="Dribbble Blockframe" description="Taking Dribbble’s profile page – that I explored earlier in the Dribbble case study – we can see that, even at a reduced level of detail, this is still recognisably a page from Dribbble." %}
 
 
-By reducing the fidelity of your deliverables using blockframes (above), you can map out the elements of a revised interface quickly, safe in the knowledge that your client is already familiar with the overall look and feel of the interface.
+By reducing the fidelity of your deliverables using blockframes (above), **you can map out the elements of a revised interface quickly**, safe in the knowledge that your client is already familiar with the overall look and feel of the interface.
 
-Blockframes are also a useful deliverable when you're considering how pages will reflow at different viewport sizes. With the essential details in place, you can quickly map out different viewport sizes at a block level.
+Blockframes are also **a useful deliverable when you’re considering how pages will reflow at different viewport sizes**. With the essential details in place, you can quickly map out different viewport sizes at a block level.
 
 <!--
 
@@ -975,33 +975,68 @@ Should I emphasise that blockframes aren't about designing in the absence of con
 -->
 
 
-### Wireframes and Mockups <!-- Part 3 -->
+### Wireframes and Mockups
 
-This is all about increasing fidelity…
+With the overall visual hierarchy of our pages blocked out, *it’s time to level up the fidelity and build some wireframes and mockups and move closer to a finished outcome*.
 
-Wireframes are useful for communicating the functional aspects of a series of pages. When creating wireframes, it's important to include annotations, guidelines for others involved in the design process.
+*Wireframes are like skeletons*, on which you later hang your visual aesthetics. They’re *focused on the underlying structure and how everything fits together*, at both a page level and, in flows, at a site level.
+
+Unlike mockups – which provide visual details: typographic choices, colour palettes, data representations, imagery… – wireframes are **design placeholders**, indicating where elements are situated, without getting lost in detail.
+
+Wireframes are *important for getting the fundamental functional structure in place* before visual design is integrated to create mockups at a higher level of fidelity.
 
 
+{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="This will be a wireframe for mrmurphy.com, showing some of the early stages of the design as we were mapping out content." %}
+
+
+Wireframes can also be used to test initial functionality, by linking them together in an immersive prototype, using a tool like XD. *This can be useful to get a feel for how functionality works, before embarking upon more realistic prototypes using mockups.*
+
+When creating wireframes, **it’s important to include annotations** – guidelines for others involved in the design process – to ensure that your ideas are communicated clearly. Coupled with annotations, wireframes are useful for briefing other team members and, to a degree, clients and other stakeholders.
+
+**The highest fidelity we need to consider are mockups.** These are highly detailed deliverables that marry our visual design with the layouts that we’ve created up to this point.
+
+**Mockups take the visual designer’s overall visual aesthetic and apply it to the creation of high-fidelity outcomes.** (It’s worth noting that the visual designer might be you! This will depend upon the size of the studio you’re working in.)
+
+
+{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="This will be a mockup for mrmurphy.com, showing some of the early visuals that we didn’t use." %}
+
+
+In the past, it was commonplace to design mockups for initial client presentations, but as our processes have evolved to encompass more efficient and realistic methodologies, **mockups are often created at the end of the process**.
+
+With mockups, you’re communicating your visual aesthetic, including:
+
++ Typographic Choices
++ Data Representations (Charts, Information Graphics)
++ Colour Palettes
++ Imagery
++ Video
++ …
+
+Mockups are time-consuming to create, which is why it's worth following a process like the one outlined in this section. That said, mockups are incredibly useful for communicating with clients.
+
+As we close this chapter, it’s worth mentioning that I haven’t touched on grid systems, but I will in ‘Chapter 6: Designing Desktop Interfaces’ (coming soon, I hope!), when I dive a little deeper into composition, with an emphasis on designing grid systems for desktop (and mobile) deliverables.
 
 
 
 Closing Thoughts
 ----------------
 
-Some closing thoughts here paving the way for the next chapter.
+All being well, this chapter will have levelled up your user interface design abilities. By **introducing you to patterns and pages** you should now be ready to start designing pages consistently and efficiently.
+
+In the next chapter – Chapter 4: Getting From A → B (coming soon, I hope!) – I’ll introduce the idea of tying together pages, using flows, so that you can begin to build working prototypes. 🎉
 
 
 ### So, what did we learn?
 
 After reading Chapter 3, you should understand that:
 
-1. **Objects and Components can be combined to create Patterns; and Objects, Components and Patterns can can be combined to create Pages.**
+1. By developing an understanding of user interface design patterns we can design user interfaces **more efficiently and consistently**.
 
-2. Something else…
+2. We’ve levelled up the complexity, to explore **patterns and pages**, so we now understand four of the five elements of the ‘Objects → Components → Patterns → Pages → Flows’ equation.
 
-3. Low- → Mid- → High-Fidelity
+3. We understand that there are 'levels of fidelity' in the user interface design process and we've started exploring some of these, including: iconic layouts, blockframes and wireframes.
 
-Lastly, I’ve introduced you to **some typical patterns you’ll encounter when you begin to design user interaces**: A, B, C, D and E. _/* These will be swapped out after I've written the chapter, */_
+Lastly, I’ve introduced you to some typical patterns you’ll encounter when you begin to design user interaces: date pickers, sign up / sign in forms, credit card forms, notifications and activity feeds.
 
 
 
