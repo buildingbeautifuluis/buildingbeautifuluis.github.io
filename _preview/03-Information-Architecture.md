@@ -33,7 +33,6 @@ When we design an interface, it’s important to put some thought into our overa
 Our goal as designers is to:
 
 1. **help users find the information they’re looking for**; and
-
 2. **enable them to complete the goals they aim to undertake**.
 
 In order to do this, it’s important to put some thought into **how the different elements we use in an interface fit together as part of the overall system** within which they exist.
@@ -979,7 +978,7 @@ Unlike mockups – which provide visual details: typographic choices, colour pal
 Wireframes are **important for getting the fundamental functional structure in place** before visual design is integrated to create mockups at a higher level of fidelity.
 
 
-{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="This will be a wireframe for mrmurphy.com, showing some of the early stages of the design as we were mapping out content." %}
+{% include figure.html url="/images/ch3/c3-s5-p3-1-wireframe.png" alt="Temporary Image" description="One of a series of exploratory wireframes by Janna Hagan for Shopify. These wireframes are relatively high fidelity, but they can be lower fidelity than this. [Image by Janna Hagan]" %}
 
 
 Wireframes can also be used to test initial functionality, by linking them together in an immersive prototype, using a tool like XD. **This can be useful to get a feel for how functionality works, before embarking upon more realistic prototypes using mockups.**
@@ -991,7 +990,7 @@ When creating wireframes, **it’s important to include annotations** – guidel
 **Mockups take the visual designer’s overall visual aesthetic and apply it to the creation of high-fidelity outcomes.** (It’s worth noting that the visual designer in question, might be you! This will depend upon the size of the studio you’re working in.)
 
 
-{% include figure.html url="/images/section-opening-placeholder-image.png" alt="Temporary Image" description="This will be a mockup for mrmurphy.com, showing some of the early visuals that we didn’t use." %}
+{% include figure.html url="/images/ch3/c3-s5-p3-2-mockup.png" alt="A Mockup" description="A mockup, by my studiomates at Little Thunder, for mrmurphy.com, showing some of the early visuals that we didn’t use." %}
 
 
 In the past, it was commonplace to design mockups for initial client presentations, but as our processes have evolved to encompass more efficient and realistic methodologies, **mockups are often created at the end of the process**.
@@ -1018,7 +1017,7 @@ Closing Thoughts
 
 All being well, this chapter will have levelled up your user interface design abilities. By **introducing you to patterns and pages** you should now be ready to start designing pages consistently and efficiently.
 
-In the next chapter – Chapter 4: Getting From A → B (coming soon, I hope!) – I’ll introduce the idea of tying together pages, using flows, so that you can begin to build working prototypes. 🎉
+In the next chapter – ‘Chapter 4: Getting From A → B’ (coming soon, I hope!) – I’ll introduce the idea of tying together pages, using flows, so that you can begin to build working prototypes. 🎉
 
 
 ### So, what did we learn?

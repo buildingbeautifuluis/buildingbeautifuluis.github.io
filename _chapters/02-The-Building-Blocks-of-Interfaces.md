@@ -117,13 +117,9 @@ Section 2: Objects → Components → Patterns → Pages → Flows
 **Everything we create is built from smaller parts.** At the simplest level, user interfaces are comprised of the following:
 
 + **Objects:** An object is a basic building block from which we build interfaces: points (circles), lines and planes; icons; and typographic elements. (Icons are built from objects, too.)
-
 + **Components:** A component is *created from objects* and is something like [a button](images/ch2/buttons.png), [a toggle](images/ch2/toggles.png), or [a progress indicator](images/ch2/progress-indicators.png).
-
 + **Patterns:** A pattern is *created from components* and is something like a [card](https://design-system.futurelearn.com/molecules/card), a [date picker](https://design-system.futurelearn.com/molecules/date-input), or a [feed item](https://design-system.futurelearn.com/molecules/feed-item).
-
 + **Pages:** A page is *created from objects, components and patterns*.
-
 + **Flows:** A flow is *created from a series of pages that are linked together*. A flow is what we’re building towards – **from the ground up** – and is the most complex part of the equation.
 
 In this chapter, **I’ll be focusing on components, demonstrating how they can be built from simple objects: points (circles), lines and planes; icons; and typographic elements**.
@@ -288,7 +284,6 @@ Progress indicators are useful for communicating time and alleviating your users
 Progress indicators come in both linear and circular forms, as in the above example. Linear progress indicators are composed of two required elements:
 
 1. **Track:** The track is a fixed width rule, with set boundaries (establishing the beginning (0%) and end (100%)) for the indicator to travel along.
-
 2. **Indicator:** The indicator animates along the length of the track.
 
 **As I noted above, it’s important to handle your interface elements consistently.** If you’ve used a circular progress indicator for a refresh action on one screen, that same action shouldn’t use a linear indicator on another screen.
@@ -464,10 +459,9 @@ As Staniscia rightly points out, design systems are essentially living systems. 
 
 I touched on style guides in [Chapter 1: Designing Interfaces](https://github.com/buildingbeautifuluis/bbuis/blob/master/01-Chapter-1-Designing-Interfaces.md#section-5-ui-here-and-now) when I introduced styleguides.io, which gathers pattern libraries and style guides, but it’s worth exploring design systems, specifically, here.
 
-{% include figure.html url="/images/ch2/design-systems-repo.png" alt="Jad Limcaco’s Design Systems Repo" description="Jad Limcaco’s Design Systems Repo is an excellent resource to learn about design systems." %}
-<!-- ![Jad Limcaco’s Design Systems Repo](images/ch2/design-systems-repo.png)
 
-**CAPTION: Jad Limcaco’s [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent resource to learn about design systems.** -->
+{% include figure.html url="/images/ch2/design-systems-repo.png" alt="Jad Limcaco’s Design Systems Repo" description="Jad Limcaco’s Design Systems Repo is an excellent resource to learn about design systems." %}
+
 
 If you’re looking for inspiration, [Design Systems Repo](https://designsystemsrepo.com/design-systems/) is an excellent place to start. Created by Jad Limcaco, a designer at Apple, it started life as a collection of resources – examples, articles and tools – for Limcaco’s personal reference.
 
@@ -484,10 +478,8 @@ Black pencils are only awarded for outstanding projects – they aren’t awarde
 
 The [GOV.UK Design System](https://design-system.service.gov.uk) is a fantastic resource and, to the GOV.UK team’s remarkable credit, they have paved the way in opening up their processes and sharing the lessons they have learned.
 
-{% include figure.html url="/images/ch2/gov-uk.png" alt="The GOV.UK Design System, published in the open, is home to a wealth of information." description="The GOV.UK Design System, published in the open, is home to a wealth of information." %}
-<!-- ![Placeholder](images/ch2/gov-uk.png)
 
-**CAPTION: The GOV.UK Design System, published in the open, is home to a wealth of information.** -->
+{% include figure.html url="/images/ch2/gov-uk.png" alt="The GOV.UK Design System, published in the open, is home to a wealth of information." description="The GOV.UK Design System, published in the open, is home to a wealth of information." %}
 
 
 Public sector organisations are **often rightly criticised for moving slowly thanks to their often bottomless wells of bureaucracy**. GOV.UK is the opposite, it moves quickly and is constantly exploring new ways to optimise its processes.
@@ -499,9 +491,7 @@ It’s a rare example of a public sector organisation teaching the private secto
 GOV.UK offers ample lessons on:
 
 + **[Styles:](https://design-system.service.gov.uk/styles/)** Guides for applying layout, typography, colour and more;
-
 + **[Components:](https://design-system.service.gov.uk/components/)** A library of reusable, accessible components for buttons, checkboxes, tags and more; and
-
 + **[Patterns:](https://design-system.service.gov.uk/patterns/)** Best practice design solutions for specific user-focused tasks, all supported by written guidance.
 
 Finally, GOV.UK has a thriving [community](https://design-system.service.gov.uk/community/) sharing best practice and **encouraging designers from the wider (non-governmental) community to get involved proposing and developing new components and patterns**.
@@ -527,11 +517,7 @@ In the next chapter – [Chapter 3: Information Architecture](https://github.com
 After reading Chapter 2, you should understand that:
 
 1. **We can use simple things to build complicated things.** (Just like LEGO.)
-
-2. **We’ve established a naming convention,** so we’re all speaking the same language:
-
-	Objects → Components → Patterns → Pages → Flows
-
+2. **We’ve established a naming convention,** so we’re all speaking the same language: Objects → Components → Patterns → Pages → Flows
 3. **We’re able to build what is essentially a design system by designing our components, patterns and pages from the object up.**
 
 Lastly, I’ve introduced you to **some typical components you’ll encounter when you begin to design user interaces**: buttons, toggles, progress indicators, tags and tool tips.
@@ -544,9 +530,7 @@ Further Reading
 There are many great publications, offline and online, that will help further underpin your understanding of the building blocks of interfaces. I’ve included a few below to start you on your journey.
 
 + Christian Leborg’s [Visual Grammar](https://amzn.to/31EaRoa) helps to explain the fundamental principles of visual grammar, the core graphic building blocks from which we build elements. It’s an excellent book that focuses on the foundations – point, line and plane – from which all interfaces are built.
-
 + Manuela Langella’s [Designing For User Interfaces: Icons As Visual Elements For Screen Design](https://www.smashingmagazine.com/2018/02/user-interfaces-icons-visual-elements-screen-design/) – sponsored by Adobe and published by the fine folks at Smashing Magazine – complements this chapter perfectly. Langella provides a thoroughly in-depth view of the role that icons can play as a part of user interfaces.
-
 + Lastly, I’d strongly recommend [Universal Principles of Design](https://amzn.to/2Fdftbn). It covers ‘125 Ways to Enhance Usability, Influence Perception, Increase Appeal, Make Better Design Decisions, and Teach through Design’ and I’ve used it as a backbone for my teaching since it was published.
 
 
@@ -556,10 +540,8 @@ Downloadables
 
 I’ve created a series of supporting files – reference files and Adobe XD artboards – to accompany the chapter content above. **These supporting files walk through the process for more visual learners and can be used alongside the book.**
 
-{% include figure.html url="/images/ch2/downloadables.png" alt="" description="" %}
-<!-- ![ALT](images/ch2/downloadables.png)
 
-**CAPTION: If all goes according to plan – in terms of licensing my teaching materials to Adobe (materials which are beyond the scope of the book’s original Statement of Work) – I’ll be including downloadable XD artboards for every chapter. If you think supporting files would be helpful, [drop me a line](mailto:christopher@mrmurphy.com) to help me persuade them that this is a good idea!** -->
+{% include figure.html url="/images/ch2/downloadables.png" alt="Downloadables" description="If all goes according to plan – in terms of licensing my teaching materials to Adobe – I’ll be including downloadable XD artboards for every chapter." %}
 
 
 I’ve designed all of the XD artboards myself (except the swipe files, where I reference others’ work with accompanying analysis). **You’re free to use the content of the XD artboards to assist your learning, however, I retain the copyright.**

@@ -104,7 +104,6 @@ https://www.invisionapp.com/ecourses/fundamental-ui-design
 I’m a firm believer in drawing my teaching materials from the real world. As an Associate Senior Lecturer at Belfast School of Art (teaching half-time) I’m fortunate to divide my time between:
 
 + real world design projects for a wide range of clients, both large ([EA](https://www.ea.com)) and small ([Niice](https://niice.co)); and
-
 + teaching students on my undergraduate [Interaction Design](http://ixdbelfast.org) programme.
 
 Everything in this book (and its accompanying materials) has been tried and tested. I’ve drawn the examples from research I’ve undertaken, client projects I’ve worked on and – where appropriate – samples of my students’ work.
@@ -286,7 +285,6 @@ Whatever the interfaces we design, it’s highly likely that **our users will ha
 Users have mental models based upon their past experiences and it’s important that we take these mental models on board when considering our user interface design. **A mental model is what the user believes about the system they are using.** Put simply:
 
 + Mental models are based upon beliefs, not facts: that is they are mental models of what users know – **or think they know** – about the interface that you’re designing.
-
 + Individual users have different mental models based upon their own unique past experiences.
 
 One of the biggest problems we run into when designing user interfaces is **the conflict between what we – as the designers of the interface – know about the underlying system and how it works, and how users expect things to work**.
@@ -375,7 +373,5 @@ Further Reading
 There are many great publications, offline and online, that will help further underpin your understanding of user interface design. I’ve included a few below to start you on your journey.
 
 + I’d strongly suggest starting by exploring Apple’s [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/), Google’s [Material Design](https://material.io/design/) resources, and IBM’s Living Language ([Version 1](https://www.ibm.com/design/v1/language/) and [Version 2](https://www.ibm.com/design/language/)). These provide a useful overview of designing interfaces at a high level and offer an insight into the design vocabularies of different platforms.
-
 + The Interaction Design Foundation have a useful overview of UI design titled [What is User Interface (UI) Design?](https://www.interaction-design.org/literature/topics/ui-design) It’s well worth a read for a high level introduction to user interface design.
-
 + Lastly, Nielsen Norman Group have a comprehensive overview on [Mental Models](https://www.nngroup.com/articles/mental-models/) that is well worth reading. Additionally, they have [a wealth of additional articles and videos](https://www.nngroup.com/search/?q=mental+models) on the topic, that are worth exploring.
