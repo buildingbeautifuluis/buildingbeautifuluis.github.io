@@ -869,9 +869,9 @@ Section 5: Moving From Low- to High-Fidelity
 + **low-fidelity deliverables** (sketches, iconic layouts and blockframes) that are faster to create; and
 + **high-fidelity deliverables** (wireframes, mockups and prototypes) that are slower to create.
 
-Design is a process that ideally moves from low-fidelity to high-fidelity. **Moving directly to high-fidelity mockups – with all the aesthetics pinned down (theoretically) – at the start of a project is incredibly inefficient.** A better approach is to move through **levels of fidelity**, testing your thinking as you progress.
+Design is a process that ideally moves from low-fidelity to high-fidelity. **Moving directly to high-fidelity mockups – with all the aesthetics pinned down (theoretically) – at the start of a project is incredibly inefficient.** A better approach is to move through **levels of fidelity**, testing your thinking as you progress and increase fidelity.
 
-The danger of starting with high-fidelity mockups is that you **invest a great deal of time and energy creating something that may not work** at a practical and functional level. In studios, no matter how large or small, **time is money and time is valuable**.
+The danger of starting with high-fidelity mockups is that you invest a great deal of time and energy **creating deliverables that may not work at a practical and functional level**. In studios, no matter how large or small, **time is money and time is valuable**, and you can’t afford to waste it on poor process.
 
 A far better approach is to **start at the lower fidelity end of the spectrum where you can work quickly**, getting the broad brushstrokes in place. **With that done**, and – ideally – some user testing undertaken (no matter how informal) and your thinking tested, **move towards higher fidelity outcomes**.
 
@@ -879,23 +879,23 @@ A typical design process will include the following stages:
 
 + **sketching thumbnails** to capture initial ideas;
 + creating low fidelity **iconic layouts and blockframes** to block out visual hierarchy;
-+ **developing wireframes** to map out flows;
++ **developing wireframes** to map out flows and establish functionality;
 + moving to high fidelity and **designing mockups** to establish an overall aesthetic; and
 + building an **immersive prototype**, using a tool like XD. *
 
-\* Although I’m introducing prototypes, so that I can map out the design process, I’ll focus on them in the following chapter, when I look explore flows and getting from A to B.
+\ * Although I’m introducing prototypes in this section, so that I can map out the design process, I’ll focus on them in the following chapter, when I explore flows and getting from A → B.
 
 At every stage of this process **we’re increasing the fidelity and moving closer to a finished outcome**.
 
 **At the first phase of the process** – with some form of content inventory and audit undertaken – **we’re focused on a bird’s eye view, at a high level**. At this point we can begin to start mapping out our content, considering how best to organise it.
 
-You might be tempted to fire up your software of choice at this point, but I’d strongly suggest an alternative approach: **Starting with paper.**
+You might be tempted to fire up your software tool of choice at this point, but I’d strongly suggest an alternative approach and a better tool: **Starting with paper.**
 
 
 {% include figure.html url="/images/ch3/c3-s5-p1-2-design-tools-survey.png" alt="In 2015, 64% of designers surveyed by Khoi Vinh used sketching to kick off their design process." description="In 2015, 64% of designers surveyed in Khoi Vinh’s Design Tools Survey, used sketching to kick off their design process." %}
 
 
-Although it’s a little old, Khoi Vinh’s 2015 [Design Tools Survey](http://tools.subtraction.com/brainstorming.html) revealed that – during the brainstorming phase – 64% of designers start with paper. Vinh described the results for brainstorming as follows:
+Although it’s a little old, Khoi Vinh’s 2015 [Design Tools Survey](http://tools.subtraction.com/brainstorming.html) revealed that, during the brainstorming phase, 64% of designers start with paper. Vinh described the results for brainstorming as follows:
 
 > In arguably the most important of the categories surveyed, participants voted overwhelmingly for the lowest fidelity tools: simple pencil and paper.
 
@@ -913,56 +913,71 @@ Sketching interfaces **isn’t about being a renaissance master**, like Leonardo
 
 As Jason Santa Maria explains in his article [Pretty Sketchy](http://v4.jasonsantamaria.com/articles/pretty-sketchy/): “Sketchbooks are **not** about being a good artist, **they’re about being a good thinker**.” Jared Spool reiterates this point, stating: “The effectiveness of the communication matters more than the neatness of the artwork.”
 
-**I recommend limiting your palette to a handful of finepoint gel pens** in different colours **and some brush pens for adding highlights**. For details, I recommend [Pilot G-Tec-C4 Gel Microtip Rollerball Pens](https://amzn.to/2nyfXmI). For the broader brushstrokes, I swear by the [Tombow ABT N75 Dual Brush Pen](https://amzn.to/2muNjTk) (which can elevate any drawing!). If you can afford a set of these, even better: Tombow have a [set of six brush pens](https://amzn.to/2mDkNPa), which provides six blendable colours.
+I recommend **limiting your palette to a handful of finepoint gel pens** in different colours **and some brush pens for adding highlights**. For details, I recommend [Pilot G-Tec-C4 Gel Microtip Rollerball Pens](https://amzn.to/2nyfXmI). For the broader brushstrokes, I swear by the [Tombow ABT N75 Dual Brush Pen](https://amzn.to/2muNjTk) (which can elevate any drawing!). If you can afford a set of these, even better: Tombow have a [set of six brush pens](https://amzn.to/2mDkNPa), which provides six blendable colours.
 
 With our content mapped out – and some sketches developed – we can start to focus on getting everything organised at the **page level**, considering the overall structure and hierarchy of our pages by using iconic layouts and blockframes.
 
 
 ### Iconic Layouts and Blockframes <!-- Part 2 -->
 
-/* This kicks off with revisiting April Grieman’s iconic layouts for Vitra magazine. They struck me as interesting at the time (19XX). They very much pre-dated the web, but they looked similar to the kinds of low level iconic layouts I would use in a project to map out flows… */
+With some thumbnails in hand, it’s time to move to the computer to start to impose a little refinement to our thinking, using: **iconic layouts and blockframes** They’re a first pass on a computer, but at a low level of detail.
 
-The idea for 'Iconic Layouts' is drawn from April Grieman's 1990 book ['Hybrid Imagery: The Fusion of Technology and Graphic Design'](). The world has moved on a great deal since 1990, but one idea that Grieman explored has stuck with me over three decades later…
+The idea for ‘iconic layouts’ is drawn from April Grieman’s 1990 book [‘Hybrid Imagery: The Fusion of Technology and Graphic Design’](https://amzn.to/2lVlfIh). The world has moved on a great deal since 1990, but one idea that Greiman embraced has stuck with me over three decades later.
 
-Grieman referred to her initial digital sketches – for Workspirit Magazine (a publication for Swiss furniture manufacturer Vitra) – as the 'iconic' first stage. As she put it:
+Greiman referred to her initial digital sketches – for Workspirit Magazine, a publication for Swiss furniture manufacturer Vitra – as the ‘iconic’ first stage. As she put it:
 
-> A surprise in producing [the] initial miniature version was that I could see the whole magazine as a kind of 'iconic texture', free from detail.
+> A surprise in producing [the] initial miniature version was that I could see the whole magazine as a kind of ‘iconic texture’, **free from detail**.
+
+The key insight in Greiman's thinking is: **Free from detail.** By focusing on pages at an iconic level of abstraction, Greiman was able to **get a feel for the overall visual flow of the magazine she was designing it**. As user interface designers, we might not be designing magazines, but **we are designing sequences of pages**, and I think we can learn from this methodology.
+
+Although Greiman’s work on this particular project pre-dated the web, this approach – of using iconic textures free from detail – reminded me of the kinds of **low level iconic layouts I use in projects to map out hierarchy and flows at a high level** before moving to wireframes and mockups.
 
 
-![Workspirit Magazine · Placeholder Image](images/section-opening-placeholder-image.png)
-
-**CAPTION: Grieman's thumbnail page printouts reminded me of the iconic layouts I often sketch at the initial paper prototyping phase of a project. These low fidelity, iconic page layouts help to establish the overall visual structure and hierarchy.**
+{% include figure.html url="/images/ch3/c3-s5-p2-1-iconic-layouts.png" alt="Workspirit Magazine" description="Greiman’s thumbnail page printouts reminded me of the iconic layouts I often sketch – or quickly develop on a computer, based on sketches – during the initial prototyping phase of a project. These low fidelity, iconic layouts help to establish the overall visual structure and hierarchy." %}
 
 
-I've used this approach ever since. By creating 'iconic' layouts – very small layouts, focused on scale, color and tone, the hierarchy of pages can be grasped at a high level (a birds' eye view).
+I’ve used this approach ever since. By creating iconic layouts – very small layouts, focused on: relative scale, tone and colour – the hierarchy of pages can be grasped at a high level. This approach allows you to **explore different layouts and get a feel for their overall visual structure and hierarchy**.
 
-This approach allows you to establish page layouts and get a feel for their flows.
+These are micro-layouts – they’re at a level of fidelity that you can get a feel for the overall look and feel of a page – but **they’re not so detailed that they absorb too much time** before you start to develop more refined mockups.
 
-These are microlayouts, they’re at a level of fidelity that you can get a feel for the overall look and feel of a page, but they’re not so detailed that they absorb too much time before you explore user flows.
+There are a number of UI Kits you can use to **ensure this phase is more efficient (saving you redrawing everything)**. UX Kits, for example, have a [UI Wireflows Kit](https://uxkits.com/products/ui-wireflows) that saves you having to redraw iconic page layouts. $29–39 is a small price to pay for the time it will save you redrawing these different assets.
+
+**If you’re learning, however, I’d suggest recreating these kinds of deliverables yourself. Doing so will develop your user interface drawing skills.**
+
+
+{% include figure.html url="/images/ch3/c3-s5-p2-2-ux-kits.png" alt="UX Kits · UI Wireflows Kit" description="UX Kits’s UI Wireflows Kit includes 120 miniature wireframes that you can use to map out user interfaces at a high level of abstraction. $29–39 is a small price to pay for the time it will save you redrawing these different assets." %}
+
+
+<!--
+
+Scratch text: greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place, thinking about visual hierarchy.
+
+-->
+
+Although they might look visually similar, blockframes are slightly different to iconic layouts. Blockframes are low level representatives of pages, with the detail dramatically reduced, which are especially useful when you’re revisiting the design of **an existing product**.
+
+By reducing the detail you show with blockframes, you can save a great deal of time creating deliverables as you rethink aspects of pages or flows, when you’re revisiting a particular aspect of a website or application.
+
+Jon Moore has written an excellent introduction to blockframes in [a lengthy TK lengthy? post on Medium](https://medium.com/ux-power-tools/blockframing-and-31-free-sketch-ready-layouts-using-auto-layout-by-anima-app-1be039007ecf). As he puts it:
+
+This is not the right Jon Moore quote:
+
+> Blockframes give you a visually compelling way to indicate UI without actually having to show it. This obviously helps when you don’t really have a UI (like Stripe), but also when you integrate with other products and don’t want to give the wrong impression. More importantly, blockframe heroes keep the attention away from UI details and on the copy and concepts behind a product.  
+
+Show Dribbble before / after. Animated GIF. SHOW A PICTURE: REDRAW DRIBBBLE (BUT ADD LINES FOR TEXT)
+
+By reducing the fidelity of your deliverables using block frames, you can map out the elements of a revised interface quickly, safe in the knowledge that your client is already familiar with the overall look and feel of the interface.
+
+I need to emphasise that blockframes aren't about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
+
+<!--
 
 This is all about getting everything organised at the page level, **at a high level**. Show the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place.
 
-There are a number of UI Kits you can use to ensure this phase is more efficient. UX Kits, for example, have a [UI Wireflows Kit](https://uxkits.com/products/ui-wireflows) that saves you having to redraw iconic page layouts. (If you’re learning, however, I’d suggest recreating these kinds of deliverables yourself. Doing so will develop your user interface drawing skills.)
+-->
 
-/* Redraw the UX Kits overview, showing the different greybox pages (landing page, etc.), i.e. we can map out pages at a high level, getting the overall structure in place, thinking about visual hierarchy. */
 
-Mention that there are lots of UI Kits that you can use to get the ball rolling quickly. XD offers its own equivalent (where is this?).
 
-There are also a wealth of third party offerings, including:
-
-+ [UX Kits](https://uxkits.com)
-+ [UI + UX Assets](https://uiuxassets.com/)
-+ …
-
-I’ve also created a series of iconic layouts that I’ve included in the downloadables for this chapter.
-
-If I put blockframes in here, I need to emphasise their role. They're not about designing in the absence of content (which is never a good idea), they're about getting a feel for the overall page and its content hierarchy.
-
-Expand on this by referencing the Medium article:
-
-https://medium.com/ux-power-tools/blockframing-and-31-free-sketch-ready-layouts-using-auto-layout-by-anima-app-1be039007ecf
-
-By Jon Moore. (Also give Jon Moore credit for his UX Power Tools downloadables.)
 
 
 ### Wireframes and Mockups <!-- Part 3 -->
@@ -998,18 +1013,16 @@ Lastly, I’ve introduced you to **some typical patterns you’ll encounter when
 Further Reading
 ---------------
 
+<!-- Tell Dan we need to remove the bold on these. Looks like a stylesheet issue. -->
+
 There are many great publications, offline and online, that will help further underpin your understanding of information architecture. I’ve included a few below to start you on your journey.
 
-+ Donna Spencer’s [A Practical Guide to Information Architecture](https://amzn.to/2IkHeRl) – whilst sadly no longer available in print – is, as its title suggests, a practical guide to information architecture. Originally published by Five Simple Steps, I’d strongly recommend buying the Kindle book, which provides a thorough overview of the principles of managing and orchestrating content.
++ Donna Spencer’s ‘A Practical Guide to Information Architecture’ – whilst sadly no longer available in print – is, as its title suggests, a helpful primer on information architecture. Originally published by Five Simple Steps, [I’d strongly recommend buying the Kindle book](https://amzn.to/2IkHeRl), which provides a thorough overview of the principles of managing and orchestrating content.
+
++ In a medium that’s evolving rapidly, definitions evolve over time. If you’re interested in a more in-depth exploration of what information architecture is – and isn’t – I’d recommend reading Nathaniel Davis’s [Framing the Practice of Information Architecture](https://www.uxmatters.com/mt/archives/2011/09/framing-the-practice-of-information-architecture.php). As a bonus, you’ll also learn all about Louis Rosenfeld and Peter Morville’s ‘information architecture iceberg’ and Davis’s variation on that iceberg of information.
 
 _Get rid of the following and replace it with Diana’s book. In fact her book should go first in this section._
 
-+ usability.gov has an excellent overview of [Information Architecture Basics](https://www.usability.gov/what-and-why/information-architecture.html) that’s well worth reading. The site is an excellent resource that – whilst primarily focused on design for government – offers a wide range of resources that are applicable beyond design for the public sector.
++ Finally, Diana MacDonald’s [Practical UI Patterns for Design Systems](https://www.amazon.co.uk/gp/product/1484249372/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=mrmurphyltd.-21&linkId=7f506d2c3201942c12b77095f9d3abd9&language=en_GB) is an excellent – and newly published – book on the importance of understanding UI patterns. It explores design patterns in depth and it’s a book I’d highly recommend.
 
-+ Finally, Steve Krug’s [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2Xa5DS3) is a timeless book that I’d highly recommend. Whilst focused on usability, it contains a wealth of insights that are applicable when considering your overall information architecture.
-
-<!--
-
-In a medium that’s evolving rapidly, definitions evolve over time. If you’re interested in a more in-depth exploration of what information architecture is – and isn’t – I’d recommend reading Nathaniel Davis’s [‘Framing the Practice of Information Architecture’](URL). (As a bonus, you’ll also learn all about Louis Rosenfeld and Peter Morville’s ‘information architecture iceberg’ and Davis’s variation on it.)
-
--->
+<!-- Weird issue with the short link, that isn’t so short. Revisit in case Amazon’s link shortener was broken when I wrote this. -->

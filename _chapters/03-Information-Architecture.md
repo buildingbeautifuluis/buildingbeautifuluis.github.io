@@ -896,14 +896,18 @@ Lastly, I’ve introduced you to some typical patterns you’ll encounter when y
 Further Reading
 ---------------
 
-<!-- THESE NEED TO BE UPDATED TO INCLUDE DIANA'S BOOK. -->
+<!-- Tell Dan we need to remove the bold on these. Looks like a stylesheet issue. -->
 
 There are many great publications, offline and online, that will help further underpin your understanding of information architecture. I’ve included a few below to start you on your journey.
 
-+ Donna Spencer’s [A Practical Guide to Information Architecture](https://amzn.to/2IkHeRl) – whilst sadly no longer available in print – is, as its title suggests, a practical guide to information architecture. Originally published by Five Simple Steps, I’d strongly recommend buying the Kindle book, which provides a thorough overview of the principles of managing and orchestrating content.
++ Donna Spencer’s ‘A Practical Guide to Information Architecture’ – whilst sadly no longer available in print – is, as its title suggests, a helpful primer on information architecture. Originally published by Five Simple Steps, [I’d strongly recommend buying the Kindle book](https://amzn.to/2IkHeRl), which provides a thorough overview of the principles of managing and orchestrating content.
 
-+ usability.gov has an excellent overview of [Information Architecture Basics](https://www.usability.gov/what-and-why/information-architecture.html) that’s well worth reading. The site is an excellent resource that – whilst primarily focused on design for government – offers a wide range of resources that are applicable beyond design for the public sector.
++ In a medium that’s evolving rapidly, definitions evolve over time. If you’re interested in a more in-depth exploration of what information architecture is – and isn’t – I’d recommend reading Nathaniel Davis’s [Framing the Practice of Information Architecture](https://www.uxmatters.com/mt/archives/2011/09/framing-the-practice-of-information-architecture.php). As a bonus, you’ll also learn all about Louis Rosenfeld and Peter Morville’s ‘information architecture iceberg’ and Davis’s variation on that iceberg of information.
 
-+ Finally, Steve Krug’s [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2Xa5DS3) is a timeless book that I’d highly recommend. Whilst focused on usability, it contains a wealth of insights that are applicable when considering your overall information architecture.
+_Get rid of the following and replace it with Diana’s book. In fact her book should go first in this section._
+
++ Finally, Diana MacDonald’s [Practical UI Patterns for Design Systems](https://www.amazon.co.uk/gp/product/1484249372/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=mrmurphyltd.-21&linkId=7f506d2c3201942c12b77095f9d3abd9&language=en_GB) is an excellent – and newly published – book on the importance of understanding UI patterns. It explores design patterns in depth and it’s a book I’d highly recommend.
+
+<!-- Weird issue with the short link, that isn’t so short. Revisit in case Amazon’s link shortener was broken when I wrote this. -->
 
 
