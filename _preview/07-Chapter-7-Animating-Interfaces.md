@@ -25,6 +25,38 @@ table-of-contents:
 
 **Pre-Release notes here. Anything I'd like to draw Jordan's and Kyle's attention to.**
 
+<!--
+
+Links for Lena
+
+Other than that, here are some resources for learning more about animation in UI:
+
+https://valhead.com
+
+Val's book is worth buying, for sure:
+
+https://amzn.to/2of3S5T
+
+Val also has a newsletter:
+
+http://uianimationnewsletter.com
+
+There's a free course here:
+
+https://www.uxinmotion.com
+
+Also a tonne of useful links here:
+
+https://medium.muz.li/20-really-useful-ui-animation-tutorials-every-designer-should-know-c302085245d6
+
+Lastly, this looks good:
+
+https://www.meaningfulmotionui.com/course
+
+Hopefully the above points you in the right direction!
+
+-->
+
 
 ### Animation everywhere…
 

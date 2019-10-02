@@ -302,11 +302,7 @@ I’ll explore this, stressing the need for a clear overall concept and a strong
 Section 5: UI, Here and Now
 ---------------------------
 
-{% include figure.html url="/images/ch1/interface-guidelines.png" alt="" description="" %}
-
-<!-- ![Placeholder Image](/images/ch1/interface-guidelines.png)
-
-**CAPTION: This image will show a montage, in thirds, of: 1. Apple’s Human Interface Guidelines, 2. Google’s Material Design, and 3. IBM’s Living Language.** -->
+{% include figure.html url="/images/ch1/interface-guidelines.png" alt="Interface Guidelines" description="This image will show a montage of: 1. Apple’s Human Interface Guidelines, 2. Google’s Material Design, and 3. IBM’s Living Language." %}
 
 
 Fortunately there are a wealth of resources available to us that can inform our understanding of UI design. Apple’s Human Interface Guidelines, Google’s Material Design, and IBM’s Living Language all offer lessons we can learn from, regardless of the devices we’re designing for.
@@ -317,11 +313,8 @@ As I noted earlier, I think the fact that Apple provides **human** interface gui
 
 Apple is treading a bit of a tightrope, clearly they don’t want to lose sight of their heritage (and their first set of groundbreaking Human Interface Guidelines), but – as you’ll see in the copy on their page – they use both terms: **human** interface and **user** interface.
 
+
 {% include figure.html url="/images/ch1/apple-human-interface-guidelines.png" alt="Apple’s Human Interface Guidelines" description="Apple’s Human Interface Guidelines provide in-depth information and resources for designing interfaces that work on Apple’s various operating systems (macOS, iPadOS, iOS…)." %}
-
-<!-- ![Apple’s Human Interface Guidelines](/images/ch1/apple-human-interface-guidelines.png)
-
-**Caption: Apple’s Human Interface Guidelines provide in-depth information and resources for designing interfaces that work on Apple’s various operating systems (macOS, iPadOS, iOS…).** -->
 
 
 Developed in 2014, Google’s [Material Design](https://material.io/design/) expanded on the ‘card’ motifs that debuted in Google Now. Material Design uses more grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.
@@ -331,20 +324,14 @@ Developed in 2014, Google’s [Material Design](https://material.io/design/) exp
 
 {% include figure.html url="/images/ch1/google-material-design.png" alt="Google’s Material Design" description="Google’s Material Design guidelines provide in-depth information and resources for designing interfaces that work across a range of devices." %}
 
-<!-- ![Google’s Material Design](/images/ch1/google-material-design.png)
-
-**Caption: Google’s Material Design guidelines provide in-depth information and resources for designing interfaces that work across a range of devices.** -->
-
 
 IBM’s [Living Language](https://www.ibm.com/design/language/) – designed to be a shared vocabulary for design – represents IBM’s move into a design-driven culture and is well worth exploring. Currently on v2, IBM are also maintaining an archive of past versions, which offer a great deal of practical advice for designing user interfaces.
 
 As IBM put it in their Living Language: “Focus on users’ goals. Design tools that lead people to actionable insights. Be proactive, always anticipating users’ next moves and helping them prepare for change.”
 
+
 {% include figure.html url="/images/ch1/ibm-living-language.png" alt="IBM’s Living Language" description="IBM’s Living Language is described as, “A shared vocabulary for design.” It represents IBM’s move into a design-driven culture and is well worth exploring." %}
 
-<!-- ![IBM’s Living Language](/images/ch1/ibm-living-language.png)
-
-**Caption: IBM’s Living Language is described as, “A shared vocabulary for design.” It represents IBM’s move into a design-driven culture and is well worth exploring.** -->
 
 Lastly, [styleguides.io](http://styleguides.io) is a very useful roundup of other approaches to developing user interface libraries and style guides. It’s worth bookmarking and offers an insight into how a wide range of companies, both large and small, are moving towards the development of visually consistent user interface libraries.
 
@@ -353,9 +340,8 @@ As of 2019, styleguides.io has gathered 500+ different resources and it’s wort
 
 {% include figure.html url="/images/ch1/styleguides-io.png" alt="styleguides.io" description="styleguides.io is also worth bookmarking for a useful overview of how other companies – at a wide range of scales – are handling user interface design." %}
 
-<!-- ![styleguides.io](/images/ch1/styleguides-io.png)
+<!-- I think I should end on some copy here, not an image. A little closing out text about styleguides, pattern libraries, etc.. I could also go into detail about the differences between these often (mistakenly) interchanged terms. -->
 
-**Caption: styleguides.io is also worth bookmarking for a useful overview of how other companies – at a wide range of scales – are handling user interface design.** -->
 
 
 Closing Thoughts

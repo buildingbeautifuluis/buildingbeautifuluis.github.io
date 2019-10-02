@@ -1,9 +1,7 @@
 ---
 chapter-number: "03"
 title: "Information Architecture"
-opening-text: "<p class='text--warning'><strong>As I noted in the book’s overview, this is a work in progress and I’m sharing it here in draft form.</strong> The overall book isn’t finished, but I hope the chapters I’m publishing have some value as I finalise work on the book.</p>
-
-<p class='text--warning'>Unfortunately, my schedule hit a huge detour over the last month. My father-in-law ended up in hospital after having a stroke and, I had to pause writing to focus on family. Thankfully, he is doing better so I’m back to writing, I’m just a little further behind than I’d hoped to be.</p>
+opening-text: "<p class='text--warning'><strong>As I noted in the book’s overview, this is a work in progress and I’m sharing it here in draft form.</strong> The overall book isn’t finished, but I hope the chapters I’m publishing have some value as I finalise my work on the book.</p>
 
 <p>In this chapter <strong>I’ll level up the complexity a little</strong>. I’ll take the idea of components that I explored in Chapter 2 and develop it to explore the creation of <strong>patterns, reusable solutions to user interface problems that occur frequently</strong>.</p>
 
