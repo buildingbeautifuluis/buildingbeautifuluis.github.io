@@ -307,8 +307,43 @@ Consider the order of these states… also, do I need more? There's an article I
 1. Interaction States
 2. Error States
 3. Empty States
-		
-		Stress also that error states – to be designed more helpfully – should lead to some form of action. Nielsen Norman usability heuristics: It's better to prevent and pre-empt errors.)
+
+Stress also that error states – to be designed more helpfully – should lead to some form of action. Nielsen Norman usability heuristics: It's better to prevent and pre-empt errors.
+
+
+### Empty States
+
+<!-- This is scrappy. -->
+
+After the user's completed the onboarding they may face an empty state… Explain what an empty state is. The following article is very good for empty states:
+
+https://www.toptal.com/designers/ux/empty-state-ux-design
+
+A useful empty state will let the user know what’s happening, why it’s happening, and what to do about it.
+
+The following list provides some common situations in which an empty state might be encountered:
+
+Setting up a new social media account, where – until you follow others – you have no connections.
+
+A new Dropbox screen, when no files or folders have been created.
+
+The resulting screen after completing all of your tasks in a to-do list manager.
+
+Google, there's another article (Medium?) on empty states that has other examples.
+
+I have screenshots of Grammarly's onboarding, which are worth showing because they've really considered the empty states problem. Things 3 also provide a sample project with instructions on how to use the app, again this is nicely considered. Lastly, Agenda does a great job of handling empty states, again by providing sample content.
+
+Google has some great examples in their Material Design guidelines.
+
+Empty states are important because – unless you consider them – your users can – confronted with a need to do something (and perhaps confused) – they may never return.
+
+A better approach is to ease a user in, perhaps providing some guidance. Indie Hackers' approach to this is lovely. Once the user has signed up, they encourage the user to:
+
+Follow some other users to kickstart their community;
+Add a name, city, etc..
+The short bio screen is particularly nice. The copy provided is a touch humorous, but it clearly points users in the right direction and – just as importantly – gives them a sense of how much content works.
+
+THERE'S MUCH MORE ON ENPTY STATES
 
 
 
@@ -319,6 +354,30 @@ Section 5: Onboarding Users
 
 + Onboarding (Essentially teaching users how to use an app.)
 + Designing for action (empty states, prompts, navigation, avoiding errors, quick recovery when they do happen, etc.) /* The preceding is from Kezie and it needs rethought as some of this is covered in the preceding section. */
+
+
+This section stresses the importance of onboarding.
+
+Before we even get to the onboarding part of the journey, the user needs to have interacted in some way, perhaps:
+
+Signing up (a flow that we also need to consider); or
+Downloading an application, via the App Store or Google Play, for example.
+With the sign up taken care of, we need to consider how we introduce the user to what's on offer. This is the perfect time to provide some guidance, for example:
+
+Explaining how things work at a birds' eye level;
+Walking users through various features; and
+????
+It's about telling the story of an application – web or native – before the user actually starts using it.
+
+Explain what onboarding is and show some examples. The examples can be used to explain how a considered onboarding process helps users understand a user interface before they've actually started using it.
+
+Apple is very good at this, with little modal overlays that explain what's happening and how to use things.
+
+Show some examples, e.g. Things 3, which is nicely considered. I have lots of examples in my Components deck.
+
+It's not about a sign up, for example, that will have happened before we get to this point. (Or we'll have downloaded an app, e.g.)
+
+
 
 
 
