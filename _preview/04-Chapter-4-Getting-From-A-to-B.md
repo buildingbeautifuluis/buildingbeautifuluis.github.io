@@ -1,8 +1,8 @@
 ---
 chapter-number: "04"
-title: "Getting From A → B ≠"
+title: "Getting From A to B [Draft]"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (23 August), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (26 October), I’ll be releasing it section by section over the next few days.</p>
 
 <p>With our pages built, <strong>we need to focus on the flows that users take through the user interfaces we design</strong>. In this chapter, I’ll explore designing user flows, stressing the need to <strong>consider flows in different contexts: page-to-page, anchor to anchor and state-to-state</strong>. In short: I’ll explore the idea of getting from A → B, <strong>ensuring our users are guided by our user interface</strong>.</p>
 
@@ -394,7 +394,5 @@ Further Reading
 There are many great publications, offline and online, that will help further underpin your understanding of user journeys. I’ve included a few below to start you on your journey.
 
 + Alexander Handley’s [User Flow Is the New Wireframe](https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a) – for UX Collective – is well worth reading. Its emphasis on the different resolution of design deliverables (created at low-, mid- and high-fidelity) is well worth noting.
-
 + Donna Lichaw and Eva-Lotta Lamm’s [The User’s Journey: Storymapping Products That People Love](https://amzn.to/2WFmIig) is an excellent guide to user journeys, positioning users – as the heroes – at the heart of your product’s story.
-
 + Lastly – although its printing and production values leave a lot to be desired – Peter W. Szabo’s [User Experience Mapping](https://amzn.to/2FdVlWz) is a very comprehensive overview of user story maps and customer journey maps.
