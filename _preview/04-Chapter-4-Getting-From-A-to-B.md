@@ -1,10 +1,10 @@
 ---
 chapter-number: "04"
-title: "Getting From A → B"
+title: "Getting From A → B ≠"
 layout: chapter
 opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (23 August), I’ll be releasing it section by section over the next few days.</p>
 
-<p>With our pages built, <strong>we need to focus on the flows that users take through the user interfaces we design</strong>. In this chapter, I’ll explore designing user flows, stressing the need to <strong>consider flows in different contexts: page-to-page, and state-to-state</strong>. In short: I’ll explore the idea of getting from A → B, <strong>ensuring our users are guided by our user interface</strong>.</p>
+<p>With our pages built, <strong>we need to focus on the flows that users take through the user interfaces we design</strong>. In this chapter, I’ll explore designing user flows, stressing the need to <strong>consider flows in different contexts: page-to-page, anchor to anchor and state-to-state</strong>. In short: I’ll explore the idea of getting from A → B, <strong>ensuring our users are guided by our user interface</strong>.</p>
 
 <p>I’ll also consider <strong>a number of critical flows that need to be considered when you’re designing digital products</strong>, including: <strong>’onboarding’</strong>, when a user is taken through the initial screens of an application; and considering <strong>’empty states’</strong>, when a user is confronted by an application that, at that moment, contains no content.</p>"
 
