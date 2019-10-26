@@ -1,6 +1,6 @@
 ---
 chapter-number: "04"
-title: "Getting From A to B [Draft]"
+title: "Getting From A to B"
 layout: chapter
 opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (26 October), I’ll be releasing it section by section over the next few days.</p>
 
