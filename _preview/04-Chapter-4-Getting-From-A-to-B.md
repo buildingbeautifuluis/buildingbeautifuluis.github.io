@@ -28,66 +28,88 @@ Draft Content
 
 Notes for Jordan and Kyle….
 
-The above section titles are loose (worked through 225–7 October). I’m not 100% sure about them and they may need top be re-ordered, but they've given me a framework to work to and I've started blocking out the content.
-
-Most of the below is thought through and is getting there. Here's a short pre-overview of what each section is about and includes. As usual, there are five sections with three sub-sections each.
+The above section titles are loose (worked through 225–7 October). I’m not 100% sure about them and they may need top be re-ordered, but they’ve given me a framework to work to and I’ve started blocking out the content.
 
 
-### Section Overviews
+Section Overviews
+-----------------
 
-+ **Section 4.1: Maps and Flows**
-  + 4.1.1: A Bird's Eye View of Everything
-  + 4.1.2: Site Maps
-  + 4.1.3: Flowcharts
+Most of this overview is thought through and is getting there. Here’s a short pre-overview of what each section is about and includes. As usual, there are five sections with three sub-sections each.
+
+
+### Section 4.1: Maps and Flows
+
++ 4.1.1: A Bird’s Eye View of Everything
++ 4.1.2: Site Maps
++ 4.1.3: Flowcharts
+
+
+#### A Bird’s Eye View of Everything
 
 This section kicks off with a high level view so I can set the scene: **As designers we need to consider flows and move beyond considering page layouts in isolation.**
 
-Even if you're building a single page site, you'll need to consider flows. For example, every chapter of this book has sections and sub-sections that we can fast-forward to, using 'anchors'. **If you're building a more complex website or application, the flows will be, naturally, more complicated.**
+Even if you’re building a single page site, you’ll need to consider flows. For example, every chapter of this book has sections and sub-sections that we can fast-forward to, using ‘anchors’. **If you’re building a more complex website or application, the flows will be, naturally, more complicated.**
 
 We need to plan these flows and map out the logic.
 
-Establishing a bird's eye view allows you to **consider pages as a set of relationships** where one page (or part of a page) links to another page (or part of a page).
+Establishing a bird’s eye view allows you to **consider pages as a set of relationships** where one page (or part of a page) links to another page (or part of a page).
+
+
+#### Site Maps
 
 Site maps are useful for establishing the scope and complexity of a website, giving us a view of how everything is organised. With a site map in hand, we can then use this to map out the navigation.
 
-**I didn't really touch on high-level navigation in Chapter 3, so I think there should be a focus on navigation in the site maps section.**
-
-Finally, in the flowcharts section, I'll introduce the idea of flowcharting everything out, especially when we're building applications. We need to work out the logic and how it impacts upon the user flow and flowcharts are useful for this.
-
-I think for this subsection, I'll show some examples of my #ixdbelfast students' work mapping out flows.
+**I didn’t really touch on high-level navigation in Chapter 3, so I think there should be a focus on navigation in the site maps section.**
 
 
+#### Flowcharts
 
-+ **Section 4.2: Wireflows**
-  + 4.2.1: Wireframes + Flowcharts = Wireflows
-  + 4.2.2: Wireflow Shorthand
-  + 4.2.3: Wireflow, Step by Step
+Finally, in the flowcharts section, I’ll introduce the idea of flowcharting everything out, especially when we’re building applications. We need to work out the logic and how it impacts upon the user flow and flowcharts are useful for this.
 
-With the scene set in the first section – which is more high-level focused – this section will dive into the details. I'll introduce wireflows, explaining what they are and how we can use them to plan out routes through content and information.
+I think for this subsection, I’ll show some examples of my #ixdbelfast students’ work mapping out flows.
+
+
+### Section 4.2: Wireflows
+
++ 4.2.1: Wireframes + Flowcharts = Wireflows
++ 4.2.2: Wireflow Shorthand
++ 4.2.3: Wireflow, Step by Step
+
+
+#### Wireframes + Flowcharts = Wireflows
+
+With the scene set in the first section – which is more high-level focused – this section will dive into the details. I’ll introduce wireflows, explaining what they are and how we can use them to plan out routes through content and information.
 
 With wireframes introduced in Chapter 3 and flowcharts introduced in Chapter 4 (above), the following equation should make sense:
 
 	Wireframes + Flowcharts = Wireflows
 
-Before I show examples of how we might use wireflows, I'll explain that there are a number of different terms in use, all for broadly the same thing: wireflows, user flows, UI flows, IX flows and, occasionally, and incorrectly, customer journey.
+Before I show examples of how we might use wireflows, I’ll explain that there are a number of different terms in use, all for broadly the same thing: wireflows, user flows, UI flows, IX flows and, occasionally, and incorrectly, customer journey.
 
 I prefer wireflow because I think the equation above makes sense and, not insignificantly, Nielsen Norman Group use the term and I respect their thinking.
 
-With wireflows explained, I'll introduce Ryan Singer's shorthand for designing UI flows:
+
+#### Wireflow Shorthand
+
+With wireflows explained, I’ll introduce Ryan Singer’s shorthand for designing UI flows:
 
 > Flows are made out of individual interactions. A screen offers some possibilities and the user chooses one. Then something happens, and the screen changes. It’s an ongoing conversation.
 
-First published in 2009, a decade later it still holds true and is a useful means of understanding how to consider flows. I'll take Singer's user flow and map out some wireflows verbally, then translated into a wireflow.
-
-Finally, I'll run through a wireflow step-by-step. This will take a process: buying a specific book on Amazon (or selecting a course on designtrack?) and map it out.
+First published in 2009, a decade later it still holds true and is a useful means of understanding how to consider flows. I’ll take Singer’s user flow and map out some wireflows verbally, then translated into a wireflow.
 
 
-+ **Section 4.3: Pages, Anchors and States**
-	+ 4.3.1: Page to Page
-	+ 4.3.2: Anchor to Anchor
-	+ 4.3.3: State to State
+#### Wireflow, Step by Step
 
-I'm unsure if this section should come before the wireflows section (preceding). The reason this is here is the final of the three – states – paves the way for the next section exploring states (empty states, error states, etc.).
+Finally, I’ll run through a wireflow step-by-step. This will take a process: buying a specific book on Amazon (or selecting a course on designtrack?) and map it out.
+
+
+### Section 4.3: Pages, Anchors and States
+
++ 4.3.1: Page to Page
++ 4.3.2: Anchor to Anchor
++ 4.3.3: State to State
+
+I’m unsure if this section should come before the wireflows section (preceding). The reason this is here is the final of the three – states – paves the way for the next section exploring states (empty states, error states, etc.).
 
 Essentially this section maps out different levels of flow:
 
@@ -95,16 +117,100 @@ Essentially this section maps out different levels of flow:
 + anchor-level, where we jump between sections of a page; and
 + state-level, where we move between states (e.g. modals).
 
+I’ve not broken this down further as I think the list above is self-explanatory, if you want to know more, I’ll expand it.
+
+
+### Section 4.4: Considering States
+
++ 4.4.1: Considering States
++ 4.4.2: Empty States
++ 4.4.3: Error States
+
+
+#### Considering States
+
+This section will emphasise the need to design for different states. I’ll open with an overview of different states before focusing in on Empty States and Error States, as I think these are particularly important. (I’ll return to the empty state in the final section on onboarding, showing an example: Cultured Code’s Thing 3.)
+
+One thing to emphasise here is the importance of feedback, especially when we're designing applications. The user interfaces we're building are becoming ever more complex, as such it's important to ensure the user is provided with feedback throughout their usage.
+
+
+#### Empty States
+
+We need to consider what screens look like when they have no content to display. This might be because:
+
++ the user is only using the application, or this screen (part of the application), for the first time; or
++ the user has performed an action that has resulted in no content being returned to them.
+
+We need to consider how we help users, prompting them to take action or giving them guidance.
+
+
+#### Error States
+
+Finally, I’ll stress the need to consider error states. I’ll outline typical error scenarios that we need to design for:
+
++ Connectivity Errors
++ User Error
+
+I’ll be stressing the need to write helpful error messages, as per my
+‘When things go wrong…’ Notist slidedeck that emphasises the need to write helpful error messages: 
+
+	https://noti.st/mrmurphy/OoZel5
+
+Essentially a checklist:
+
++ Is the error clearly defined and written in a way that’s easily understandable by the user?
++ How can the user recover from the error?
++ Above all: What can we do as designers to prevent this error from happening again in the future?
+
+
+### Section 4.5: Onboarding Users
+
++ 4.5.1: A Virtual Unboxing
++ 4.5.2: Prompting Action
++ 4.5.3: Onboarding Models
+
+
+#### A Virtual Unboxing
+
+In the first section, I’ll introduce what onboarding means. Google’s description of onboarding as ‘a virtual unboxing’ is useful, and their Material Design guidelines are worth reading:
+
+> Onboarding is a virtual unboxing experience that helps users get started with an app.
+
+	https://material.io/design/communication/onboarding.html
+
+I’ll be taking this digital / analogue analogy and be pushing it further, emphasising the role that unboxing plays in designing for delight.
+
+Essentially, we need to get the user engaged and excited about the application, emphasising: the experience ahead, how the user might use the app (e.g. InVision (I’ll need to find an alternative!) offer three different scenarios).
+
+I don’t think I’ll be able to use InVision, given this is an Adobe book, perhaps I could look at XD’s onboarding and the way it offers an app that you can open and explore, essentially **educating you how to use the application**.
+
+UI Movement have a useful roundup of onboarding patterns, here:
+
+	https://uimovement.com/tag/onboarding/
+
+
+#### Prompting Action
+
+With onboarding explained, I’ll explore how we can engage users beyond onboarding, e.g. considering next steps.
+
+This will focus on the twin benefits of: education, subtly showing the user what's possible; and using example content (like Agenda and Things 3) to show the user what's possible.
+
+
+#### Onboarding Models
+
+Google’s Material Design guidelines list three types of onboarding model <!-- Looking at the first two, they’re a little confusing and very similar. -->:
+
++ Self-Select
++ Quickstart
++ Top User Benefits
+
+I’m considering making this final section a case study, like the Dribbble Case Study in Chapter 3, that focuses on one application. I’ve taken screenshots, step-by-step of Cultured Code’s Things 3 onboarding and I think it would make a great case study that would round out the chapter well.
 
 
 
 
 
-
-
-
-
-**ALL BELOW HERE UNEDITED**
+**EVERYTHING BELOW HERE IS SCRATCH CONTENT TO BE FOLDED INTO THE ABOVE**
 
 
 
