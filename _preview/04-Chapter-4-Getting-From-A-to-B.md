@@ -37,14 +37,15 @@ Section Overviews
 Most of this overview is thought through and is getting there. Here’s a short pre-overview of what each section is about and includes. As usual, there are five sections with three sub-sections each.
 
 
-### Section 4.1: Maps and Flows
+Section 4.1: Maps and Flows
+---------------------------
 
 + 4.1.1: A Bird’s Eye View of Everything
 + 4.1.2: Site Maps
 + 4.1.3: Flowcharts
 
 
-#### A Bird’s Eye View of Everything
+### A Bird’s Eye View of Everything
 
 This section kicks off with a high level view so I can set the scene: **As designers we need to consider flows and move beyond considering page layouts in isolation.**
 
@@ -55,28 +56,29 @@ We need to plan these flows and map out the logic.
 Establishing a bird’s eye view allows you to **consider pages as a set of relationships** where one page (or part of a page) links to another page (or part of a page).
 
 
-#### Site Maps
+### Site Maps
 
 Site maps are useful for establishing the scope and complexity of a website, giving us a view of how everything is organised. With a site map in hand, we can then use this to map out the navigation.
 
 **I didn’t really touch on high-level navigation in Chapter 3, so I think there should be a focus on navigation in the site maps section.**
 
 
-#### Flowcharts
+### Flowcharts
 
 Finally, in the flowcharts section, I’ll introduce the idea of flowcharting everything out, especially when we’re building applications. We need to work out the logic and how it impacts upon the user flow and flowcharts are useful for this.
 
 I think for this subsection, I’ll show some examples of my #ixdbelfast students’ work mapping out flows.
 
 
-### Section 4.2: Wireflows
+Section 4.2: Wireflows
+----------------------
 
 + 4.2.1: Wireframes + Flowcharts = Wireflows
 + 4.2.2: Wireflow Shorthand
 + 4.2.3: Wireflow, Step by Step
 
 
-#### Wireframes + Flowcharts = Wireflows
+### Wireframes + Flowcharts = Wireflows
 
 With the scene set in the first section – which is more high-level focused – this section will dive into the details. I’ll introduce wireflows, explaining what they are and how we can use them to plan out routes through content and information.
 
@@ -89,7 +91,7 @@ Before I show examples of how we might use wireflows, I’ll explain that there 
 I prefer wireflow because I think the equation above makes sense and, not insignificantly, Nielsen Norman Group use the term and I respect their thinking.
 
 
-#### Wireflow Shorthand
+### Wireflow Shorthand
 
 With wireflows explained, I’ll introduce Ryan Singer’s shorthand for designing UI flows:
 
@@ -98,16 +100,20 @@ With wireflows explained, I’ll introduce Ryan Singer’s shorthand for designi
 First published in 2009, a decade later it still holds true and is a useful means of understanding how to consider flows. I’ll take Singer’s user flow and map out some wireflows verbally, then translated into a wireflow.
 
 
-#### Wireflow, Step by Step
+### Wireflow, Step by Step
 
 Finally, I’ll run through a wireflow step-by-step. This will take a process: buying a specific book on Amazon (or selecting a course on designtrack?) and map it out.
 
 
-### Section 4.3: Pages, Anchors and States
+Section 4.3: Pages, Anchors and States
+--------------------------------------
 
 + 4.3.1: Page to Page
 + 4.3.2: Anchor to Anchor
 + 4.3.3: State to State
+
+
+### Page to Page; Anchor to Anchor; State to State
 
 I’m unsure if this section should come before the wireflows section (preceding). The reason this is here is the final of the three – states – paves the way for the next section exploring states (empty states, error states, etc.).
 
@@ -117,24 +123,25 @@ Essentially this section maps out different levels of flow:
 + anchor-level, where we jump between sections of a page; and
 + state-level, where we move between states (e.g. modals).
 
-I’ve not broken this down further as I think the list above is self-explanatory, if you want to know more, I’ll expand it.
+I’ve not broken this down further as I think the list above is self-explanatory, if you want to know more, I’ll happily expand upon it.
 
 
-### Section 4.4: Considering States
+Section 4.4: Considering States
+-------------------------------
 
 + 4.4.1: Considering States
 + 4.4.2: Empty States
 + 4.4.3: Error States
 
 
-#### Considering States
+### Considering States
 
 This section will emphasise the need to design for different states. I’ll open with an overview of different states before focusing in on Empty States and Error States, as I think these are particularly important. (I’ll return to the empty state in the final section on onboarding, showing an example: Cultured Code’s Thing 3.)
 
 One thing to emphasise here is the importance of feedback, especially when we're designing applications. The user interfaces we're building are becoming ever more complex, as such it's important to ensure the user is provided with feedback throughout their usage.
 
 
-#### Empty States
+### Empty States
 
 We need to consider what screens look like when they have no content to display. This might be because:
 
@@ -144,7 +151,7 @@ We need to consider what screens look like when they have no content to display.
 We need to consider how we help users, prompting them to take action or giving them guidance.
 
 
-#### Error States
+### Error States
 
 Finally, I’ll stress the need to consider error states. I’ll outline typical error scenarios that we need to design for:
 
@@ -163,14 +170,15 @@ Essentially a checklist:
 + Above all: What can we do as designers to prevent this error from happening again in the future?
 
 
-### Section 4.5: Onboarding Users
+Section 4.5: Onboarding Users
+-----------------------------
 
 + 4.5.1: A Virtual Unboxing
 + 4.5.2: Prompting Action
 + 4.5.3: Onboarding Models
 
 
-#### A Virtual Unboxing
+### A Virtual Unboxing
 
 In the first section, I’ll introduce what onboarding means. Google’s description of onboarding as ‘a virtual unboxing’ is useful, and their Material Design guidelines are worth reading:
 
@@ -189,14 +197,14 @@ UI Movement have a useful roundup of onboarding patterns, here:
 	https://uimovement.com/tag/onboarding/
 
 
-#### Prompting Action
+### Prompting Action
 
 With onboarding explained, I’ll explore how we can engage users beyond onboarding, e.g. considering next steps.
 
 This will focus on the twin benefits of: education, subtly showing the user what's possible; and using example content (like Agenda and Things 3) to show the user what's possible.
 
 
-#### Onboarding Models
+### Onboarding Models
 
 Google’s Material Design guidelines list three types of onboarding model <!-- Looking at the first two, they’re a little confusing and very similar. -->:
 
@@ -207,9 +215,6 @@ Google’s Material Design guidelines list three types of onboarding model <!-- 
 I’m considering making this final section a case study, like the Dribbble Case Study in Chapter 3, that focuses on one application. I’ve taken screenshots, step-by-step of Cultured Code’s Things 3 onboarding and I think it would make a great case study that would round out the chapter well.
 
 
-
-
-
 **EVERYTHING BELOW HERE IS SCRATCH CONTENT TO BE FOLDED INTO THE ABOVE**
 
 
@@ -218,7 +223,7 @@ I’m considering making this final section a case study, like the Dribbble Case
 Overview
 --------
 
-The following is **rough** (very rough).
+The following is rough.
 
 **In this Chapter I’ll explain the idea of moving from A → B, i.e. that we are designing flows and we need to consider how users move through those flows, guided by our user interface.**
 
