@@ -2,11 +2,11 @@
 chapter-number: "04"
 title: "Getting From A to B"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (26 October), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter just now (~27 October) and I’ll be releasing it section by section over the next few days.</p>
 
 <p>With our pages built, <strong>we need to focus on the flows that users take through the user interfaces we design</strong>. In this chapter, I’ll explore designing user flows, stressing the need to <strong>consider flows in different contexts: page-to-page, anchor to anchor and state-to-state</strong>. In short: I’ll explore the idea of getting from A → B, <strong>ensuring our users are guided by our user interface</strong>.</p>
 
-<p>I’ll also consider <strong>a number of critical flows that need to be considered when you’re designing digital products</strong>, including: <strong>’onboarding’</strong>, when a user is taken through the initial screens of an application; and considering <strong>’empty states’</strong>, when a user is confronted by an application that, at that moment, contains no content.</p>"
+<p>I’ll also consider <strong>a number of critical flows that need to be considered when you’re designing digital products</strong>, including: <strong>‘onboarding’</strong>, when a user is taken through the initial screens of an application; and considering <strong>‘empty states’</strong>, when a user is confronted by an application that, at that moment, contains no content.</p>"
 
 table-of-contents:
   - section: "1"
@@ -23,18 +23,96 @@ table-of-contents:
 
 
 
-### Draft Content
+Draft Content
+-------------
 
-**Notes for JM and KB.**
+Notes for Jordan and Kyle….
 
-The above section titles are loose. I’m not 100% sure about them and they may need top be re-ordered, but they've given me a framework to work to.
+The above section titles are loose (worked through 225–7 October). I’m not 100% sure about them and they may need top be re-ordered, but they've given me a framework to work to and I've started blocking out the content.
+
+Most of the below is thought through and is getting there. Here's a short pre-overview of what each section is about and includes. As usual, there are five sections with three sub-sections each.
+
+
+### Section Overviews
+
++ **Section 4.1: Maps and Flows**
+  + 4.1.1: A Bird's Eye View of Everything
+  + 4.1.2: Site Maps
+  + 4.1.3: Flowcharts
+
+This section kicks off with a high level view so I can set the scene: **As designers we need to consider flows and move beyond considering page layouts in isolation.**
+
+Even if you're building a single page site, you'll need to consider flows. For example, every chapter of this book has sections and sub-sections that we can fast-forward to, using 'anchors'. **If you're building a more complex website or application, the flows will be, naturally, more complicated.**
+
+We need to plan these flows and map out the logic.
+
+Establishing a bird's eye view allows you to **consider pages as a set of relationships** where one page (or part of a page) links to another page (or part of a page).
+
+Site maps are useful for establishing the scope and complexity of a website, giving us a view of how everything is organised. With a site map in hand, we can then use this to map out the navigation.
+
+**I didn't really touch on high-level navigation in Chapter 3, so I think there should be a focus on navigation in the site maps section.**
+
+Finally, in the flowcharts section, I'll introduce the idea of flowcharting everything out, especially when we're building applications. We need to work out the logic and how it impacts upon the user flow and flowcharts are useful for this.
+
+I think for this subsection, I'll show some examples of my #ixdbelfast students' work mapping out flows.
+
+
+
++ **Section 4.2: Wireflows**
+  + 4.2.1: Wireframes + Flowcharts = Wireflows
+  + 4.2.2: Wireflow Shorthand
+  + 4.2.3: Wireflow, Step by Step
+
+With the scene set in the first section – which is more high-level focused – this section will dive into the details. I'll introduce wireflows, explaining what they are and how we can use them to plan out routes through content and information.
+
+With wireframes introduced in Chapter 3 and flowcharts introduced in Chapter 4 (above), the following equation should make sense:
+
+	Wireframes + Flowcharts = Wireflows
+
+Before I show examples of how we might use wireflows, I'll explain that there are a number of different terms in use, all for broadly the same thing: wireflows, user flows, UI flows, IX flows and, occasionally, and incorrectly, customer journey.
+
+I prefer wireflow because I think the equation above makes sense and, not insignificantly, Nielsen Norman Group use the term and I respect their thinking.
+
+With wireflows explained, I'll introduce Ryan Singer's shorthand for designing UI flows:
+
+> Flows are made out of individual interactions. A screen offers some possibilities and the user chooses one. Then something happens, and the screen changes. It’s an ongoing conversation.
+
+First published in 2009, a decade later it still holds true and is a useful means of understanding how to consider flows. I'll take Singer's user flow and map out some wireflows verbally, then translated into a wireflow.
+
+Finally, I'll run through a wireflow step-by-step. This will take a process: buying a specific book on Amazon (or selecting a course on designtrack?) and map it out.
+
+
++ **Section 4.3: Pages, Anchors and States**
+	+ 4.3.1: Page to Page
+	+ 4.3.2: Anchor to Anchor
+	+ 4.3.3: State to State
+
+I'm unsure if this section should come before the wireflows section (preceding). The reason this is here is the final of the three – states – paves the way for the next section exploring states (empty states, error states, etc.).
+
+Essentially this section maps out different levels of flow:
+
++ page-level, where we move from one discrete page to another;
++ anchor-level, where we jump between sections of a page; and
++ state-level, where we move between states (e.g. modals).
+
+
+
+
+
+
+
+
+
+
+**ALL BELOW HERE UNEDITED**
+
 
 
 
 Overview
 --------
 
-Overview goes here. The following ir **rough** (very rough).
+The following is **rough** (very rough).
 
 **In this Chapter I’ll explain the idea of moving from A → B, i.e. that we are designing flows and we need to consider how users move through those flows, guided by our user interface.**
 
