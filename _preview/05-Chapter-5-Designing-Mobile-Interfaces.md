@@ -2,7 +2,7 @@
 chapter-number: "05"
 title: "Designing Mobile Interfaces"
 layout: chapter
-opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (23 August), I’ll be releasing it section by section over the next few days.</p>
+opening-text: "<p class='text--warning'><strong>This is draft content.</strong> I’m working on this chapter as we speak (~27 October), I’ll be releasing it section by section over the next few days.</p>
 
 <p>Summary text goes here. Use multiple paragraphs if necessary.</p>"
 
@@ -24,6 +24,30 @@ table-of-contents:
 ### Draft Content
 
 **Pre-Release notes here. Anything I’d like to draw Jordan’s and Kyle’s attention to.** These are the titles I have in my scratch files, but they’re not right:
+
+Possible Sections
+-----------------
+
+## Designing Within Constraints
++ Screen Size (Variable)
++ Performance (It depends, look at benchmarks.)
++ Time, Place, Location
+
+All of the above is important. We need to consider the users screen size (and we're dealing with lots of different sizes). We also need to consider other constraints, like data (restricted, perhaps) and time, place, location…
+
+Lounging on a couch, surfing.
+
+Anything accessible (almost) anywhere. But also: limited bandwidth, expensive data plans and inconsistent connection speeds. Indoor / Outdoor, etc..
+
+
+## Mobile First
++ Benefits
++ Focus, Focus, Focus
++ Accessibility
+
+The above is scrappy. Rethink the benefits and Google for Medium UX +/ UI content. Designing mobile first forces you to optimise and focus on improving performance, which is also good for desktop and other contexts.
+
+
 
 + [Mobile First](#)
 + [Size Matters](#)

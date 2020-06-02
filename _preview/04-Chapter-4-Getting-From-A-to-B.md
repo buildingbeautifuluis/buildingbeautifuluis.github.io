@@ -44,16 +44,58 @@ Section 4.1: Maps and Flows
 + 4.1.2: Site Maps
 + 4.1.3: Flowcharts
 
+With our pages designed at the page-level we need to consider how they fit together. Whether you’re designing for desktop, mobile or wrist, **you need to focus on the flows through the user interface**, or how a user gets from A → B.
+
+Every application, even the simplest, will feature **flows through different screens** and, perhaps, **different states or modals that are overlaid onto screens**. It’s important that we consider these flows from a user interface perspective, ensuring they are easy for the user to understand and follow.
+
+Our job as user interface designers is to **ensure the routes through an application are clearly mapped out and signposted to users**. In order to provide clear directions we need to consider the ‘user journey’ that users undertake when using the applications or sites we’re building.
+
+At the start of a project – or when you’re redesigning an existing website or application – **it’s important to zoom out a little and move beyond the page**. Pages rarely exist in isolation, so it's important to consider our pages and their relationship to other pages.
+
+This is where site maps and flowcharts come in. By offering a bird's eye view of everything, they help to capture structures and flows:
+
+1. how a website or application is structured (which can be used to design the overall navigation); and
+2. how a user makes their way from A → B → C….
+
+Zooming out and viewing everything from a bird's eye perspective helps us to begin to explore these relationships.
+
 
 ### A Bird’s Eye View of Everything
 
 This section kicks off with a high level view so I can set the scene: **As designers we need to consider flows and move beyond considering page layouts in isolation.**
+
+<!-- A user journey is a series of steps a user takes to achieve a meaningful goal. [This is good.](https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a) -->
 
 Even if you’re building a single page site, you’ll need to consider flows. For example, every chapter of this book has sections and sub-sections that we can fast-forward to, using ‘anchors’. **If you’re building a more complex website or application, the flows will be, naturally, more complicated.**
 
 We need to plan these flows and map out the logic.
 
 Establishing a bird’s eye view allows you to **consider pages as a set of relationships** where one page (or part of a page) links to another page (or part of a page).
+
+One way to map out these relationships and get a feel for how they work is to consider scenarios** and how these relate to our pages' site-level and page-level information architecture.
+
+We can use **user journey maps as a tool to visualise the journey that a user undertakes in order to accomplish a specific goal**. For example, if we consider the user journey for buying a book at Amazon we can begin to organise everything, make sense of it and consider the best approach to designing it.
+
+My goal might be to buy a specific book at the company's website. At the simplest level, we can compile a series of user actions into a timeline. This might include:
+
+1. I search for a book at Amazon, entering the book's details into Amazon's search bar;
+2. A list of results are returned to me;
+3. I look through the results and choose the one that most accurately meets my needs (clicking on that link);
+4. I'm taken to a page for the book, offering me additional information and further choices: hardback, paperback, ebook;
+5. I choose one of the options, a paperback copy and add it to my basket;
+6. At this point I have another choice: to continue shopping or check out.
+
+There are many flow-charting applications you can use to map out your flows, equally you can build these flows (and create a clickable prototype) using Adobe XD. You can also map all of this out on paper (which I usually do as a first step).
+
+<!-- A minor side-note on the power of paper… As I touched on in Chapter 3, paper prototypes are useful at the early stages of the design process. When you’re mapping out flows, large sheets of paper, Post-It notes and a range of different colored pens will help you get your flows visualised and established quickly. -->
+
+Using Post-It Notes to map out user journeys is a great way to get the steps of a journey in place. Post-It notes offer numerous advantages over digital deliverables:
+
+1. You can use them to organise lower fidelity screens quickly and efficiently;
+2. They're useful for working through flows with colleagues;
+3. They can be reorganised quickly, especially if you forget an important stage of the user journey.
+
+I map out user flows on paper first before building higher fidelity digital deliverables. Post-Its are a useful tool because they allow you to re-organise your flows as you map everything out.
 
 
 ### Site Maps
@@ -105,12 +147,12 @@ First published in 2009, a decade later it still holds true and is a useful mean
 Finally, I’ll run through a wireflow step-by-step. This will take a process: buying a specific book on Amazon (or selecting a course on designtrack?) and map it out.
 
 
-Section 4.3: Pages, Anchors and States
+Section 4.3: Pages, Anchors and Modals
 --------------------------------------
 
 + 4.3.1: Page to Page
 + 4.3.2: Anchor to Anchor
-+ 4.3.3: State to State
++ 4.3.3: Modal to Modal
 
 
 ### Page to Page; Anchor to Anchor; State to State
@@ -215,6 +257,9 @@ Google’s Material Design guidelines list three types of onboarding model <!-- 
 I’m considering making this final section a case study, like the Dribbble Case Study in Chapter 3, that focuses on one application. I’ve taken screenshots, step-by-step of Cultured Code’s Things 3 onboarding and I think it would make a great case study that would round out the chapter well.
 
 
+
+
+
 **EVERYTHING BELOW HERE IS SCRATCH CONTENT TO BE FOLDED INTO THE ABOVE**
 
 
@@ -250,21 +295,7 @@ Section 1: Maps and Flows
 + 4.1.2: Site Maps
 + 4.1.3: Flowcharts
 
-<!--
 
-Do I also talk about customer journeys here? Or is that too UX focus (as, in the truest sense, it includes all touchpoints and discovery via offline channels, e.g. Twitter, etc.).
-
-also think about the relationship of this mapping to the design of navigation and wayfinding patterns.
-
-There might need to be a subsection on wayfinding patterns we can use, including:
-
-+ Navigation Patterns (Top, Footer);
-+ Breadcrumb Trails (Where am I?); and
-+ Shopping Cart Flows
-
-Essentially make the point that often users are moving through content and – just like they’d need wayfinding signage in an airport – so, too, they need it in this context.
-
--->
 
 ### A Birds Eye View of Everything
 
@@ -294,7 +325,7 @@ IMAGE: Mr Murphy site map, outlining the overall scope of the site’s main cate
 
 Site maps (above) allow us to map out the overall information space, identifying key sections and clusters of content. Spending some time building out a site map also allows us to establish the overall scope of what we’re building (which is useful from a project management perspective).
 
-site map's main benefit is to give users an **overview of the site's areas in a single glance**. It does this by dedicating an entire page to a visualization of the information architecture (IA). If designed well, this overview can include several levels of hierarchy, and yet not be so big that users lose their grasp of the map as a whole.
+A site map's main benefit is to give users an **overview of the site's areas in a single glance**. It does this by dedicating an entire page to a visualization of the information architecture (IA). If designed well, this overview can include several levels of hierarchy, and yet not be so big that users lose their grasp of the map as a whole.
 
 
 ### Flowcharts
@@ -336,14 +367,20 @@ With the big picture covered in Section 1, it’s time to dive a little deeper i
 
 Whilst wireframes and flowcharts are useful in the planning stages of the design process, they both have limitations:
 
-* Wireframes provide us with a detailed view of a single page, which is useful for designing layouts. However, they lack the context of flowcharts, tending to focus on pages in isolation.
-* Flowcharts provide us with an abstracted overview of multiple pages, which is useful for documenting complex workflows. However, they lack the page-level detail of wireframes.
++ Wireframes provide us with a detailed view of a single page, which is useful for designing layouts. However, they lack the context of flowcharts, tending to focus on pages in isolation.
++ Flowcharts provide us with an abstracted overview of multiple pages, which is useful for documenting complex workflows. However, they lack the page-level detail of wireframes.
 
 We can combine wireframes and flowcharts – giving us the best of both worlds – to create a detailed overview of a series of user tasks. These, unsurprisingly, are called wireflows:
 
 **Wireflow** = **Wire**frame + **Flow**chart
 
 Wireflows give us the benefit of both wireframes (providing **page-level** information) and flowcharts (providing **flow-level** information), enabling us to quickly map out our users’ interactions.
+
+**Option 1**
+
+Before I show examples of how we might use wireflows, I’ll explain that there are a number of different terms in use, all for broadly the same thing: wireflows, user flows, UI flows, IX flows and, occasionally, and incorrectly, customer journey.
+
+**Option 2**
 
 It’s worth noting that there are a number of different naming conventions for these deliverables, with wireflows variously referred to as:
 
@@ -352,7 +389,7 @@ It’s worth noting that there are a number of different naming conventions for 
 * Task Flows 
 * …
 
-I find the term wireflow easier to remember, however, given its origin from the terms wireframe and flowchart.
+I find the term wireflow easier to remember, however, given its origin from the terms wireframe and flowchart. [Or…] I prefer wireflow because I think the equation above makes sense and, not insignificantly, Nielsen Norman Group use the term and I respect their thinking.
 
 Wireflows are particularly useful for documenting desktop and mobile applications that **don’t feature multiple, unique pages, but instead feature core pages that change layout and content dynamically**, based on a user’s input and interactions.
 
@@ -363,6 +400,10 @@ Wireflows are particularly useful for documenting desktop and mobile application
 [User Flow Is the New Wireframe](https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a)
 
 
+
+
+
+
 /* Notes below here… */
 
 
@@ -370,21 +411,14 @@ Wireflows are particularly useful for documenting desktop and mobile application
 
 A couple of useful reference points:
 
-1. Ryan Singer’s [shorthand][RS] (2009); and
-2. UX Misfit’s [UI Flows][UX] article.
+1. Ryan Singer’s [shorthand](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows) (2009); and
+2. UX Misfit’s [UI Flows](https://uxmisfit.com/2018/01/15/ui-flows-tool-for-better-communication-with-clients-and-team/) article.
 
-[RS]: https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows
-[UX]: https://uxmisfit.com/2018/01/15/ui-flows-tool-for-better-communication-with-clients-and-team/
+Ryan Singer first… This diagram, by Ryan Singer, of Basecamp, is a useful shorthand.
 
+A screen offers some possibilities and the user chooses one. Then something happens, and the screen changes. It’s an ongoing conversation between user and interface.
 
-Ryan Singer first…
-
-This diagram, by Ryan Singer, Basecamp, is a useful shorthand...
-
-A screen offers some possibilities and the user chooses one. Then something happens, and the screen changes. It’s an ongoing conversation.
-
-I think Singer’s metaphor of a conversation is a useful one, essentially as designers we’re mapping out the possibilities for these conversations, allowing for a number of conversational avenues...
-
+I think Singer’s metaphor of a conversation is a useful one, essentially as designers we’re mapping out the possibilities for these conversations, allowing for a number of conversational avenues.
 
 UX Misfits has a useful overview of terms:
 
@@ -402,9 +436,11 @@ This is a walkthrough of an example, applying the theory above with typical cont
 
 Flow, step by step:
 
+<!-- Use these images to structure this: `1.-3. Wireflow.png` I think the following 1, 2 and 3 are wrong. -->
+
 1. Define user flow
 2. Create task flow
-3. CreateUI FLOW (NN/g call this a wireflow…)
+3. Create UI FLOW (NN/g call this a wireflow…)
 
 1. Start with the users goal…
 
